@@ -1,0 +1,301 @@
+{
+  "id": "gen7",
+  "title": "Generación VII: Strategist / Corsair",
+  "subtitle": "Garon, la erupción del volcán y Dantarg",
+  "intro": [
+    "Recluta al Strategist y úsalo como Emperador para desbloquear Rising Phoenix; luego abdica a otra clase que aproveche tus aptitudes de armas.",
+    "Esta generación resuelve la rebelión de Garon, repara el Leon Bridge, decide el destino del volcán Comroon (Salamanders o Shadow Magic + Diviner) y rescata al niño Saigo.",
+    "Ruta recomendada: dejar que el volcán erupcione para desbloquear Shadow Magic, Diviner y la Umbrology Lab.",
+    "La generación termina con un Time Skip al rescatar al niño Saigo y derrotar a Dantarg."
+  ],
+  "missions": [
+    {
+      "id": "gen7-preparation",
+      "title": "Preparación de la generación",
+      "location": "Avalon · Taberna · Training Hall",
+      "status": "pending",
+      "objectives": [
+        "Recluta al Strategist y úsalo como Emperador para desbloquear su Formación Rising Phoenix.",
+        "Después abdica (o suicida) a otra clase que pueda provocar técnicas y aprovechar tus aptitudes de armas.",
+        "Sustituye al Mole por el Strategist en el grupo y dale los mismos hechizos que tenía el Mole (Fire / Earth / Light).",
+        "Reequipa, reasigna habilidades y configura la Formación."
+      ],
+      "warnings": [
+        "Nomad M y F son clases flojas: sus habilidades solo aumentan el HP de los consumibles o dan probabilidad de no gastarlos; su Formación es menos útil que Imperial Arrow.",
+        "El Strategist es excelente: aptitud natural en todas las escuelas de magia y la Formación Rising Phoenix, que coloca al tanque en el centro y al resto en las esquinas para evitar que los ataques de área golpeen a varios. Los ataques que golpean a todo el grupo, como Rapid Volley, siguen haciéndolo.",
+        "El Strategist solo puede provocar técnicas básicas: por eso conviene abdicar a otro Emperador."
+      ]
+    },
+    {
+      "id": "garons-rebellion",
+      "title": "Garon’s Rebellion",
+      "location": "Mobelm · Waterway Maze · Nuono",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Mobelm y habla con el Corsair Captain en el edificio del este (donde noqueaste al marinero en la generación anterior).",
+        "Sal y ve al barco del puerto oeste; sigue el indicador y habla con el marinero sentado en el taburete.",
+        "Navega el barco por Waterway Maze hasta el final (no hay botín, solo los mismos enemigos que en Comroon Strait).",
+        "En Nuono, sube las escaleras para iniciar el combate contra Garron y cuatro Corsarios.",
+        "Derrota a Garron con dos ataques Unity.",
+        "Persigue a Garon a la casa y derrota al grupo de Corsarios.",
+        "Persíguelo de nuevo para ver la escena de su huida en barco y la celebración con los Corsarios.",
+        "Comprueba que la clase Corsair vuelve a estar disponible."
+      ],
+      "warnings": [
+        "Hasta resolver esta misión pierdes acceso a la clase Corsair, necesaria para otra misión."
+      ],
+      "boss": {
+        "name": "Garron y cuatro Corsarios",
+        "weaknesses": []
+      },
+      "notes": [
+        "Técnicamente es un jefe, pero debería durar como mucho dos turnos."
+      ]
+    },
+    {
+      "id": "mystery-of-the-canal",
+      "title": "Mystery of the Canal",
+      "location": "Miramar · Somon · Lake Wyringa · Narwhal’s Cave",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Miramar y ve al área marcada: el Leon Bridge ha sido destruido.",
+        "Habla con las personas con marcador; usa el ferry para llegar a la otra orilla y hablar con una de ellas.",
+        "Teletranspórtate a Somon y habla con Hiraga en su casa.",
+        "Teletranspórtate a Bihara (llegarás a Lake Wyringa).",
+        "Navega hasta la Narwhal’s Cave en el otro extremo del mapa y entra para ver la escena.",
+        "Tu Emperador usa la Seashell (Seabreeze Shell) para hablar con el Narwhal.",
+        "Abre el mapa mundial y teletranspórtate a Somon; pide a Hiraga que reconstruya el puente."
+      ],
+      "warnings": [
+        "Si no usas la Seashell, el Narwhal te atacará; tras derrotarlo aparecerá Subier, que se potencia y te combate, provocando un Time Skip."
+      ]
+    },
+    {
+      "id": "volcano-first-phase",
+      "title": "The Volcano’s Eruption — Primera fase",
+      "location": "Seer’s Citadel · Tsukijima · Zemio",
+      "status": "pending",
+      "objectives": [
+        "Haz dos guardados separados en este punto (uno para salvar a los Salamanders y otro para desbloquear Shadow Magic) si quieres probar ambos.",
+        "Si piensas salvar a los Salamanders: lleva un personaje cuerpo a cuerpo con Clubs (como la Imperial Blacksmith) con varias técnicas de Club (como Rocksplitter) y cambia al Strategist por un Mole con Fire Wall equipado.",
+        "Considera tener la Formación Twin Pyramids (Emperador Mole), el casco Ironwill en tu sanador y objetos de resistencia al fuego: Oven Mitt, Mitaines, Insulated Clothes y Fire Circlet.",
+        "Teletranspórtate a Seer’s Citadel y entra.",
+        "Interactúa de nuevo con los pedestales para ponerlos en rojo y cruza la otra puerta.",
+        "Pasa el punto de guardado, corre por los monstruos y abre el cofre con 240,000 Crowns; entra en el estudio.",
+        "En el piso superior, interactúa con los orbes de cristal en orden: orbe bajo el cuadro en una estantería del oeste, orbe en la mesa del centro, orbe en la estantería con cerámica y botellas en el sureste, y orbe en la mesa contra la pared este.",
+        "No hables con el Sorcerer: déjalo dormir y roba sus cofres con la Liberty Staff y el Book of Dark and Earth II (Wraith Form).",
+        "Teletranspórtate a Tsukijima y habla con las personas con marcador.",
+        "Teletranspórtate a Zemio y habla con los lagartos con marcador hasta conocer al Salamander Chief.",
+        "Vuelve a Tsukijima y ve a la casa del alcalde (la ciudad estará vacía).",
+        "Vuelve a Zemio, habla otra vez con el jefe y elige “Then allow me to do it”.",
+        "Recibe el Comroonian Hammer, que rompe la roca endurecida en la cima de Mt. Comroon.",
+        "Corre al punto de guardado de la entrada de la zona.",
+        "Decide: salvar a los Salamanders o desbloquear Shadow Magic + clase Diviner."
+      ],
+      "warnings": [
+        "La misión tiene dos desenlaces principales (y rutas que no dan nada): evitar la erupción (desbloquea la clase Salamander) o dejar que el volcán erupcione (destruye la aldea Salamander y emerge una nueva mazmorra; desbloquea Shadow Magic y la clase Diviner).",
+        "Los Salamanders son lagartos con inmunidad a magia de fuego y recuperan algo de HP al final del turno con ley lines de fuego activas.",
+        "El autor considera que salvar a los Salamanders es siempre la peor opción para min/max: solo pierdes el territorio Comroon, que solo importa para el logro (ya has desbloqueado los beneficios de 10 territorios). Al final de esta generación conquistarás otro y otro más en la siguiente, hasta 11 territorios para los perks. Para el logro necesitas 13 territorios, que no da beneficios.",
+        "Debes desbloquear Diviner y construir la Umbrology Lab para el logro Glory of Avalon (todos los edificios) y para reclutar todas las clases.",
+        "Sin Fire Wall en el Mole será muy difícil, quizá imposible, salvar a los Salamanders.",
+        "Los anillos elementales no dan resistencia elemental pese a su descripción: solo recuperan HP si esas ley lines están activas."
+      ],
+      "loot": [
+        "240,000 Crowns",
+        "Liberty Staff",
+        "Book of Dark and Earth II (Wraith Form)",
+        "Comroonian Hammer"
+      ]
+    },
+    {
+      "id": "save-the-salamanders-route",
+      "title": "Ruta: Salvar a los Salamanders",
+      "location": "Mt. Comroon · Zemio · Seer’s Citadel",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Mt. Comroon y corre hasta la cima donde dejaste caer la Ice Seed.",
+        "Con el personaje con el Comroonian Hammer, intenta provocar su técnica única Grand Buster en los combates (hace críticos al jefe).",
+        "En el diálogo, elige entre romper la lava endurecida u observar el estado del volcán.",
+        "Derrota a la Piedra, débil a Clubs y resistente a la magia, mientras aparecen Hellhounds sin parar (puedes dormirlos o aturdirlos).",
+        "Equipa Oven Mitts, Mitaines, Ironwill y similares por el daño de Quake al final de cada ronda.",
+        "Tras la escena del flujo de lava, teletranspórtate a Zemio y habla con el jefe: se desbloquea la clase Salamander.",
+        "Teletranspórtate a Seer’s Citadel y vuelve donde dormía el Sorcerer; interactúa con él para un combate de jefe."
+      ],
+      "warnings": [
+        "Si mueres o sales de la mazmorra, el volcán explota y te fuerza a la ruta de Shadow Magic.",
+        "Quake hace daño de tipo tierra al final de cada ronda; es grande y puede matar de un golpe en Expert / Romancing."
+      ],
+      "boss": {
+        "name": "Piedra (Stone) + Hellhounds",
+        "weaknesses": [
+          "Clubs"
+        ],
+        "resistances": [
+          "Magia"
+        ],
+        "attacks": [
+          "Quake"
+        ]
+      }
+    },
+    {
+      "id": "unlock-shadow-magic-route",
+      "title": "Ruta: Desbloquear Shadow Magic",
+      "location": "Mt. Comroon · Tsukijima · Emerged Island",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Mt. Comroon y luego a Tsukijima para que el volcán explote.",
+        "Comprueba que Zemio y Tsukijima quedan destruidos y pierdes Comroon como territorio (9 territorios).",
+        "No hables con el Sorcerer en Seer’s Citadel.",
+        "Teletranspórtate directamente a Emerged Island."
+      ],
+      "warnings": [
+        "Si hablas con el Sorcerer, llegará a la sala del jefe antes que tú y aprenderá magia Shadow: un combate más difícil sin beneficio.",
+        "Perder un territorio no importa: ya desbloqueaste Imperial Guards y no los pierdes; nada más se desbloquea por territorios hasta la fase de Final Emperor, y habrá suficientes tras matar al resto de Héroes."
+      ]
+    },
+    {
+      "id": "emerged-island",
+      "title": "Emerged Island",
+      "location": "Emerged Island",
+      "status": "pending",
+      "enemies": [
+        "Blazer",
+        "Undead Dragon",
+        "Sundancer",
+        "Mobelwagen",
+        "Rot Dragon",
+        "Joker",
+        "Bone Vulture",
+        "Ado Bird",
+        "Winged Mare"
+      ],
+      "objectives": [
+        "Lleva ataques y hechizos de Light: el área está llena de no-muertos y demonios.",
+        "Despeja la primera zona sur y recoge los brillos.",
+        "En la zona norte, busca la grieta del camino aparentemente bloqueado y atraviésala.",
+        "Activa un interruptor para abrir la puerta sellada.",
+        "En la siguiente zona, pasa por otra grieta; a la derecha abre el cofre con Gaia Essence.",
+        "Ve a la puerta izquierda y corre hasta caer; rodea y sube por los muros rotos hasta el interruptor.",
+        "Vuelve a la puerta, atraviésala y baja las escaleras a B1.",
+        "En B1, abre todos los cofres; tras algunas puertas hay enemigos.",
+        "En la puerta noroeste, abre el cofre del Doppelganger con la Fire Circlet (casco con inmunidad al fuego).",
+        "Pasa por la grieta a otra sala (con otra grieta) donde está el interruptor para quitar el sello de la puerta.",
+        "Abre el cofre con 320,000 Crowns guardado por un dragón no-muerto.",
+        "Vuelve a la sala anterior por la grieta y salta sobre la plataforma de madera hasta la sala central.",
+        "Entra por la puerta norte y abre el cofre con 3 Magnificent Horn.",
+        "Pasa por la puerta ya desbloqueada hasta la tercera sección, recoge los brillos y avanza a la planta final.",
+        "Usa el punto de guardado y de BP.",
+        "Derrota al jefe Dullahan y dos Blood Sucker.",
+        "Cuando aparezca el Sorcerer, elige “We shall receive judgement together before the Imperial Court” para iniciar el combate.",
+        "Derrota al Sorcerer (con dos Winger).",
+        "Recoge la Grimoire of Eld, Poseidon’s Spear, Twilight Robe, Sage Rod y 200,000 Crowns.",
+        "Acepta la abdicación forzada."
+      ],
+      "warnings": [
+        "Dullahan es débil a Axes, Clubs, Martial Arts y Fire; usa Gaze, que puede petrificar.",
+        "Dullahan es el único enemigo que puede soltar la Spectral Sword (técnica única Lifesteal); la tasa de drop es pésima. Puedes recargar hasta conseguirla.",
+        "Abdicación forzada: el Emperador de esta generación quiere asumir la responsabilidad de lo que hizo el anterior, algo que no tiene mucho sentido porque la magia de Inheritance transmite recuerdos, habilidades y personalidad."
+      ],
+      "boss": {
+        "name": "Dullahan y dos Blood Sucker; Sorcerer y dos Winger",
+        "weaknesses": [
+          "Dullahan: Axes, Clubs, Martial Arts, Fire"
+        ],
+        "attacks": [
+          "Dullahan: Gaze (petrificación)"
+        ]
+      },
+      "loot": [
+        "Twisted Horn",
+        "Silk Cloth",
+        "Gaia Essence",
+        "Fire Circlet",
+        "320,000 Crowns",
+        "Magnificent Horn",
+        "Silver Ore",
+        "Harmonia",
+        "Grimoire of Eld",
+        "Poseidon’s Spear",
+        "Twilight Robe",
+        "Sage Rod",
+        "200,000 Crowns",
+        "Spectral Sword (drop de Dullahan)"
+      ]
+    },
+    {
+      "id": "grimoire-of-eld-umbrology-lab",
+      "title": "Tsukijima’s Grimoire of Eld + Umbrology Lab",
+      "location": "Tsukijima · Avalon Incantation Lab",
+      "status": "pending",
+      "objectives": [
+        "Vuelve a Tsukijima y ve al muelle para encontrar al Diviner.",
+        "Tras la escena, comprueba que la clase Diviner queda desbloqueada.",
+        "Teletranspórtate a la Incantation Lab y habla con el encargado para ver la escena.",
+        "Elige “Very well.” para iniciar la construcción de la Umbrology Lab."
+      ],
+      "warnings": [
+        "La Umbrology Lab permite aprender magia Shadow y todos los hechizos de fusión Shadow conseguidos en los libros."
+      ]
+    },
+    {
+      "id": "rescuing-the-saigo-child",
+      "title": "Rescuing the Saigo Child - Child and Mu Cave",
+      "location": "Mu Tundra · Child and Mu Calf Cave",
+      "status": "pending",
+      "enemies": [
+        "Hornlizard",
+        "Baku",
+        "Basilisk",
+        "Undead Dragon",
+        "Bone Dragon",
+        "Gorgon"
+      ],
+      "objectives": [
+        "Ideal: ten lista la Formación Rising Phoenix, cuya mayor probabilidad de bloqueo con escudo ayuda contra el Headbutt de Dantarg.",
+        "Teletranspórtate a Mu Tundra y habla con la esterilla con indicador de misión.",
+        "Teletranspórtate a Child and Mu Calf Cave.",
+        "En la cueva, acércate a un agujero para ver un mensaje y baja por los agujeros donde oyes llorar a un Mu.",
+        "En B1, recoge cofres y brillos: el cofre con Power Belt y el del sur (por un hueco estrecho) con 3 Twisted Horn.",
+        "Vuelve por la grieta y entra al pasaje oculto en el agujero del centro sur de la sala hasta Mr. S #43 (no caigas; habla con él y luego baja).",
+        "En B2, recoge el brillo de Twisted Horn y avanza.",
+        "En la zona con muchos enemigos y varios pilares, abre el cofre con Crocodile Armor y el brillo de Royal Amber.",
+        "Llega al punto de guardado; Dantarg está cerca.",
+        "Elige las dos primeras opciones de diálogo para iniciar el combate.",
+        "Derrota a Dantarg (forma potenciada).",
+        "Recoge el brillo de Silver Ore a la izquierda y el cofre con 200,000 Crowns.",
+        "Continúa para encontrar al niño y al ternero Mu y ver la escena, tras la cual se produce un Time Skip."
+      ],
+      "warnings": [
+        "Lucha contra todos los enemigos si quieres: habrá Time Skip al completar la mazmorra, así que el contador generacional ya no importa.",
+        "Dantarg: en la primera ronda usa Headbutt contra todo el grupo: todos Defend excepto el Strategist, que usa Light Wall cada turno (la habilidad BP Saver en él ayuda). En la segunda ronda, Unity. Tras su primera barra de HP se transforma, vuelve a usar Headbutt y Unity lo mata tras esa ronda."
+      ],
+      "boss": {
+        "name": "Dantarg (forma potenciada)",
+        "weaknesses": [
+          "Shortswords",
+          "Spears",
+          "Axes",
+          "Bows",
+          "Martial Arts",
+          "Fire",
+          "Wind"
+        ],
+        "attacks": [
+          "Fissure Strike",
+          "Headbutt"
+        ]
+      },
+      "loot": [
+        "Twisted Horn",
+        "Diamond",
+        "Small Horn",
+        "Power Belt",
+        "Crocodile Armor",
+        "Royal Amber",
+        "Silver Ore",
+        "200,000 Crowns"
+      ]
+    }
+  ]
+}
