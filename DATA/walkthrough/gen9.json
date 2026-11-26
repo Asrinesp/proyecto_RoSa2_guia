@@ -1,0 +1,384 @@
+{
+  "id": "gen9",
+  "title": "Generación IX: Abdicación masiva",
+  "subtitle": "Ghost Ship, Nival Ruins, Wagnas y Floating Castle",
+  "intro": [
+    "Esta es tu última generación antes de la fase de Final Emperor: aquí haces la abdicación / suicidio masivo de Emperadores para desbloquear todas las Formaciones, pero solo después de desbloquear la clase Diver completando el Ghost Ship.",
+    "Recluta a Coppelia y quítala del grupo; tu último suicidio debe dejar a Coppelia como Emperador para heredar su habilidad Poker Face en la fase de Final Emperor.",
+    "Esta generación incluye Ghost Ship, Nival Ruins, Castle Hakuro Part 2 y la batalla del Floating Castle contra Wagnas.",
+    "La generación termina con tu último Time Skip tras derrotar a Wagnas y anexionar la región de Yuada."
+  ],
+  "missions": [
+    {
+      "id": "gen9-preparation",
+      "title": "Preparación de la generación",
+      "location": "Avalon · Taberna · Training Hall",
+      "status": "pending",
+      "objectives": [
+        "Mantén el mismo grupo que en la generación anterior.",
+        "Reequipa a los personajes y configura hechizos, técnicas, habilidades de clase y Formación.",
+        "No hagas ninguna abdicación ni suicidio masivo hasta que se indique."
+      ],
+      "warnings": [
+        "Esta es tu última generación antes de la fase de Final Emperor: aquí se hace la abdicación / suicidio masivo para desbloquear todas las Formaciones, pero solo después de desbloquear la clase Diver completando la misión del Ghost Ship.",
+        "También debes reclutar a Coppelia y luego quitarla del grupo: tu último suicidio como Emperador debe dejar a Coppelia como Emperador, para heredar su habilidad en la fase de Final Emperor."
+      ]
+    },
+    {
+      "id": "the-storm-and-the-sunken-ship",
+      "title": "The Storm and the Sunken Ship",
+      "location": "Toba · Ghost Ship",
+      "status": "pending",
+      "enemies": [
+        "Hammerhead",
+        "Sea Hare",
+        "Savage Crab",
+        "Skull Demon",
+        "Zombie",
+        "Roar",
+        "Rotting Demon",
+        "Sapping Demon",
+        "Gormenghost"
+      ],
+      "objectives": [
+        "Al elegir Emperador, comprueba que ocurre el evento del Trono sobre una gran tormenta (así sabrás que la misión se ha activado).",
+        "Teletranspórtate a Toba y habla con los NPC con marcador.",
+        "Entra en la taberna y habla con el Diver.",
+        "Ve al muelle y habla con el hombre para navegar al Ghost Ship; usa la Mermaid Potion cuando se pida.",
+        "Entra por la primera puerta y recoge el brillo de Superior Cloth tras la caja.",
+        "En la siguiente puerta, pasa por la parte rota de la pared (esqueletos) y recoge el brillo de Silk Cloth.",
+        "Sal por la puerta pasando los zombis hasta otra puerta con un cofre con 330,000 Crowns.",
+        "Sube las escaleras del pasillo.",
+        "Entra en la primera puerta y recoge el brillo de Messina Ore; abre la puerta para ser teletransportado.",
+        "A la izquierda recoge el brillo de Silk Cloth.",
+        "Vuelve y entra por la puerta del oeste del pasillo para recoger el brillo de Twisted Horn y abre la puerta para volver a la escalera.",
+        "Vuelve al pasillo, entra por la puerta que ignoraste y baja las escaleras.",
+        "Intenta abrir la puerta que tiembla a tu izquierda (mensaje); sigue más allá, entra por la pared rota y recoge el brillo de Superior Cloth.",
+        "Entra en la siguiente sala, pasa por la puerta superior tras los zombis y abre el cofre del pasillo, que se divide en dos (conseguiste Anima Draught).",
+        "Sube las escaleras hasta el otro lado del barco y abre el cofre del fondo del pasillo con un Doppelganger y la Blue Quartz Spear.",
+        "Entra en la sala más oriental, pasa por la grieta de la pared hasta un grupo de enemigos y una escalera ascendente.",
+        "Usa el punto de guardado y pasa al siguiente tramo por el casco roto.",
+        "Entra por la puerta, ve la escena y habla con el camarero para iniciar un combate con Skull Demons.",
+        "Tras la batalla, abre el cofre con Skysteel Armor.",
+        "Baja por el pasillo sin subir las escaleras; rodea la esquina y abre el cofre con 210,000 Crowns, luego sube las escaleras.",
+        "Rodea la sala hasta la puerta con indicador, usa el punto de guardado y de BP y entra.",
+        "Derrota al jefe Garon (Ghost).",
+        "A tu izquierda, abre los cofres con 5 Silver Ore, 3 Diamond y el Book of the Dark and Water III (Rain of Death).",
+        "Teletranspórtate a Toba para ver la escena y desbloquear la clase Diver."
+      ],
+      "warnings": [
+        "Si no consigues la misión, recarga el guardado anterior, grindea batallas para subir el contador generacional y vuelve a matar a Rocbouquet.",
+        "La misión Ghost Ship tiene otros desenlaces no deseados: aparece un instrumento del Minstrel en la sala del tesoro si hiciste la misión del Minstrel pero no recogiste el instrumento antes de Garon’s Rebellion; o aparece un Subier potenciado y debes pelear ahora si mataste al Narwhal o pasaron demasiadas generaciones entre la aparición del Ghost Ship y su finalización.",
+        "Garon (Ghost) es débil a Fire, Earth, Wind y Light; solo suelta Mottled Ore; un par de Unity bastan.",
+        "Rain of Death es el mejor ataque de área de la magia Shadow y puede matar de un golpe a la mayoría de enemigos normales en cualquier dificultad."
+      ],
+      "boss": {
+        "name": "Garon (Ghost)",
+        "weaknesses": [
+          "Fire",
+          "Earth",
+          "Wind",
+          "Light"
+        ]
+      },
+      "loot": [
+        "Superior Cloth",
+        "Silk Cloth",
+        "330,000 Crowns",
+        "Messina Ore",
+        "Twisted Horn",
+        "Anima Draught",
+        "Blue Quartz Spear",
+        "Obsidian",
+        "Skysteel Armor",
+        "210,000 Crowns",
+        "5 Silver Ore",
+        "3 Diamond",
+        "Book of the Dark and Water III (Rain of Death)",
+        "Mottled Ore (drop de Garon)"
+      ],
+      "notes": [
+        "El cofre del pasillo que se divide en dos puede dar objetos distintos según cómo lo abras."
+      ]
+    },
+    {
+      "id": "mystery-of-the-snow-ruins",
+      "title": "Mystery of the Snow Ruins - Nival Ruins",
+      "location": "Nival Ruins",
+      "status": "pending",
+      "enemies": [
+        "Storm Dragon",
+        "Robin",
+        "Water Faerie",
+        "Nighthead",
+        "Margarita",
+        "Alraune",
+        "Marid",
+        "Nightmare",
+        "Helter Skelter",
+        "Azoth",
+        "Sefirah",
+        "Gold Dragon",
+        "Chariot (muy raro)"
+      ],
+      "objectives": [
+        "Teletranspórtate a Nival Ruins (desbloqueado al hablar con el aldeano de Forgotten Town).",
+        "Derrota a la Storm Dragon que guarda la entrada (opcional: repite para provocar técnicas).",
+        "Si aún no lo tienes, intenta provocar Fire Wall II y Light Wall II usando esos hechizos repetidamente contra los dragones.",
+        "Avanza hasta una segunda Storm Dragon que guarda una caja rota; no hace falta luchar contra ella.",
+        "Sube las escaleras hasta un camino roto en el piso superior (Marid volando); mira abajo para ver un brillo de Royal Amber, recógelo y vuelve a subir.",
+        "Continúa hasta una sala con una escalera rota, una Storm Dragon y un Minotauro; salta a la caja, pasa tras el dragón y sube las escaleras si quieres evitar la batalla.",
+        "Recoge el brillo de Superior Cloth bajo la escalera rota.",
+        "Salta el camino roto y encuentra a Mr. S #47 en el balcón (donde también ves el dragón rojo).",
+        "Entra por la puerta de cristal azul brillante.",
+        "Ve por el camino de la derecha (Azoth y Sefirah), sube las escaleras, sigue a la plataforma, cruza las paredes rotas y la jaula rota hasta el dragón dorado flotante.",
+        "Toma la plataforma funcional hasta el siguiente nivel (otra Sefirah); no bajes aún a la plataforma que baja al cofre de tu derecha.",
+        "Ve por la izquierda hasta la jaula rota, baja y abre el cofre con la Dragon Blade (espada de 1 mano).",
+        "Sube a la plataforma del dragón volador y vuelve a subir hasta el nivel superior.",
+        "Corre a la derecha, baja la plataforma y abre el cofre con el Rainbow Cap.",
+        "Salta a una de las Storm Dragons, recoge el brillo de Mythical Claw en el centro de la sala dentro de una jaula rota y abre el cofre del centro sur con el Dragon Shield.",
+        "Ve al este y usa la puerta de cristal azul.",
+        "Abre el cofre de delante con 3 Barrier Stone y derrota al Fire Dragon.",
+        "Sube por la pared de la jaula rota y abre el cofre con la Dragon Armor.",
+        "Pasa por la escalera del pequeño pasaje oeste, salta el camino roto y entra por la puerta para el brillo de Obsidian.",
+        "Usa la plataforma indicada para volver a la planta superior, ve hasta lo más alto, pasa la pared rota (Sefirah y dragón flotante) y baja por la siguiente plataforma; salta al agujero.",
+        "En B1, recoge el Superior Cloth tras las rocas a la derecha y sigue recto hasta el brillo de la Avalonia.",
+        "Ve al punto de guardado y de BP y derrota al Dark Dragon.",
+        "Abre el cofre con el Book of Light and Fire II (Crimson Flare).",
+        "Entrega el libro de hechizos para investigarlo."
+      ],
+      "warnings": [
+        "Nival Ruins es una mazmorra de final de juego: puedes ir antes si lo haces antes de entregar una misión que provoque Time Skip.",
+        "Beneficio: provocar técnicas y hechizos poderosos, incluidas las técnicas únicas de las armas Phantom Heroes en Expert o más.",
+        "Storm Dragon: inmune a Paralysis, Petrify y Doom; Stun, Poison y Berserk funcionan; débil a Axes, Staffs, Martial Arts y Earth; resiste Wind, Light y Shadow. Puede soltar Gae Bulg, una de las mejores lanzas. Respawnea: puedes salir y volver para provocar la mayoría de técnicas.",
+        "Sefirah puede soltar Wonder Bangle (solo bloquea ataques a distancia de arcos) y, sobre todo, Will Guard, el mejor escudo/guardia del juego, que bloquea todos los tipos de daño, incluso hechizos.",
+        "En muy raras ocasiones puede aparecer el enemigo Chariot.",
+        "Fire Dragon: débil a Greatswords, Spears y Water; abre con Fire Breath (usa Fire Wall cada turno) y usa Trample.",
+        "Dark Dragon: débil a Greatsword, Spears y Martial Arts; usa Trample, Hell Claw, Sunspot Destroyer y Poison Mist.",
+        "Crimson Flare es el hechizo de un solo objetivo más fuerte en daño mágico bruto."
+      ],
+      "boss": {
+        "name": "Storm Dragon; Fire Dragon; Dark Dragon",
+        "weaknesses": [
+          "Storm Dragon: Axes, Staffs, Martial Arts, Earth",
+          "Fire Dragon: Greatswords, Spears, Water",
+          "Dark Dragon: Greatsword, Spears, Martial Arts"
+        ],
+        "resistances": [
+          "Storm Dragon: Wind, Light, Shadow; inmune a Paralysis, Petrify, Doom"
+        ],
+        "attacks": [
+          "Fire Dragon: Fire Breath, Trample",
+          "Dark Dragon: Trample, Hell Claw, Sunspot Destroyer, Poison Mist"
+        ]
+      },
+      "loot": [
+        "Mythical Claw",
+        "Harmonia",
+        "Royal Amber",
+        "Superior Cloth",
+        "Dragon Blade",
+        "Rainbow Cap",
+        "Dragon Shield",
+        "Barrier Stone",
+        "Dragon Armor",
+        "Obsidian",
+        "Avalonia (Dragon Sword)",
+        "Book of Light and Fire II (Crimson Flare)",
+        "Gae Bulg (drop raro de Storm Dragon)",
+        "Wonder Bangle / Will Guard (drops de Sefirah)"
+      ],
+      "notes": [
+        "Avalonia es la 3ª mejor espada de 1 mano del juego."
+      ]
+    },
+    {
+      "id": "castle-hakuro-part-2",
+      "title": "Castle Hakuro Part 2",
+      "location": "Castle Hakuro",
+      "status": "pending",
+      "objectives": [
+        "Vuelve a Castle Hakuro y corre hasta la sala del jefe.",
+        "Entra en la batalla con el medidor de Overdrive lleno para poder usar Unity en la primera ronda.",
+        "Derrota a Black Legion y dos Mystics.",
+        "Tras la batalla, comprueba que Wagnas eleva el resto del castillo al cielo."
+      ],
+      "warnings": [
+        "Black Legion es débil a Shortswords y Wind; inmune a Blind, Petrify y Death (se puede aturdir y paralizar); usa Whirlwind y Moonfall Slash; Sword Barrier puede ser útil si lo provocaste con magia Light.",
+        "Los Mystics son débiles a Shortswords, Axes, Water y Light; usan Sobat, Ki Blast y Fireball, que hacen mucho daño; Fire Wall ayuda contra los hechizos de fuego.",
+        "Primera partida: Black Legion es casi único (no farmeable) y suelta Mighty Helm con buena probabilidad; si no lo suelta, recarga antes del combate: evitará horas de farmeo con Tritons. Querrás al menos dos para el final del juego (mejor casco para cuerpo a cuerpo por su STR extra).",
+        "La versión de Castle Hakuro que visitaste ya no estará disponible, pero puedes seguir farmeando Silver Beats en el oeste de la sala para Power Belts."
+      ],
+      "boss": {
+        "name": "Black Legion y dos Mystics",
+        "weaknesses": [
+          "Black Legion: Shortswords, Wind",
+          "Mystics: Shortswords, Axes, Water, Light"
+        ],
+        "resistances": [
+          "Black Legion: Blind, Petrify, Death"
+        ],
+        "attacks": [
+          "Black Legion: Whirlwind, Moonfall Slash",
+          "Mystics: Sobat, Ki Blast, Fireball"
+        ]
+      },
+      "loot": [
+        "Mighty Helm (drop de Black Legion)",
+        "Power Belt (drop de Silver Beat)"
+      ]
+    },
+    {
+      "id": "mass-abdication-suiciding-grinding",
+      "title": "Mass Abdication / Suiciding / Grinding for Loot",
+      "location": "Avalon · Castle Hakuro · Iris Village",
+      "status": "pending",
+      "objectives": [
+        "Desbloquea todas las Formaciones convirtiendo en Emperador al menos una vez a cada clase que aún no lo haya sido (M y F comparten Formación).",
+        "Opcional: explota los glitches para equipar al Emperador con técnicas y hechizos potentes que otras clases heredarán (sobre todo para New Game +).",
+        "Deja a esos personajes en la Formación y nunca los metas en el grupo: sus estadísticas y habilidades estarán disponibles al unirse en New Game +.",
+        "Farmea los objetos que desees: Will Guards, Uncanny Gloves, Power Belts y Mighty Helms.",
+        "Para Power Belts, Uncanny Gloves y Feather Boots: haz un bucle por la sala frontal de Castle Hakuro (Silver Beat) y los Jian fuera de Iris Village.",
+        "Teletranspórtate a Iris Village, sal y mata a los Jann; luego a Castle Hakuro y mata a los Silver Beat; vuelve a Iris Village y repite.",
+        "Hazlo hasta tener al menos 3 Feather Boots, Uncanny Gloves y Power Belts para tus tres personajes cuerpo a cuerpo principales (Final Emperor, Ninja y tanque).",
+        "Mientras farmeas, rota a los miembros del grupo para dominar las habilidades de clase pendientes.",
+        "Spamea habilidades para desbloquear las técnicas que te falten y subir los Imperial Rankings.",
+        "Apunta a tener todos los Imperial Rankings por encima de lv50 en primera partida.",
+        "Cuando estés listo para pelear con Wagnas, haz la abdicación / suicidio masivo para que todas las clases sean Emperador al menos una vez y se fijen sus estadísticas para el siguiente New Game + en dificultad más alta."
+      ],
+      "warnings": [
+        "No hagas esto hasta haber completado el Ghost Ship (clase Diver).",
+        "Las tasas de drop de Will Guards, Uncanny Gloves, Power Belts y Mighty Helms son pésimas incluso con el Bejeweled Ring: requiere mucho tiempo.",
+        "En primera partida los Imperial Rankings no suelen pasar de lv50 porque no puedes conseguir suficiente TP, ni siquiera en Classic; no te sorprendas si no superas lv60 al terminar el farmeo.",
+        "Los Silver Beat solo aparecen con ciertas formaciones de enemigos al azar: a veces solo salen Draft Red.",
+        "Ya no puedes fallar ninguna misión por los saltos de 400+ años."
+      ],
+      "loot": [
+        "Power Belt",
+        "Uncanny Gloves",
+        "Feather Boots",
+        "Will Guard",
+        "Mighty Helm"
+      ],
+      "notes": [
+        "Pronto conseguirás el Ring of Potency en la mazmorra final (Den of Umbrage), que aumenta la aptitud y es mejor sitio de grindeo."
+      ]
+    },
+    {
+      "id": "optional-make-coppelia-emperor",
+      "title": "Optional: Make Coppelia the Emperor",
+      "location": "Somon · Avalon",
+      "status": "pending",
+      "objectives": [
+        "Recluta a Coppelia en la casa de Hiraga en Somon.",
+        "Abdica o quítala del grupo y suicida al Emperador para convertirla en Emperador.",
+        "Usa a Coppelia (Emperador) como tanque.",
+        "Forma el grupo ideal: Ninja, Diviner, Strategist y Crusader F.",
+        "Equipa a un lanzador con Liberty Staff y Sage Rod con sus habilidades desbloqueadas, si los tienes.",
+        "Usa la Formación Imperial Arrow."
+      ],
+      "warnings": [
+        "Es tu última oportunidad de conseguir la habilidad Poker Face de Coppelia.",
+        "Poker Face inmuniza contra todos los estados alterados y debuffs: hace el combate contra Bokhohn (y el de Wagnas) mucho más fácil porque tu grupo es inmune a su única mecánica."
+      ],
+      "party_setup": [
+        "Emperador (Coppelia): tanque.",
+        "Ninja: Berserk, Dual Gunner, Guayin y Shadow Servant, con Tech Damage+ y Cutpurse (más botín) o Critical Striker.",
+        "Diviner: Shadow / Water para Ill Storm y Rain of Death, con Corrupter y Ruiner (50% más de probabilidad de estados y 2 turnos más), opcionalmente Mist Cover y Hasten Time y arco Grim Reaper+ para Execution Arrows.",
+        "Strategist: Light, Fire y Earth para Light Wall I/II y Fire Wall I/II, más Crimson Flare y Flash Fire.",
+        "Crusader F: Light y Wind para Restoration y Solar Wind; con Club para Nutcracker."
+      ],
+      "notes": [
+        "Imperial Arrow da velocidad y menos probabilidad de ser objetivo a todos los demás, con Coppelia como tanque que atrae los ataques."
+      ]
+    },
+    {
+      "id": "battle-of-the-floating-castle",
+      "title": "Battle of the Floating Castle",
+      "location": "Castle Chonto · Iris Village · Floating Castle",
+      "status": "pending",
+      "enemies": [
+        "Ooze",
+        "Jelly",
+        "Rama",
+        "Gel Matter",
+        "Blazer",
+        "Mystic",
+        "Doppelganger",
+        "Wyvern",
+        "Forge Wyrm",
+        "Black Legion",
+        "Gold Baum",
+        "Doctor"
+      ],
+      "objectives": [
+        "Consigue el Windmaker de Hiraga y llévalo a Castle Chonto, o ve a Iris Village y haz que una Iris te lleve volando (también si tu Emperador es Iris).",
+        "Entra en el Floating Castle (no podrás teletransportarte fuera).",
+        "Cruza la puerta tras el punto de guardado y limpia todas las salas recogiendo brillos.",
+        "Abre el primer cofre: Doppelganger y Vorpal Sword.",
+        "Llega al Central Garden; al norte abre el cofre con 3 Gold Ore.",
+        "Ve al sur y al oeste hasta el Forge Wyrm gigante flotando junto al brillo de Messina Ore y el Rama que guarda el brillo de Twisted Horn.",
+        "Pasa por la puerta a 1F (dos escaleras en espiral): tras la escalera izquierda recoge el brillo de Silk Cloth.",
+        "Sube la escalera izquierda a 2F, rodea y baja por la otra para el brillo de Magical Claw.",
+        "Baja ambas escaleras del sur de 2F para llegar a salas con cofres.",
+        "En la sala este de 1F, abre el cofre del Doppelganger con la Vorpal Axe y el otro con Barrier Stone.",
+        "En la sala oeste de 1F, abre el cofre guardado por Mystics con el Book of Water and Wind II (Call Lightning).",
+        "Vuelve a 2F, ve al norte y sube la escalera central guardada por Black Legion hasta 3F.",
+        "Sal por cualquier puerta del norte a 3F Balcony y abre el cofre con 260,000 Crowns.",
+        "Vuelve a 3F y sube a 4F; sube los escalones del oeste para el brillo de Magical Claw.",
+        "Entra en la siguiente puerta y derrota al Ice Dragon.",
+        "Antes de la siguiente puerta, rodea al oeste y abre el cofre con 320,000 Crowns.",
+        "En la sala del trono de 4F, recoge el brillo de Royal Amber detrás del trono.",
+        "Sube cualquier escalera y luego la escalera en espiral hasta el punto de guardado y de BP.",
+        "Sube para enfrentarte al jefe; elige la primera o segunda opción de diálogo para iniciar el combate.",
+        "Derrota a Wagnas.",
+        "Comprueba que se anexa la región de Yuada y que se produce tu último Time Skip."
+      ],
+      "warnings": [
+        "Una vez en el Floating Castle no puedes teletransportarte fuera.",
+        "Si hicieras Time Skip sin limpiar el Floating Castle, se movería a Liangshan y despoblaría a todos los NPC, y luego a Yuyan en el siguiente salto; esto puede estropear misiones como The Iris and the Minstrel.",
+        "El camino es extremadamente lineal y la mayoría de enemigos son débiles a fuego y/o luz.",
+        "Ice Dragon: débil a Greatswords, Martial Arts y Fire; usa Trample y Arctic Breath.",
+        "Wagnas: débil a Greatswords, Spears, Axes, Bows, Water y magia Shadow; resiste Fire y Light y todos los estados salvo Poison (usa Ill Storm del Diviner).",
+        "En su forma fuerte lleva una corona de espinas y ojos sangrantes.",
+        "Lanza Fire Wall todos los turnos: usa Fire Ball II, Heatwave y Firestorm (pilares de fuego e invocación de Red Anima y Blue Anima).",
+        "Red Anima es débil a Swords, Shortswords, Water y Light y resiste todos los estados salvo Stun; se autodestruye al final del turno: quémalos.",
+        "También usa Blades of Wind, Sunray y Psycho Shot.",
+        "No dejes pasar una ronda sin un Fire Wall activo al elegir los Unity."
+      ],
+      "boss": {
+        "name": "Ice Dragon; Wagnas",
+        "weaknesses": [
+          "Ice Dragon: Greatswords, Martial Arts, Fire",
+          "Wagnas: Greatswords, Spears, Axes, Bows, Water, Shadow",
+          "Red Anima: Swords, Shortswords, Water, Light"
+        ],
+        "resistances": [
+          "Wagnas: Fire, Light, todos los estados salvo Poison"
+        ],
+        "attacks": [
+          "Ice Dragon: Trample, Arctic Breath",
+          "Wagnas: Fire Ball II, Heatwave, Firestorm, Blades of Wind, Sunray, Psycho Shot"
+        ]
+      },
+      "loot": [
+        "Silk Cloth",
+        "Magical Claw",
+        "Vorpal Sword",
+        "Gold Ore",
+        "Twisted Horn",
+        "Messina Ore",
+        "Vorpal Axe",
+        "Barrier Stone",
+        "Book of Water and Wind II (Call Lightning)",
+        "260,000 Crowns",
+        "Obsidian",
+        "320,000 Crowns",
+        "Royal Amber"
+      ],
+      "notes": [
+        "Windmaker: máquina voladora de Hiraga."
+      ]
+    }
+  ]
+}
