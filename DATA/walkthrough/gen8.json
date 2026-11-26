@@ -1,0 +1,275 @@
+{
+  "id": "gen8",
+  "title": "Generación VIII: Emperador femenino",
+  "subtitle": "Rocbouquet y el Sunken Temple",
+  "intro": [
+    "Elige un Emperador femenino (cualquier clase). El grupo debe mantenerse: tanque, Ninja de artes marciales, usuario de arco (idealmente Dancer con Izuna), Strategist y Crusader F.",
+    "Esta generación y la siguiente se centran en derrotar a Rocbouquet y Wagnas, que dan nuevos territorios antes de la fase de Final Emperor.",
+    "Ruta recomendada: dejar que el volcán erupcione para desbloquear Shadow Magic, Diviner y la Umbrology Lab.",
+    "La generación termina con un Time Skip tras derrotar a Rocbouquet y conquistar Salamat."
+  ],
+  "missions": [
+    {
+      "id": "gen8-preparation",
+      "title": "Preparación de la generación",
+      "location": "Avalon · Taberna · Training Hall · Incantation Lab",
+      "status": "pending",
+      "objectives": [
+        "Elige un Emperador femenino (cualquier clase).",
+        "Mantén el grupo: tanque, Ninja de artes marciales (DPS), usuario de arco (idealmente una Dancer con Izuna), Strategist y Crusader F.",
+        "Considera reclutar a Coppelia desde Somon (casa de Hiraga) y abdicar o suicidar al Emperador actual.",
+        "Puedes luchar contra todos los enemigos que encuentres: son generaciones rápidas y no importa el contador generacional.",
+        "Si tienes a Barbara como Crusader F, intenta que provoque la técnica de Club Nutcracker (reduce un 50% la defensa enemiga)."
+      ],
+      "warnings": [
+        "Esta generación y la siguiente se centran en derrotar a dos de los Héroes restantes: Rocbouquet y Wagnas, que dan nuevos territorios antes de la fase de Final Emperor.",
+        "La siguiente generación será la última antes de la fase de Final Emperor.",
+        "Para la misión de Rocbouquet necesitas un Emperador femenino antes de conocerla."
+      ]
+    },
+    {
+      "id": "umbrology-lab-construction",
+      "title": "Optional: Umbrology Lab Construction",
+      "location": "Avalon · Umbrology Lab",
+      "status": "pending",
+      "objectives": [
+        "Si elegiste la ruta de Shadow Magic, visita la Umbrology Lab antes de añadir personajes al grupo.",
+        "Teletranspórtate a la Incantation Lab, sal y ve a la izquierda por el nuevo camino hasta la Umbrology Lab.",
+        "Entra e interactúa con la bola de cristal para ver el rating de Reason (Intelligence en el juego original), que determina la potencia de los hechizos Shadow (no usan MAG).",
+        "Tras la escena, comprueba que los hechizos Shadow están disponibles en la Incantation Lab.",
+        "Usa Spell Synthesis para investigar los hechizos de fusión Shadow que tenías pendientes.",
+        "Sustituye a la Ninja o al usuario de arco por un Diviner para subir la aptitud Shadow y provocar hechizos.",
+        "Ponle First Striker al Diviner para que lance un hechizo Shadow en cada combate.",
+        "Usa Wracking, Sandstorm y Hellfire cada turno (y Poisonous Blow para poder usar Ill Storm más adelante).",
+        "Equípale Corrupter para aumentar la probabilidad de infligir estados alterados.",
+        "Equípale los mejores objetos de Reason: Twilight Robe, Rabbit Ears y Candy Ring."
+      ],
+      "warnings": [
+        "Los hechizos Shadow no usan MAG: solo los objetos que aumentan el atributo oculto Reason aumentan su daño.",
+        "Tras el próximo Time Skip podrás quitar toda la magia Light del tanque y la Ninja y enseñarles Shadow Servant."
+      ]
+    },
+    {
+      "id": "the-secret-of-the-two-towers",
+      "title": "The Secret of the Two Towers",
+      "location": "Eirunep · Eirunep Shrine",
+      "status": "pending",
+      "enemies": [
+        "Piercer",
+        "Revenant",
+        "Venomous Bug",
+        "Black Widow",
+        "Bone Drake",
+        "Baku"
+      ],
+      "objectives": [
+        "Teletranspórtate a Eirunep e ignora a las personas con marcador (no hables con ellas).",
+        "Ve a la salida este hacia Eirunep Shrine y derrota al Guardian."
+      ],
+      "warnings": [
+        "La ruta descrita es la más eficiente y no pierde contenido; requiere un Emperador femenino antes de conocer a Rocbouquet."
+      ],
+      "boss": {
+        "name": "Guardian",
+        "weaknesses": [
+          "Greatswords",
+          "Axes",
+          "Clubs",
+          "Martial Arts"
+        ],
+        "resistances": [
+          "Toda la magia elemental",
+          "Todos los estados salvo Stun"
+        ],
+        "attacks": [
+          "Poison Mist",
+          "Técnicas de espada"
+        ]
+      },
+      "loot": [
+        "Meteorite",
+        "Hauteclaire (Greatsword única)"
+      ],
+      "notes": [
+        "Si no te cae la Hauteclaire, recarga y vuelve a luchar.",
+        "Usa Sword Barrier en cualquier personaje que no use magia Shadow y lanza ataques cuerpo a cuerpo y Unity: solo su Poison Mist puede dañar al grupo.",
+        "Light Wall anula Sword Barrier: no lo lances por accidente.",
+        "Flash Fire del Strategist puede aturdir al Guardian."
+      ]
+    },
+    {
+      "id": "eirunep-shrine",
+      "title": "Eirunep Shrine",
+      "location": "Eirunep Shrine",
+      "status": "pending",
+      "enemies": [
+        "Piercer",
+        "Revenant",
+        "Venomous Bug",
+        "Black Widow",
+        "Bone Drake",
+        "Baku"
+      ],
+      "objectives": [
+        "Tras derrotar al Guardian, activa el portal y entra en el santuario.",
+        "Activa los interruptores del portal y pásate.",
+        "En la siguiente sala, ve a la izquierda, pasa por el agujero roto de la pared, recoge el Harmonia y activa el interruptor.",
+        "Activa todos los demás interruptores empezando por el de la izquierda: se activan dos portales (centro y derecha).",
+        "Entra en el portal de la derecha.",
+        "Vuelve para recoger el brillo de Superior Cloth y abre el cofre con 220,000 Crowns; entra en el portal.",
+        "Vuelve a la sala anterior y pasa por los otros dos portales de la izquierda (ignora el del centro): uno tiene cofres con Barrier Stone y Royal Amber; el otro lleva a un dragón de hueso y Revenant.",
+        "En vez de entrar en ese portal, ve al fondo de la sala a la izquierda (norte) para activar un interruptor y recoger el brillo de Magical Claw.",
+        "Entra en el portal de vuelta a la sala anterior.",
+        "Entra en el portal de la esquina sur para llegar a Mr. S #44.",
+        "Vuelve y pasa por el portal central, donde hay dos Baku; pasa por la puerta tras ellos hasta el punto de guardado.",
+        "Acércate al centro para ver la escena con un Kaiser Ant y derrota al jefe.",
+        "Tras la batalla, acércate al cubo flotante para ver la escena y recoge el brillo de Obsidian al fondo.",
+        "Teletranspórtate a la aldea Amazon, da la vuelta y entra en Salamat.",
+        "Salta del acantilado, corre más allá de las serpientes hacia el norte y entra por la puerta que antes estaba sellada para acceder al Sunken Temple."
+      ],
+      "warnings": [
+        "Kaiser Ant es débil a Axes, Clubs, Water y Earth; usa técnicas de espada y Swarm. Es menos duro que el Guardian."
+      ],
+      "boss": {
+        "name": "Kaiser Ant",
+        "weaknesses": [
+          "Axes",
+          "Clubs",
+          "Water",
+          "Earth"
+        ],
+        "attacks": [
+          "Técnicas de espada",
+          "Swarm"
+        ]
+      },
+      "loot": [
+        "Superior Cloth",
+        "220,000 Crowns",
+        "Barrier Stone",
+        "Royal Amber",
+        "Magical Claw",
+        "Obsidian"
+      ]
+    },
+    {
+      "id": "sunken-temple",
+      "title": "Sunken Temple",
+      "location": "Sunken Temple",
+      "status": "pending",
+      "enemies": [
+        "Ruffle Tree",
+        "Nightshade",
+        "Toxic Leech",
+        "Ramilizard",
+        "Helter Skelter",
+        "Elekiter",
+        "Poison Eater",
+        "Water Dragon",
+        "Lilith",
+        "Rattler"
+      ],
+      "objectives": [
+        "Entra en la torre.",
+        "En 5F, ve al sureste para encontrar a Mr. S #45 y abre el cofre del norte con la Lady Hawk (hacha).",
+        "En 4F, recorre las plataformas activando las puertas: baja los puentes y extiende el haz de luz.",
+        "Abre el cofre con Royal Amber al sur de la sala y baja el resto de plataformas.",
+        "Al bajar la última plataforma, salta al suelo y abre el cofre con 130,000 Crowns; recoge los brillos de Meteorite y Magical Claw.",
+        "Usa la escalera para volver a subir y cruza las plataformas hasta la siguiente puerta.",
+        "En 3F, probablemente caerás a 2F con dragones de agua (sin problema).",
+        "En 2F, en la esquina noreste, abre el cofre con el Book of Water and Earth I (Elixir), la mejor curación de un solo objetivo del juego.",
+        "Recoge los brillos de Magnificent Horn y Royal Amber antes de volver a subir.",
+        "En 3F, abre el cofre con 150,000 Crowns delante de ti.",
+        "Ve al noroeste: tres enemigos guardan puertas; solo una es la correcta (las demás te hacen caer).",
+        "Secuencia correcta: Centro (mujer serpiente), Derecha (monstruo de lodo), Izquierda (horn lizard).",
+        "Pasa las puertas abiertas y baja las escaleras a 1F, donde hay punto de guardado y de BP.",
+        "Entra en la siguiente cámara y acércate al dragón de agua dormido para ver la escena.",
+        "Puedes hacerle preguntas para conocer la historia del juego (por eso venimos antes de Rocbouquet).",
+        "Teletranspórtate a la Incantation Lab de Avalon y empieza a investigar Elixir.",
+        "Teletranspórtate a Eirunep y ve a la salida sur hacia la torre."
+      ],
+      "warnings": [
+        "Si no vienes aquí antes de conocer a Rocbouquet, no obtendrás los diálogos de lore del dragón."
+      ],
+      "loot": [
+        "Lady Hawk (hacha)",
+        "Mythical Claw",
+        "Royal Amber",
+        "130,000 Crowns",
+        "Meteorite",
+        "Magical Claw",
+        "Magnificent Horn",
+        "150,000 Crowns",
+        "Book of Water and Earth I (Elixir)"
+      ]
+    },
+    {
+      "id": "eirunep-tower",
+      "title": "Eirunep Tower",
+      "location": "Eirunep Tower",
+      "status": "pending",
+      "enemies": [
+        "Winged Mare",
+        "Imp",
+        "Pure Soul",
+        "Magician",
+        "Joker",
+        "Grasshopper",
+        "Torcher",
+        "Nosferatu",
+        "Sorrow",
+        "Poison Eater",
+        "Alraune",
+        "Bloody Mary"
+      ],
+      "objectives": [
+        "En 5F, ve al sureste y abre el cofre con el Doppelganger y el Thief Ring.",
+        "Ve al suroeste hasta la puerta indicada por el marcador.",
+        "En 4F, salta a la otra plataforma y abre el cofre con 120,000 Crowns.",
+        "Ve al sureste para encontrar a Mr. S #46 y el brillo de Gold Ore.",
+        "Corre al norte, sube por el puente roto inclinado hasta la plataforma superior, salta a la plataforma del esqueleto flotante para el brillo de Gold Ore y entra en la siguiente puerta.",
+        "En 3F, rodea hasta la X y baja para recoger el brillo de Silver Ore (te lleva a 2F).",
+        "En 2F, corre al centro y abre el cofre con el Book of the Dark and Water II (Ill Storm).",
+        "Encuentra el pedestal de Memory of the Seven Heroes en 2F.",
+        "Vuelve a subir, rodea la sala y abre el cofre con 250,000 Crowns.",
+        "Baja por el pasillo hasta la puerta marcada.",
+        "Usa los puntos de guardado y de BP.",
+        "Entra en la siguiente cámara, rodea por detrás del jefe y abre el cofre con 3 Silver Ore (guardado por Poison Eaters).",
+        "Vuelve y lucha contra el jefe Ruffle Tree.",
+        "Elige la primera opción de diálogo (con Emperador femenino no te ataca y huye al santuario).",
+        "Teletranspórtate a Eirunep Shrine y corre a la sala del jefe: Rocbouquet pasará junto a ti y se dirigirá al Sunken Temple.",
+        "Teletranspórtate al Sunken Temple y baja a la sala del jefe.",
+        "Haz un guardado separado en el punto de guardado por si no desbloqueas la misión Ghost Ship en la próxima generación (grindea batallas si hace falta para subir los años del Time Skip).",
+        "Entra en la cámara: el dragón te ataca. Derrota al Water Dragon.",
+        "Vuelve a guardar tras el dragón (para recargar si no aprendes la evasión de Temptation de Rocbouquet con uno de tus personajes masculinos).",
+        "Derrota a Rocbouquet.",
+        "Comprueba que conquistas Salamat como territorio y que se produce un Time Skip."
+      ],
+      "warnings": [
+        "Lucha contra todos los enemigos de la torre: queremos subir el contador generacional para provocar la misión Ghost Ship en la próxima generación.",
+        "Rocbouquet es débil a Axes, Clubs, Martial Arts, Earth y Light; debe estar en su forma normal (sin alas negras).",
+        "Usa Plasma Thrust, Poisonous Blow, Blades of Wind, Whirlwind y Ill Storm; también Temptation y Temptation II (con daño).",
+        "Elimina las ley lines de viento con hechizos de Earth para evitar que mate de un golpe con ataques de viento; Light Wall lo consigue."
+      ],
+      "boss": {
+        "name": "Ruffle Tree; Water Dragon; Rocbouquet",
+        "weaknesses": [
+          "Ruffle Tree: Clubs, Martial Arts, Fire, Earth",
+          "Rocbouquet: Axes, Clubs, Martial Arts, Earth, Light"
+        ],
+        "attacks": [
+          "Rocbouquet: Plasma Thrust, Poisonous Blow, Blades of Wind, Whirlwind, Ill Storm, Temptation, Temptation II"
+        ]
+      },
+      "loot": [
+        "Thief Ring",
+        "Silver Ore",
+        "120,000 Crowns",
+        "Gold Ore",
+        "Book of the Dark and Water II (Ill Storm)",
+        "250,000 Crowns",
+        "3 Silver Ore"
+      ]
+    }
+  ]
+}
