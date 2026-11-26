@@ -1,0 +1,694 @@
+{
+  "game": "Romancing SaGa 2: Revenge of the Seven",
+  "section": "Weapons",
+  "source_language": "en",
+  "data_notes": "Fields not present in the supplied source are omitted. An attack value of null means the source did not state one. Original source terminology and strategic notes are retained in English.",
+  "categories": [
+    {
+      "id": "one_handed_swords",
+      "name": "1h Swords",
+      "description": "Generally speaking, this is the best weapon to use for a tanking character as Auto-Parry ability requires you have a 1h sword anyway.",
+      "weapons": [
+        {
+          "name": "Iron Sword",
+          "attack": 8
+        },
+        {
+          "name": "Leon’s Sword",
+          "attack": 16,
+          "notes": "Comes equipped on Leon at the start of the game. This is the sword used to attack enemies in the field to trigger surprise attacks."
+        },
+        {
+          "name": "Goblin Sword",
+          "attack": 14,
+          "unique_tech": "Final Strike",
+          "notes": "Probably the first weapon with a unique tech. Final Strike destroys the weapon to do a low-potency STR-based attack; the source recommends never using it."
+        },
+        {
+          "name": "Steel Sword",
+          "attack": 19
+        },
+        {
+          "name": "Crescent Blade",
+          "attack": 22,
+          "unique_tech": "Moonfall Slash"
+        },
+        {
+          "name": "Wym Slayer",
+          "attack": 24,
+          "reforged_attack": 27,
+          "unique_tech": "Swarm",
+          "tech_details": "MAG-based attack against all enemies for 12 potency. An early AoE option for a 1h sword user.",
+          "sparks_from": [
+            "Normal attack",
+            "Stun Slash",
+            "Double Cut"
+          ],
+          "notes": "The source says this is a mistranslation of the original Japanese name, “Worm Slayer”."
+        },
+        {
+          "name": "Splasher",
+          "attack": 26,
+          "reforged_attack": 28,
+          "unique_tech": "Fission",
+          "tech_details": "Attempts to instant kill the target."
+        },
+        {
+          "name": "Blazing Sword",
+          "attack": 27,
+          "reforged_attack": 32,
+          "unique_tech": "Prominence",
+          "tech_details": "MAG-dependent damage, potency 24.",
+          "sparks_from": [
+            "Normal attack",
+            "Double Cut",
+            "Fillet"
+          ]
+        },
+        {
+          "name": "Harmonia Sword",
+          "attack": 30,
+          "location": "Smithy"
+        },
+        {
+          "name": "Phantom Blade",
+          "attack": 37,
+          "reforged_attack": 42,
+          "techniques": [
+            {
+              "name": "Windwolf Blade",
+              "potency": 18,
+              "details": "Wind aligned, MAG-dependent damage, no range limit."
+            },
+            {
+              "name": "Dragonfang Blade",
+              "potency": 39,
+              "details": "Water aligned, MAG-dependent damage; only sparks from Windwolf Blade."
+            }
+          ]
+        },
+        {
+          "name": "Spectral Sword",
+          "unique_tech": "Suction",
+          "tech_details": "HP Drain [Logic + Sword Aptitude LV / 2) > 18], no range limit. Can also be used by Soul Saber once sparked.",
+          "location": "Dropped by Dullahan enemies in the Floating Castle."
+        },
+        {
+          "name": "Obsidian Sword",
+          "attack": 40,
+          "location": "Smithy"
+        },
+        {
+          "name": "Dragon Blade",
+          "attack": 44,
+          "location": "Nival Ruins"
+        },
+        {
+          "name": "Sevens Sword",
+          "attack": 47,
+          "location": "Smithy"
+        },
+        {
+          "name": "Butterfly Sword",
+          "attack": 51,
+          "unique_tech": "Rosario Impale",
+          "location": "Defeat Phantom Wagnas in 5 turns or less."
+        }
+      ]
+    },
+    {
+      "id": "greatswords",
+      "name": "Greatswords / 2h Swords",
+      "description": "These do more damage than 1h swords, but shields will never proc while attacking and Auto-Parry will not trigger. The source advises tanks not to use these.",
+      "weapons": [
+        {
+          "name": "Iron Greatsword",
+          "attack": 12
+        },
+        {
+          "name": "Exorciser",
+          "attack": 17,
+          "reforged_attack": 23,
+          "unique_tech": "Exorcism Blade",
+          "tech_details": "Damage based on MAG and Reason; the source says only the Diviner class can effectively use it.",
+          "location": "Canal Fortress."
+        },
+        {
+          "name": "Drachenbrand",
+          "attack": 24,
+          "usable_techs": [
+            "Moonfall Slash"
+          ],
+          "location": "Shop"
+        },
+        {
+          "name": "Bastard Sword",
+          "attack": 25,
+          "notes": "Can use both 1h sword and 2h sword techs.",
+          "location": "Smithy"
+        },
+        {
+          "name": "Katana",
+          "attack": 26,
+          "usable_techs": [
+            "Moonfall Slash"
+          ],
+          "location": "Shop in Yuyun"
+        },
+        {
+          "name": "Legendary Plover",
+          "attack": 28,
+          "reforged_attack": 34,
+          "unique_tech": "Jolting Slash",
+          "tech_details": "Learned from Smash. MAG-dependent and cannot be countered.",
+          "location": "Castle Chonto"
+        },
+        {
+          "name": "Trinity Edge",
+          "attack": 31,
+          "unique_tech": "Dancing Sword",
+          "tech_details": "Potency 24; single-target Range damage.",
+          "location": "Giant (Gelid Ruins boss)"
+        },
+        {
+          "name": "Zweihander",
+          "attack": 33
+        },
+        {
+          "name": "Vorpal Sword",
+          "attack": 37,
+          "reforged_attack": 45,
+          "techniques": [
+            {
+              "name": "Pesticide Blade",
+              "details": "STR-based attack with critical damage against insect-type enemies."
+            },
+            {
+              "name": "Killing Blade",
+              "details": "STR-based attack that can instantly kill Humanoid enemies; only sparks from Pesticide Blade."
+            }
+          ]
+        },
+        {
+          "name": "Hauteclaire",
+          "attack": 50,
+          "unique_tech": "Surging Slice",
+          "location": "Only drops from the Guardian at the Eirunep Shrine entrance."
+        },
+        {
+          "name": "Cross Claymore",
+          "attack": 44,
+          "location": "Smithy"
+        },
+        {
+          "name": "Dayblade",
+          "attack": 40,
+          "reforged_attack": 50,
+          "grants_spells": [
+            "Sunray"
+          ],
+          "unique_tech": "Holy Light",
+          "location": "Comes equipped on Final Emperor M.",
+          "notes": "Once acquired, Holy Buster can also use Holy Light. Formerly exclusive to Male Final Emperor, now available to both genders. Only Male Emperor can reforge it."
+        },
+        {
+          "name": "Moonlite",
+          "attack": 40,
+          "reforged_attack": 50,
+          "grants_spells": [
+            "Moonlight"
+          ],
+          "unique_tech": "Lunar Blade",
+          "location": "Comes equipped on Final Emperor F.",
+          "notes": "Allows both 1h sword and Greatsword techs. Formerly exclusive to Male Final Emperor, now available to both genders. Only Female Emperor can reforge it."
+        },
+        {
+          "name": "Crimson Dragon",
+          "attack": 53,
+          "unique_tech": "Life Sprinkler",
+          "tech_details": "Potency 51, single target; described as the strongest Greatsword attack.",
+          "sparks_from": [
+            "Normal attack",
+            "Swallow Reversal",
+            "Scattered Petals (best)",
+            "Dark Blade"
+          ],
+          "location": "Dropped by Phantom Noel in post-game for defeating him in under 5 turns.",
+          "notes": "Requires high challenge rating to learn and must be sparked against enemies in Dreadhome."
+        }
+      ]
+    },
+    {
+      "id": "short_swords",
+      "name": "Short swords",
+      "description": "Often translated as Foils. Damage is primarily DEX-based, with exceptions such as Matador, a STR-based counter-attack.",
+      "weapons": [
+        {
+          "name": "Fleuret",
+          "attack": 6
+        },
+        {
+          "name": "Lob Omen",
+          "attack": 15,
+          "reforged_attack": 21,
+          "unique_tech": "Final Strike",
+          "tech_details": "Potency 36, circle; destroys the weapon. The source says not to use it.",
+          "other_techs": [
+            {
+              "name": "Mad Biter",
+              "potency": 15,
+              "details": "Dark aligned; inflicts Berserk (Madness), effectively Silence because it prevents tech and spell use. The source notes strategic boss uses."
+            }
+          ],
+          "sparks_from": [
+            "Shock Rush",
+            "Sidewinder"
+          ]
+        },
+        {
+          "name": "Rapier",
+          "attack": 19
+        },
+        {
+          "name": "Cutlass",
+          "attack": 23,
+          "notes": "Can use both 1h sword and shortsword techs."
+        },
+        {
+          "name": "Specter sword",
+          "unique_tech": "Suction",
+          "notes": "Has Suction on it which Soul Saber uses.",
+          "location": "Dropped by Dullahan."
+        },
+        {
+          "name": "Soul Saber",
+          "attack": 26,
+          "reforged_attack": 31,
+          "unique_tech": "Life Steal",
+          "tech_details": "LP Drain, effectively instant death for enemies; does not work on Undead.",
+          "notes": "Can use Suction after it is sparked from Specter Sword. The source describes Life Steal as allowing characters to recover their own LP."
+        },
+        {
+          "name": "Epee",
+          "attack": 29
+        },
+        {
+          "name": "Red Quartz Rod",
+          "attack": 33,
+          "reforged_attack": 37,
+          "unique_tech": "Fire Dragon Flood",
+          "tech_details": "Party HP restoration, potency 50, Berserk to party, and revives 1 ally.",
+          "location": "Dropped by Gold Dragons in Nivel Ruins."
+        },
+        {
+          "name": "Star of Illorina",
+          "attack": 36,
+          "unique_tech": "Floral Extravaganza",
+          "tech_details": "May instant-kill; cannot be countered.",
+          "sparks_from": [
+            "Mega Thrust"
+          ]
+        },
+        {
+          "name": "Estoc",
+          "attack": 38
+        },
+        {
+          "name": "Terra Blade",
+          "attack": 42,
+          "notes": "Reforged Estoc requiring 1 Avalonia. Allows wielder to cast fusion spell Elixir.",
+          "location": "Smithy"
+        },
+        {
+          "name": "Temptation Blade",
+          "attack": 50,
+          "unique_tech": "Temptation",
+          "tech_details": "Potency 25; damages all foes and may inflict Charm.",
+          "sparks_from": [
+            "Normal attack",
+            "Glamor Blade",
+            "Screwdriver",
+            "Eulogy"
+          ],
+          "location": "Defeat Phantom Rocbouquet in less than 5 turns during post-game."
+        }
+      ]
+    },
+    {
+      "id": "axes",
+      "name": "Axes",
+      "description": "These are 1h weapons usable with a shield. Axe techs are generally more powerful than 1h sword techs.",
+      "weapons": [
+        {
+          "name": "Gothic Axe",
+          "attack": 10
+        },
+        {
+          "name": "Viking Axe",
+          "attack": 18
+        },
+        {
+          "name": "Broad Axe",
+          "attack": 21
+        },
+        {
+          "name": "Lady Hawk",
+          "attack": 28,
+          "reforged_attack": 32,
+          "unique_tech": "Feather Seal",
+          "tech_details": "Gives Mist Cover: turns the character invisible and unable to be targeted.",
+          "notes": "Recommended by the source for a character with Fire school aptitude who should use Mist Cover."
+        },
+        {
+          "name": "Tourmaline Axe",
+          "attack": 29,
+          "reforged_attack": 34,
+          "unique_tech": "Boomerang",
+          "tech_details": "Wind aligned."
+        },
+        {
+          "name": "Vorpal Axe",
+          "attack": 33,
+          "reforged_attack": 38,
+          "unique_tech": "Dance of Death",
+          "tech_details": "Attempts to instant-kill all enemies; cannot be countered."
+        },
+        {
+          "name": "Great Axe",
+          "attack": 39,
+          "location": "Smithy"
+        },
+        {
+          "name": "Amethyst Axe",
+          "attack": 36,
+          "reforged_attack": 43,
+          "unique_tech": "Phantom Chivalry",
+          "location": "Geild Ruins",
+          "notes": "The source calls this one of the best weapons due to Phantom Chivalry, despite its attack value. The skill creates a duplicate of the character when cast; it can only use Amethyst Axe attacks and retains prior buffs such as Dragon Pulse. The described strategy is to use Mist Cover while stacking Dragon Pulses, then cast Phantom Chivalry so the clone keeps the boosted stats. The source says it can enable one-turn boss kills if exploited correctly."
+        },
+        {
+          "name": "Destroyer",
+          "unique_tech": "Destruction",
+          "tech_details": "STR-based attack hitting surrounding enemies (Pwr 3, BL dmg); powerful and cannot be countered.",
+          "sparks_from": [
+            "Tree Cleaver Tech"
+          ],
+          "location": "Special weapon gained by defeating Dantarg in his final berserk form after losing to him and letting him kill dungeon bosses."
+        },
+        {
+          "name": "Zircon Axe",
+          "attack": 45,
+          "notes": "Reforged Great Axe requiring 1 Avalonia. Allows fusion spell Fire Wall. In prior versions it allowed Crimson Flare.",
+          "location": "Smithy"
+        },
+        {
+          "name": "Dragonscale Axe",
+          "attack": 51,
+          "unique_tech": "Four Seasons",
+          "tech_details": "Potency 48, single target, STR-based and Light aligned; described as the strongest axe attack.",
+          "sparks_from": [
+            "Normal attack",
+            "Reverse Delta",
+            "Sky Drive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clubs",
+      "name": "Clubs",
+      "description": "Maces, clubs and staffs. These are 1h weapons usable with a shield. Their techs tend to focus more on debuffs than damage; some unique techs provide powerful buffs for end-game strategies.",
+      "weapons": [
+        {
+          "name": "Mace",
+          "attack": 7
+        },
+        {
+          "name": "Stone Cudgel",
+          "attack": 15
+        },
+        {
+          "name": "Quarterstaff",
+          "attack": 17,
+          "reforged_attack": 21,
+          "unique_tech": "Halt!",
+          "tech_details": "BP cost 6; chance to paralyze all enemies. Described as a strong early debuff that can work on some early bosses.",
+          "notes": "Can be obtained early by adding a Mage for Hire M to the party, or bought after Gen IV from most shops."
+        },
+        {
+          "name": "Skull Rod",
+          "attack": 18,
+          "unique_tech": "Staff Strike",
+          "tech_details": "STR-based potency 45 attack against all enemies; permanently destroys the weapon. The source advises against using it.",
+          "location": "Drops from Termite Queen."
+        },
+        {
+          "name": "Battle Hammer",
+          "attack": 20,
+          "location": "Smithy"
+        },
+        {
+          "name": "Sledgehammer",
+          "attack": 23,
+          "notes": "Heavy Club, so Grand Slam deals extra damage.",
+          "location": "Dropped by “Nightmare” in Gelid Ruins, described as the horse-headed minotaur."
+        },
+        {
+          "name": "Sage Rod",
+          "attack": 24,
+          "reforged_attack": 27,
+          "unique_tech": "Shatter Rod",
+          "other_techs": [
+            {
+              "name": "Enhance Spells",
+              "details": "Increases a selected party member's MAG by [Club LV /6]+2; cannot stack with itself. Described as part of end-game strategy builds."
+            }
+          ]
+        },
+        {
+          "name": "Comroonian Hammer",
+          "attack": 26,
+          "reforged_attack": 33,
+          "unique_tech": "Grand Buster",
+          "tech_details": "Earth aligned; deals extra damage to the rock at the top of Mt. Comroon during the Salamander rescue quest.",
+          "location": "Salamander Village Chief"
+        },
+        {
+          "name": "Liberty Staff",
+          "attack": 28,
+          "reforged_attack": 35,
+          "unique_tech": "Shatter Rod",
+          "other_techs": [
+            {
+              "name": "Blessing",
+              "details": "Raises STR & MAG by [Club Aptitude LV / 6]+2; does not stack with itself. Can stack with bonus STR from Berserk and Dragon Pulse."
+            }
+          ],
+          "notes": "Shatter Rod permanently destroys the weapon and only heals the party for 10 potency. The source says not to use it."
+        },
+        {
+          "name": "Silver Hammer",
+          "attack": 31,
+          "unique_tech": "Hunter’s Fury",
+          "tech_details": "Critical damage against Beastmen. The source says the English localization tooltip is wrong."
+        },
+        {
+          "name": "Ruby Rod",
+          "notes": "Boosts stats by your HP level.",
+          "location": "Dropped by Fire Dragons."
+        },
+        {
+          "name": "Holy Buster",
+          "attack": 36,
+          "reforged_attack": 43,
+          "notes": "After Holy Light has been learned from Dayblade, it becomes available to use on Holy Buster."
+        },
+        {
+          "name": "Amber Mace",
+          "attack": 40,
+          "location": "Forged at the Smithy"
+        },
+        {
+          "name": "Marionette's Club",
+          "attack": 49,
+          "unique_tech": "Aqua Luna",
+          "tech_details": "Potency 42, single target, water aligned; reduces enemy Magic.",
+          "sparks_from": [
+            "Normal attack",
+            "Ozone Beat",
+            "Full Flat",
+            "Nutcracker"
+          ],
+          "location": "Dropped by Phantom Bokhohn for defeating him in less than 5 turns during post-game."
+        }
+      ]
+    },
+    {
+      "id": "spears",
+      "name": "Spears",
+      "description": "Spears are two-handed weapons; a shield will never proc while attacking with them.",
+      "weapons": [
+        {
+          "name": "Long Spear",
+          "attack": 11
+        },
+        {
+          "name": "Naginata",
+          "attack": 18
+        },
+        {
+          "name": "Diamond Spear",
+          "attack": 24,
+          "location": "Smithy"
+        },
+        {
+          "name": "Trident",
+          "attack": 28,
+          "reforged_attack": 31,
+          "unique_tech": "Poseidon's Shot",
+          "tech_details": "Critical against Aquatic; no range limit; cannot be countered. Can also be used by Ranseur and Poseidon's Spear once sparked.",
+          "sparks_from": [
+            "Skewer 12"
+          ]
+        },
+        {
+          "name": "Blue Quartz Spear",
+          "attack": 30,
+          "reforged_attack": 35,
+          "unique_tech": "Thunder Volt",
+          "sparks_from": [
+            "Lightning Thrust 14"
+          ]
+        },
+        {
+          "name": "Sharpened Glaive",
+          "attack": 32
+        },
+        {
+          "name": "Ranseur",
+          "attack": 33,
+          "usable_techs": [
+            "Poseidon Shot"
+          ]
+        },
+        {
+          "name": "Poseidon's Spear",
+          "attack": 34,
+          "reforged_attack": 39
+        },
+        {
+          "name": "Gae Bulg",
+          "attack": 39,
+          "reforged_attack": 45,
+          "unique_tech": "Swooping Dragon",
+          "tech_details": "Potency 43; cannot be countered and has no range limit.",
+          "sparks_from": [
+            "Charge Spiral",
+            "Charge"
+          ],
+          "location": "Can drop from any dragon boss. The source recommends farming the first Storm dragon at the entrance to Nival Ruins; drop rate is very low. Also described as an excellent mid-game source for farming techs, spells and aptitude."
+        },
+        {
+          "name": "Divine Longinus",
+          "attack": 40,
+          "reforged_attack": 46,
+          "unique_tech": "Psycho Shot",
+          "location": "Forgotten Village"
+        },
+        {
+          "name": "Obsidian Lance",
+          "attack": 42,
+          "location": "Forged at Smithy"
+        },
+        {
+          "name": "Lance of Ukom",
+          "attack": 48,
+          "notes": "Reforged Obsidian Lance requiring 1 Avalonia. Allows fusion spell Cyclone Squeeze.",
+          "location": "Smithy"
+        },
+        {
+          "name": "Nautilus Spear",
+          "attack": 54,
+          "unique_tech": "Heavenly Weaver",
+          "tech_details": "Potency 50, single target, Light aligned.",
+          "sparks_from": [
+            "Spiral Charge",
+            "Divine Lancer",
+            "Triumvirate"
+          ],
+          "location": "Dropped from Phantom Subier after defeating him in less than 5 turns in post-game."
+        }
+      ]
+    },
+    {
+      "id": "bows",
+      "name": "Bows",
+      "weapons": [
+        {
+          "name": "Longbow",
+          "attack": 7
+        },
+        {
+          "name": "Fail-Not",
+          "other_techs": [
+            {
+              "name": "Heart Seeker",
+              "details": "Attempts to Charm; the source says Beast Slayer has a chance to spark it."
+            }
+          ],
+          "notes": "The supplied text does not provide an attack value or an explicit location."
+        },
+        {
+          "name": "Darts",
+          "attack": 12
+        },
+        {
+          "name": "Elder Bow",
+          "attack": 19
+        },
+        {
+          "name": "Reinforced Bow",
+          "attack": 23
+        },
+        {
+          "name": "Grim Reaper",
+          "attack": 29,
+          "reforged_attack": 34,
+          "unique_tech": "Execution Arrows",
+          "tech_details": "Attempts to instant-kill all enemies.",
+          "location": "Gelid Ruins; described as easy to obtain early, in the same place as Amethyst Axe."
+        },
+        {
+          "name": "Steel Bow",
+          "attack": 35
+        },
+        {
+          "name": "Starlight Bow",
+          "attack": 28,
+          "reforged_attack": 46,
+          "unique_tech": "Starlight Arrows",
+          "notes": "Learned from Rain of Arrows. The AoE attack lands at the end of a turn."
+        },
+        {
+          "name": "Eris’ Bow",
+          "attack": 41,
+          "notes": "Allows use of fusion spell Heatwave.",
+          "location": "Forged by the Smithy and can be obtained fairly early."
+        },
+        {
+          "name": "Soulreaper Bow",
+          "attack": 52,
+          "unique_tech": "Lifesteal",
+          "tech_details": "Absorbs a foe's LP and adds it to the user's pool, allowing characters to recover lost LP without Darkstone or LP potions. Does not drain LP from undead enemies.",
+          "notes": "Life Steal has a reversed effect for a character using Diviner ability Umbral Benison: it depletes the user's LP instead. A character with Undying cannot recover LP with it either.",
+          "sparks_from": [
+            "Normal attack",
+            "Shadow Shot",
+            "Izuna"
+          ],
+          "location": "Defeat Phantom Kzinssie in 5 turns or less."
+        }
+      ]
+    }
+  ]
+}
