@@ -1,0 +1,995 @@
+{
+  "game": "Romancing SaGa 2: Revenge of the Seven",
+  "section": "Spells",
+  "source_language": "en",
+  "data_notes": [
+    "Spell names and source descriptions are preserved in English.",
+    "Missing values are omitted rather than inferred.",
+    "A potency value of null means the source listed it as N/A.",
+    "Original source terminology and strategic notes are retained in English."
+  ],
+  "general_notes": [
+    {
+      "title": "Damage attribute",
+      "text": "Unless otherwise noted, magic spells always use the MAG (Magic) attribute to deal damage."
+    },
+    {
+      "title": "Shadow spells",
+      "text": "Shadow spells increase their damage from Reason (intelligence), not MAG."
+    }
+  ],
+  "categories": [
+    {
+      "id": "fire",
+      "name": "Fire (Pyrology)",
+      "description": "Unless otherwise noted, magic spells always use the MAG (Magic) attribute to deal damage.",
+      "spells": [
+        {
+          "name": "Fireball",
+          "potency": 10,
+          "target": "Single target",
+          "bp_cost": 2,
+          "effects": [
+            "Deals ranged fire damage to one enemy."
+          ]
+        },
+        {
+          "name": "Fireball II",
+          "potency": 10,
+          "target": "Circle AoE",
+          "bp_cost": 6,
+          "requirements": [
+            "Fire aptitude lv21"
+          ],
+          "effects": [
+            "Deals ranged fire damage to a group of enemies in a circle radius around the target."
+          ]
+        },
+        {
+          "name": "Self-Immolation",
+          "potency": 25,
+          "target": "Self",
+          "bp_cost": 5,
+          "requirements": [
+            "Fire aptitude lv1"
+          ],
+          "effects": [
+            "User becomes immune to fire damage and enemies take fire damage when Melee attacking the caster."
+          ]
+        },
+        {
+          "name": "Flame Whip",
+          "potency": 20,
+          "target": "Single target",
+          "bp_cost": 8,
+          "requirements": [
+            "Fire aptitude lv13"
+          ],
+          "effects": [
+            "Ranged fire damage to a single target and attempts to inflict Paralysis."
+          ]
+        },
+        {
+          "name": "Sunspot Destroyer",
+          "potency": null,
+          "target": "Single target",
+          "bp_cost": 12,
+          "requirements": [
+            "Fire aptitude lv22"
+          ],
+          "effects": [
+            "Ranged attack that deals no damage and attempts to inflict Doom (instant KO) on the enemy."
+          ]
+        },
+        {
+          "name": "Reviver",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 50,
+          "requirements": [
+            "Fire aptitude lv29"
+          ],
+          "effects": [
+            "A transformation skill that will auto-revive the character when they are Incapacitated and restore them to full HP.",
+            "Cannot be cast on already transformed characters such as those using Phantom Chivalry, Shadow Servant or Wraith Form."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "Water (Hydrology)",
+      "description": "Unless otherwise noted, magic spells always use the MAG (Magic) attribute to deal damage.",
+      "spells": [
+        {
+          "name": "Water Blast",
+          "potency": 12,
+          "target": "Single target",
+          "bp_cost": 3,
+          "effects": [
+            "Ranged water damage to a single target."
+          ]
+        },
+        {
+          "name": "Water Blast II",
+          "potency": 12,
+          "target": "Column of enemies",
+          "bp_cost": 0,
+          "effects": [
+            "Ranged water damage to a column of enemies in a straight line.",
+            "Reduces DEF of enemies."
+          ]
+        },
+        {
+          "name": "Life Water",
+          "potency": 50,
+          "target": "Single target ally",
+          "bp_cost": 3,
+          "effects": [
+            "Heals a character."
+          ]
+        },
+        {
+          "name": "Life Water II",
+          "potency": 150,
+          "target": "Single target ally",
+          "bp_cost": 9,
+          "requirements": [
+            "Water aptitude lv9"
+          ],
+          "effects": [
+            "Heals a character and removes Sleep."
+          ]
+        },
+        {
+          "name": "Life Water III",
+          "potency": 250,
+          "target": "Single target ally",
+          "bp_cost": 16,
+          "requirements": [
+            "Water aptitude lv20"
+          ],
+          "effects": [
+            "Heals a character and removes Sleep and Paralysis."
+          ]
+        },
+        {
+          "name": "Physic Water",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 4,
+          "requirements": [
+            "Water aptitude lv1"
+          ],
+          "effects": [
+            "Cures all status ailments except Petrification and Stun for a single ally."
+          ]
+        },
+        {
+          "name": "Mist Cover",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 8,
+          "requirements": [
+            "Water aptitude lv7"
+          ],
+          "effects": [
+            "Transforms the character to be semi-invisible. Prevents the target from becoming directly targetable by enemies. Enemies can still attack the character with AoE attacks.",
+            "Allies cannot cast any spells on the target.",
+            "Effect lasts until the mist covered character attacks, either with a tech or a spell. Support skills will not cancel the effect."
+          ],
+          "notes": "Often used for stacking Dragon Pulse or to protect a character that only heals / buffs."
+        },
+        {
+          "name": "Water Dance",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 6,
+          "requirements": [
+            "Level 13"
+          ],
+          "effects": [
+            "Decreases hydrology damage for the duration and increases physical defense."
+          ],
+          "notes": "This is not considered a transformation skill so can stack with Dragon Pulse.\nIn prior versions the formula for increasing defense is [Caster’s Water aptitude level / 3] + 2"
+        },
+        {
+          "name": "Hasten Time",
+          "potency": null,
+          "target": "All characters",
+          "bp_cost": 60,
+          "requirements": [
+            "Water aptitude lv26"
+          ],
+          "effects": [
+            "Re-sorts the turn order for the next battle round to ensure all allies act before enemies do."
+          ],
+          "notes": "In prior versions this prevented enemies from acting for the remainder of the battle round. In the Remake it has been nerfed rather significantly to where it is basically useless if you have characters that have high SPD ratings from equipment and formations ensuring they always act before enemies do.\nIt is easy to ensure all your characters act before enemies do by just equipping all characters with Feather Boots+ and using either the Rapid Stream or Imperial Arrow formation.\nIn prior versions this also reset the elemental ley lines, which it does not appear to do in the Remake either (unless a fire leyline is active, which any water spell could do).\nThe English localization tooltip is blatantly incorrect on what it claims the spell does. It claims the targeted unit will “act quicker for a few turns”, which implies it increases the SPD of the character on their turn for several rounds. This spell does not add any SPD bonuses. It just re-sorts the turn order to ensure all your characters act before enemies do on the NEXT battle round. This is plainly visible by just observing the timeline bar at the top of the battle screen, and seeing when the next battle round begins after using the spell, any characters who were going to act after an enemy have had their turn order moved up in the timeline ahead of all enemies."
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "Earth (Terreology)",
+      "description": "Unless otherwise noted, magic spells always use the MAG (Magic) attribute to deal damage.",
+      "spells": [
+        {
+          "name": "Pulverize",
+          "potency": 18,
+          "target": "Single target",
+          "bp_cost": 5,
+          "effects": [
+            "Deals ranged earth damage to a single enemy."
+          ]
+        },
+        {
+          "name": "Gilden Strength",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 3,
+          "effects": [
+            "Increase an ally STR by 2 or more points."
+          ],
+          "notes": "In prior versions the formula to increase strength is [User’s Earth aptitude level / 4] + 2."
+        },
+        {
+          "name": "Entangle",
+          "potency": null,
+          "target": "All enemies",
+          "bp_cost": 4,
+          "requirements": [
+            "Earth aptitude lv1"
+          ],
+          "effects": [
+            "Ranged attack that deals no damage and attempts to Stun all enemies.",
+            "Does not work on flying enemies."
+          ]
+        },
+        {
+          "name": "Earth Heal",
+          "potency": 100,
+          "target": "Single target ally",
+          "bp_cost": 5,
+          "requirements": [
+            "Earth aptitude lv11"
+          ],
+          "effects": [
+            "Heals an ally."
+          ]
+        },
+        {
+          "name": "Stone Shower",
+          "potency": 21,
+          "target": "All enemies",
+          "bp_cost": 22,
+          "requirements": [
+            "Earth aptitude lv18"
+          ],
+          "effects": [
+            "Ranged earth attack against all enemies."
+          ]
+        },
+        {
+          "name": "Gilden Shield",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 15,
+          "requirements": [
+            "Earth aptitude lv28"
+          ],
+          "effects": [
+            "Creates a shield around an ally that reduces earth damage and Melee damage."
+          ],
+          "notes": "Cannot stack with Light Wall or Fire Wall, making this pretty useless.\nIn prior versions the shield nullified Earth / melee damage."
+        }
+      ]
+    },
+    {
+      "id": "wind",
+      "name": "Wind (Aerology)",
+      "description": "Unless otherwise noted, magic spells always use the MAG (Magic) attribute to deal damage.",
+      "spells": [
+        {
+          "name": "Blades of Wind",
+          "potency": 13,
+          "target": "Single target",
+          "bp_cost": 4,
+          "effects": [
+            "Ranged wind damage to one enemy."
+          ]
+        },
+        {
+          "name": "Air Screen",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 6,
+          "requirements": [
+            "Wind aptitude lv1"
+          ],
+          "effects": [
+            "Buffs an ally to reduce wind damage and increase Defense by at least 2."
+          ],
+          "notes": "In prior versions the formula to increase defense is [User’s Wind aptitude level / 3] + 2."
+        },
+        {
+          "name": "Missile Shield",
+          "potency": null,
+          "target": "All allies",
+          "bp_cost": 11,
+          "requirements": [
+            "Wind aptitude lv8"
+          ],
+          "effects": [
+            "All allies become immune to non-magic ranged damage attacks for several rounds."
+          ],
+          "notes": "Only works against ranged weapon techs, not magic spell range attacks."
+        },
+        {
+          "name": "HP Absorb",
+          "potency": 9,
+          "target": "Single target",
+          "bp_cost": 7,
+          "requirements": [
+            "Wind aptitude lv17"
+          ],
+          "effects": [
+            "Ranged attack that restores the user’s HP by the same amount it damages an enemy.",
+            "Does not work on undead."
+          ]
+        },
+        {
+          "name": "Fujin Blade",
+          "potency": 10,
+          "target": "Self",
+          "bp_cost": 14,
+          "effects": [
+            "User equips the Fujin Blade unique weapon that has Cyclone and Lightning Slash techs. Cannot be removed for the rest of the battle."
+          ],
+          "notes": "This is called 風神剣 / Wind God Blade in the original Japanese."
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "name": "Light",
+      "description": "Unless otherwise noted, magic spells always use the MAG (Magic) attribute to deal damage.",
+      "spells": [
+        {
+          "name": "Light Ball",
+          "potency": 4,
+          "target": "All enemies",
+          "bp_cost": 3,
+          "effects": [
+            "Ranged light attack against all enemies with a chance to inflict Blind."
+          ]
+        },
+        {
+          "name": "Moonlight",
+          "potency": 80,
+          "target": "Single target ally",
+          "bp_cost": 3,
+          "requirements": [
+            "Light aptitude lv1"
+          ],
+          "effects": [
+            "Heals an ally."
+          ]
+        },
+        {
+          "name": "Moonlight II",
+          "potency": 200,
+          "target": "Single target ally",
+          "bp_cost": 12,
+          "requirements": [
+            "Light aptitude lv9"
+          ],
+          "effects": [
+            "Heals an ally and removes Blindness."
+          ]
+        },
+        {
+          "name": "Sunray",
+          "potency": 22,
+          "target": "Single target",
+          "bp_cost": 10,
+          "requirements": [
+            "Light aptitude lv10"
+          ],
+          "effects": [
+            "Ranged light attack to one enemy.",
+            "Deals critical damage to undead enemies."
+          ]
+        },
+        {
+          "name": "Sword Barrier",
+          "potency": null,
+          "target": "Self",
+          "bp_cost": 12,
+          "requirements": [
+            "Light aptitude lv20"
+          ],
+          "effects": [
+            "User gains a shield that makes the user immune to sword attacks for several turns."
+          ],
+          "notes": "Can be useful before Shadow magic is available. Shadow Servant is vastly superior to this, as it will double damage and block all weapon techs, not just swords."
+        },
+        {
+          "name": "Galactic Rift",
+          "potency": 35,
+          "target": "All enemies",
+          "bp_cost": 38,
+          "requirements": [
+            "Light aptitude lv30"
+          ],
+          "effects": [
+            "Ranged light attack to all enemies."
+          ],
+          "notes": "Unity attack system seems to place this spell in high priority which is not ideal for maximizing damage against bosses."
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "name": "Shadow (Umbrology)",
+      "description": "Shadow spells increase their damage from Reason (intelligence), not MAG.",
+      "spells": [
+        {
+          "name": "Wracking",
+          "potency": 12,
+          "target": "Single target",
+          "bp_cost": 2,
+          "effects": [
+            "Ranged shadow damage to one enemy with a chance to Stun."
+          ]
+        },
+        {
+          "name": "Horror",
+          "potency": null,
+          "target": "Single target",
+          "bp_cost": 4,
+          "requirements": [
+            "Shadow aptitude lv1"
+          ],
+          "effects": [
+            "Ranged attack that deals no damage and attempts to Confuse."
+          ]
+        },
+        {
+          "name": "Claw Barrage",
+          "potency": 12,
+          "target": "Self",
+          "bp_cost": 12,
+          "requirements": [
+            "Shadow aptitude lv12"
+          ],
+          "effects": [
+            "Grants the caster Claw weapon and use of the unique tech Hell Claw."
+          ],
+          "notes": "Remaster localized this ability as Claw Extend."
+        },
+        {
+          "name": "Deadly Drive",
+          "potency": null,
+          "target": "All enemies",
+          "bp_cost": 15,
+          "requirements": [
+            "Shadow aptitude lv20"
+          ],
+          "effects": [
+            "Ranged attack that deals no damage but reduces stats of all enemies until the enemy’s 2nd turn.",
+            "All attributes are reduced by at least 2."
+          ],
+          "notes": "In prior versions the formula to reduce stats is [User’s Shadow aptitude level / 4] + 2.\nEnglish localization tooltip is wrong once again, saying it reduces all attributes until the target takes action, when in fact it lasts until the 2nd turn of that character. So basically it lasts 1 turn. The character will always be debuffed for at least one turn."
+        },
+        {
+          "name": "Shadow Servant",
+          "potency": null,
+          "target": "Self",
+          "bp_cost": 20,
+          "requirements": [
+            "Shadow aptitude lv30"
+          ],
+          "effects": [
+            "Creates a transformation that nullifies 1 Melee damage and doubles the actions of the user while the transformation is active."
+          ],
+          "notes": "English localization tooltip incorrectly claims it nullifies all physical damage for one turn. It actually lasts until the character takes a Melee damage hit. Tooltip also fails to mention it doubles the character’s actions.\nIn prior versions of the game Shadow Servant acted as a magic shield that nullified 1 magic attack and could not be stacked with other shield spells."
+        }
+      ]
+    },
+    {
+      "id": "fire_earth_fusion",
+      "name": "Fire / Earth Fusion",
+      "description": "Fusion spells combining Fire and Earth.",
+      "fusion_of": [
+        "Fire",
+        "Earth"
+      ],
+      "spells": [
+        {
+          "name": "Fire Wall",
+          "potency": null,
+          "target": "All allies",
+          "bp_cost": 20,
+          "effects": [
+            "Creates a shield for the remainder of the battle round that blocks fire and water spell attacks."
+          ]
+        },
+        {
+          "name": "Fire Wall II",
+          "potency": null,
+          "target": "All allies",
+          "bp_cost": 20,
+          "requirements": [
+            "Fire aptitude lv20",
+            "Earth aptitude lv10"
+          ],
+          "effects": [
+            "Creates a shield for the remainder of the battle round that blocks fire and water spell attacks.",
+            "At the end of the round, deals a ranged fire attack against all enemies."
+          ]
+        },
+        {
+          "name": "Heat Hand",
+          "potency": 10,
+          "target": "Self",
+          "bp_cost": 16,
+          "requirements": [
+            "Fire aptitude lv10",
+            "Earth aptitude lv10"
+          ],
+          "effects": [
+            "User can use the unique Martial Art techs Salamander Claw and Red Drake Wave for the remainder of the battle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire_wind_fusion",
+      "name": "Fire / Wind Fusion",
+      "description": "Fusion spells combining Fire and Wind.",
+      "fusion_of": [
+        "Fire",
+        "Wind"
+      ],
+      "spells": [
+        {
+          "name": "Heatwave",
+          "potency": 15,
+          "target": "All enemies",
+          "bp_cost": 15,
+          "effects": [
+            "Range fire and wind damage to all enemies and reduce their SPD rating by 5."
+          ]
+        },
+        {
+          "name": "Firestorm",
+          "potency": 30,
+          "target": "All enemies",
+          "bp_cost": 26,
+          "effects": [
+            "Range fire damage to all enemies."
+          ],
+          "notes": "English localization says “Alters the terrain’s affinity.” No shit, it can create leylines? So can every other magic spell in the game. Yet another nonsensical localization."
+        }
+      ]
+    },
+    {
+      "id": "water_earth_fusion",
+      "name": "Water / Earth Fusion",
+      "description": "Fusion spells combining Water and Earth.",
+      "fusion_of": [
+        "Water",
+        "Earth"
+      ],
+      "spells": [
+        {
+          "name": "Elixir",
+          "potency": null,
+          "target": "Single target ally",
+          "bp_cost": 32,
+          "effects": [
+            "Restores full HP and cures all ailments except Petrification and Stun."
+          ],
+          "notes": "Best single target heal spell in the game."
+        },
+        {
+          "name": "Dragon Pulse",
+          "potency": null,
+          "target": "Self",
+          "bp_cost": 12,
+          "requirements": [
+            "Water aptitude lv10",
+            "Earth aptitude lv10"
+          ],
+          "effects": [
+            "Boosts all attributes. Using any action other than Defend or Dragon Pulse will lose the buff. This means once the character uses any tech other than Dragon Pulse, their stats will return to normal.",
+            "Dragon Pulse is a unique effect that can stack with itself, so by using it for several successive turns the character can boost max HP, STR, SPD and MAG stats."
+          ],
+          "notes": "In prior versions the formula to boosts stats is [User’s Water + Earth aptitudes level / 7 ] + 2.\nThe formula seems to me to be identical in the Remake. This means that the STR and SPD boost only surpasses what Berserk gives when both Water and Earth aptitudes are above lv60. However, since it can stack with itself you can start using it when both aptitudes are lv50 and still get phenomenal results.\nBy using Phantom Chivalry unique tech from the Amethyst Axe, the stat bonus will be retained on the created phantom clone, meaning they can attack every turn and retain the boosted STR and SPD for the entire duration of the Phantom Chivalry effect."
+        }
+      ]
+    },
+    {
+      "id": "water_wind_fusion",
+      "name": "Water / Wind Fusion",
+      "description": "Fusion spells combining Water and Wind.",
+      "fusion_of": [
+        "Water",
+        "Wind"
+      ],
+      "spells": [
+        {
+          "name": "Cyclone Squeeze",
+          "potency": 24,
+          "target": "Single target",
+          "bp_cost": 12,
+          "effects": [
+            "Ranged water magic damage to a single enemy with a chance to Stun."
+          ]
+        },
+        {
+          "name": "Call Lightning",
+          "potency": 30,
+          "target": "AoE circle",
+          "bp_cost": 21,
+          "requirements": [
+            "Water aptitude lv10",
+            "Wind aptitude lv10"
+          ],
+          "effects": [
+            "Ranged wind magic damage to a group of enemies in a circle around the target."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "light_fire_fusion",
+      "name": "Light and Fire Fusion",
+      "description": "Fusion spells combining Light and Fire.",
+      "fusion_of": [
+        "Light",
+        "Fire"
+      ],
+      "spells": [
+        {
+          "name": "Saint Fire",
+          "potency": 30,
+          "target": "Row of enemies",
+          "bp_cost": 10,
+          "effects": [
+            "Deals ranged critical light damage to undead and demon enemies.",
+            "Cannot hit any other type of enemy."
+          ],
+          "notes": "Because it can only hit undead and demon enemies this is a largely worthless spell only useful for grinding fire and light aptitude until you can use Flash Fire, which works on all enemy types and deals critical damage to undead."
+        },
+        {
+          "name": "Crimson Flare",
+          "potency": 45,
+          "target": "Single target",
+          "bp_cost": 30,
+          "requirements": [
+            "Light aptitude lv10",
+            "Fire aptitude lv10"
+          ],
+          "effects": [
+            "Ranged fire damage to one enemy.",
+            "Has a chance to inflict Blindness and reduce Reason (Intelligence) by 5 points."
+          ],
+          "notes": "The iconic SaGa Flare spell. This is the strongest single target spell in the game.\nEnglish localization tooltip for the Incantation Lab and main status menu fails to mention that it will also reduce the enemies Reason (Intelligence), making them do less damage with shadow spells."
+        },
+        {
+          "name": "Flash Fire",
+          "potency": 28,
+          "target": "All enemies",
+          "bp_cost": 28,
+          "requirements": [
+            "Light aptitude lv20",
+            "Fire aptitude lv20"
+          ],
+          "effects": [
+            "Ranged light and fire damage to all enemies.",
+            "Attempts to inflict Blind and also deals critical damage to undead."
+          ],
+          "notes": "This spell is superior to Saint Fire in every way, as it hits all enemies and still does critical damage to undead. Furthermore, demon enemies are already weak to light attacks.\nWhile Galactic Rift has a higher potency, Flashfire has two elements, criticals undead and inflicts Blind. Consequently Flash Fire is the best all around AoE spell in the game which can be acquired fairly early in a playthrough at Castle Hakuro."
+        }
+      ]
+    },
+    {
+      "id": "water_light_fusion",
+      "name": "Water / Light Fusion",
+      "description": "Fusion spells combining Water and Light.",
+      "fusion_of": [
+        "Water",
+        "Light"
+      ],
+      "spells": [
+        {
+          "name": "Diamond Dust",
+          "potency": 15,
+          "target": "All enemies",
+          "bp_cost": 13,
+          "effects": [
+            "Ranged water and light damage to all enemies."
+          ],
+          "notes": "As it does not require any aptitude levels to use, this is a good early game AoE nuke spell for healers once you pickup the Fusion book at Nazella Strait."
+        },
+        {
+          "name": "Prism Light",
+          "potency": null,
+          "target": "All enemies",
+          "bp_cost": 11,
+          "requirements": [
+            "Light aptitude lv10",
+            "Water aptitude lv10"
+          ],
+          "effects": [
+            "Attempt to inflict Confusion on all enemies."
+          ],
+          "notes": "Contrary to what the English localization tooltip claims, Prism Light does not “damage your foes”. It literally does zero damage."
+        }
+      ]
+    },
+    {
+      "id": "light_earth_fusion",
+      "name": "Light / Earth Fusion",
+      "description": "Fusion spells combining Light and Earth.",
+      "fusion_of": [
+        "Light",
+        "Earth"
+      ],
+      "spells": [
+        {
+          "name": "Arc Lightning",
+          "potency": 18,
+          "target": "AoE circle",
+          "bp_cost": 13,
+          "effects": [
+            "Ranged light and earth damage to a group of foes in a circle formation around the targeted enemy."
+          ]
+        },
+        {
+          "name": "Light Wall",
+          "potency": null,
+          "target": "All allies",
+          "bp_cost": 35,
+          "requirements": [
+            "Light aptitude lv10",
+            "Earth aptitude lv10"
+          ],
+          "effects": [
+            "Creates a shield that reduces all damage to allies by 50% for the remainder of the round."
+          ]
+        },
+        {
+          "name": "Light Wall II",
+          "potency": 20,
+          "target": "All allies",
+          "bp_cost": 35,
+          "requirements": [
+            "Light aptitude lv26",
+            "Earth aptitude lv10"
+          ],
+          "effects": [
+            "Creates a shield that reduces all damage to allies by 50% for the remainder of the round.",
+            "At the end of the round, deals ranged light damage to all enemies at 20 potency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "light_wind_fusion",
+      "name": "Light / Wind Fusion",
+      "description": "Fusion spells combining Light and Wind.",
+      "fusion_of": [
+        "Light",
+        "Wind"
+      ],
+      "spells": [
+        {
+          "name": "Faerie Glow",
+          "potency": null,
+          "target": "Self",
+          "bp_cost": 7,
+          "effects": [
+            "Increases the user's SPD by at least 2 for several turns.",
+            "Cannot stack."
+          ],
+          "notes": "In prior versions the formula to increase SPD is [User’s Light + Wind aptitude levels / 3] + 2.\nUseless spell. Berserk and Dragon Pulse are better in every way as they boost multiple attributes per turn."
+        },
+        {
+          "name": "Solar Wind",
+          "potency": 25,
+          "target": "All enemies",
+          "bp_cost": 25,
+          "requirements": [
+            "Light aptitude lv10",
+            "Wind aptitude lv10"
+          ],
+          "effects": [
+            "Ranged light and wind damage to all enemies."
+          ],
+          "notes": "Can be acquired very early in the Melu Desert so is a decent early game AoE nuke spell for a healer character that uses Restoration."
+        },
+        {
+          "name": "Restoration",
+          "potency": 100,
+          "target": "All allies",
+          "bp_cost": 30,
+          "requirements": [
+            "Light aptitude lv20",
+            "Wind aptitude lv20"
+          ],
+          "effects": [
+            "Heal all allies and cures all ailments except Petrify.",
+            "Cannot revive allies who are Incapacitated."
+          ],
+          "notes": "The English localization once again fails to mention the important parts, instead focusing on meaningless flowery prose.\nCan be acquired fairly early in the game after defeating the Giant at the top of Gelid Ruins."
+        }
+      ]
+    },
+    {
+      "id": "shadow_fire_fusion",
+      "name": "Shadow / Fire Fusion",
+      "description": "As a reminder, Shadow spells increase their damage from Reason (intelligence), not MAG.",
+      "fusion_of": [
+        "Shadow",
+        "Fire"
+      ],
+      "spells": [
+        {
+          "name": "Hellfire",
+          "potency": 21,
+          "target": "Single target",
+          "bp_cost": 9,
+          "effects": [
+            "Ranged fire and shadow damage to a single enemy."
+          ],
+          "notes": "This is the strongest single target attack spell that requires no spell aptitude to learn.\nIn prior versions this did both heat and cold damage."
+        },
+        {
+          "name": "Ghost Light",
+          "potency": null,
+          "target": "Single target",
+          "bp_cost": 12,
+          "requirements": [
+            "Shadow aptitude lv10",
+            "Fire aptitude lv10"
+          ],
+          "effects": [
+            "Attempt to charm an enemy."
+          ],
+          "notes": "Highly useful on Romancing difficulty to make enemies kill each other"
+        }
+      ]
+    },
+    {
+      "id": "shadow_water_fusion",
+      "name": "Shadow / Water Fusion",
+      "description": "Fusion spells combining Shadow and Water.",
+      "fusion_of": [
+        "Shadow",
+        "Water"
+      ],
+      "spells": [
+        {
+          "name": "Poisonous Blow",
+          "potency": 16,
+          "target": "Single target",
+          "bp_cost": 8,
+          "effects": [
+            "Ranged shadow and water damage to a single target with a chance to inflict Poison."
+          ],
+          "notes": "Most useful for getting a melee character to gain proficiency in shadow and water magic so you can teach them Shadow Servant and Dragon Pulse.\nEnglish localization claims it can inflict Poison on all targets. No, it’s just the one target the spell hits."
+        },
+        {
+          "name": "Ill Storm",
+          "potency": null,
+          "target": "All enemies",
+          "bp_cost": 14,
+          "requirements": [
+            "Shadow aptitude lv10",
+            "Water aptitude lv10"
+          ],
+          "effects": [
+            "Ranged attack that deals no damage but has a high chance to proc Poison on all enemies."
+          ],
+          "notes": "This spell has a significantly higher Poison proc rate than Poisonous Blow. Therefore, Ill Storm should be used on bosses over Poisonous Blow.\nPoison deals percentile damage based on the enemy’s max HP, so on higher difficulty mode this Poison can do 99k damage per turn on super bosses weak to it."
+        },
+        {
+          "name": "Rain of Death",
+          "potency": 18,
+          "target": "All enemies",
+          "bp_cost": 19,
+          "requirements": [
+            "Shadow aptitude lv20",
+            "Water aptitude lv20"
+          ],
+          "effects": [
+            "Ranged shadow and water damage against all enemies with a high chance of proccing Doom (Instant KO)."
+          ],
+          "notes": "Don’t let the low damage potency fool you. This skill will obliterate most trash mob packs in less than 2 turns just from the Doom proc rate alone. Useful on Expert and Romancing difficulties where enemies have high HP. Unfortunately it can only be gained mid game from the Sunken Ship quest."
+        }
+      ]
+    },
+    {
+      "id": "shadow_earth_fusion",
+      "name": "Shadow / Earth Fusion",
+      "description": "Fusion spells combining Shadow and Earth.",
+      "fusion_of": [
+        "Shadow",
+        "Earth"
+      ],
+      "spells": [
+        {
+          "name": "Sand Storm",
+          "potency": 14,
+          "target": "All enemies",
+          "bp_cost": 14,
+          "effects": [
+            "Ranged shadow and earth damage to all enemies and attempts to inflict Blind on them."
+          ],
+          "notes": "A good way to level up Shadow and Earth aptitude on a melee character so they can use Shadow Servant and Dragon Pulse."
+        },
+        {
+          "name": "Wraith Form",
+          "potency": null,
+          "target": "Self",
+          "bp_cost": 17,
+          "lp_cost": 1,
+          "effects": [
+            "User transforms into a wraith that cannot be damaged by physical attacks and can only cast spells. Costs 1 LP point.",
+            "Techs that critical undead will still damage the user.",
+            "Wraith cannot be healed but instead will instantly die if healed such as from Restoration.",
+            "Vortex will also instantly kill the character, too."
+          ],
+          "notes": "There are some situational strategies for Romancing mode using this, but generally speaking, Shadow Servant + Light Wall is more effective.\nUseless against the final boss and Dread Queen due to their love of using Vortex."
+        },
+        {
+          "name": "Landslide",
+          "potency": 27,
+          "target": "All enemies",
+          "bp_cost": 29,
+          "requirements": [
+            "Shadow aptitude lv20",
+            "Earth aptitude lv20"
+          ],
+          "effects": [
+            "Ranged shadow and earth damage to all enemies and reduces defense by 50% for several turns."
+          ],
+          "notes": "This is actually a pretty good spell and were it not for Ill Storm and Rain of Death being superior for trash mob clearing, Landslide would be a pretty good AoE option too. Unfortunately being earth aligned you can’t have them all."
+        }
+      ]
+    },
+    {
+      "id": "shadow_wind_fusion",
+      "name": "Shadow / Wind Fusion",
+      "description": "Fusion spells combining Shadow and Wind.",
+      "fusion_of": [
+        "Shadow",
+        "Wind"
+      ],
+      "spells": [
+        {
+          "name": "Dark Sphere",
+          "potency": null,
+          "target": "Single target",
+          "bp_cost": 12,
+          "effects": [
+            "Ranged damage equal to 25% of the enemy’s Max HP."
+          ],
+          "notes": "The Remaster localized this as Dark Wash.\nCan be blocked Most bosses are completely immune to it and the caster needs high Reason (Intelligence) for it to have a decent proc rate.\nThe spell book for it can be gained fairly early in Teretuva tower."
+        },
+        {
+          "name": "Vortex",
+          "potency": null,
+          "target": "All characters",
+          "bp_cost": 18,
+          "effects": [
+            "Removes all buffs and debuffs for all characters, including allies and enemies."
+          ],
+          "notes": "Cancels Freeze Barrier, Self-immolation, Mist Cover, Sword Barrier, Gilden Shield, Phantom Chivalry. Dragon Pulse, Berserk and pretty much everything else.\nWil cause any character in Wraith Form to instantly die.\nVortex is incredibly useful to remove negative status debuffs from your own party members if it looks like you’re about to wipe. For example, suppose your healer has been Paralyzed or Charmed while under Mist Cover. Normally you would not be able to cure that character of these ailments due to the Mist Cover effect, but with Vortex you can. So in this way it can be used to soft reset a battle going very badly for you by removing debuffs on your allies and buffs on bosses."
+        }
+      ]
+    }
+  ]
+}

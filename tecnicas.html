@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#282a36">
+  <meta name="description" content="Enciclopedia de técnicas de Romancing SaGa 2: Revenge of the Seven.">
+  <title>Técnicas — Romancing SaGa 2: Revenge of the Seven</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/tecnicas.css">
+  <script src="JavaScript/tecnicas.js" defer></script>
+  <script src="JavaScript/menu.js" defer></script>
+</head>
+<body>
+  <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-controls="site-nav" aria-label="Mostrar u ocultar el menú">
+
+  <label class="mobile-menu-button" for="menu-toggle" aria-label="Abrir o cerrar el menú">
+    ☰ MENÚ
+  </label>
+
+  <aside class="sidebar" aria-label="Menú principal">
+    <a class="sidebar-brand" href="index.html">
+      <span class="brand-mark">RS2</span>
+      <span class="brand-copy">
+        <strong>Revenge of the Seven</strong>
+        <small>Guía de nuestra partida</small>
+      </span>
+    </a>
+
+    <label class="sidebar-toggle" for="menu-toggle">
+      <span class="toggle-icon" aria-hidden="true">☰</span>
+      <span class="toggle-text">Contraer menú</span>
+    </label>
+
+    <nav class="site-nav" id="site-nav" aria-label="Secciones de la guía">
+      <span class="nav-heading">GUÍA</span>
+      <ul>
+        <li><a href="index.html"><span class="nav-symbol" aria-hidden="true">⌂</span><span class="nav-label">Inicio</span></a></li>
+        <li><a href="walkthrough.html"><span class="nav-symbol" aria-hidden="true">▸</span><span class="nav-label">Walkthrough</span></a></li>
+        <li><a href="tecnicas.html" aria-current="page"><span class="nav-symbol" aria-hidden="true">✦</span><span class="nav-label">Técnicas</span></a></li>
+        <li><a href="hechizos.html"><span class="nav-symbol" aria-hidden="true">☼</span><span class="nav-label">Hechizos</span></a></li>
+        <li><a href="bestiario.html"><span class="nav-symbol" aria-hidden="true">♜</span><span class="nav-label">Bestiario</span></a></li>
+        <li><a href="armas.html"><span class="nav-symbol" aria-hidden="true">⚔</span><span class="nav-label">Armas</span></a></li>
+        <li><a href="armaduras.html"><span class="nav-symbol" aria-hidden="true">⬡</span><span class="nav-label">Armaduras</span></a></li>
+        <li><a href="mapas.html"><span class="nav-symbol" aria-hidden="true">▦</span><span class="nav-label">Mapas</span></a></li>
+        <li><a href="ubicaciones.html"><span class="nav-symbol" aria-hidden="true">⌖</span><span class="nav-label">Ubicaciones</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-footer">DRACULA THEME <span>●</span></div>
+  </aside>
+
+  <label class="menu-backdrop" for="menu-toggle" aria-hidden="true"></label>
+
+  <main class="page-content">
+    <header class="page-header">
+      <p class="eyebrow">ENCICLOPEDIA</p>
+      <h1 class="site-title">Técnicas</h1>
+      <p class="site-subtitle">Consulta la potencia, el coste de BP, los efectos, cómo aprender cada técnica y qué otras técnicas puede provocar.</p>
+    </header>
+
+    <section class="techniques-tools" aria-label="Buscar y filtrar técnicas">
+      <label class="search-label" for="technique-search">Buscar técnica, arma o efecto</label>
+      <input id="technique-search" class="technique-search" type="search" placeholder="Ej. Parry, Stun Slash, Light, BP…" autocomplete="off">
+
+      <div class="category-tabs" id="category-tabs" role="group" aria-label="Categorías de técnicas">
+        <span class="loading-message">Cargando categorías…</span>
+      </div>
+
+      <div class="results-line">
+        <span id="results-count" aria-live="polite">Cargando técnicas…</span>
+        <button id="clear-search" class="text-button" type="button" hidden>Limpiar búsqueda</button>
+      </div>
+    </section>
+
+    <section class="general-notes" id="general-notes" aria-label="Información general sobre técnicas"></section>
+    <section class="category-intro" id="category-intro" aria-live="polite"></section>
+
+    <section class="technique-list" id="technique-list" aria-label="Listado de técnicas">
+      <div class="loading-panel">Cargando el archivo de técnicas…</div>
+    </section>
+
+    <p class="data-footnote">Los nombres, efectos, localizaciones y notas mantienen la terminología de la fuente original. Los valores que no aparecen en la fuente no se muestran.</p>
+  </main>
+</body>
+</html>

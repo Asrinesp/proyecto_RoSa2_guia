@@ -1,0 +1,174 @@
+{
+  "game": "Romancing SaGa 2: Revenge of the Seven",
+  "section": "Techniques",
+  "source_language": "en",
+  "data_notes": [
+    "Item names and source descriptions are preserved in English.",
+    "Missing values are omitted rather than inferred.",
+    "Original source terminology and strategic notes are retained in English.",
+    "A potency value of null means the source did not state one."
+  ],
+  "general_notes": [
+    {
+      "title": "Sword techniques",
+      "text": "Unless otherwise mentioned, sword techs deal damage based on STR. Accuracy depends on STR and SPD."
+    }
+  ],
+  "categories": [
+    {
+      "id": "one_handed_swords",
+      "name": "Swords (1h Swords)",
+      "description": "Unless otherwise mentioned, sword techs deal damage based on STR. Accuracy depends on STR and SPD.",
+      "techniques": [
+        {
+          "name": "Parry",
+          "potency": null,
+          "target": "Self",
+          "bp_cost": 0,
+          "effects": [
+            "An alternative to Defend. User will deflect physical attacks."
+          ],
+          "sparked_from": [
+            "Using any Sword attack while attacked by an enemy"
+          ],
+          "notes": "Unlike in other SaGa games it will not auto-trigger just by being in a tech list and must be used to activate during the round."
+        },
+        {
+          "name": "Stun Slash",
+          "alternate_name": "Knee Split",
+          "potency": 10,
+          "target": "Single target",
+          "bp_cost": 2,
+          "effects": [
+            "Physical melee damage",
+            "Chance to inflict Stun"
+          ],
+          "sparked_from": [
+            "Normal attack"
+          ],
+          "can_spark": [
+            "Cross Cut",
+            "Fillet",
+            "Whirlwind",
+            "Vacuum Slash"
+          ],
+          "notes": "When used as part of a Unity attack, due to English localization mistakes it has the prefix of ‘Knee’ or affix of ‘Split’."
+        },
+        {
+          "name": "Double Cut",
+          "potency": 16,
+          "target": "Single target",
+          "bp_cost": 16,
+          "effects": [
+            "Physical melee damage twice"
+          ],
+          "sparked_from": [
+            "Normal attack"
+          ],
+          "can_spark": [
+            "Cross Cut",
+            "Mince",
+            "Slice"
+          ]
+        },
+        {
+          "name": "Cross Cut",
+          "potency": 20,
+          "target": "Single target",
+          "bp_cost": 6,
+          "element": "Light",
+          "effects": [
+            "Physical melee damage twice",
+            "Deals Light damage",
+            "Criticals Undead"
+          ],
+          "sparked_from": [
+            "Normal attack",
+            "Stun Slash"
+          ],
+          "can_spark": [
+            "Fillet"
+          ]
+        },
+        {
+          "name": "Mince",
+          "potency": 20,
+          "target": "Single target",
+          "bp_cost": 5,
+          "effects": [
+            "Physical damage to one enemy",
+            "Hits six times"
+          ],
+          "sparked_from": [
+            "Normal attack",
+            "Slice"
+          ],
+          "can_spark": [
+            "Slice"
+          ],
+          "notes": "The battle tooltip says “Has large damage variance”. This appears to be nonsense. The attack hits six times consistently and the damage dealt per hit is the normal expected range."
+        }
+      ]
+    },
+    {
+      "id": "greatswords",
+      "name": "Greatsword (2h Swords)",
+      "description": "The Original Japanese names for these techniques reference Japanese swordsmanship, which is completely lost in the English localization.",
+      "techniques": [
+        {
+          "name": "Deflect",
+          "potency": null,
+          "target": "Self",
+          "bp_cost": 0,
+          "effects": [
+            "An alternative to Defend. User will deflect physical attacks."
+          ],
+          "sparked_from": [
+            "Using any 2h sword attack while attacked by an enemy"
+          ],
+          "notes": "Unlike in other SaGa games it will not auto-trigger just by being in a tech list and must be used to activate during the round."
+        },
+        {
+          "name": "Hard Slash",
+          "japanese_name": "みね打ち",
+          "romanized_name": "Mine-uchi",
+          "alternate_name": "Blunt Strike",
+          "potency": 14,
+          "target": "Single target",
+          "bp_cost": 4,
+          "effects": [
+            "Physical Melee damage to one enemy"
+          ],
+          "sparked_from": [
+            "Normal attack"
+          ],
+          "can_spark": [
+            "Vertical Strike",
+            "Empty Blade"
+          ],
+          "notes": "The English localization of the Remaster named this ‘Blunt Strike’, which is confusing because that is what the Remake calls the second Greatsword tech. Mine-uchi is a Kendo technique and does not mean “Hard Slash”; it means “strike to the head”. In the original and Remaster, this attack inflicted the Stun ailment."
+        },
+        {
+          "name": "Blunt Strike",
+          "japanese_name": "巻き打ち",
+          "romanized_name": "Maki-uchi",
+          "alternate_name": "Rolling Strike",
+          "potency": null,
+          "target": "Single target",
+          "bp_cost": 1,
+          "effects": [
+            "A melee attack that attempts to Stun",
+            "Deals no damage"
+          ],
+          "sparked_from": [
+            "Normal attack"
+          ],
+          "can_spark": [
+            "Life Blade"
+          ],
+          "notes": "Prior SaGa games localized this as Sunder. Maki-uchi is a Kendo technique that strikes the head; it does not mean Sunder. It means “Rolling Strike”, referring to the way the blade rolls off the left arm before attacking."
+        }
+      ]
+    }
+  ]
+}
