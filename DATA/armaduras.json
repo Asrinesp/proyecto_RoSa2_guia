@@ -1,0 +1,1201 @@
+{
+  "game": "Romancing SaGa 2: Revenge of the Seven",
+  "section": "Armors",
+  "source_language": "English",
+  "data_notes": [
+    "Item names and source descriptions are preserved in English.",
+    "Missing values are omitted rather than inferred.",
+    "Repeated entries and apparent source typos are retained as supplied.",
+    "The source distinguishes Shields from Guards; see the category notes."
+  ],
+  "general_notes": [
+    {
+      "title": "Shields and Guards use the same equipment slot",
+      "text": "A character can equip either a Shield or a Guard. They are different armor types but occupy the same equipment slot. They are usually distinguished by the affixes Shield and Guard, although there are exceptions such as Buckler, which is a Guard."
+    },
+    {
+      "title": "Block rate",
+      "text": "Shields and Guards have a Block Rate expressed as a percentage chance to block. Using Defend on a turn can increase it. Certain Formations have a tank position that automatically makes the character Defend after attacking, increasing the block rate and the chance to trigger the Shield or Guard."
+    },
+    {
+      "title": "How Guards work",
+      "text": "Guards nullify damage. The English localization mistranslates this as Block in the Phys. Defense section of the item data screen. All Guards nullify Physical Melee damage, and some can also nullify Ranged Physical damage and elemental damage, including spell damage (for example, Will Guard)."
+    },
+    {
+      "title": "How Shields work",
+      "text": "When a Shield block triggers, it temporarily increases the character's Physical Defense, reducing damage taken during that block. It does not permanently increase the Armor Physical Defense value while equipped. Some Shields, such as Earth Guard, temporarily increase certain elemental defenses when a block occurs."
+    },
+    {
+      "title": "Remake behavior and source opinion",
+      "text": "The source states that in earlier versions Shields were better against multi-hit attacks because a Guard only nullified the first hit. In the Remake, a Guard nullifies every hit in a multi-hit attack. The source therefore considers Shields to have no meaningful purpose in the Remake and says even a Buckler with a 20% block rate is superior to the best Shield, because it completely nullifies Physical Melee damage, even against the final boss."
+    },
+    {
+      "title": "Two-handed weapons and blocking",
+      "text": "A character using two-handed weapons, including Martial Arts, bows, Greatsword or Spear techniques, cannot block for the rest of the round after attacking with one of these weapons. Characters casting spells can block with a Shield as long as they are equipped with a one-handed weapon."
+    }
+  ],
+  "categories": [
+    {
+      "id": "shields",
+      "name": "Shields",
+      "description": "Shields add temporary Physical Defense when a block is triggered. The source notes that some also temporarily increase elemental defenses.",
+      "items": [
+        {
+          "name": "Greatshield",
+          "block_rate": 45,
+          "physical_defense": 20,
+          "location": "Shops"
+        },
+        {
+          "name": "Metal Shield",
+          "block_rate": 45,
+          "physical_defense": 32,
+          "location": "Shops"
+        },
+        {
+          "name": "Steel Shield",
+          "block_rate": 40,
+          "physical_defense": 48,
+          "location": "Shops"
+        },
+        {
+          "name": "Templar’s Shield",
+          "block_rate": 50,
+          "physical_defense": 40,
+          "location": "Comes equipped with a Crusader M or Crusader F character when first recruited."
+        },
+        {
+          "name": "Dragon Shield",
+          "block_rate": 45,
+          "physical_defense": 60,
+          "reforged": {
+            "physical_defense": 66
+          },
+          "hidden_attributes": [
+            "Range attack resistance",
+            "Fire resistance",
+            "Water resistance",
+            "Wind resistance"
+          ],
+          "notes": "The precise values of the hidden resistances are unknown. These attributes reduce damage; they do not block it.",
+          "location": "From a chest in Nival Ruins"
+        },
+        {
+          "name": "Obsidian Shield",
+          "block_rate": 40,
+          "physical_defense": 72,
+          "location": "Smithy"
+        },
+        {
+          "name": "Skysteel Shield",
+          "block_rate": 20,
+          "physical_defense": 80,
+          "reforged": {
+            "physical_defense": 88
+          }
+        },
+        {
+          "name": "Mirror Shield",
+          "block_rate": 50,
+          "physical_defense": 56,
+          "reforged": {
+            "physical_defense": 61
+          },
+          "hidden_attributes": [
+            "Range attack resistance",
+            "Fire resistance",
+            "Water resistance"
+          ],
+          "notes": "The precise values of the hidden resistances are unknown. These attributes reduce damage; they do not block it."
+        }
+      ]
+    },
+    {
+      "id": "guards",
+      "name": "Bucklers / Guards",
+      "description": "All Bucklers nullify Melee and Range damage when the character blocks, meaning attacks categorized as Melee or Ranged that do not deal elemental damage. Certain Bucklers also nullify elemental damage.",
+      "items": [
+        {
+          "name": "Leather Guard",
+          "block_rate": 15,
+          "physical_defense_effect": "Nullify Melee + Range Damage"
+        },
+        {
+          "name": "Targe",
+          "block_rate": 18,
+          "physical_defense_effect": "Nullify Melee + Range Damage"
+        },
+        {
+          "name": "Buckler",
+          "block_rate": 20,
+          "physical_defense_effect": "Nullify Melee + Range Damage"
+        },
+        {
+          "name": "Earth Guard",
+          "block_rate": 15,
+          "reforged": {
+            "block_rate": 35
+          },
+          "physical_defense_effect": "Nullify Melee + Range + Earth Damage"
+        },
+        {
+          "name": "Metal Guard",
+          "block_rate": 30,
+          "physical_defense_effect": "Nullify Melee + Range Damage",
+          "location": "Smithy"
+        },
+        {
+          "name": "Harmonia Guard",
+          "block_rate": 35,
+          "physical_defense_effect": "Nullify Melee + Range Damage",
+          "location": "Smithy"
+        },
+        {
+          "name": "Wonder Bangle",
+          "block_rate": 100,
+          "physical_defense_effect": "Nullify Range Damage",
+          "notes": "This guard cannot nullify melee damage.",
+          "location": "Dropped by Valkyrie and Sefirah enemies"
+        },
+        {
+          "name": "Will Guard",
+          "block_rate": 30,
+          "reforged": {
+            "block_rate": 40
+          },
+          "physical_defense_effect": "Nullify Melee + Range + Fire + Water + Wind Damage",
+          "hidden_properties": [
+            "Nullifies elemental damage",
+            "Can nullify Poison, Doom, Blind and Berserk debuffs"
+          ],
+          "notes": "The source describes this as the best shield in the game.",
+          "location": "Dropped by Sefirah enemies (Nival Ruins / Den of Umbrage level 3)"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "name": "Body",
+      "description": "These armors equip to the Body slot. Some are classified as Suits and occupy Body, Head, Hands and Feet slots.",
+      "items": [
+        {
+          "name": "Hydra Suit",
+          "physical_defense": 75,
+          "magic_defense": 38,
+          "encumbrance": 8,
+          "movement_speed": -8,
+          "effects": [
+            "Poison Resistance"
+          ],
+          "location": "Pyrohydra (Savannah)"
+        },
+        {
+          "name": "Erudite Robes",
+          "physical_defense": 6,
+          "magic_defense": 12
+        },
+        {
+          "name": "Leather Armor",
+          "physical_defense": 6,
+          "magic_defense": 3,
+          "encumbrance": 1,
+          "movement_speed": 1
+        },
+        {
+          "name": "Flurry Shawl",
+          "physical_defense": 7,
+          "magic_defense": 28,
+          "hidden_attributes": [
+            "Wind resistance"
+          ],
+          "location": "Comes equipped with Iris class when first recruited."
+        },
+        {
+          "name": "Budo Gi",
+          "physical_defense": 8,
+          "magic_defense": 8,
+          "reforged": {
+            "physical_defense": 12,
+            "magic_defense": 12
+          }
+        },
+        {
+          "name": "Beetle Robe",
+          "physical_defense": 8,
+          "magic_defense": 16,
+          "reforged": {
+            "physical_defense": 12,
+            "magic_defense": 24
+          },
+          "effects": [
+            "+1 MAG bonus"
+          ],
+          "reforged_effects": [
+            "+2 MAG bonus"
+          ]
+        },
+        {
+          "name": "Power Belt",
+          "physical_defense": 6,
+          "magic_defense": 6,
+          "reforged": {
+            "physical_defense": 9,
+            "magic_defense": 9
+          },
+          "effects": [
+            "+4 STR bonus"
+          ],
+          "location": "Dropped by Silver Beat enemy. Silver Beat drops Power Belt & Uncanny Gloves (Castle Hokuro)."
+        },
+        {
+          "name": "Stardust Robe",
+          "physical_defense": 9,
+          "magic_defense": 25,
+          "reforged": {
+            "physical_defense": 15,
+            "magic_defense": 42
+          },
+          "effects": [
+            "+2 MAG bonus"
+          ],
+          "reforged_effects": [
+            "+3 MAG"
+          ]
+        },
+        {
+          "name": "Crocodile Armor",
+          "physical_defense": 9,
+          "magic_defense": 6,
+          "reforged": {
+            "physical_defense": 13,
+            "magic_defense": 9
+          },
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Iron Armor",
+          "physical_defense": 9,
+          "magic_defense": 4,
+          "encumbrance": 3,
+          "movement_speed": -3
+        },
+        {
+          "name": "Protective Suit",
+          "physical_defense": 10,
+          "magic_defense": 10
+        },
+        {
+          "name": "Mage’s Robe",
+          "physical_defense": 10,
+          "magic_defense": 18,
+          "effects": [
+            "+1 MAG bonus"
+          ]
+        },
+        {
+          "name": "Moonbeam Robe",
+          "physical_defense": 12,
+          "magic_defense": 30,
+          "reforged": {
+            "physical_defense": 18,
+            "magic_defense": 45
+          },
+          "effects": [
+            "+3 MAG bonus"
+          ],
+          "reforged_effects": [
+            "+4 MAG"
+          ]
+        },
+        {
+          "name": "Sturdy Leather Armor",
+          "physical_defense": 12,
+          "magic_defense": 10
+        },
+        {
+          "name": "Sorcerer’s Robe",
+          "physical_defense": 14,
+          "magic_defense": 35,
+          "effects": [
+            "+1 MAG bonus"
+          ]
+        },
+        {
+          "name": "Insulated Clothes",
+          "physical_defense": 15,
+          "magic_defense": 19,
+          "reforged": {
+            "physical_defense": 21,
+            "magic_defense": 26
+          },
+          "effects": [
+            "Fire resistance"
+          ]
+        },
+        {
+          "name": "Stardust Rrobe",
+          "physical_defense": 9,
+          "magic_defense": 25,
+          "reforged": {
+            "physical_defense": 15,
+            "magic_defense": 42
+          },
+          "effects": [
+            "+3 MAG bonus"
+          ],
+          "source_note": "Name spelling and +3 MAG effect retained as written in this separate source entry."
+        },
+        {
+          "name": "Rabbit Armor",
+          "physical_defense": 15,
+          "magic_defense": 18,
+          "reforged": {
+            "physical_defense": 22,
+            "magic_defense": 27
+          },
+          "effects": [
+            "+3 Reason (intelligence)",
+            "Poison Resistance"
+          ],
+          "reforged_effects": [
+            "+4 Reason"
+          ]
+        },
+        {
+          "name": "Prima Tutu",
+          "physical_defense": 17,
+          "magic_defense": 24,
+          "location": "Comes equipped with Coppelia when first recruited."
+        },
+        {
+          "name": "Steel Armor",
+          "physical_defense": 17,
+          "magic_defense": 8
+        },
+        {
+          "name": "Elven Shawl",
+          "physical_defense": 18,
+          "magic_defense": 36,
+          "effects": [
+            "Paralysis Resistance"
+          ]
+        },
+        {
+          "name": "Armored Suit",
+          "physical_defense": 20,
+          "magic_defense": 9,
+          "encumbrance": 6,
+          "movement_speed": -6
+        },
+        {
+          "name": "Reinforced Garb",
+          "physical_defense": 20,
+          "magic_defense": 16,
+          "effects": [
+            "Sleep Resistance"
+          ]
+        },
+        {
+          "name": "Sunlight Robe",
+          "physical_defense": 21,
+          "magic_defense": 37,
+          "reforged": {
+            "physical_defense": 26,
+            "magic_defense": 46
+          },
+          "effects": [
+            "+2 MAG"
+          ],
+          "reforged_effects": [
+            "+3 MAG"
+          ]
+        },
+        {
+          "name": "Twilight Robe",
+          "physical_defense": 27,
+          "magic_defense": 45,
+          "reforged": {
+            "physical_defense": 31,
+            "magic_defense": 51
+          },
+          "effects": [
+            "+4 Reason"
+          ],
+          "reforged_effects": [
+            "+5 Reason"
+          ]
+        },
+        {
+          "name": "Brigandine",
+          "physical_defense": 26,
+          "magic_defense": 20,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Active Suit",
+          "physical_defense": 30,
+          "magic_defense": 14,
+          "reforged": {
+            "physical_defense": 45,
+            "magic_defense": 21
+          },
+          "encumbrance": 4,
+          "movement_speed": -4,
+          "effects": [
+            "Sleep Resistance"
+          ],
+          "location": "Kzinssie’s Manor"
+        },
+        {
+          "name": "Tiger Armor",
+          "physical_defense": 30,
+          "magic_defense": 20,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Silver Cuirass",
+          "physical_defense": 30,
+          "magic_defense": 17,
+          "encumbrance": 2,
+          "movement_speed": -2
+        },
+        {
+          "name": "Avalonian Robe",
+          "physical_defense": 35,
+          "magic_defense": 35,
+          "effects": [
+            "Fire Resistance",
+            "Water Resistance",
+            "Air Resistance",
+            "Earth Resistance",
+            "+2 MAG"
+          ]
+        },
+        {
+          "name": "Lamellar Suit",
+          "physical_defense": 42,
+          "magic_defense": 15,
+          "encumbrance": 6,
+          "movement_speed": -6
+        },
+        {
+          "name": "Skysteel Armor",
+          "physical_defense": 40,
+          "magic_defense": 10,
+          "reforged": {
+            "physical_defense": 44,
+            "magic_defense": 11
+          },
+          "encumbrance": 7,
+          "movement_speed": -7
+        },
+        {
+          "name": "Harmonia Armor",
+          "physical_defense": 45,
+          "magic_defense": 21,
+          "encumbrance": 2,
+          "movement_speed": -2
+        },
+        {
+          "name": "Dragon Armor",
+          "physical_defense": 51,
+          "magic_defense": 36,
+          "reforged": {
+            "physical_defense": 58,
+            "magic_defense": 41
+          },
+          "encumbrance": 3,
+          "movement_speed": -3
+        },
+        {
+          "name": "Plate Armor Suit",
+          "physical_defense": 64,
+          "magic_defense": 30,
+          "encumbrance": 6,
+          "movement_speed": -6
+        },
+        {
+          "name": "Sevens Armor",
+          "physical_defense": 64,
+          "magic_defense": 33,
+          "encumbrance": 2,
+          "movement_speed": -2
+        },
+        {
+          "name": "Black Galadriel",
+          "physical_defense": 57,
+          "magic_defense": 15,
+          "reforged": {
+            "physical_defense": 65,
+            "magic_defense": 17
+          },
+          "encumbrance": 3,
+          "movement_speed": -3,
+          "effects": [
+            "Blindness Resistance"
+          ],
+          "notes": "The source says the Remaster localized it as Black Gardiehl, but the original katakana のガラドリエル reads Galadriel. The source suggests a reference to Galadriel in The Lord of the Rings."
+        },
+        {
+          "name": "Harmonia Suit",
+          "physical_defense": 87,
+          "magic_defense": 50,
+          "encumbrance": 5,
+          "movement_speed": -5,
+          "location": "Smithy"
+        },
+        {
+          "name": "Heavy Suit",
+          "physical_defense": 105,
+          "magic_defense": 44,
+          "encumbrance": 9,
+          "movement_speed": -9
+        }
+      ]
+    },
+    {
+      "id": "head",
+      "name": "Head",
+      "items": [
+        {
+          "name": "Facemask",
+          "physical_defense": 4,
+          "magic_defense": 2,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Rabbit Ears",
+          "physical_defense": 3,
+          "magic_defense": 11,
+          "reforged": {
+            "physical_defense": 4,
+            "magic_defense": 16
+          },
+          "effects": [
+            "Blind Resistance",
+            "Paralysis Resistance",
+            "+3 Reason"
+          ],
+          "reforged_effects": [
+            "+4 Reason"
+          ]
+        },
+        {
+          "name": "Lion Helm",
+          "physical_defense": 8,
+          "magic_defense": 3,
+          "reforged": {
+            "physical_defense": 12,
+            "magic_defense": 4
+          },
+          "encumbrance": 1,
+          "movement_speed": -1,
+          "effects": [
+            "Blind Resistance"
+          ]
+        },
+        {
+          "name": "Headband",
+          "physical_defense": 2,
+          "magic_defense": 6,
+          "effects": [
+            "+1 MAG"
+          ]
+        },
+        {
+          "name": "Open Helm",
+          "physical_defense": 10,
+          "magic_defense": 4,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Hellenic Helm",
+          "physical_defense": 14,
+          "magic_defense": 6,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Tricorne",
+          "physical_defense": 4,
+          "magic_defense": 10,
+          "reforged": {
+            "physical_defense": 6,
+            "magic_defense": 15
+          }
+        },
+        {
+          "name": "Closed Helm",
+          "physical_defense": 21,
+          "magic_defense": 10,
+          "effects": [
+            "Blind Resistance"
+          ]
+        },
+        {
+          "name": "Magician’s Cap",
+          "physical_defense": 7,
+          "magic_defense": 14,
+          "reforged": {
+            "physical_defense": 12,
+            "magic_defense": 25
+          },
+          "effects": [
+            "+2 MAG"
+          ],
+          "reforged_effects": [
+            "+3 MAG"
+          ]
+        },
+        {
+          "name": "Fire Circlet",
+          "physical_defense": 24,
+          "magic_defense": 13,
+          "encumbrance": 1,
+          "movement_speed": -1,
+          "effects": [
+            "Fire Resistance"
+          ]
+        },
+        {
+          "name": "Sublime Cap",
+          "physical_defense": 0,
+          "magic_defense": 2,
+          "reforged": {
+            "magic_defense": 37
+          },
+          "encumbrance": 10,
+          "movement_speed": -10,
+          "effects": [
+            "+1 STA"
+          ],
+          "reforged_effects": [
+            "+2 STA"
+          ],
+          "location": "Triton (Comroon Strait)",
+          "source_note": "The source says forged for the +2 STA bonus."
+        },
+        {
+          "name": "Rainbow Cap",
+          "physical_defense": 6,
+          "magic_defense": 48,
+          "reforged": {
+            "physical_defense": 7,
+            "magic_defense": 57
+          },
+          "effects": [
+            "Fire Resistance",
+            "Water Resistance"
+          ]
+        },
+        {
+          "name": "Mighty Helm",
+          "physical_defense": 18,
+          "magic_defense": 9,
+          "reforged": {
+            "physical_defense": 19
+          },
+          "encumbrance": 1,
+          "movement_speed": -1,
+          "effects": [
+            "+1 STR"
+          ],
+          "reforged_effects": [
+            "+2 STR"
+          ],
+          "location": "Dropped by Triton (Comroon Strait)"
+        },
+        {
+          "name": "Fire Circlet",
+          "physical_defense": 24,
+          "magic_defense": 13,
+          "reforged": {
+            "physical_defense": 28,
+            "magic_defense": 15
+          },
+          "encumbrance": 1,
+          "movement_speed": -1,
+          "source_note": "Second Fire Circlet entry, retained separately as supplied."
+        },
+        {
+          "name": "Ironwill",
+          "physical_defense": 13,
+          "magic_defense": 12,
+          "encumbrance": 1,
+          "movement_speed": -1,
+          "effects": [
+            "Confusion Resistance",
+            "Charm Resistance",
+            "Madness Resistance"
+          ],
+          "location": "Comes equipped on a Mole class character when first recruiting."
+        },
+        {
+          "name": "Straw Beret",
+          "physical_defense": 5,
+          "magic_defense": 12
+        },
+        {
+          "name": "Waterfowl Hat",
+          "physical_defense": 8,
+          "magic_defense": 30,
+          "effects": [
+            "Water Resistance",
+            "+1 DEX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arms",
+      "name": "Arms",
+      "items": [
+        {
+          "name": "Knuckle Brace",
+          "physical_defense": 5,
+          "magic_defense": 1,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "White Gloves",
+          "physical_defense": 4,
+          "magic_defense": 5,
+          "reforged": {
+            "physical_defense": 6,
+            "magic_defense": 7
+          },
+          "effects": [
+            "+1 DEX"
+          ],
+          "reforged_effects": [
+            "+2 DEX"
+          ]
+        },
+        {
+          "name": "Gauntlets",
+          "physical_defense": 8,
+          "magic_defense": 5,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Vambraces",
+          "physical_defense": 15,
+          "magic_defense": 5,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Mastery Gloves",
+          "physical_defense": 16,
+          "magic_defense": 11,
+          "encumbrance": 1,
+          "movement_speed": -1,
+          "effects": [
+            "+2 DEX"
+          ]
+        },
+        {
+          "name": "Mitaines",
+          "physical_defense": 4,
+          "magic_defense": 10,
+          "effects": [
+            "Fire Resistance"
+          ]
+        },
+        {
+          "name": "Oven Mitts",
+          "physical_defense": "x",
+          "magic_defense": "x",
+          "effects": [
+            "Fire Resistance"
+          ]
+        },
+        {
+          "name": "Uncanny Gloves",
+          "physical_defense": 8,
+          "magic_defense": 8,
+          "reforged": {
+            "physical_defense": 12,
+            "magic_defense": 12
+          },
+          "effects": [
+            "+2 STR"
+          ],
+          "reforged_effects": [
+            "+3 STR"
+          ],
+          "location": "Silver Beat drops Power Belt & Uncanny Gloves (Castle Hokuro)."
+        },
+        {
+          "name": "Beast Gauntlets",
+          "physical_defense": 30,
+          "magic_defense": 20,
+          "encumbrance": 1,
+          "movement_speed": -1,
+          "effects": [
+            "+5 STR"
+          ],
+          "unique_techniques": [
+            {
+              "name": "Beastking Avalanche",
+              "potency": 15,
+              "target": "single target",
+              "element": "Earth"
+            },
+            {
+              "name": "Headbutt",
+              "potency": 33,
+              "target": "all",
+              "element": "Earth"
+            }
+          ],
+          "notes": "Has two unique Martial Art techniques.",
+          "location": "Phantom Dantarg if you beat him in 5 rounds"
+        }
+      ]
+    },
+    {
+      "id": "legs",
+      "name": "Legs",
+      "items": [
+        {
+          "name": "Leather Greaves",
+          "physical_defense": 6,
+          "magic_defense": 0,
+          "encumbrance": 1,
+          "movement_speed": -1
+        },
+        {
+          "name": "Rubber Soles",
+          "physical_defense": 8,
+          "magic_defense": 10,
+          "reforged": {
+            "physical_defense": 10,
+            "magic_defense": 13
+          },
+          "movement_speed": 1,
+          "reforged_effects": [
+            "Movement Speed +2",
+            "+2 SPD"
+          ],
+          "effects": [
+            "+1 SPD"
+          ],
+          "location": "Shade in that Japan castle once you kill the boss they no longer spawn. Also an Exam reward and in a chest in the back of the Dragon Lair."
+        },
+        {
+          "name": "Magician’s Boots",
+          "physical_defense": 9,
+          "magic_defense": 12,
+          "reforged": {
+            "physical_defense": 11,
+            "magic_defense": 15
+          },
+          "effects": [
+            "+1 MAG"
+          ],
+          "reforged_effects": [
+            "+2 MAG"
+          ]
+        },
+        {
+          "name": "Feather Boots",
+          "physical_defense": 15,
+          "magic_defense": 10,
+          "reforged": {
+            "physical_defense": 18,
+            "magic_defense": 12,
+            "movement_speed": 4
+          },
+          "movement_speed": 3,
+          "effects": [
+            "+3 SPD"
+          ],
+          "reforged_effects": [
+            "+4 SPD"
+          ]
+        },
+        {
+          "name": "Heeled Sandals",
+          "physical_defense": 6,
+          "magic_defense": 3,
+          "reforged": {
+            "physical_defense": 12,
+            "magic_defense": 6
+          },
+          "unique_techniques": [
+            {
+              "name": "Trample",
+              "type": "Martial Art",
+              "details": "Deals more damage the more HP the character has."
+            }
+          ],
+          "location": "Comes equipped on Vagabond F when first recruiting"
+        },
+        {
+          "name": "Quicksilver",
+          "physical_defense": 14,
+          "magic_defense": 12,
+          "encumbrance": 1,
+          "movement_speed": 1,
+          "effects": [
+            "+2 SPD"
+          ],
+          "notes": "The source also mentions a Potency Ring: boosts TP gained for the entire party if a character is wearing it; it is in a Den of Umbrage chest. It separately notes a Bejeweled Ring in a Castle Hakuro chest on the first visit, which must be obtained before beating the boss or it becomes unobtainable. The effect will stack if multiple rings are equipped on different characters."
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "items": [
+        {
+          "name": "Shiyuan’s Tactical Primer",
+          "physical_defense": 5,
+          "magic_defense": 5,
+          "effects": [
+            "Wearer earns 10% more TP from battles until the first Time Skip event after Gerard’s Golden Armor Phase (until Generation 3)."
+          ]
+        },
+        {
+          "name": "Cat’s Amulet",
+          "physical_defense": 5,
+          "magic_defense": 5,
+          "effects": [
+            "Earns 10% more Crowns from battles until the first Time Skip event after Gerard’s Golden Armor Phase (until Generation 3)."
+          ]
+        },
+        {
+          "name": "Cat’s Eye",
+          "physical_defense": 6,
+          "magic_defense": 15,
+          "effects": [
+            "+1 SPD",
+            "Blind Resistance"
+          ],
+          "location": "Sorcerer, Rocbouquet"
+        },
+        {
+          "name": "Kris Knife",
+          "physical_defense": 0,
+          "magic_defense": 8
+        },
+        {
+          "name": "Silver Ring",
+          "physical_defense": 2,
+          "magic_defense": 6,
+          "effects": [
+            "Sleep Resistance",
+            "+1 MAG"
+          ]
+        },
+        {
+          "name": "Rabbit’s Foot",
+          "physical_defense": 1,
+          "magic_defense": 7,
+          "effects": [
+            "Sleep Resistance",
+            "+1 Reason (Intelligence)"
+          ]
+        },
+        {
+          "name": "Somon Ring",
+          "physical_defense": 2,
+          "magic_defense": 7,
+          "effects": [
+            "Confuse Resistance",
+            "Charm Resistance",
+            "Madness Resistance"
+          ]
+        },
+        {
+          "name": "Candy Ring",
+          "physical_defense": 2,
+          "magic_defense": 10,
+          "effects": [
+            "+3 Reason (Intelligence)"
+          ],
+          "location": "Gel Matter (Avalon Sewers)"
+        },
+        {
+          "name": "Ring of Nibel",
+          "physical_defense": 4,
+          "magic_defense": 5,
+          "effects": [
+            "+2 STA"
+          ]
+        },
+        {
+          "name": "Starstone",
+          "physical_defense": 3,
+          "magic_defense": 9,
+          "effects": [
+            "+2 MAG"
+          ]
+        },
+        {
+          "name": "Earth Ring",
+          "physical_defense": 0,
+          "magic_defense": 15,
+          "effects": [
+            "Allows character to heal from Earth leylines at the end of the battle round."
+          ],
+          "notes": "The English localization tooltip is incorrect. It does NOT give Earth Resistance."
+        },
+        {
+          "name": "Water Ring",
+          "physical_defense": 0,
+          "magic_defense": 15,
+          "effects": [
+            "Allows character to heal from Water leylines at the end of the battle round."
+          ],
+          "notes": "The English localization tooltip is incorrect. It does NOT give Water Resistance.",
+          "location": "On top of a house in Zemio (Volcano cannot have erupted yet)"
+        },
+        {
+          "name": "Flame Ring",
+          "physical_defense": 0,
+          "magic_defense": 15,
+          "effects": [
+            "Allows character to heal from Fire leylines at the end of the battle round."
+          ],
+          "notes": "The English localization tooltip is incorrect. It does NOT give Fire Resistance."
+        },
+        {
+          "name": "Wind Ring",
+          "physical_defense": 0,
+          "magic_defense": 15,
+          "effects": [
+            "Allows character to heal from Wind leylines at the end of the battle round."
+          ],
+          "notes": "The English localization tooltip is incorrect. It does NOT give Wind Resistance."
+        },
+        {
+          "name": "Power Ring",
+          "physical_defense": 0,
+          "magic_defense": 15,
+          "effects": [
+            "+4 STR"
+          ],
+          "location": "Hilda Ruins"
+        },
+        {
+          "name": "Darkstone Ring",
+          "physical_defense": 0,
+          "magic_defense": 30,
+          "effects": [
+            "Confuse Resistance",
+            "Charm Resistance",
+            "Madness Resistance",
+            "+3 MAG"
+          ],
+          "notes": "WARNING: If worn by a character while resting at an inn or bedchambers, it drains 1 LP from all party members and gives it to the wearer’s LP pool. Somber music accompanies this. Always unequip the ring before resting at inns.",
+          "location": "Created by an NPC in Mole Den as part of a quest involving the Gemstone Mines 2nd phase."
+        },
+        {
+          "name": "Magic Ring",
+          "physical_defense": 0,
+          "magic_defense": 10,
+          "effects": [
+            "+4 MAG"
+          ]
+        },
+        {
+          "name": "Bejeweled Ring",
+          "physical_defense": 5,
+          "magic_defense": 5,
+          "effects": [
+            "Significantly increases the chance of enemies dropping loot at the end of battle."
+          ],
+          "location": "A chest in Castle Hakuro before the floating castle phase. Chest is no longer accessible after the floating castle phase begins."
+        },
+        {
+          "name": "Demon Ring",
+          "physical_defense": 2,
+          "magic_defense": 16,
+          "effects": [
+            "Confuse Resistance",
+            "Charm Resistance",
+            "Madness Resistance"
+          ],
+          "location": "Comes equipped with a Diviner class character when first recruited."
+        },
+        {
+          "name": "Dash Ring",
+          "physical_defense": 8,
+          "magic_defense": 10,
+          "movement_speed": 2,
+          "effects": [
+            "+2 SPD"
+          ],
+          "location": "Comes equipped with a Ninja class character when first recruited."
+        },
+        {
+          "name": "Mellow Ring",
+          "physical_defense": 4,
+          "magic_defense": 14,
+          "effects": [
+            "Water Resistance",
+            "+1 MAG"
+          ],
+          "location": "Comes equipped with a Neirad class character when first recruited."
+        },
+        {
+          "name": "Thief Ring",
+          "physical_defense": 0,
+          "magic_defense": 10,
+          "effects": [
+            "+4 DEX"
+          ]
+        },
+        {
+          "name": "Entite Ring",
+          "physical_defense": 5,
+          "magic_defense": 20,
+          "effects": [
+            "+2 MAG"
+          ]
+        },
+        {
+          "name": "Intaglio Ring",
+          "physical_defense": 10,
+          "magic_defense": 10,
+          "effects": [
+            "Poison Resistance",
+            "Blind Resistance",
+            "Sleep Resistance",
+            "Paralysis Resistance",
+            "Confuse Resistance",
+            "Charm Resistance",
+            "Madness Resistance"
+          ]
+        },
+        {
+          "name": "Quickness Ring",
+          "physical_defense": 0,
+          "magic_defense": 10,
+          "movement_speed": 4,
+          "effects": [
+            "+4 SPD"
+          ]
+        },
+        {
+          "name": "Potency Ring",
+          "physical_defense": 5,
+          "magic_defense": 5,
+          "effects": [
+            "The wearer gains 50% more TP from battles."
+          ],
+          "location": "Den of Umbrage"
+        }
+      ]
+    }
+  ]
+}
