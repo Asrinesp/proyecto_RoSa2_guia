@@ -1,0 +1,422 @@
+/* =========================================================
+   Romancing SaGa 2 — Dracula Theme
+   Hoja compartida por todas las páginas
+   ========================================================= */
+
+:root {
+  --bg: #282a36;
+  --bg-dark: #21222c;
+  --bg-panel: #343746;
+  --line: #44475a;
+  --fg: #f8f8f2;
+  --comment: #a0a8c5;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --red: #ff5555;
+  --yellow: #f1fa8c;
+
+  --sidebar-width: 270px;
+  --sidebar-collapsed-width: 76px;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  min-height: 100%;
+  background: var(--bg);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a { color: var(--cyan); }
+
+a:focus-visible,
+label:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+/* ---------- Menú lateral compartido ---------- */
+
+.menu-toggle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+.sidebar {
+  position: fixed;
+  z-index: 20;
+  inset: 0 auto 0 0;
+  display: flex;
+  flex-direction: column;
+  width: var(--sidebar-width);
+  padding: 1.25rem 1rem 1rem;
+  overflow-y: auto;
+  background: var(--bg-dark);
+  border-right: 1px solid var(--line);
+  transition: width 0.22s ease, transform 0.22s ease;
+}
+
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 58px;
+  margin-bottom: 1.4rem;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid var(--purple);
+  border-radius: 9px;
+  color: var(--purple);
+  font-family: var(--font-mono);
+  font-weight: 700;
+}
+
+.brand-copy { min-width: 0; }
+.brand-copy strong {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+.brand-copy small {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--comment);
+  font-size: 0.72rem;
+}
+
+.sidebar-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 42px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--comment);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  user-select: none;
+}
+.sidebar-toggle:hover {
+  border-color: var(--purple);
+  color: var(--fg);
+}
+.toggle-icon {
+  width: 1.2rem;
+  color: var(--purple);
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.site-nav { margin-top: 1.8rem; }
+.nav-heading {
+  display: block;
+  margin: 0 0 0.65rem 0.7rem;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+}
+
+.site-nav ul {
+  display: grid;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 44px;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--fg);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.site-nav a:hover {
+  background: var(--bg-panel);
+  border-color: var(--line);
+  color: var(--pink);
+}
+.site-nav a[aria-current="page"] {
+  background: rgb(189 147 249 / 10%);
+  border-color: rgb(189 147 249 / 35%);
+  color: var(--green);
+}
+.nav-symbol {
+  display: inline-grid;
+  flex: 0 0 1.25rem;
+  place-items: center;
+  color: var(--purple);
+  font-size: 1rem;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding: 1.25rem 0.5rem 0.2rem;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.1em;
+}
+.sidebar-footer span { color: var(--green); }
+
+/* Menú contraído en escritorio */
+#menu-toggle:checked ~ .sidebar {
+  width: var(--sidebar-collapsed-width);
+  padding-inline: 0.85rem;
+}
+#menu-toggle:checked ~ .sidebar .brand-copy,
+#menu-toggle:checked ~ .sidebar .toggle-text,
+#menu-toggle:checked ~ .sidebar .nav-heading,
+#menu-toggle:checked ~ .sidebar .site-nav .nav-label,
+#menu-toggle:checked ~ .sidebar .sidebar-footer {
+  display: none;
+}
+#menu-toggle:checked ~ .sidebar .sidebar-brand,
+#menu-toggle:checked ~ .sidebar .sidebar-toggle,
+#menu-toggle:checked ~ .sidebar .site-nav a {
+  justify-content: center;
+}
+#menu-toggle:checked ~ .sidebar .site-nav a { padding-inline: 0.4rem; }
+#menu-toggle:checked ~ .sidebar .nav-symbol {
+  flex-basis: auto;
+  font-size: 1.15rem;
+}
+
+/* El contenido deja espacio para el menú */
+.page-content {
+  min-height: 100vh;
+  margin-left: var(--sidebar-width);
+  padding: 3.2rem clamp(1.5rem, 5vw, 4.5rem) 4rem;
+  transition: margin-left 0.22s ease;
+}
+#menu-toggle:checked ~ .page-content {
+  margin-left: var(--sidebar-collapsed-width);
+}
+
+.menu-backdrop { display: none; }
+
+/* ---------- Cabeceras y contenido común ---------- */
+
+.page-header {
+  width: min(100%, 1050px);
+  margin: 0 auto 3.2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.eyebrow {
+  margin: 0 0 0.65rem;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+}
+
+.site-title {
+  margin: 0;
+  color: var(--purple);
+  font-family: var(--font-mono);
+  font-size: clamp(1.7rem, 4.5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.site-title span { color: var(--fg); }
+
+.site-subtitle {
+  max-width: 680px;
+  margin: 1rem 0 0;
+  color: var(--comment);
+  font-size: 1.05rem;
+}
+
+.home-section {
+  width: min(100%, 1050px);
+  margin-inline: auto;
+}
+.section-heading { margin-bottom: 1.25rem; }
+.section-heading h2 {
+  margin: 0;
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: clamp(1.25rem, 3vw, 1.7rem);
+}
+
+/* Tarjetas del índice */
+.sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-link {
+  display: block;
+  height: 100%;
+  padding: 1.1rem 1.25rem 1.2rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent, var(--purple));
+  border-radius: 7px;
+  color: var(--fg);
+  text-decoration: none;
+  transition: background-color 0.15s, border-color 0.15s, transform 0.15s;
+}
+.section-link:hover {
+  background: var(--bg-panel);
+  border-color: var(--accent, var(--purple));
+  transform: translateY(-2px);
+}
+.section-link:focus-visible {
+  outline: 2px solid var(--accent, var(--purple));
+  outline-offset: 3px;
+}
+.section-name {
+  display: block;
+  color: var(--accent, var(--purple));
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.section-file {
+  display: block;
+  margin-top: 0.1rem;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+.section-desc {
+  display: block;
+  margin-top: 0.6rem;
+  color: var(--fg);
+}
+
+/* Estilos base útiles para el contenido de las páginas interiores */
+.page-body {
+  width: min(100%, 1050px);
+  margin-inline: auto;
+}
+.page-body h2,
+.page-body h3 {
+  color: var(--purple);
+  font-family: var(--font-mono);
+}
+.page-body a { color: var(--cyan); }
+
+/* ---------- Adaptación a móviles ---------- */
+
+@media (max-width: 760px) {
+  .sidebar {
+    width: min(var(--sidebar-width), 86vw);
+    transform: translateX(-100%);
+    box-shadow: 12px 0 35px rgb(0 0 0 / 25%);
+  }
+
+  /* En móvil, el menú empieza cerrado y se abre con el botón ☰ */
+  #menu-toggle:checked ~ .sidebar {
+    width: min(var(--sidebar-width), 86vw);
+    padding-inline: 1rem;
+    transform: translateX(0);
+  }
+  #menu-toggle:checked ~ .sidebar .brand-copy,
+  #menu-toggle:checked ~ .sidebar .toggle-text,
+  #menu-toggle:checked ~ .sidebar .nav-heading,
+  #menu-toggle:checked ~ .sidebar .site-nav .nav-label,
+  #menu-toggle:checked ~ .sidebar .sidebar-footer {
+    display: initial;
+  }
+  #menu-toggle:checked ~ .sidebar .sidebar-brand,
+  #menu-toggle:checked ~ .sidebar .sidebar-toggle,
+  #menu-toggle:checked ~ .sidebar .site-nav a {
+    justify-content: flex-start;
+  }
+  #menu-toggle:checked ~ .sidebar .site-nav a { padding-inline: 0.75rem; }
+  #menu-toggle:checked ~ .sidebar .nav-symbol {
+    flex-basis: 1.25rem;
+  }
+
+  .page-content,
+  #menu-toggle:checked ~ .page-content {
+    margin-left: 0;
+    padding: 5.5rem 1.1rem 2.5rem;
+  }
+
+  /* Botón flotante para abrir/cerrar el menú */
+  .sidebar-toggle {
+    position: relative;
+  }
+  body::before {
+    content: "☰  MENÚ";
+    position: fixed;
+    z-index: 15;
+    top: 0.8rem;
+    left: 0.8rem;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--bg-dark);
+    color: var(--fg);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    pointer-events: none;
+  }
+  .menu-backdrop {
+    position: fixed;
+    z-index: 18;
+    inset: 0;
+    background: rgb(0 0 0 / 55%);
+  }
+  #menu-toggle:checked ~ .menu-backdrop { display: block; }
+  #menu-toggle:checked ~ .sidebar { z-index: 20; }
+  .sidebar .sidebar-toggle { display: none; }
+  #menu-toggle:checked ~ .sidebar .sidebar-toggle { display: flex; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
