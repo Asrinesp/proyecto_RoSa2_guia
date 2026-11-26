@@ -1,0 +1,602 @@
+{
+  "id": "gen10",
+  "title": "Generación X: Final Emperor",
+  "subtitle": "Termitas, Kzinssie, Subier, Noel y los Siete Héroes",
+  "intro": [
+    "El personaje que elegiste y nombraste al inicio de la partida ya está disponible como Emperador.",
+    "Antes de ir a por Kzinssie, ocúpate de la infestación de termitas (The Queen’s Revenge): es un evento oculto sensible al tiempo.",
+    "El orden recomendado es: Real Queen, Goblin Statue, Kzinssie, Subier, The Ghost of Avalon, Snowdrifts, Den of Umbrage, Noel y los Siete Héroes.",
+    "Tras derrotar a los Siete Héroes verás el final, desbloquearás el tercer hueco de habilidad de clase para todos los personajes y podrás guardar tus datos de postjuego."
+  ],
+  "missions": [
+    {
+      "id": "gen10-preparation",
+      "title": "Preparación del Final Emperor",
+      "location": "Avalon · Throne Room · Bedchambers · Training Hall",
+      "status": "pending",
+      "objectives": [
+        "Elige como Emperador al personaje que escogiste y nombraste al inicio de la partida.",
+        "Ve las escenas de herencia y la carta de Kzinssie resucitado (NO vayas todavía a la Sealed Cave).",
+        "Usa el Trono para mejorar la Smithy a lv4 y la Imperial University a lv3.",
+        "Sube a los aposentos reales, haz clic en la luz roja bajo el retrato de Leon en su dormitorio y aprende la habilidad Giant Killer (+5 a todas las estadísticas en combates contra jefes).",
+        "Ajusta el grupo y el equipo.",
+        "Usa la espada única del Final Emperor (Dayblade si es masculino, Moonlight si es femenino) para provocar sus técnicas, manteniendo Martial Arts como secundaria para usar Berserk.",
+        "Equipa las habilidades Poker Face (inmunidad a Madness y a todos los estados), Tough Hide y Survivor.",
+        "Habla con el NPC de Formaciones en el Training Hall para conseguir la Formación Imperial Force.",
+        "Mantén la Formación Imperial Arrow con el Emperador de tanque y el mismo grupo que derrotó a Wagnas.",
+        "Ve a la entrada de Avalon y corre a la fuente frente al castillo; habla con los dos niños con burbuja de diálogo (sin indicador normal).",
+        "Recibe la 10-Crown Piece y las Thousand Cranes (consumibles que restauran por completo el BP de todo el grupo)."
+      ],
+      "warnings": [
+        "La primera tarea es ocuparte del evento de la infestación de termitas: ir a por Kzinssie como dirige el juego te lo haría pagar.",
+        "Evita las batallas hasta terminar The Queen’s Revenge: estás en un temporizador de eventos.",
+        "Dayblade tiene Day Light por defecto, un hechizo basado en MAG que solo funciona contra no-muertos y es bastante malo. Holy Light estará disponible en el Holy Buster que conseguiste antes.",
+        "Moonlight Blade da la técnica Lunar Blade: ataque basado en STR de agua contra todos los enemigos.",
+        "Más adelante puedes provocar las técnicas únicas de la Storm Dragon de la entrada de Nival Ruins, pero por ahora evita batallas.",
+        "Si el Final Emperor pierde todo su LP, otro personaje se sacrificará, morirá permanentemente y saldrá del grupo de personajes para revivir al Emperador con todo su LP. Con esta guía nunca debería pasar.",
+        "Imperial Force reduce la defensa para aumentar el ataque; la velocidad es mejor que el daño extra."
+      ],
+      "party_setup": [
+        "Emperador (Final Emperor): tanque.",
+        "Ninja.",
+        "Diviner.",
+        "Strategist.",
+        "Crusader F."
+      ],
+      "loot": [
+        "10-Crown Piece",
+        "Thousand Cranes"
+      ],
+      "notes": [
+        "Habilidad única Giant Killer: +5 a todas las estadísticas en combates contra jefes."
+      ]
+    },
+    {
+      "id": "coppelias-ability",
+      "title": "Coppelia’s Ability",
+      "location": "Avalon · Throne Room · Storeroom",
+      "status": "pending",
+      "objectives": [
+        "Ve al almacén del salón del trono.",
+        "Interactúa con el cuerpo de Coppelia para obtener la habilidad Poker Face."
+      ]
+    },
+    {
+      "id": "the-queens-revenge",
+      "title": "The Queen’s Revenge – Hidden Time Sensitive Quest",
+      "location": "Avalon Sewers · Avalon Catacombs · Avalon Termite Den",
+      "status": "pending",
+      "objectives": [
+        "Ve a la parte trasera del exterior de la Incantation Lab y corre a la sala donde luchaste contra el Deep One en Avalon Sewers.",
+        "Entra en la siguiente sala, Avalon Catacombs, y avanza por el nuevo camino junto a las tumbas hasta el Avalon Termite Den.",
+        "Evita enemigos por el camino: cada batalla (aunque escapes) avanza el evento de las termitas; mantente por debajo de 12 batallas.",
+        "En el túnel, abre el cofre con la Sunlight Robe.",
+        "Llega al punto de guardado y de BP.",
+        "Derrota a la Real Queen (True Queen en el original).",
+        "Comprueba que Avalon queda a salvo de la infestación."
+      ],
+      "warnings": [
+        "Esta misión debe hacerse antes que cualquier otra cosa: cada batalla hace avanzar el evento oculto y llena Avalon de termitas, matando a los ciudadanos.",
+        "Efectos por número de batallas: 0 = sin termitas, solo la Real Queen; 2 = termitas en la sala sobre su cámara; 6 = termitas en el cementerio de las alcantarillas; 12 = termitas infectan a los NPC del gremio de ladrones; 14 = termitas en las alcantarillas; 18 = el NPC de la tienda de armas se convierte en termita; 24 = toda la ciudad infestada.",
+        "Si las termitas toman la ciudad, The Ghost of Avalon se vuelve imposible.",
+        "La Real Queen es débil a Swords, Greatswords, Axes, Clubs y Water; usa ataques Shadow, Supersonic y Gaze. Es muy vulnerable a Stun: puedes dejarla sin actuar aturdiéndola cada turno; si no, lanza muchos debuffs, incluido Charm.",
+        "En su 2º o 3er turno usa Spawn e invoca termitas: ignóralas y abátela."
+      ],
+      "boss": {
+        "name": "Real Queen",
+        "weaknesses": [
+          "Swords",
+          "Greatswords",
+          "Axes",
+          "Clubs",
+          "Water"
+        ],
+        "attacks": [
+          "Ataques Shadow",
+          "Supersonic",
+          "Gaze",
+          "Spawn"
+        ]
+      },
+      "loot": [
+        "Sunlight Robe"
+      ],
+      "notes": [
+        "La Real Queen explica que su predecesora infectó con parásitos al Emperador que mató a la Termite Queen original, que fue enterrado en las catacumbas y creció con el tiempo."
+      ]
+    },
+    {
+      "id": "goblin-hideaway-disturbance",
+      "title": "Goblin Hideaway Disturbance",
+      "location": "Goblin Hideaway",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Goblin Hideaway y corre por la mazmorra.",
+        "Llega a la sala de la estatua gigante del Rey Goblin donde ocurrió el jefe del prólogo: la estatua cobra vida.",
+        "Derrota a la Goblin Statue.",
+        "Vuelve al Training Hall y habla con el NPC de Formaciones para desbloquear la Formación Goblin."
+      ],
+      "warnings": [
+        "Goblin Statue es débil a Axes, Clubs, Martial Arts, Water y Wind; resiste todos los estados salvo Poison y Stun; usa Stone Shower y técnicas de espada.",
+        "Usa Nutcracker e Ill Storm (envenenar) y quémala con tus luchadores.",
+        "La Formación Goblin aumenta el daño a distancia y la velocidad de los luchadores de primera línea, y el daño cuerpo a cuerpo de los de atrás; poco útil salvo para el truco Phantom Chivalry con Yo-Yo."
+      ],
+      "boss": {
+        "name": "Goblin Statue",
+        "weaknesses": [
+          "Axes",
+          "Clubs",
+          "Martial Arts",
+          "Water",
+          "Wind"
+        ],
+        "resistances": [
+          "Todos los estados salvo Poison y Stun"
+        ],
+        "attacks": [
+          "Stone Shower",
+          "Técnicas de espada"
+        ]
+      },
+      "loot": [
+        "Goblin formation scroll"
+      ],
+      "notes": [
+        "Ahora puedes ocuparte de Subier o Kzinssie antes de Noel; se recomienda matar a Kzinssie, luego a Subier y luego a Noel."
+      ]
+    },
+    {
+      "id": "kzinssies-return",
+      "title": "Kzinssie’s Return",
+      "location": "Training Hall · Sealed Cave",
+      "status": "pending",
+      "enemies": [
+        "Dullahan",
+        "Skull Demon",
+        "Great Scissor",
+        "Skull Lord",
+        "Rot Dragon",
+        "Blood Sucker",
+        "Deep One",
+        "Crab Rider",
+        "Chesterton",
+        "Scarlet",
+        "Water Faerie",
+        "Pathos"
+      ],
+      "objectives": [
+        "Ve al Training Hall y pon la evasión de Soulsteal y de Terror Voice en todos los personajes.",
+        "Opcional: Missile Shield en un lanzador de apoyo y hechizos específicos contra no-muertos (Flash Fire en el Strategist).",
+        "Teletranspórtate a la Sealed Cave.",
+        "Sigue el marcador hasta el círculo de pilares de piedra y actívalos para teletransportarte a Sealed Cave - Underground.",
+        "Detrás del pilar recoge el brillo de Obsidian.",
+        "Abre el cofre con 250,000 Crowns antes de entrar en el túnel indicado.",
+        "En la siguiente sala, baja junto a un pilar para el brillo de Magical Claw y sube por las enredaderas.",
+        "En el rincón este de la sala hay un pasadizo secreto con un cofre con 3 Mythical Claw.",
+        "Sigue los marcadores recogiendo botín y cofres al derrotar enemigos.",
+        "Abre el cofre con la Tiger Armor y el de la Black Galadriel (algo oculto en el foso con peces de la sala del Dullahan, antes de un punto de guardado).",
+        "Acércate a Kzinssie en la cámara del jefe para iniciar el combate.",
+        "Derrota a Kzinssie."
+      ],
+      "warnings": [
+        "La mazmorra está llena de no-muertos más fuertes que antes.",
+        "Kzinssie es débil a Greatswords, Shortswords, Bows, Fire y Light; resiste Shadow y todos los estados.",
+        "Invoca adds no-muertos (Blood Sucker, Pathos, Skull Lord) y usa Cyclone: quema los adds hasta que él te ataque directamente.",
+        "Mata rápido su cabeza de Goddess of the Netherrealms o usará Terror Voice. Usa Missile Shield contra su Cyclone.",
+        "También intenta cargar su espada: destrúyela con un ataque de Light de área como Flash Fire."
+      ],
+      "boss": {
+        "name": "Kzinssie",
+        "weaknesses": [
+          "Greatswords",
+          "Shortswords",
+          "Bows",
+          "Fire",
+          "Light"
+        ],
+        "resistances": [
+          "Shadow",
+          "Todos los estados"
+        ],
+        "attacks": [
+          "Cyclone",
+          "Terror Voice",
+          "Soulsteal"
+        ]
+      },
+      "loot": [
+        "Obsidian",
+        "Silver Ore",
+        "250,000 Crowns",
+        "Magical Claw",
+        "Tiger Armor",
+        "Black Galadriel",
+        "3 Mythical Claw"
+      ]
+    },
+    {
+      "id": "ruler-of-the-frozen-sea",
+      "title": "Ruler of the Frozen Sea",
+      "location": "Toba · Atlanticus · Mobelm · Nazelle’s Frozen Sea",
+      "status": "pending",
+      "objectives": [
+        "Asegúrate de que tu Strategist tiene Fire Wall.",
+        "Teletranspórtate a Toba y habla con el hombre del muelle con indicador.",
+        "Teletranspórtate a Atlanticus y habla con el hombre del muelle.",
+        "Ve a Mobelm, entra en el barco y habla con el capitán: dile que quieres pasaje al Frozen Sea.",
+        "Navega hasta el marcador (lucha contra los enemigos para llenar el Almanac).",
+        "En la cala, elige la segunda opción de diálogo para conocer la historia y prepárate.",
+        "Derrota a Subier."
+      ],
+      "warnings": [
+        "Subier estará probablemente en su segunda forma con el cuerpo del Narwhal.",
+        "Es débil a Swords, Shortswords, Spears, Axes, Fire y Wind; resiste todos los estados.",
+        "Abre su primer turno con Maelstrom: haz que el Strategist use Fire Wall antes. También usa Tidal Wave.",
+        "Usa ataques de lanza como Double Stab, Skewer, Divine Lancer y Spiral Charge: las evasiones contra ellos son útiles."
+      ],
+      "boss": {
+        "name": "Subier (segunda forma)",
+        "weaknesses": [
+          "Swords",
+          "Shortswords",
+          "Spears",
+          "Axes",
+          "Fire",
+          "Wind"
+        ],
+        "attacks": [
+          "Maelstrom",
+          "Tidal Wave",
+          "Double Stab",
+          "Skewer",
+          "Divine Lancer",
+          "Spiral Charge"
+        ]
+      }
+    },
+    {
+      "id": "the-ghost-of-avalon",
+      "title": "The Ghost of Avalon",
+      "location": "Avalon Castle · Bedchambers · Wandering Lake",
+      "status": "pending",
+      "objectives": [
+        "Comprueba que has derrotado a 6 Héroes y que Avalon no está infestada de termitas.",
+        "En el salón del trono (Avalon Castle 2F), ve a la sala oeste y habla con el ministro en la esquina.",
+        "Habla con las demás personas del castillo con indicadores de misión.",
+        "Ve a los Bedchambers y duerme.",
+        "Ve a la habitación de Victor.",
+        "Derrota a Victor.",
+        "Comprueba que obtienes la habilidad Perennial Victim.",
+        "Abre el cofre que aparece en tu dormitorio con el Intaglio Ring.",
+        "Opcional: teletranspórtate a Wandering Lake para encontrar a Sagzaar, que da información de trasfondo."
+      ],
+      "warnings": [
+        "Si Avalon fue invadida por termitas, esta misión es imposible de empezar y completar (por eso era importante matar a la Real Queen al principio).",
+        "Victor usa técnicas de espada: Sword Barrier funciona y es una forma barata de ganar. También puedes usar contraataques, o Mist Cover y varios Dragon Pulse y luego tu mejor ataque para matarlo de un golpe.",
+        "Perennial Victim hace que el personaje que la equipa sea más fácil de elegir como objetivo.",
+        "Con Poker Face, Somon Ring e Intaglio Ring puedes tener tres personajes cuerpo a cuerpo que usen el Berserk de artes marciales sin penalizaciones.",
+        "Noel se ha trasladado del Wandering Lake a la mazmorra final."
+      ],
+      "boss": {
+        "name": "Victor",
+        "weaknesses": [],
+        "attacks": [
+          "Técnicas de espada"
+        ]
+      },
+      "loot": [
+        "Intaglio Ring"
+      ]
+    },
+    {
+      "id": "the-final-battle-snowdrifts",
+      "title": "The Final Battle — Snowdrifts",
+      "location": "Snowdrifts",
+      "status": "pending",
+      "enemies": [
+        "Ado Bird",
+        "Skull Lord",
+        "Hellbeast",
+        "Snow Wyrm",
+        "Gluttonous Ogre",
+        "Helkdragon",
+        "Nue",
+        "Cyclops",
+        "Ice Dragon"
+      ],
+      "objectives": [
+        "Teletranspórtate a Snowdrifts.",
+        "En la segunda pantalla, en el acantilado del inicio, mirando las rocas moradas, encuentra al último Mr. S (facilita provocar nuevas técnicas y hechizos).",
+        "Abre el cofre con 180,000 Crowns junto al gran Snow Wyrm.",
+        "Sigue el marcador; verás un Giant Cyclops guardando la entrada de una cueva: no vayas aún.",
+        "Ve a la derecha y sigue el rastro de luz hasta el último Memory of the Seven Heroes.",
+        "Vuelve a la cueva anterior (no la gigante), lucha contra dos Helkdragon y entra en el acantilado; derrota al Nue y abre el cofre con Anima Draught.",
+        "Baja el acantilado y derrota al Cyclops (vulnerable a Poison, Stun, Sleep y otros).",
+        "Entra en la cueva y abre el cofre con el Quickness Ring.",
+        "Vuelve al marcador y abre el cofre con el Wind Ring en la cornisa junto al siguiente dragón.",
+        "Pasa un Ice Dragon volador que bloquea el camino y abre el cofre con 270,000 Crowns a tu derecha.",
+        "Avanza por otro Cyclops y otro Ice Dragon junto al brillo de Avalonia.",
+        "Llega al punto de guardado y de BP y recoge el brillo de Magnificent Horn antes de entrar en Den of Umbrage."
+      ],
+      "warnings": [
+        "Muchos enemigos son no-muertos: Flash Fire los destruye.",
+        "El Gluttonous Ogre (monstruo con aspecto de león) es algo resistente, pero manejable.",
+        "Den of Umbrage aparece ya como zona propia en el mapa mundial: puedes salir y volver."
+      ],
+      "loot": [
+        "180,000 Crowns",
+        "Anima Draught",
+        "Quickness Ring",
+        "Superior Cloth",
+        "Wind Ring",
+        "270,000 Crowns",
+        "Avalonia",
+        "Magnificent Horn"
+      ]
+    },
+    {
+      "id": "den-of-umbrage-1",
+      "title": "Den of Umbrage — Nivel 1",
+      "location": "Den of Umbrage",
+      "status": "pending",
+      "enemies": [
+        "Ado Bird",
+        "Garm",
+        "Nighthead",
+        "Hulion",
+        "Termite Battler",
+        "Medusa",
+        "Nighthawk"
+      ],
+      "objectives": [
+        "Si no tienes Temptation (evasión) en todos tus personajes masculinos, vuelve atrás y equípala.",
+        "Recorre la primera planta recogiendo cofres; el primero en una cornisa tiene Mythical Claw.",
+        "Derrota al Kaiser Ant que bloquea el camino (Axe, Club, Water, Earth).",
+        "Antes del punto de guardado, salta del camino roto a la derecha, sube al pilar de piedra y recoge el Superior Cloth.",
+        "Baja y avanza hasta el punto de guardado.",
+        "Al oeste, un Hulion guarda un cofre con Mottled Ore.",
+        "Sube el camino y derrota al miniboss Vritra.",
+        "Guarda antes de avanzar y entra al teletransportador para llegar al nivel 2."
+      ],
+      "warnings": [
+        "Vritra es débil a Greatswords, Spears y Fists: quémalo con Shadow Clone, Light Wall y Berserk / Dragon Pulse y haz Unity con Guanyin con el Emperador y la Ninja; en Expert / Romancing tardará unos turnos.",
+        "Podrías farmearlo para un Hydrasuit, pero no es mejor que el Power Belt+.",
+        "Tras el teletransportador podrás hacer viaje rápido a esta fase."
+      ],
+      "boss": {
+        "name": "Vritra",
+        "weaknesses": [
+          "Greatswords",
+          "Spears",
+          "Fists"
+        ]
+      },
+      "loot": [
+        "Mythical Claw",
+        "Superior Cloth",
+        "Mottled Ore"
+      ]
+    },
+    {
+      "id": "den-of-umbrage-2",
+      "title": "Den of Umbrage — Nivel 2",
+      "location": "Den of Umbrage",
+      "status": "pending",
+      "enemies": [
+        "Deep One",
+        "Robin",
+        "Plesiosaur",
+        "Gold Baum",
+        "Nightmare",
+        "Gluttonous Ogre",
+        "Storm Wyrm",
+        "Gorgon"
+      ],
+      "objectives": [
+        "Explora la zona (más acuática) y abre el cofre con la Heavy Suit.",
+        "Sigue el camino, baja la pequeña cornisa y verás un dragón bloqueando: ignóralo y corre recto.",
+        "Mata a los hombres conejo y abre su cofre con el Potency Ring (+50% de TP ganado).",
+        "Derrota al siguiente dragón, sube por las enredaderas, ve a la izquierda del todo y sube de nuevo para el Barrier Stone junto al pilar.",
+        "Usa el minimapa y llega al cofre bajo un árbol en lo alto de la colina, cerca del siguiente punto de guardado, con 270,000 Crowns.",
+        "Derrota al miniboss Insect Queen.",
+        "Comprueba que se desbloquea el nivel 3 en el mapa mundial."
+      ],
+      "warnings": [
+        "Insect Queen resiste todos los elementos pero es débil a todas las armas excepto Fists; inmune a todos los estados.",
+        "Usa Heatwave (reduce tu velocidad), Ghost Light y Fire Ball II."
+      ],
+      "boss": {
+        "name": "Insect Queen",
+        "weaknesses": [
+          "Todas las armas excepto Fists"
+        ],
+        "resistances": [
+          "Todos los elementos",
+          "Todos los estados"
+        ],
+        "attacks": [
+          "Heatwave",
+          "Ghost Light",
+          "Fire Ball II"
+        ]
+      },
+      "loot": [
+        "Superior Cloth",
+        "Heavy Suit",
+        "Potency Ring",
+        "Barrier Stone",
+        "270,000 Crowns"
+      ],
+      "notes": [
+        "Potency Ring aumenta la TP ganada un 50% y mejora el grindeo de aptitudes."
+      ]
+    },
+    {
+      "id": "den-of-umbrage-3",
+      "title": "Den of Umbrage — Nivel 3",
+      "location": "Den of Umbrage",
+      "status": "pending",
+      "enemies": [
+        "Forge Wyrm",
+        "Skull Lord",
+        "Sefirah",
+        "Nuckelavee",
+        "Marid",
+        "Vampire",
+        "Vampiress",
+        "Hellbeast",
+        "Djinn"
+      ],
+      "objectives": [
+        "Recorre la planta recogiendo todos los cofres, incluido el cofre con la Lunar Stone en la zona sureste.",
+        "Cae por el hueco tras un dragón en el norte del mapa, donde un grupo de Sefirah guarda un cofre con la Solar Stone (buen sitio para farmear Will Guard).",
+        "Abre el siguiente cofre con 3 Magnificent Horn.",
+        "Vuelve al norte, sube las escaleras y avanza (lucha o huye) hasta cerca de la cima.",
+        "Abre el cofre guardado por un dragón de hueso con 350,000 Crowns.",
+        "En lo alto de las escaleras, derrota al miniboss Diablo.",
+        "Continúa para desbloquear la zona Terminus.",
+        "Antes de seguir, vuelve a la ciudad a mejorar lo necesario (puedes volver a Terminus por teletransporte).",
+        "Ten al menos dos medidores de Overdrive listos para el siguiente combate."
+      ],
+      "warnings": [
+        "Solar Stone y Lunar Stone sirven para reforjar o forjar una nueva Dayblade o Moonlight, así puedes tener ambas armas de Final Emperor.",
+        "Diablo es débil a Greatswords, Clubs, Fists y Earth; resiste Shadow y Stun y parece esquivar otros estados; usa Hellfire, Stone Shower, Drain y Poison Mist."
+      ],
+      "boss": {
+        "name": "Diablo",
+        "weaknesses": [
+          "Greatswords",
+          "Clubs",
+          "Fists",
+          "Earth"
+        ],
+        "resistances": [
+          "Shadow",
+          "Stun"
+        ],
+        "attacks": [
+          "Hellfire",
+          "Stone Shower",
+          "Drain",
+          "Poison Mist"
+        ]
+      },
+      "loot": [
+        "Solar Stone",
+        "Lunar Stone",
+        "Magnificent Horn",
+        "Gold Ore",
+        "350,000 Crowns"
+      ]
+    },
+    {
+      "id": "noel-final-hero",
+      "title": "Noel — Berserk Mode",
+      "location": "Terminus",
+      "status": "pending",
+      "objectives": [
+        "Comprueba que tienes al menos dos medidores de Overdrive.",
+        "Enfréntate a Noel en su modo berserk.",
+        "Haz que el Emperador y la Ninja usen Berserk y Shadow Clone.",
+        "Haz que la Crusader F use Nutcracker sobre él.",
+        "Lanza ataques Unity (cae en 3-4 turnos)."
+      ],
+      "warnings": [
+        "Noel es débil a Shortswords, Clubs, Water, Earth y Shadow; resiste todos los estados salvo Poison.",
+        "Sword Barrier es efectivo porque usa sobre todo técnicas de espada; usa Cyclone, así que Missile Shield es eficaz.",
+        "También invoca un clon de Phantom Chivalry."
+      ],
+      "boss": {
+        "name": "Noel (modo berserk)",
+        "weaknesses": [
+          "Shortswords",
+          "Clubs",
+          "Water",
+          "Earth",
+          "Shadow"
+        ],
+        "resistances": [
+          "Todos los estados salvo Poison"
+        ],
+        "attacks": [
+          "Cyclone",
+          "Phantom Chivalry (clon)",
+          "Técnicas de espada"
+        ]
+      }
+    },
+    {
+      "id": "final-boss-seven-heroes",
+      "title": "Final Boss: The Seven Heroes",
+      "location": "Terminus",
+      "status": "pending",
+      "objectives": [
+        "Asegúrate de que todos los personajes tienen la evasión de Soulsteal y son mujeres o tienen resistencia a Charm.",
+        "Equipa a todos con Intaglio Ring / Somon Ring / Poker Face si es posible.",
+        "Da la Red Quartz Rod a un personaje (probablemente el Diviner) y asegura que todos son inmunes a Madness (Berserk).",
+        "Prepara contra Maelstrom (Fire Wall, Immolation o equipo defensivo) y contra Temptation (personajes femeninos o equipo de bloqueo mental).",
+        "Prepara contra ataques de espada (Light Sword o Gilden Shield; no conviene junto con Immolation) y contra ataques de calor (Immolation, Fire Wall o equipo defensivo).",
+        "Equipa Shadow Servant y Berserk en el Emperador y la Ninja, ambos con Guayin y aptitud de artes marciales lv50+.",
+        "Entra en la batalla con 2 medidores de Overdrive.",
+        "Turno 1: Emperador y Ninja usan Shadow Servant; el apoyo 1 usa Light Wall II.",
+        "Turno 2: Emperador y Ninja usan Berserk; el apoyo 1 usa Light Wall II; alguien usa Nutcracker para bajar la defensa del jefe un 50%.",
+        "Turno 3: Emperador y Ninja ejecutan un doble ataque Guayin.",
+        "Si el jefe sobrevive, repite el ataque el turno siguiente.",
+        "Derrota a los Siete Héroes.",
+        "Disfruta del final y las escenas posteriores.",
+        "Comprueba que se desbloquea el tercer hueco de habilidad de clase para todos los personajes.",
+        "Guarda tus datos de postjuego y ve la escena final de la Termite Queen."
+      ],
+      "warnings": [
+        "Los Siete Héroes son débiles a Shortswords, Clubs, Water, Earth, Wind y Shadow; resisten todos los estados; usan todos los ataques de cada versión de jefe individual.",
+        "Cada turno, Light Wall II suele hacer suficiente daño para activar otra fase y añadir otro Héroe con su mecánica única; Wagnas usa Abyss Gate cuando aparece, eliminando todos los buffs y debuffs.",
+        "Cada Héroe actúa por separado pero comparten cuerpo: comparten barra de HP y estados alterados; también hacen sus propios Unity.",
+        "Si un personaje queda petrificado o muy debilitado, usa Vortex para intentar reiniciar.",
+        "La Red Quartz Rod permite usar Fire Dragon Flood, que cura a todo el grupo y revive, pero inflige Madness y cuesta mucho BP; el trabajo principal del Diviner es tener Vortex listo y debilitar con Deadly Dive, con curas cuando haga falta.",
+        "Maelstrom: Fire Wall, Immolation o equipo defensivo. Temptation: personajes femeninos o equipo de bloqueo mental. Ataques de espada: Light Sword o Gilden Shield. Ataques de calor: Immolation, Fire Wall o equipo defensivo.",
+        "En primera partida deberías poder derrotarlo antes de que aparezca Wagnas, también en Expert."
+      ],
+      "party_setup": [
+        "Imperial Arrow o Rising Phoenix.",
+        "Emperador: tanque con Auto-Parry, Tough Hide, Giant Killer, Survivor, Shadow Servant, Berserk y Guayin.",
+        "Ninja: Shadow Servant, Berserk, Guayin y Vulnerable.",
+        "Strategist: Light Wall II cada turno.",
+        "Crusader F: Restoration, curación de objetivo único, Swift Combatant y Nutcracker.",
+        "Diviner: Deadly Dive y Vortex."
+      ],
+      "boss": {
+        "name": "Los Siete Héroes",
+        "weaknesses": [
+          "Shortswords",
+          "Clubs",
+          "Water",
+          "Earth",
+          "Wind",
+          "Shadow"
+        ],
+        "resistances": [
+          "Todos los estados"
+        ],
+        "attacks": [
+          "Todos los ataques de cada Héroe",
+          "Abyss Gate (Wagnas)",
+          "Maelstrom",
+          "Temptation",
+          "Soulsteal",
+          "Cyclone"
+        ]
+      },
+      "notes": [
+        "Setup simple: aptitud de artes marciales lv50+ en el Emperador y la Ninja, con Shadow Servant, Berserk, Guayin e inmunidad a Madness.",
+        "Emperador (tanque): Auto-Parry, Tough Hide, Giant Killer y Survivor.",
+        "Ninja: Vulnerable y las habilidades de daño que prefieras; en Expert añade United Attack Connoisseur y United Ravager (no necesario).",
+        "Apoyo 1 (Fire / Earth / Light): Light Wall II cada turno; el Strategist es ideal porque la parte de ataque de Light Wall II se potencia con Spell Damage+ y Vigorous Attacker.",
+        "Apoyo 2: Restoration y una curación de objetivo único para revivir, con Swift Combatant; ideal la Crusader F, que también usa Nutcracker.",
+        "Quinto personaje: poco importa; el Diviner es útil por Deadly Dive para reducir el daño del jefe.",
+        "Formación: Rising Phoenix o Imperial Arrow (la segunda es más óptima).",
+        "Shadow Servant puede caer si recibe golpes de Cyclone de Noel; el Emperador suele parar el golpe, pero Shadow Servant a veces lo absorbe.",
+        "El bug de que Shadow Servant no cayera al ser golpeado con Light Wall activo parece corregido, pero el combate dura poco y no importa."
+      ]
+    }
+  ]
+}
