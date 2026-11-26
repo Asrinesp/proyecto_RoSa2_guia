@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "juego": "Romancing SaGa 2: Revenge of the Seven",
+    "categoria": "Bestias",
+    "total": 17,
+    "nota": "Todas las bestias sufren daño crítico con técnicas anti-bestia (ej. Destrozabestias / Beast Slayer, Machacabestias). Los drops pueden variar ligeramente según rango de batalla."
+  },
+  "monstruos": [
+    {
+      "id": "beast_001",
+      "categoria": "bestias",
+      "referencia": 1,
+      "nombre": "Miser (Lobo / Chacal)",
+      "rango": "Bajo",
+      "debilidades": [
+        "Espada",
+        "Espada corta",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [],
+      "drop_comun": [
+        "Piel de bestia",
+        "Hierba medicinal"
+      ],
+      "drop_raro_especial": [
+        "Garras afiladas",
+        "Cuero resistente"
+      ],
+      "habitat": "Zonas iniciales (Varennes, Avalon, Llanuras).",
+      "notas_combate": "Muy rápido.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_002",
+      "categoria": "bestias",
+      "referencia": 2,
+      "nombre": "Linx (Lince)",
+      "rango": "Bajo-Medio",
+      "debilidades": [
+        "Espada",
+        "Espada corta",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [],
+      "drop_comun": [
+        "Piel de bestia"
+      ],
+      "drop_raro_especial": [
+        "Colmillo de bestia",
+        "Anillo de agilidad"
+      ],
+      "habitat": "Caminos y bosques de Nibel y Ludon.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_003",
+      "categoria": "bestias",
+      "referencia": 3,
+      "nombre": "Wamp (Huargo)",
+      "rango": "Medio",
+      "debilidades": [
+        "Espada",
+        "Espada corta",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [],
+      "drop_comun": [
+        "Cuero grueso"
+      ],
+      "drop_raro_especial": [
+        "Garras de huargo",
+        "Botas de piel"
+      ],
+      "habitat": "Estepas y zonas montañosas.",
+      "notas_combate": "Ataca en manada.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_004",
+      "categoria": "bestias",
+      "referencia": 4,
+      "nombre": "Cerberus / Fenrir (Sabueso Infernal)",
+      "rango": "Alto",
+      "debilidades": [
+        "Espada",
+        "Espada corta",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [
+        "Aturdimiento (parcial)"
+      ],
+      "drop_comun": [
+        "Cuero de bestia superior"
+      ],
+      "drop_raro_especial": [
+        "Colmillo de Fenrir",
+        "Guantes de piel"
+      ],
+      "habitat": "Mazmorras avanzadas y Ruinas.",
+      "notas_combate": "Gran velocidad.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_005",
+      "categoria": "bestias",
+      "referencia": 5,
+      "nombre": "Buffalo (Búfalo)",
+      "rango": "Bajo-Medio",
+      "debilidades": [
+        "Espada corta",
+        "Lanza",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [],
+      "drop_comun": [
+        "Cuerno de bestia",
+        "Carne"
+      ],
+      "drop_raro_especial": [
+        "Cinturón de fuerza",
+        "Cuero duro"
+      ],
+      "habitat": "Llanuras de Cumberland y estepas.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_006",
+      "categoria": "bestias",
+      "referencia": 6,
+      "nombre": "Mustang (Mustang)",
+      "rango": "Medio",
+      "debilidades": [
+        "Lanza",
+        "Hacha",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [],
+      "drop_comun": [
+        "Crin",
+        "Cuero"
+      ],
+      "drop_raro_especial": [
+        "Botas ligeras",
+        "Amuleto de viento"
+      ],
+      "habitat": "Estepas del Este y Saba.",
+      "notas_combate": "Alta evasión física.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_007",
+      "categoria": "bestias",
+      "referencia": 7,
+      "nombre": "Rayhorn (Cuerno de Rayo)",
+      "rango": "Alto",
+      "debilidades": [
+        "Lanza",
+        "Hacha",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [
+        "Parálisis"
+      ],
+      "drop_comun": [
+        "Cuerno brillante"
+      ],
+      "drop_raro_especial": [
+        "Cuerno de unicornio",
+        "Cristal mágico"
+      ],
+      "habitat": "Zonas de rango alto.",
+      "notas_combate": "Usa embestidas lineales.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_008",
+      "categoria": "bestias",
+      "referencia": 8,
+      "nombre": "Hellhound (Sabueso de Fuego)",
+      "rango": "Medio",
+      "debilidades": [
+        "Espada corta",
+        "Hacha",
+        "Arco",
+        "Agua"
+      ],
+      "resistencias_inmunidades": [
+        "Fuego"
+      ],
+      "inmunidades_estado": [],
+      "drop_comun": [
+        "Ceniza mágica",
+        "Piel quemada"
+      ],
+      "drop_raro_especial": [
+        "Piedra de fuego",
+        "Collar ignífugo"
+      ],
+      "habitat": "Monte Comroon e Isla Volcánica.",
+      "notas_combate": "Usa aliento ígneo.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_009",
+      "categoria": "bestias",
+      "referencia": 9,
+      "nombre": "Garm (Garm)",
+      "rango": "Alto",
+      "debilidades": [
+        "Espada corta",
+        "Hacha",
+        "Arco",
+        "Agua"
+      ],
+      "resistencias_inmunidades": [
+        "Fuego"
+      ],
+      "inmunidades_estado": [
+        "Aturdimiento"
+      ],
+      "drop_comun": [
+        "Piel ignífuga"
+      ],
+      "drop_raro_especial": [
+        "Rubí",
+        "Escama de fuego"
+      ],
+      "habitat": "Volcán Comroon y mazmorras de fuego.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_010",
+      "categoria": "bestias",
+      "referencia": 10,
+      "nombre": "Hippopotamus (Gran Hipopótamo)",
+      "rango": "Medio",
+      "debilidades": [
+        "Mandoble",
+        "Lanza",
+        "Maza",
+        "Viento"
+      ],
+      "resistencias_inmunidades": [
+        "Agua"
+      ],
+      "inmunidades_estado": [],
+      "drop_comun": [
+        "Cuero grueso"
+      ],
+      "drop_raro_especial": [
+        "Escudo de cuero",
+        "Cinturón pesado"
+      ],
+      "habitat": "Ríos, pantanos y selvas de Salamat.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_011",
+      "categoria": "bestias",
+      "referencia": 11,
+      "nombre": "Hippoman (Hombre Hipopótamo)",
+      "rango": "Medio-Alto",
+      "debilidades": [
+        "Mandoble",
+        "Lanza",
+        "Arco",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [
+        "Agua"
+      ],
+      "inmunidades_estado": [
+        "Petrificación",
+        "Muerte súbita"
+      ],
+      "drop_comun": [
+        "Maza de madera",
+        "Cuero"
+      ],
+      "drop_raro_especial": [
+        "Hacha de guerra",
+        "Brazalete pesado"
+      ],
+      "habitat": "Salamat y pantanos.",
+      "notas_combate": "Gran defensa física.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_012",
+      "categoria": "bestias",
+      "referencia": 12,
+      "nombre": "Triceratops (Triceratops)",
+      "rango": "Alto",
+      "debilidades": [
+        "Fuego",
+        "Agua",
+        "Viento",
+        "Luz"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [
+        "Aturdimiento"
+      ],
+      "drop_comun": [
+        "Cuerno gigante",
+        "Placa ósea"
+      ],
+      "drop_raro_especial": [
+        "Escudo pesado",
+        "Mineral raro"
+      ],
+      "habitat": "Salamat y regiones prehistóricas/subterráneas.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_013",
+      "categoria": "bestias",
+      "referencia": 13,
+      "nombre": "Chimera (Quimera)",
+      "rango": "Alto",
+      "debilidades": [
+        "Lanza",
+        "Arco",
+        "Agua",
+        "Viento"
+      ],
+      "resistencias_inmunidades": [
+        "Fuego"
+      ],
+      "inmunidades_estado": [
+        "Aturdimiento"
+      ],
+      "drop_comun": [
+        "Garra de quimera",
+        "Ala"
+      ],
+      "drop_raro_especial": [
+        "Cola de escorpión",
+        "Anillo elemental"
+      ],
+      "habitat": "Torre de Bokohn, mazmorras de rango alto.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_014",
+      "categoria": "bestias",
+      "referencia": 14,
+      "nombre": "Nue (Nue)",
+      "rango": "Alto",
+      "debilidades": [
+        "Lanza",
+        "Arco",
+        "Agua",
+        "Viento"
+      ],
+      "resistencias_inmunidades": [
+        "Luz",
+        "Oscuridad"
+      ],
+      "inmunidades_estado": [
+        "Veneno",
+        "Aturdimiento",
+        "Parálisis",
+        "Petrificación",
+        "Muerte"
+      ],
+      "drop_comun": [
+        "Piel eléctrica",
+        "Garra"
+      ],
+      "drop_raro_especial": [
+        "Orbe del trueno",
+        "Amuleto protector"
+      ],
+      "habitat": "Mazmorras finales y zonas malditas.",
+      "notas_combate": "Muy peligroso.",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_015",
+      "categoria": "bestias",
+      "referencia": 15,
+      "nombre": "Gorgon (Gorgona / Catoblepas)",
+      "rango": "Alto",
+      "debilidades": [
+        "Espada corta",
+        "Fuego",
+        "Agua",
+        "Viento"
+      ],
+      "resistencias_inmunidades": [],
+      "inmunidades_estado": [
+        "Ceguera",
+        "Parálisis",
+        "Petrificación",
+        "Confusión",
+        "Frenesí",
+        "Muerte"
+      ],
+      "drop_comun": [
+        "Ojo de piedra",
+        "Escama"
+      ],
+      "drop_raro_especial": [
+        "Escudo espejo",
+        "Talismán antipiedra"
+      ],
+      "habitat": "Usa Mirada Petrificante en área. Prioridad alta.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_016",
+      "categoria": "bestias",
+      "referencia": 16,
+      "nombre": "Baku (Baku)",
+      "rango": "Alto",
+      "debilidades": [
+        "Maza",
+        "Arco",
+        "Artes marciales",
+        "Fuego"
+      ],
+      "resistencias_inmunidades": [
+        "Luz",
+        "Oscuridad"
+      ],
+      "inmunidades_estado": [
+        "Ceguera",
+        "Parálisis",
+        "Petrificación",
+        "Confusión",
+        "Frenesí",
+        "Muerte"
+      ],
+      "drop_comun": [
+        "Polvo de sueño"
+      ],
+      "drop_raro_especial": [
+        "Almohada de seda",
+        "Anillo mental"
+      ],
+      "habitat": "Usa ataques de sueño y confusión en grupo.",
+      "notas_combate": "",
+      "anti_bestia": true
+    },
+    {
+      "id": "beast_017",
+      "categoria": "bestias",
+      "referencia": 17,
+      "nombre": "Gluttonous Ogre / Toutetsu (Jefe / Raro)",
+      "rango": "Jefe / Muy Alto",
+      "debilidades": [
+        "Maza",
+        "Arco",
+        "Artes marciales",
+        "Tierra"
+      ],
+      "resistencias_inmunidades": [
+        "Fuego",
+        "Agua",
+        "Viento",
+        "Luz",
+        "Oscuridad"
+      ],
+      "inmunidades_estado": [
+        "Ceguera",
+        "Parálisis",
+        "Petrificación",
+        "Confusión",
+        "Frenesí",
+        "Sueño",
+        "Muerte"
+      ],
+      "drop_comun": [
+        "Carne sagrada",
+        "Elíxir"
+      ],
+      "drop_raro_especial": [
+        "Cinturón de titán",
+        "Tesoro raro"
+      ],
+      "habitat": "Resiste casi toda la magia.",
+      "notas_combate": "Usar daño físico contundente o Tierra.",
+      "anti_bestia": true
+    }
+  ]
+}

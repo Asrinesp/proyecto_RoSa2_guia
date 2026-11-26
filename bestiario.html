@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bestiario — Romancing SaGa 2: Revenge of the Seven</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/bestiario.css" />
+</head>
+
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">RS</div>
+        <div>
+          <h1>Romancing SaGa 2</h1>
+          <span>Revenge of the Seven</span>
+        </div>
+      </div>
+
+      <nav>
+        <div class="nav-group">
+          <p class="nav-title">Progreso</p>
+          <a class="nav-link" href="index.html">
+            <span class="nav-icon">🏠</span> Inicio
+          </a>
+          <a class="nav-link" href="walkthrough.html">
+            <span class="nav-icon">📖</span> Walkthrough
+          </a>
+          <a class="nav-link" href="progreso.html">
+            <span class="nav-icon">✅</span> Progreso
+          </a>
+          <a class="nav-link" href="generaciones.html">
+            <span class="nav-icon">⏳</span> Generaciones
+          </a>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">Combate</p>
+          <a class="nav-link active" href="bestiario.html">
+            <span class="nav-icon">👹</span> Bestiario
+          </a>
+          <a class="nav-link" href="jefes.html">
+            <span class="nav-icon">⚔️</span> Jefes
+          </a>
+          <a class="nav-link" href="formaciones.html">
+            <span class="nav-icon">🛡️</span> Formaciones
+          </a>
+          <a class="nav-link" href="tecnicas.html">
+            <span class="nav-icon">✨</span> Técnicas y magias
+          </a>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">Equipo</p>
+          <a class="nav-link" href="armas.html">
+            <span class="nav-icon">🗡️</span> Armas
+          </a>
+          <a class="nav-link" href="armaduras.html">
+            <span class="nav-icon">🛡️</span> Armaduras
+          </a>
+          <a class="nav-link" href="recursos.html">
+            <span class="nav-icon">💎</span> Recursos
+          </a>
+          <a class="nav-link" href="mejoras.html">
+            <span class="nav-icon">🔧</span> Mejoras
+          </a>
+        </div>
+
+        <div class="nav-group">
+          <p class="nav-title">Imperio</p>
+          <a class="nav-link" href="clases.html">
+            <span class="nav-icon">👥</span> Clases
+          </a>
+          <a class="nav-link" href="mapas.html">
+            <span class="nav-icon">🗺️</span> Mapas y zonas
+          </a>
+          <a class="nav-link" href="perdible.html">
+            <span class="nav-icon">⚠️</span> Contenido perdible
+          </a>
+          <a class="nav-link" href="consejos.html">
+            <span class="nav-icon">💡</span> Consejos
+          </a>
+        </div>
+      </nav>
+    </aside>
+
+    <main>
+      <header class="page-header">
+        <h2>Bestiario</h2>
+        <p>
+          Consulta los monstruos de Romancing SaGa 2: Revenge of the Seven por nombre, rango,
+          debilidades, resistencias, inmunidades de estado, drops, hábitat y notas de combate.
+        </p>
+      </header>
+
+      <section class="stats">
+        <div class="stat green">
+          <div class="stat-label">Monstruos registrados</div>
+          <div class="stat-value" id="total-monsters">0</div>
+        </div>
+
+        <div class="stat cyan">
+          <div class="stat-label">Resultados visibles</div>
+          <div class="stat-value" id="visible-monsters">0</div>
+        </div>
+
+        <div class="stat yellow">
+          <div class="stat-label">Categoría actual</div>
+          <div class="stat-value">Bestias</div>
+        </div>
+      </section>
+
+      <search class="search-panel" aria-label="Buscar y filtrar monstruos">
+        <div class="search-row">
+          <label class="search-label" for="monster-search">
+            Buscar monstruo
+          </label>
+
+          <input
+            id="monster-search"
+            class="search-input"
+            type="search"
+            placeholder="Ejemplo: Miser, Huargo, Quimera, Alma de goma..."
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="filters">
+          <div class="filter-group">
+            <label class="filter-label" for="filter-rank">Rango / nivel</label>
+            <select id="filter-rank" class="filter-select">
+              <option value="">Todos</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label class="filter-label" for="filter-weakness">Debilidad</label>
+            <select id="filter-weakness" class="filter-select">
+              <option value="">Todas</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label class="filter-label" for="filter-resistance">Resistencia / inmunidad</label>
+            <select id="filter-resistance" class="filter-select">
+              <option value="">Todas</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label class="filter-label" for="filter-status">Inmunidad de estado</label>
+            <select id="filter-status" class="filter-select">
+              <option value="">Todas</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label class="filter-label" for="filter-habitat">Hábitat</label>
+            <input
+              id="filter-habitat"
+              class="filter-input"
+              type="search"
+              placeholder="Ejemplo: Salamat, volcán, bosque..."
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="filter-group">
+            <label class="filter-label" for="filter-drop">Drop</label>
+            <input
+              id="filter-drop"
+              class="filter-input"
+              type="search"
+              placeholder="Ejemplo: Piel, colmillo, rubí..."
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        <div class="filter-actions">
+          <button class="button button-ghost" type="button" id="clear-filters">
+            Limpiar filtros
+          </button>
+        </div>
+      </search>
+
+      <section class="section">
+        <h3>Resultados</h3>
+        <p id="results-message">Cargando bestiario...</p>
+      </section>
+
+      <section id="monster-results" class="cards"></section>
+
+      <footer class="footer">
+        Bestiario conectado a <code>JSON/bestiario_bestias.json</code>.
+      </footer>
+    </main>
+  </div>
+
+  <script src="bestiario.js"></script>
+</body>
+</html>

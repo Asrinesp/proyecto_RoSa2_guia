@@ -1,0 +1,134 @@
+/* =========================================
+   BESTIARIO — Estilo específico
+   ========================================= */
+
+#monster-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 340px);
+  justify-content: center;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.monster-card {
+  width: 340px;
+  aspect-ratio: 1 / 1;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.monster-card:hover {
+  border-color: var(--purple);
+  transform: translateY(-2px);
+}
+
+.monster-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.monster-name {
+  margin: 0;
+  color: var(--cyan);
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.monster-rank {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.monster-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.monster-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  flex: 1;
+  min-height: 0;
+}
+
+.info-block {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.info-block h4 {
+  margin: 0 0 4px;
+  color: var(--orange);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.info-block p {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.72rem;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.monster-notes {
+  margin-top: 8px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.monster-notes h4 {
+  margin: 0 0 3px;
+  color: var(--pink);
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.monster-notes p {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.72rem;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* Móvil: una tarjeta por fila */
+@media (max-width: 780px) {
+  #monster-results {
+    grid-template-columns: minmax(0, 340px);
+  }
+
+  .monster-card {
+    width: 100%;
+    aspect-ratio: auto;
+    min-height: 360px;
+  }
+}
