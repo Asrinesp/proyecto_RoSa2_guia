@@ -1,0 +1,387 @@
+{
+  "id": "gen6",
+  "title": "Generación VI: Emperador a elegir",
+  "subtitle": "Iris, Leon Bridge y el Land Ship",
+  "intro": [
+    "Elige al Emperador que quieras, idealmente de una clase que aún no haya sido Emperador, para desbloquear otra Formación por completismo.",
+    "Mantén el grupo como hasta ahora y reequipa, reasigna habilidades y configura las Formaciones.",
+    "Esta generación desbloquea Imperial Guard, Imperial Blacksmith, Iris, Strategist y Nomad, y consigue Landslide, Heat Hand y las habilidades Undying y Wizened One.",
+    "La generación termina con un Time Skip forzado tras derrotar a Bokhohn y conquistar la Steppe como 10º territorio."
+  ],
+  "missions": [
+    {
+      "id": "gen6-preparation",
+      "title": "Preparación de la generación",
+      "location": "Avalon · Taberna · Training Hall · Incantation Lab",
+      "status": "pending",
+      "objectives": [
+        "Elige al Emperador que quieras, idealmente de una clase que aún no hayas usado y que quieras utilizar.",
+        "Mantén los mismos detalles de grupo que hasta ahora.",
+        "Reequipa a los personajes.",
+        "Asigna habilidades y configura las Formaciones en la taberna, el Training Hall y la Incantation Lab."
+      ],
+      "warnings": [
+        "Elegir una clase nueva permite desbloquear otra Formación solo por completismo."
+      ]
+    },
+    {
+      "id": "imperial-guards-unlock",
+      "title": "Imperial Guards Unlock",
+      "location": "Avalon · Throne",
+      "status": "pending",
+      "objectives": [
+        "Con 9 territorios desbloqueados, construye el Imperial Guard Barracks por 300,000 Crowns.",
+        "Se desbloquean las clases Imperial Guard M y F."
+      ]
+    },
+    {
+      "id": "pride-of-the-fabri-family",
+      "title": "Pride of the Fabri Family - Avalon",
+      "location": "Avalon · Smithy",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a la Smithy y habla con la herrera.",
+        "Elige “From this very moment?” para desbloquear la clase Imperial Blacksmith."
+      ],
+      "notes": [
+        "Imperial Blacksmith es una buena tanque; su habilidad de Smithy (10%) da bastante daño y defensa extra con equipo de final de juego.",
+        "Probablemente ya tienes la receta del arco Eris’ Bow: es un arco fantástico para el final del juego y permite usar el hechizo de fusión Heatwave."
+      ]
+    },
+    {
+      "id": "constructing-leon-bridge-part-1",
+      "title": "Constructing the Leon Bridge - Miramar Part 1",
+      "location": "Somon · Miramar",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Somon y habla con Hiraga sobre construir el Leon Bridge por 1,000,000 Crowns; acepta.",
+        "Teletranspórtate a Miramar (donde estaba Canal Fortress).",
+        "Habla con Mr. S #39 y recoge los cofres y brillos (consigues Oven Mitts y varias Crowns)."
+      ],
+      "warnings": [
+        "Coppelia está de pie y se puede hablar con ella, pero aún no se puede reclutar.",
+        "Volverás a Miramar más adelante."
+      ],
+      "loot": [
+        "Oven Mitts",
+        "Crowns"
+      ]
+    },
+    {
+      "id": "iris-and-minstrel-part-2",
+      "title": "The Iris and the Minstrel Part 2 + Unlock Iris Class",
+      "location": "Hofah · Nomad Village · Ponente · Mole Den · Teretuva · Atlanticus · Toba · Nuono · Saigo Village",
+      "status": "pending",
+      "objectives": [
+        "Comprueba que tu misión en Chronicles está fijada en esta misión.",
+        "Teletranspórtate a Hofah y habla con la chica junto al puente, en el jardín y las cajas del cobertizo.",
+        "Teletranspórtate al Nomad Village y habla solo con el chico delante de la cabaña con indicador parpadeante.",
+        "Teletranspórtate a Ponente y habla con la chica que habla con el hombre sentado en el suelo.",
+        "Teletranspórtate a Moles Den, habla con el Mole a la derecha de la entrada (mira cajas de mineral) y recoge el instrumento Minstrel’s Conga al fondo del pueblo, bajo el puente.",
+        "Teletranspórtate a Teretuva y habla con el chico sentado en el banco de la plaza del mercado.",
+        "Teletranspórtate a Atlanticus y habla solo con el barquero del muelle.",
+        "Teletranspórtate a Toba y habla con la mujer del vestido rojo en el muelle.",
+        "Teletranspórtate a Nuono, habla con el marinero junto al Corsair Boatswain en la casa HQ y entra por la puerta al sótano del tesoro.",
+        "Recoge el instrumento Minstrel’s Bassoon y abre el cofre con Harmonia.",
+        "Teletranspórtate a Saigo Village y habla con el chico de verde junto al comedero de piedra, cerca del niño y su padre.",
+        "Comprueba que Minstrel’s Cave queda desbloqueada."
+      ],
+      "warnings": [
+        "NO hables con nadie más en el Nomad Village ni entres en ninguna cabaña: activarías la misión del Land Ship que no queremos hacer ahora.",
+        "El objetivo es desbloquear Iris para tener fácil acceso a Wagnar, conseguir buen botín de final de juego y desbloquear el mejor sitio para provocar técnicas y aptitudes antes de la mazmorra final.",
+        "Conseguir el Bassoon aquí evita tener que sacarlo del Ghost Ship más adelante."
+      ],
+      "loot": [
+        "Minstrel’s Conga",
+        "Minstrel’s Bassoon",
+        "Harmonia"
+      ]
+    },
+    {
+      "id": "minstrels-cave",
+      "title": "Minstrel’s Cave",
+      "location": "Minstrel’s Cave",
+      "status": "pending",
+      "enemies": [
+        "Stormer",
+        "Liquid",
+        "Savage Crab",
+        "Great Scissor",
+        "Mobelwagen",
+        "Water Faerie",
+        "Opinion",
+        "Drakefish",
+        "Hecteye",
+        "Armored Drake",
+        "Psychomane"
+      ],
+      "objectives": [
+        "Teletranspórtate a Minstrel’s Cave.",
+        "Abre el cofre de la esquina superior izquierda del mapa (zona de plataformas) con el Book of the Dark and Earth III (Landslide).",
+        "Encuentra a Mr. S #40 en la cornisa al norte-centro de la primera planta, antes de bajar.",
+        "Al bajar, abre el cofre con 250,000 Crowns.",
+        "Corre junto al agua con los peces hasta el siguiente cofre a la izquierda, guardado por un Gel (Psychomane), con la Tourmaline Axe.",
+        "Ve recto al sur y abre el cofre con 180,000 Crowns.",
+        "Baja a donde está el Armored Drake gigante y deja que pase corriendo (o lucha, restaura BP y guarda en el punto de guardado de la otra cornisa).",
+        "Derrota al jefe Three Crab Rider.",
+        "Recoge el brillo de Royal Amber y el instrumento Minstrel’s Flute.",
+        "Teletranspórtate a la entrada de Avalon y habla con la niña delante de la posada.",
+        "Entra en la posada, usa con el posadero la opción central “Where can I find the minstrel?” y sube a recoger el instrumento Minstrel’s Horn."
+      ],
+      "warnings": [
+        "Es una cueva corta y lineal.",
+        "Three Crab Rider es débil a Clubs, Martial Arts, Earth y Wind."
+      ],
+      "boss": {
+        "name": "Three Crab Rider",
+        "weaknesses": [
+          "Clubs",
+          "Martial Arts",
+          "Earth",
+          "Wind"
+        ]
+      },
+      "loot": [
+        "Silver Ore",
+        "Ranseur",
+        "Book of the Dark and Earth III (Landslide)",
+        "Gold Ore",
+        "Tourmaline Axe",
+        "180,000 Crowns",
+        "250,000 Crowns",
+        "Royal Amber",
+        "Minstrel’s Flute",
+        "Minstrel’s Horn"
+      ],
+      "notes": [
+        "Si ya puedes, desbloquea Imperial Guard: teletranspórtate al salón del trono y entra por la siguiente puerta para ver la escena. Considera abdicar para convertir en Emperador a la Imperial Guard F y desbloquear la Formación Imperial Arrow, probablemente la mejor para el resto de tu primera partida."
+      ]
+    },
+    {
+      "id": "mt-chikapa",
+      "title": "Mt. Chikapa",
+      "location": "Mt. Chikapa · Iris Village",
+      "status": "pending",
+      "enemies": [
+        "Positron",
+        "Rama",
+        "Valkyrie",
+        "Cockatrice",
+        "Wind Faerie",
+        "Wyvern",
+        "Azoth",
+        "Sorrow",
+        "Doctor",
+        "Jann",
+        "Nighthawk"
+      ],
+      "objectives": [
+        "Teletranspórtate a Mount Chikapa.",
+        "Sube las enredaderas, ve por el camino de la derecha hacia las Valkyries y salta por las rocas hasta el cofre con 130,000 Crowns.",
+        "Baja y sigue hasta la zona con un gran pilar de roca; en lugar de subir, ve detrás y abre el cofre con Anima Draught.",
+        "Sube el camino alrededor del pilar, saltando los huecos y esquivando wyverns / valkyries, hasta el brillo de Diamond.",
+        "En la siguiente sala, antes de subir las plataformas, abre el cofre con Elven Shawl.",
+        "Sube las plataformas hasta ver al Jann flotante frente a un punto de guardado; no avances aún al indicador.",
+        "Vuelve a la montaña, sube las plataformas y trepa por la enredadera hasta el cofre con Divine Liquor antes de las hadas (Positron).",
+        "Encuentra a Mr. S #41 en el acantilado.",
+        "Sube a la cima y derrota al miniboss Forge Wyrm.",
+        "Detrás del dragón, abre el cofre con el Starlight Bow y recoge el brillo de Silver.",
+        "Vuelve al punto de guardado y entra al claro para ver la escena hasta Iris Village.",
+        "Comprueba que se desbloquea la clase Iris."
+      ],
+      "warnings": [
+        "Forge Wyrm es débil a Greatswords, Spears, Martial Arts y Water; puede ser aturdido. Usa Fire Breath (defiende con Fire Wall), Crushing Fang, Trample y Bite. Aprovecha para provocar técnicas nuevas, quizá Fire Wall II."
+      ],
+      "boss": {
+        "name": "Forge Wyrm (miniboss)",
+        "weaknesses": [
+          "Greatswords",
+          "Spears",
+          "Martial Arts",
+          "Water"
+        ],
+        "attacks": [
+          "Fire Breath",
+          "Crushing Fang",
+          "Trample",
+          "Bite"
+        ]
+      },
+      "loot": [
+        "130,000 Crowns",
+        "Beastly Claw",
+        "Diamond",
+        "Hemp Cloth",
+        "Spirit Liquor",
+        "Divine Liquor",
+        "Starlight Bow",
+        "Anima Draught",
+        "Elven Shawl",
+        "Silver"
+      ]
+    },
+    {
+      "id": "the-hidden-ancients",
+      "title": "The Hidden Ancients",
+      "location": "Iris Village · Forgotten Town",
+      "status": "pending",
+      "objectives": [
+        "En Iris Village, habla con la Iris con marcador al fondo del pueblo, junto al punto de guardado.",
+        "Ve a la salida este, recoge el brillo junto al agua y corre a la zona boscosa con un cartel desgastado.",
+        "Llega a Forgotten Town (no hay enemigos).",
+        "Ve a la izquierda y baja por el camino hasta el punto de guardado.",
+        "Sube las escaleras y, a lo largo de la valla al sur del punto de guardado, encuentra a Mr. S #42.",
+        "Opcional: entra en las casas y habla con los NPC para conocer la historia.",
+        "Vuelve al punto de guardado, sube por la siguiente escalera y entra en la casa para la escena con Orieve.",
+        "Comprueba que obtienes la habilidad Undying (evita la pérdida de LP en combate).",
+        "Sal de su casa y salta al agujero para encontrar un Memory of the Seven Heroes.",
+        "Sube por las enredaderas del pilar y salta hasta la casa con indicador; habla primero con el hombre para desbloquear Nival Ruins.",
+        "Abre los cofres con la lanza Divine Longinus y el Holy Buster.",
+        "Recoge el brillo de Royal Amber dentro y el de Harmonia fuera, a la izquierda."
+      ],
+      "loot": [
+        "Royal Amber",
+        "Harmonia",
+        "Divine Longinus (lanza)",
+        "Holy Buster"
+      ],
+      "notes": [
+        "Divine Longinus tiene una técnica única que se puede provocar: Psycho Shot.",
+        "Holy Buster es inferior a la Amber Mace que ya deberías tener desbloqueada, pero conseguirá la técnica única Daylight en la fase de Final Emperor.",
+        "Orieve da información de lore y explica la magia de Inheritance."
+      ]
+    },
+    {
+      "id": "constructing-leon-bridge-part-2",
+      "title": "Constructing the Leon Bridge Part II",
+      "location": "Miramar",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Miramar y corre al indicador para ver a Hiraga y la escena del nuevo puente.",
+        "Comprueba que obtienes la habilidad Wizened One.",
+        "Cruza el puente y recoge los cofres del otro lado."
+      ],
+      "warnings": [
+        "Wizened One da una probabilidad de revelar al inicio del combate una debilidad desconocida del enemigo, lo que ayuda a rellenar el Almanac."
+      ]
+    },
+    {
+      "id": "meeting-the-automaton",
+      "title": "Optional: Meeting the Automaton",
+      "location": "Somon · Avalon",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Somon y entra en la casa de Hiraga para hablar con él (rechaza probar su máquina voladora).",
+        "Recluta a Coppelia solo si quieres convertirla en Emperador.",
+        "Para convertirla en Emperador, abdica desde el Trono o suicida a tu Emperador (sin otros miembros y sin equipo) contra un monstruo, por ejemplo en Minstrel’s Cave.",
+        "Si la haces Emperador, úsala hasta el final de esa generación.",
+        "Interactúa con su cuerpo sin vida en el almacén del salón del trono de Avalon para conseguir Poker Face (inmunidad a todos los estados alterados)."
+      ],
+      "warnings": [
+        "Coppelia no puede provocar nuevas técnicas ni hechizos; tiene 99 LP y la habilidad única Poker Face. Si no es Emperador, lucha en automático sin recibir órdenes; como Emperador tienes control total.",
+        "Cualquier generación en la que la uses, cuando haya Time Skip dejará de estar disponible.",
+        "No pierdas a propósito contra Bokhohn para ver la escena: no hay recompensa y obliga a pasar dos veces por el Land Ship.",
+        "El vídeo promocional de Square-Enix que mostraba a Coppelia contra Bokhohn no era un escenario único: es lo que ocurre con cualquier Emperador que pierde por perdonarlo."
+      ],
+      "notes": [
+        "Uso ideal en primera partida: como Emperador para luchar contra uno de los Siete Héroes antes de la fase de Final Emperor y desbloquear su habilidad. En partidas posteriores, elígela como Emperador cuando quieras un tanque con muchos LP.",
+        "Se puede usar en cualquier generación a partir de ahora, incluso como miembro del grupo en la fase de Final Emperor."
+      ]
+    },
+    {
+      "id": "taking-out-the-land-ship",
+      "title": "Taking Out the Land Ship",
+      "location": "Nomad Village · Imperial Academy · Hofah · The Steppe · Landship Fortress",
+      "status": "pending",
+      "enemies": [
+        "Winged Mare",
+        "Draft Red",
+        "Battle Ogre",
+        "Killing Machine",
+        "Master",
+        "Magician",
+        "Champion"
+      ],
+      "objectives": [
+        "Ve al Nomad Village y habla con el NPC de la misión, dentro de la cabaña donde un hombre curte piel fuera.",
+        "En la escena, elige cualquiera de las primeras opciones.",
+        "En la segunda opción de diálogo elige la tercera: “Going in without a plan is reckless!”.",
+        "Elige “The Empire has a talented strategist!”.",
+        "Habla con los aldeanos de las cabañas con indicador.",
+        "Ve a la Imperial Academy y habla con el Strategist: elige cualquier primera opción y luego “Alright, let’s do it”.",
+        "Teletranspórtate a Hofah (Cumberland) y habla con él en el muelle.",
+        "Ve a Great Wall Eastern Side of the Steppe (no a Miles); si no lo has desbloqueado, teletranspórtate a The Steppe Savannah Side y corre al norte hasta el indicador.",
+        "Ve la escena en la que el Strategist crea un señuelo de landship lago.",
+        "Teletranspórtate de vuelta al Nomad Village (viaja por el mapa) y ve la escena para iniciar la operación.",
+        "En Landship Fortress, abre todos los cofres (tras el Time Skip forzado el contador generacional ya no importa).",
+        "En la esquina sureste de 2F, en una sala con varios magos, abre el cofre oculto tras una estantería (aprieta por el hueco) con el Book of Fire and Earth II (Heat Hand).",
+        "En el centro de la sección sur de 2F, cerca de esa sala, abre el cofre con la Blazing Sword.",
+        "En el cofre del suroeste inferior (Doppelganger) consigue Harmonia.",
+        "En el centro de 2F, dos ogros guardan los cofres con Anima Draught, Blazing Sword y Royal Amber.",
+        "En 3F usa el punto de guardado y sube por los ascensores hasta el jefe.",
+        "Elige la primera opción de diálogo para hacerle pagar y empieza el combate.",
+        "Derrota a Bokhohn.",
+        "Comprueba que se desbloquean Nomad M y F y Strategist, y que conquistas la Steppe como 10º territorio (Time Skip)."
+      ],
+      "warnings": [
+        "Hay dos rutas: la mala y la buena. NO tomes la mala.",
+        "Ruta mala: hablar con el NPC del Nomad Village y luego ir al lado Miles de la Steppe invadido por monstruos, hablar con los humanos y aceptar trabajar. Te llevan como esclavo laboral del Land Ship y te quitan el equipo, que recuperas de un cofre antes del jefe.",
+        "La ruta mala no recluta al Strategist, la segunda clase lanzadora más poderosa del juego, ni su Formación, una de las más útiles.",
+        "Tras la misión se produce un Time Skip forzado: pelea todo lo que quieras.",
+        "Consigue todos los cofres, incluida la Blazing Sword y el hechizo de fusión Heat Hand: no podrás conseguirlo después.",
+        "Si dejaste caer Cumberland (por no seguir la guía), Bokhohn estará en su forma más fuerte.",
+        "Al enfrentarte a Bokhohn finge ser un subordinado y pide perdón: si perdonas con ambas opciones, tu Emperador le da la espalda, él lo hechiza y borra a tu grupo. Si vuelves con un nuevo Emperador y haces lo mismo, el Emperador recuerda el truco, desvía sus hilos y obtienes un ataque extra al inicio de tu turno. No hace falta usar a Coppelia para esto.",
+        "Bokhohn es débil a Swords, Axes, Clubs, Bows, Martial Arts y Wind, y resiste todos los estados. Usa Marionette (Shortsword) para redirigir los ataques de tus aliados: usa Light Wall cada turno. También usa Hellfire, Wracking, Horror, Sandstorm y Deadly Dive.",
+        "Con Marionette Wall invoca dos Small Dolls, débiles a Greatsword, Spear, Axe, Fire y Light: al caer reciben menos daño, pero reviven tras unos turnos y restauran su barrera.",
+        "Por debajo del 40% de HP invoca un Giant Doll (mismas debilidades; usa Trample y Moonfall Slash). Si está potenciado, mátalo antes de su siguiente fase y empezará esa fase con la mitad de HP.",
+        "Si no está potenciado, simplemente mátalo, salvo que quieras alargar el combate para provocar técnicas.",
+        "Sword Barrier te hace inmune a Tarantello y a algunos otros ataques de marioneta.",
+        "Puede soltar Insulated Clothes y Red Quartz Rod, que también se consiguen de otras formas."
+      ],
+      "boss": {
+        "name": "Bokhohn",
+        "weaknesses": [
+          "Swords",
+          "Axes",
+          "Clubs",
+          "Bows",
+          "Martial Arts",
+          "Wind"
+        ],
+        "resistances": [
+          "Todos los estados alterados"
+        ],
+        "attacks": [
+          "Marionette",
+          "Hellfire",
+          "Wracking",
+          "Horror",
+          "Sandstorm",
+          "Deadly Dive",
+          "Marionette Wall (invoca Small Dolls)",
+          "Tarantello"
+        ]
+      },
+      "loot": [
+        "Hemp Cloth",
+        "320,000 Crowns",
+        "Mottled Ore",
+        "Elder Bow",
+        "Silk Cloth",
+        "Spirit Liquor",
+        "210,000 Crowns",
+        "Book of Fire and Earth II (Heat Hand)",
+        "Harmonia",
+        "Insulated Clothes",
+        "Anima Draught",
+        "Blazing Sword",
+        "Royal Amber",
+        "Reddish Ore",
+        "Red Quartz Rod (drop de Bokhohn)"
+      ],
+      "notes": [
+        "Vídeo de referencia sobre el truco de Bokhohn: https://www.youtube.com/watch?v=lczVTF0CitE"
+      ]
+    }
+  ]
+}
