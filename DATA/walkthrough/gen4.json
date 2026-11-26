@@ -1,0 +1,472 @@
+{
+  "id": "gen4",
+  "title": "Generación IV: Ninja",
+  "subtitle": "Emperador Ninja, Cumberland y misión de la Sirena",
+  "intro": [
+    "Idealmente tu Emperador será una Ninja: enséñale técnicas de artes marciales y desbloquea la clase Amazon.",
+    "Puedes recargar antes de hablar con Noel y repetir los diálogos hasta que aparezca la Ninja en el menú de selección; recuerda que puedes saltar escenas para ir directo a las opciones de diálogo.",
+    "Esta generación debe terminar con abdicación o suicidio del Emperador para poder hacer la misión de la Sirena, que solo puede completarse con un personaje masculino.",
+    "En Normal / Classic mantén la formación Imperial Cross, sea cual sea el Emperador.",
+    "En esta generación se hace Cumberland (A Problem of Succession), se construye la Imperial University, se completa The Miner’s Deaths, Mystery of the Sand Ruins y la misión de la Sirena, que provoca un Time Skip forzado."
+  ],
+  "missions": [
+    {
+      "id": "gen4-preparation",
+      "title": "Preparación de la generación",
+      "location": "Avalon · Mole Den · Amazon Village · Salamat",
+      "status": "pending",
+      "enemies": [
+        "Mercenary M (Espada / Hacha) como tanque.",
+        "Vagabond M / F (Shortsword).",
+        "Hunter (Arco).",
+        "Mole (Fire / Earth / Light).",
+        "Court Mage M (Water / Wind / Light)."
+      ],
+      "objectives": [
+        "Elige a una Ninja como Emperador (recarga antes de hablar con Noel y repite los diálogos hasta que aparezca en el menú de selección, o usa abdicación/suicidio).",
+        "Enseña técnicas de artes marciales al Emperador.",
+        "Configura la Formación: mantén Imperial Cross en Normal / Classic.",
+        "Tanque: elige Saigo Clansman o Desert Guard (con espada de 1 mano al equipar Auto-Parry) y dale la Amethyst Axe.",
+        "Mantén al Freelance Mage M por ahora con Solar Wind, Cyclone Squeeze y Restoration.",
+        "Teletranspórtate a Moles Den y recluta a un Mole (misión Underground Allies) para sustituir a la Freelance Mage F.",
+        "Equipa el casco Ironwill del Mole en la Ninja (puede conservar su Dash Ring para el bono de SPD).",
+        "Dale al Mole Fire Wall, Flash Fire, Fireball II y Flame Whip.",
+        "Usa Pulverize o Entangle con el Mole hasta provocar Stone Shower.",
+        "Teletranspórtate a Amazon Village para desbloquear la clase Amazon (salta sobre el agujero).",
+        "Elige Hunter o Amazon como tu usuario de arco.",
+        "Opcional: ve a Salamat - Savannah Side, salta la cornisa a la rama del árbol de la derecha, entra por las enredaderas y consigue el Book of Light and Water II (Prism Light).",
+        "Reequipa a todos, reasigna habilidades y configura la Formación."
+      ],
+      "warnings": [
+        "NO interactúes con las canoas de piedra junto al punto de guardado de la aldea Amazon.",
+        "Esta generación debe terminar con abdicación o suicidio del Emperador para poder hacer la misión de la Sirena, que solo se completa con un personaje masculino.",
+        "Cuando uses abdicación, ten en cuenta que debes registrar las técnicas aprendidas en el Training Hall antes de perder al Emperador.",
+        "Si cambias al tanque, asegúrate de que lleve una espada de 1 mano al equipar Auto-Parry.",
+        "Solo Artemisia, entre las Amazon, puede provocar todas las técnicas de arco; si aún no has dominado las habilidades de Hunter, usa al Hunter, que sí puede provocar todas.",
+        "Cuando hayas tenido 60 batallas con Hunter o Amazon y dominado su habilidad de clase, cambia al otro."
+      ],
+      "notes": [
+        "Es probable que ya hayas provocado evasiones para Double Cut y Double Stab, los ataques cuerpo a cuerpo más comunes de los enemigos.",
+        "El tanque podría explotar Berserk de artes marciales, pero ahora tus opciones son limitadas porque no tienes una espada de 1 mano potente. Ahora es óptimo que el tanque use una espada de 1 mano y la Amethyst Axe.",
+        "Puede ser buena idea darle al tanque Light Ball y subir Light a lv20 para usar Sword Barrier, aunque no es muy necesario.",
+        "Prism Light puede ser útil en dificultades altas para hechizar enemigos; en Normal y Classic no es necesario.",
+        "Stone Shower es un gran ataque de área para esta fase y no necesita libro de fusión.",
+        "Imperial Cross es preferible a Flying Sword (formación de la Ninja) porque mejora las propiedades defensivas del tanque.",
+        "El Mole se genera con un casco Ironwill: resistencia a Earth e inmunidad a Confusion, Charm y Berserk (Madness)."
+      ]
+    },
+    {
+      "id": "avalon-city-stuff",
+      "title": "Avalon City Stuff",
+      "location": "Avalon",
+      "status": "pending",
+      "objectives": [
+        "En la Incantation Lab, comprueba que Restoration ha terminado de investigarse.",
+        "Empieza a investigar Dragon Pulse.",
+        "Si recogiste Prism Light en Salamat, empieza también a investigarlo.",
+        "Construye la Imperial University mediante el evento del Trono.",
+        "Visita Avalon Gardens y recoge los brillos: Silver, Divine Liquor y Anima Draught.",
+        "En la Smithy, acepta la misión Pride of the Fabri Family y accede a buscar el mineral.",
+        "Comprueba que Mystery of the Sand Ruins está disponible (se desbloquea en Teretuva)."
+      ],
+      "warnings": [
+        "Verás un indicador de misión sobre Mt. Comroon aunque aún no lo hayas desbloqueado: no pasa nada, no hay nada activo allí y el mineral se conseguirá más tarde.",
+        "Ya tienes todos los minerales menos uno."
+      ],
+      "loot": [
+        "Silver",
+        "Divine Liquor",
+        "Anima Draught"
+      ]
+    },
+    {
+      "id": "a-problem-of-succession",
+      "title": "A Problem of Succession",
+      "location": "Miles · Douglas · Hofah · Castle Nerak · Cumberland",
+      "status": "pending",
+      "enemies": [
+        "Frog Prince",
+        "Lynx",
+        "Mandrake",
+        "Mustang",
+        "Lizard",
+        "Viper",
+        "Novice Magus",
+        "Senior Magus",
+        "Sidhe",
+        "Gargoyle",
+        "Liquid",
+        "Flame",
+        "Soil",
+        "Air",
+        "Knight",
+        "Gallant Blue",
+        "Adeptus",
+        "Crawler",
+        "Imp"
+      ],
+      "objectives": [
+        "Teletranspórtate a Miles y compra los licores y el Diamond de la tienda.",
+        "Abre los cofres: Hemp Cloth, y el cofre sobre unas cajas en el almacén cercano con 60,000 Crowns.",
+        "Navega a Douglas hablando con el NPC del muelle.",
+        "Abre los cofres de la esquina noroeste: el primero sobre la plataforma con escaleras (tras las cajas junto al cañón) con Silver; luego baja al muelle y abre el cofre con 90,000 Crowns junto a las jaulas.",
+        "Encuentra a Mr. S #27 junto a las balas de heno del jardín del noreste.",
+        "Abre el cofre tras la tienda de objetos (Silk Cloth) y compra el Royal Amber en la tienda.",
+        "Ve al palacio del norte.",
+        "En el pasillo de la izquierda, hasta el final, activa el pedestal de Memory of the Seven Heroes.",
+        "Recoge el brillo de Hemp Cloth en la sala de los dos NPC y otro en la sala opuesta donde limpia una criada.",
+        "Ve a la sala principal, sube al norte y habla con el Official; cuando pregunte si has conocido a sus otros hijos di “I Haven’t”.",
+        "Comprueba que se han desbloqueado Castle Nerak y Hofah.",
+        "Teletranspórtate a Hofah y encuentra a Mr. S #28 en el muelle del este.",
+        "NO hables con el NPC del muelle que tiene indicador (es Developing the Comroon Strait).",
+        "Compra Silk Cloth en la tienda de objetos.",
+        "Recoge el brillo de Hemp Cloth a la izquierda de la posada.",
+        "Sube los escalones del edificio oeste sin entrar y abre el cofre al norte con 80,000 Crowns.",
+        "Habla con el hombre de verde con los niños junto a la puerta.",
+        "Corre al castillo (mansión) del norte, sin entrar aún, y recoge el Hemp Cloth del arbusto del jardín sur.",
+        "Entra y ve la escena con Sophia (Crusader F).",
+        "Abre el cofre de la sala sur de la 1ª planta (Quality Balm) y recoge el brillo de la biblioteca.",
+        "Teletranspórtate a Castle Nerak y encuentra a Mr. S #29 en un carro al entrar.",
+        "Recoge los brillos de Reddish Ore del patio, y al noroeste tras el castillo el Meteorite en una tumba y el cofre tras la lápida grande con 120,000 Crowns.",
+        "Habla con el NPC de verde con indicador delante del castillo, entra, sube las escaleras y abre la puerta de la sala central para ver la escena con Georg (Crusader M).",
+        "Abre la puerta de la biblioteca en la sala del trono para conseguir un Twisted Horn.",
+        "Teletranspórtate a Douglas y habla con Cyfreet junto a la entrada del castillo.",
+        "Sal al rincón noreste del mapa, encuentra el área oculta con Thomas y ve la escena.",
+        "Recoge el brillo de Silver tras el monumento de piedra y sube por las enredaderas al castillo.",
+        "Guarda la partida en el pasillo y vuelve a hablar con el Rey.",
+        "Cuando pregunte por su sucesor, elige “I have” y la cuarta opción: “I couldn’t tell you, it’s not my duty.”.",
+        "A la mañana siguiente el rey ha muerto: vuelve al jardín oculto con Thomas.",
+        "Elige “Harold asked me to support you so I will” y luego “Send an ambassador of peace”.",
+        "Teletranspórtate a Castle Nerak, habla con Georg y elige “Leave the fiends to me” (desbloquea Central Great Wall y Great Wall - Eastern Gate).",
+        "Teletranspórtate a Central Great Wall, recoge los brillos y entra en el túnel.",
+        "Al final del túnel, derrota al Duneworm (aprovecha para provocar técnicas y hechizos).",
+        "Cuando el túnel se derrumbe, teletranspórtate a Castle Nerak.",
+        "Elige “I will infiltrate the palace and rescue Thomas”.",
+        "Teletranspórtate a Douglas y entra por la puerta principal (recomendado) o por la ventana de Thomas.",
+        "Derrota al jefe Spriggan.",
+        "Dentro del castillo, ve al piano junto a la escalera este y recoge el Diamond.",
+        "Sube y consigue los cofres y brillos: Steel Thread, 150,000 Crowns y Royal Amber.",
+        "Recoge el brillo rojo de una mesa en un dormitorio: es la Dungeon Key.",
+        "Baja a la mazmorra, pasa el pedestal de Memory of the Seven Heroes y recoge el Hemp Cloth de una celda abierta.",
+        "Abre la puerta con la Dungeon Key para ver la siguiente escena: se desbloquea Fort Cyfreet.",
+        "Teletranspórtate a Fort Cyfreet y recoge los brillos al acercarte a la puerta principal.",
+        "Ve a la izquierda del fuerte y abre el cofre con Rubber Soles (bono de SPD); equípalas en tu Emperador Ninja.",
+        "Entra al castillo, rodea por izquierda y derecha y abre el cofre con 220,000 Crowns.",
+        "Baja las escaleras al norte; a la izquierda recoge el Silver Ore rodeado de Magus y luego Mottled Ore y Superior Cloth.",
+        "En el pasillo, al final, abre los dos cofres: Doppelganger + Earth Ring y 3 Superior Cloth.",
+        "En la sala con celdas y libros, abre los tres cofres: Doppelganger + 3 Imperial Salve, Divine Liquor y 180,000 Crowns.",
+        "Ve a la puerta con indicador, usa el punto de guardado y de BP, y derrota a Cyfreet + Douglas Swordsman y Killing Machine.",
+        "Comprueba que Cumberland se anexa como 6º territorio y se desbloquean Crusader M y F.",
+        "Considera sustituir al Freelance Mage M por la Crusader F (Sophia) y darle Solar Wind, Restoration, Diamond Dust, Cyclone Squeeze y un hechizo de curación (Life Water II o Moonlight)."
+      ],
+      "warnings": [
+        "Esta es una misión larga con varias rutas: esta ruta está diseñada para desbloquear lo máximo posible.",
+        "Una vez entres en la región de Cumberland, NO puedes salir (ni a Castle Avalon ni a la Smithy ni a ningún otro sitio) hasta terminar toda la cadena, o la misión fallará: Thomas será asesinado por Cyfreet y se activará Fall of Cumberland.",
+        "Navegar a Douglas desde Miles es la ruta alternativa a Cumberland: completar Canal Fortress activaría también la línea de Corsarios, algo demasiado para una sola generación.",
+        "NO hables con el NPC del muelle de Hofah con indicador (Developing the Comroon Strait).",
+        "Spriggan es débil a Greatswords, Spears, Axes, Martial Arts y Wind; usa técnicas de club, sobre todo Grand Slam, que hace mucho daño; puede soltar Messina Ore.",
+        "Cyfreet es débil a Swords, Clubs, Bows, Martial Arts y Fire; resiste Light; no resiste Sleep ni Stun; usa Prism Light para confundir y Water Blast; puede soltar Sage Rod o Earth Guard.",
+        "Los Douglas Swordsman son débiles a Spears, Bows, Martial Arts y Wind; el Killing Machine es débil a Greatsword, Shortsword, Axe y Light.",
+        "Quema a los jefes con Unity, hechizos de fusión de área, técnicas de arco, Reverse Delta y tu mejor técnica de artes marciales (probablemente Dual Gunner)."
+      ],
+      "boss": {
+        "name": "Spriggan; Cyfreet + Douglas Swordsman y Killing Machine",
+        "weaknesses": [
+          "Spriggan: Greatswords, Spears, Axes, Martial Arts, Wind",
+          "Cyfreet: Swords, Clubs, Bows, Martial Arts, Fire",
+          "Douglas Swordsman: Spears, Bows, Martial Arts, Wind",
+          "Killing Machine: Greatsword, Shortsword, Axe, Light"
+        ],
+        "resistances": [
+          "Cyfreet: Light"
+        ],
+        "attacks": [
+          "Spriggan: Grand Slam",
+          "Cyfreet: Prism Light, Water Blast"
+        ]
+      },
+      "loot": [
+        "Hemp Cloth",
+        "60,000 Crowns",
+        "Silver",
+        "90,000 Crowns",
+        "Silk Cloth",
+        "Royal Amber",
+        "80,000 Crowns",
+        "Quality Balm",
+        "Reddish Ore",
+        "Meteorite",
+        "120,000 Crowns",
+        "Twisted Horn",
+        "Diamond",
+        "Steel Thread",
+        "150,000 Crowns",
+        "Dungeon Key",
+        "Rubber Soles",
+        "220,000 Crowns",
+        "Silver Ore",
+        "Mottled Ore",
+        "Superior Cloth",
+        "Earth Ring",
+        "Imperial Salve",
+        "Divine Liquor",
+        "180,000 Crowns",
+        "Messina Ore (drop de Spriggan)"
+      ],
+      "notes": [
+        "Crusader M es un buen tanque con espada pero no tiene aptitud con Axes; su habilidad Damage Converter solo aumenta un 5% el Overdrive cuando lo atacan, no demasiado útil.",
+        "Crusader F (Sophia) es una mejora de Court Mage M y Freelance Mages: probablemente la uses el resto del juego. Tiene una de las MAG más altas y, junto con las técnicas de área del arquero, destruye grupos de enemigos en 1-2 turnos.",
+        "Algunas Crusader F como Sophia provocan bien técnicas de Club: busca Nutcracker, que reduce un 50% la defensa enemiga durante varios turnos. Contra jefes, úsalo el turno antes de un Unity.",
+        "Al completar la misión consigues la habilidad Wallflower: el personaje que la equipa es menos probable que sea atacado."
+      ]
+    },
+    {
+      "id": "additional-cumberland-mr-s",
+      "title": "Additional Cumberland Mr. S",
+      "location": "Great Wall",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Great Wall Western Gate y encuentra a Mr. S #30 junto al punto de guardado, cerca de un cofre con 3 Magical Claw.",
+        "Teletranspórtate a Great Wall - Eastern Gate y encuentra a Mr. S #31 junto al punto de guardado, en una hoguera cocinando un estofado.",
+        "Abre el cofre tras la tienda con 70,000 Crowns y recoge los brillos de Divine Liquor y Small Horn."
+      ],
+      "loot": [
+        "3 Magical Claw",
+        "70,000 Crowns",
+        "Divine Liquor",
+        "Small Horn"
+      ]
+    },
+    {
+      "id": "imperial-university-construction",
+      "title": "Imperial University Construction",
+      "location": "Avalon · Imperial University",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate directamente a la Imperial University en Avalon.",
+        "Al final del pasillo este, encuentra a Mr. S #32.",
+        "Entra en la sala con marcador y habla con el Profesor de la Universidad.",
+        "Acepta ser estudiante y haz el examen hablando de nuevo con él (si fallas, repítelo: el examen indica las respuestas correctas e incorrectas).",
+        "Sube y abre el cofre con el Book of Fire & Wind I (Heatwave).",
+        "Salta del balcón y habla con el Strategist con marcador; pregúntale si puede usar sus habilidades para derrotar a los Siete Héroes.",
+        "Revisa periódicamente el mostrador por nuevos exámenes con recompensas."
+      ],
+      "warnings": [
+        "El Strategist no se puede reclutar aún: será reclutable al hacer la misión Land Ship más adelante en la ruta."
+      ],
+      "loot": [
+        "Book of Fire & Wind I (Heatwave)"
+      ]
+    },
+    {
+      "id": "the-miners-deaths",
+      "title": "The Miner’s Deaths",
+      "location": "Tefal · Gemstone Mines",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Tefal y ve la escena; corre a la mina.",
+        "Corre hasta la sala del jefe original (no hay nada nuevo que saquear hasta ahí).",
+        "En la sala del jefe original hay un nuevo camino con cristales: abre los que contienen 60,000, 90,000 y 150,000 Crowns y el cofre con Diamond.",
+        "En el punto de guardado, restaura BP y entra a enfrentarte al jefe.",
+        "Derrota a Rot Dragon y dos Skeleton.",
+        "Ignora el marcador de misión y recoge los otros cristales y brillos: Gold Ore, Harmonia, 200,000 y 300,000 Crowns.",
+        "Interactúa con el cristal de aspecto maligno, elige destruirlo y luego “Let’s hold onto this” para conseguir el Magic Stone Fragment.",
+        "Teletranspórtate a Tefal y habla con el funcionario.",
+        "Corre a la tienda de objetos y compra los Diamond.",
+        "Teletranspórtate a Mole’s Den y habla con el Mole junto a la roca fundacional para conseguir el Darkstone Ring."
+      ],
+      "warnings": [
+        "Darkstone Ring da un buen bono de MAG y protege contra muchos estados, pero si está equipado cuando duermes en una posada o en los Bedchambers drena LP a los miembros del grupo: quítalo siempre después de usarlo.",
+        "Rot Dragon es débil a Greatswords, Spears, Fire y Light; usa Poison Mist. Los Skeleton son débiles a Clubs, Martial Arts, Fire, Earth y Light.",
+        "Si se produce un Time Skip tras Cumberland, no hace falta saltarse The Miner’s Deaths: sigue las misiones en el orden de la guía."
+      ],
+      "boss": {
+        "name": "Rot Dragon y dos Skeleton",
+        "weaknesses": [
+          "Rot Dragon: Greatswords, Spears, Fire, Light",
+          "Skeleton: Clubs, Martial Arts, Fire, Earth, Light"
+        ],
+        "attacks": [
+          "Poison Mist"
+        ]
+      },
+      "loot": [
+        "60,000 Crowns",
+        "90,000 Crowns",
+        "150,000 Crowns",
+        "Diamond",
+        "Gold Ore",
+        "Harmonia",
+        "200,000 Crowns",
+        "300,000 Crowns",
+        "Magic Stone Fragment",
+        "Darkstone Ring"
+      ],
+      "notes": [
+        "Es una misión corta que conviene sacarse de encima ahora."
+      ]
+    },
+    {
+      "id": "mystery-of-the-sand-ruins",
+      "title": "Mystery of the Sand Ruins",
+      "location": "Teretuva · Melu Desert · Torrid Ruins",
+      "status": "pending",
+      "enemies": [
+        "Garm",
+        "Brain Eaters",
+        "Sharkpede",
+        "Vampire",
+        "Blood Sucker",
+        "Scissor Spider",
+        "Vampiress",
+        "Lizardlord",
+        "Mad Ogre"
+      ],
+      "objectives": [
+        "Teletranspórtate a Teretuva y habla con el hombre de la lanza con marcador de misión.",
+        "Teletranspórtate a Melu Desert - South Teretuva Side y corre hacia el indicador de misión; evita caer en los agujeros gigantes (gusanos de arena). Puedes abrir cofres con Quality Balm, Gold Ore y Crowns.",
+        "Llega a Torrid Ruins.",
+        "Baja el acantilado, entra en la primera torre de la derecha y recoge el brillo de Mythical Claw.",
+        "Entra en la torre de la izquierda y abre el cofre con el Power Ring (bono de STR).",
+        "Vuelve fuera y cae a propósito en las arenas movedizas hasta el agujero.",
+        "Gírate y abre el cofre con 200,000 Crowns.",
+        "Avanza y derrota al jefe Sphinx.",
+        "Continúa por el portal de teletransporte y entra en la siguiente sala.",
+        "Entra en el siguiente portal (se activarán líneas luminosas como en Gelid Ruins).",
+        "En la sala sin portal activo con ciempiés, recoge el Magnificent Horn; vuelve y toma el siguiente portal y recoge el Gold Ore al salir.",
+        "Entra en el siguiente portal y ve a la sala del este con el cofre (cuidado con los escorpiones que caen) para el Anima Draught.",
+        "Ve al portal de la esquina noroeste y luego al siguiente.",
+        "Cruza la zona del puente con el vampiro flotante, pasa el primer portal y entra en el segundo hasta llegar a Mr. S #33; no te caigas.",
+        "Vuelve al portal de origen, entra en el que te saltaste y, tras recoger el Gold Ore a tu espalda, entra en el siguiente portal.",
+        "Salta abajo, entra en la sala y toma el portal; gírate y abre el cofre con la Phantom Blade, guardado por un zombi grande.",
+        "Pasa a los dos hombres lagarto que guardan un brillo de Gold Ore y entra en el siguiente portal.",
+        "A tu izquierda hay un ogro y un ciempiés con un portal desactivado: pasa por un agujero de la pared y toma el siguiente portal.",
+        "Cruza el puente y, en la sala del portal aparentemente roto, salta tras las ruinas para encontrar un portal activo.",
+        "En la sala con agujero, cae y recoge el Mythical Claw y el Mottled Ore a la derecha, sobre la piedra rota; corre hasta el siguiente portal.",
+        "Entra en la siguiente zona, usa el punto de guardado y de BP.",
+        "Gira a la izquierda para recoger el Diamond y, a la derecha tras la torre, el Magnificent Horn.",
+        "Sube las escaleras y derrota a los dos Kaiser Ant.",
+        "Abre el cofre con el Book of Fire and Wind II (Firestorm).",
+        "Teletranspórtate a la Incantation Lab de Avalon y empieza a investigar Firestorm."
+      ],
+      "warnings": [
+        "Esta es una mazmorra pensada para mitad de juego, pero deberías poder con ella.",
+        "Este Sphinx no es como los del desierto de Melu: tiene más HP y ataque. Es débil a Shortswords, Spears, Bows y Wind. Usa Fire Wall con el Mole cada turno (usa Hellfire) y Falling Phoenix con el arquero; la Crusader F usa Cyclone Squeeze o Restoration.",
+        "Los Kaiser Ant son débiles a Axes, Clubs, Water y Earth; en Classic solo resisten Petrify y Death, así que pueden ser paralizados y aturdidos. Puedes infligir Madness con Mad Biter de Lob Omen. En Expert parecen evadir Paralysis y resistir Madness.",
+        "Usan Double Cut, Trample, Cyclone y Swarm; Sword Barrier puede ser buena idea si lo provocaste antes."
+      ],
+      "boss": {
+        "name": "Sphinx; dos Kaiser Ant",
+        "weaknesses": [
+          "Sphinx: Shortswords, Spears, Bows, Wind",
+          "Kaiser Ant: Axes, Clubs, Water, Earth"
+        ],
+        "resistances": [
+          "Kaiser Ant: Petrify, Death"
+        ],
+        "attacks": [
+          "Sphinx: Hellfire",
+          "Kaiser Ant: Double Cut, Trample, Cyclone, Swarm"
+        ]
+      },
+      "loot": [
+        "Mythical Claw",
+        "Power Ring",
+        "200,000 Crowns",
+        "Magnificent Horn",
+        "Gold Ore",
+        "Anima Draught",
+        "Phantom Blade",
+        "Mottled Ore",
+        "Diamond",
+        "Book of Fire and Wind II (Firestorm)",
+        "Quality Balm"
+      ]
+    },
+    {
+      "id": "mermaid-quest",
+      "title": "Mermaid Quest",
+      "location": "Atlanticus · Witch’s Sanctum · Toba Cliffs · Salamat · Lake Aqua · Mole Den",
+      "status": "pending",
+      "enemies": [
+        "Minotaur",
+        "Pyrohydra",
+        "Hada enfadada"
+      ],
+      "objectives": [
+        "Si quieres pasar a un Emperador masculino de otra clase: registra las técnicas nuevas en el Training Hall, quita a los miembros del grupo en la taberna y desequipa al Emperador.",
+        "Si optas por suicidio, corre contra una quimera en Ludon Highlands para el logro de morir contra una quimera.",
+        "Elige un Emperador masculino de una clase que aún no hayas usado (idealmente Crusader para desbloquear su formación) y reconstruye el grupo, formación, equipo y habilidades.",
+        "No selles técnicas sin dominar aprendidas como Ninja, especialmente evasiones.",
+        "Ve a Atlanticus y habla con la mujer del puente y con las demás personas con marcador.",
+        "Ve a la posada y usa la opción de descansar hasta la tarde.",
+        "Entra en la taberna e interactúa con la silla para bailar con la bailarina.",
+        "Habla con el camarero y usa la primera opción para pasar la noche.",
+        "Repite el proceso una vez más: descansar hasta la tarde en la posada y volver a la taberna.",
+        "Tras el tercer baile, sigue a la bailarina por la puerta de atrás.",
+        "Vuelve a la taberna (el texto dice erróneamente que vuelvas a la posada) y sal tras la escena.",
+        "Teletranspórtate a Witch’s Sanctum y pide a la bruja la Mermaid Potion; te pedirá tres objetos.",
+        "Teletranspórtate a Toba y corre a la salida sur hacia Toba Cliffs.",
+        "Avanza hasta el marcador y abre el cofre con Silver en el oeste.",
+        "Sube hasta el punto de recuperación de BP, baja al nido e interactúa para conseguir el Sea Swallow Nest.",
+        "Vuelve al saliente, cae hacia el cofre marcado en el mapa y consigue el Book of Light and Wind I (Faerie Glow).",
+        "Teletranspórtate a Savannah Salamat Side y ve al norte hacia el indicador.",
+        "Sube por las enredaderas, rodea al norte hasta el Minotauro, corre más allá de él, del otro y de las hadas enfadadas y sube por las enredaderas al punto de guardado.",
+        "Usa el punto de guardado y acércate al árbol para iniciar el combate contra Pyrohydra.",
+        "Elige “Steal the egg” o “I’m no thief” (en ambos casos consigues la Eggshell).",
+        "Gírate hasta donde flota la quimera, baja y abre el cofre con 150,000 Crowns.",
+        "Teletranspórtate a Lake Aqua y baja al agua para la escena con la Neraid, que pide un Moonlight Comb.",
+        "Teletranspórtate a Mole Den y pide al Mole de la entrada que haga un Moonlight Comb.",
+        "Teletranspórtate a la entrada de Avalon, ve a la posada y duerme para una escena.",
+        "Vuelve a Mole Den y habla con el Mole, luego teletranspórtate a Lake Aqua para conseguir Lake Aqua Water y desbloquear la clase Neraid.",
+        "Teletranspórtate a Witch’s Sanctum y pide a la bruja que haga la Mermaid Potion.",
+        "Teletranspórtate a Atlanticus, ve a la taberna, sal por detrás hasta el acantilado donde se lanzó la sirena.",
+        "Elige usar la Mermaid Potion; tras la escena, úsala de nuevo.",
+        "Deja que tu Emperador beba la poción por tercera vez y se lance al agua: se produce un Time Skip forzado."
+      ],
+      "warnings": [
+        "El Emperador debe ser masculino para la misión de la Sirena: abdica o suicida a tu Emperador antes.",
+        "La misión de la Sirena solo falla en dos casos: si haces un Time Skip antes de completarla una vez empezada, o si se activa la misión del Ghost Ship, que solo ocurre tras Garron’s Rebellion.",
+        "NO mueras ni abdiques después de activar la misión de la Sirena, o fallará.",
+        "La bruja de Witch’s Sanctum solo puede hacer 15 pociones por partida: si compras demasiadas pociones de LP antes de la misión de la Sirena, no podrás completarla. Compra las pociones de LP después, salvo la que ya compraste antes.",
+        "Pyrohydra es débil a Swords, Greatswords, Spears, Axes, Water y Wind; resiste Fire, Poison, Paralysis, Petrify y Doom.",
+        "Pyrohydra ataca a todos menos al tanque y puede matar de un golpe a personajes no tanque: quémalo con Unity.",
+        "La Mermaid Potion es un objeto clave y se usará automáticamente al hacer la misión de Sunken Ship más adelante.",
+        "Es mucho mejor reiniciar y elegir al Emperador deseado al inicio de la generación para ahorrar tiempo."
+      ],
+      "boss": {
+        "name": "Pyrohydra",
+        "weaknesses": [
+          "Swords",
+          "Greatswords",
+          "Spears",
+          "Axes",
+          "Water",
+          "Wind"
+        ],
+        "resistances": [
+          "Fire",
+          "Poison",
+          "Paralysis",
+          "Petrify",
+          "Doom"
+        ]
+      },
+      "loot": [
+        "Silver",
+        "Sea Swallow Nest",
+        "Book of Light and Wind I (Faerie Glow)",
+        "Eggshell",
+        "150,000 Crowns",
+        "Lake Aqua Water",
+        "Moonlight Comb",
+        "Mermaid Potion",
+        "Hydrasuit (drop de Pyrohydra)"
+      ],
+      "notes": [
+        "Pyrohydra es uno de los dos enemigos que pueden soltar la Hydrasuit, buena armadura para un tanque pero no imprescindible.",
+        "Unlock: la clase Neraid se desbloquea al conseguir el Lake Aqua Water."
+      ]
+    }
+  ]
+}
