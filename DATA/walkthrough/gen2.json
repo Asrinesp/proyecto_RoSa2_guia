@@ -1,0 +1,759 @@
+{
+  "id": "gen2",
+  "title": "Generación II: Gerard",
+  "subtitle": "Venganza de Gerard y era de la Armadura Dorada",
+  "intro": [
+    "Esta generación se divide en dos fases: la Parte 1 (Gerard’s Revenge) y la Parte 2 (Golden Armor Gerard), que comienza tras el primer Time Skip obligatorio.",
+    "Al empezar la Parte 2, el contador de batallas generacionales y los Puntos de Evento empiezan a importar: no hagas grinding repetido ni completes misiones fuera de orden.",
+    "No abdiques ni hagas suicidar a Gerard durante esta generación.",
+    "Para los Puntos de Evento, la guía lleva este recuento: Gel Matter en Fiends’ Cloister (2), Martial Artists (3), Dantarg y Eastern Subterranean (8), Southern Subterrane (12).",
+    "La generación termina con un Time Skip forzado al entregar Mu’s Migration en Mu Habitat."
+  ],
+  "missions": [
+    {
+      "id": "the-goblins-raid",
+      "title": "The Goblin’s Raid",
+      "location": "Avalon",
+      "phase": "Parte 1: Gerard’s Revenge",
+      "status": "pending",
+      "enemies": [
+        "Goblins",
+        "Hobgoblin"
+      ],
+      "objectives": [
+        "Derrota a los Goblins.",
+        "Derrota al miniboss Hobgoblin y a los cuatro Goblins que lo acompañan.",
+        "Comprueba que se han desbloqueado las clases Mercenary M y Mercenary F.",
+        "Ve a la taberna del castillo (marcada con un indicador de misión).",
+        "Recluta a la Court Mage F para ocupar el hueco que dejó Leon en la formación.",
+        "Usa Fireball con la Court Mage F y Light Ball con Gerard en cada combate."
+      ],
+      "warnings": [
+        "Al faltar el quinto miembro del grupo, todavía no puedes usar una Formación.",
+        "Hobgoblin es débil a Shortswords, Spears, Axes y Water. Con Rapid Volley ya aprendido, no suele ser un reto."
+      ],
+      "boss": {
+        "name": "Hobgoblin",
+        "weaknesses": [
+          "Shortswords",
+          "Spears",
+          "Axes",
+          "Water"
+        ]
+      },
+      "notes": [
+        "En New Game+, considera sustituir al Heavy Infantry por una Mercenary F: Andromache puede provocar más técnicas de espada y algunas de artes marciales, incluidas Prism Blade y Mirage Blade, que Bear no puede provocar.",
+        "Si Bear ya ha provocado técnicas de maza, mejor: quedarán desbloqueadas para futuras generaciones."
+      ]
+    },
+    {
+      "id": "eradicating-the-goblins",
+      "title": "Eradicating the Goblins",
+      "location": "Goblin Hideaway",
+      "phase": "Parte 1: Gerard’s Revenge",
+      "status": "pending",
+      "enemies": [
+        "Goblin",
+        "Hobgoblin",
+        "Centipede",
+        "Jam",
+        "Frog King",
+        "Gel",
+        "Faerie Bug"
+      ],
+      "objectives": [
+        "Explora el área por completo.",
+        "Abre todos los cofres y recoge los puntos brillantes.",
+        "Provoca todas las técnicas que puedas.",
+        "Derrota al Goblin King."
+      ],
+      "warnings": [
+        "Goblin King es débil a Greatsword, Shortsword, Wind y Light.",
+        "Stunner puede paralizarlo. También puede recibir Stun y Confusion; no tiene resistencias a estados.",
+        "Los Goblins sueltan a menudo Goblin Swords con la técnica Final Strike, que destruye la espada: no merece la pena usarla."
+      ],
+      "boss": {
+        "name": "Goblin King",
+        "weaknesses": [
+          "Greatsword",
+          "Shortsword",
+          "Wind",
+          "Light"
+        ]
+      },
+      "loot": [
+        "Reddish Ore",
+        "100,000 Crowns",
+        "120,000 Crowns",
+        "Beastly Claw",
+        "Hemp Cloth",
+        "Quality Balm",
+        "Darts",
+        "Diamond"
+      ]
+    },
+    {
+      "id": "the-fall-of-kzinssie",
+      "title": "The Fall of Kzinssie",
+      "location": "Somon",
+      "phase": "Parte 1: Gerard’s Revenge",
+      "status": "pending",
+      "objectives": [
+        "Vuelve a Somon y aprovecha para subir aptitudes con Shiyuan’s Tactical Primer y Cat’s Amulet.",
+        "Corre hasta la mansión sin pelear con los enemigos del camino.",
+        "En el interior, elige ayudar a los soldados contra un Rotten Beast y dos Bone Heads.",
+        "Sube las escaleras y enfréntate de nuevo a Kzinssie."
+      ],
+      "warnings": [
+        "Es tu última oportunidad de farmear con los accesorios sin activar banderas generacionales que fuercen un Time Skip.",
+        "Tras derrotar a Kzinssie, cada batalla generará valores generacionales y podría provocar un Time Skip prematuro.",
+        "Si olvidaste abrir el atajo de la mansión, el soldado lo abrirá por ti.",
+        "Los accesorios seguirán dando beneficios hasta que termine la generación de Gerard."
+      ],
+      "boss": {
+        "name": "Kzinssie",
+        "weaknesses": [
+          "Greatswords",
+          "Shortswords",
+          "Bows",
+          "Fire",
+          "Light"
+        ]
+      },
+      "notes": [
+        "Tiene las mismas debilidades y ataques que en el primer combate.",
+        "Hacia el 20% de HP levantará el brazo para cargar un ataque: destrúyelo atacando su cuerpo principal antes de que termine."
+      ]
+    },
+    {
+      "id": "a-new-era",
+      "title": "A New Era",
+      "location": "Avalon",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "objectives": [
+        "Completa el primer Time Skip (evento obligatorio).",
+        "Guarda la partida al recuperar el control de Gerard.",
+        "Date la vuelta y pulsa sobre el Trono para construir la Smithy.",
+        "Pulsa de nuevo sobre el Trono y construye la Incantation Lab (requiere aptitudes mágicas de aprox. lv10 y suficientes Coronas).",
+        "Habla con el primer Mr. S en el salón del trono.",
+        "Sal por la puerta del salón y ve a la puerta principal.",
+        "Sigue el marcador hasta la taberna de Avalon City y habla con el hombre para desbloquear la misión Avalon’s Cat Burglar.",
+        "Vuelve a equipar a Gerard: el juego lo equipa automáticamente y cambia sus objetos anteriores."
+      ],
+      "warnings": [
+        "Estás en un temporizador de eventos muy crítico: haz las cosas en el orden indicado o no se garantiza el resultado descrito.",
+        "NO abdiques ni hagas suicidar a Gerard: no tendrás Training Hall hasta el siguiente Time Skip y perderás las técnicas que Leon y Gerard hayan provocado.",
+        "Cada personaje tiene solo 7 huecos de técnicas; usa a Gerard para guardar técnicas básicas y para subir aptitudes y provocar hechizos.",
+        "Puedes entrar en batallas, pero no hagas grinding repetido en las zonas: inflará el contador generacional y podría provocar un Time Skip prematuro.",
+        "Norte de Varennes se conquista como territorio y Sur de Varennes queda disponible para explorar."
+      ],
+      "party_setup": [
+        "Heavy Infantry: cuando domine Auto-Parry, cambia el tanque a Mercenary M o F con espada y hacha, usando técnicas de hacha cada turno (opcional).",
+        "Considera sustituir al Light Infantry M por otro personaje (Light Infantry F o la Mercenary que no uses de tanque) para provocar más técnicas con otra arma."
+      ],
+      "notes": [
+        "Ahora puedes explorar casi todo el mundo y desbloquear casi todas las regiones. Será largo (varias horas), pero permite desbloquear bonificaciones de Mr. S, conseguir armas fuertes y hechizos de fusión, usar el viaje rápido y no perder contenido por Time Skips.",
+        "Mr. S es Mr. Sensei, del SaGa 2 original de Game Boy (Final Fantasy Legend II en Occidente): un monstruo que hacía de profesor del tutorial y hoy es la mascota de la saga."
+      ]
+    },
+    {
+      "id": "canal-fortress-cat-burglar",
+      "title": "Liberating the Canal Fortress + Avalon’s Cat Burglar Sequence Break",
+      "location": "Somon · Canal Fortress · Avalon · Avalon Sewers",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Gel Matter",
+        "Toothfish",
+        "Piranha",
+        "Octopus"
+      ],
+      "objectives": [
+        "Ve a Somon y encuentra a Mr. S #2 en el muelle, mirando el barco.",
+        "Entra en la casa del sur del pueblo y habla con Hiraga III, que talla una cabeza de marioneta (activa la creación de Coppelia).",
+        "Ve a la zona de Canal Fortress SIN acercarte a la puerta.",
+        "Entra en la taberna, habla con la gente y rechaza la ayuda del hombre de la barra.",
+        "Vuelve a Avalon y habla con la mujer del vestido azul junto a la tienda de armas.",
+        "Teletranspórtate a tus aposentos del castillo y duerme hasta la noche.",
+        "Habla con el hombre de las escaleras frente al castillo.",
+        "Entra en la tienda de armas (cartel de espada grande), entra en la chimenea y sube a los tejados hasta el marcador.",
+        "Sigue a la ladrona y elige ayudarla.",
+        "En la taberna, usa con el camarero la opción de diálogo “How fares the kitten?”.",
+        "Ve al cementerio de la ciudad y habla con el hombre encapuchado: “I’m here about a kitten.”.",
+        "Entra en el agujero y habla con el líder del gremio de ladrones; pide ayuda para infiltrarte en Canal Fortress y acepta ayudar.",
+        "Entra en las alcantarillas por la puerta.",
+        "Explora Avalon Sewers recogiendo botín; llega a la gran cámara con el punto de guardado, en el sur del mapa.",
+        "Derrota al jefe Deep One.",
+        "Vuelve al gremio de ladrones (teletranspórtate a Avalon Sewers y da la vuelta hasta la puerta del gremio).",
+        "Entrega la misión al líder del gremio y observa cómo Cat se une para ayudar.",
+        "NO vayas a Canal Fortress ni hables con Cat allí."
+      ],
+      "warnings": [
+        "NO VAYAS A CANAL FORTRESS. Si hablas con Cat en la taberna de Canal Fortress provocarás un Time Skip prematuro después de Tefal Mines.",
+        "No completes Canal Fortress en esta generación: da muchos puntos de evento y forzaría un Time Skip ahora.",
+        "Completarlo activaría a la vez las misiones de Cumberland y de los Corsarios, lo que es un problema; la guía mostrará más adelante otra forma de activar Cumberland.",
+        "Si te acercas a la puerta de Canal Fortress se activará una batalla que hará fallar la misión.",
+        "Hay que hacer la primera parte de la cadena y derrotar a Deep One en la generación de Gerard; si no, nunca podrás reclutar a los Vagabond (City Thief).",
+        "Como no terminas la misión ahora, tendrás que volver al gremio y luchar de nuevo contra Deep One en una generación posterior; será más fácil porque ya habrás abierto la puerta del fondo del Umbral Research Center.",
+        "Escapar de las batallas igualmente aumenta el contador generacional: en las alcantarillas lucha si hace falta.",
+        "Gel Matter (slimes grandes con cerebro visible) hace mucho daño con Cyclone Squeeze: trátalo como miniboss y elimínalo rápido. Es débil a todos los elementos salvo Earth y fuerte contra Martial Arts y Club.",
+        "Deep One resiste Stun, Petrify y Death, pero Paralysis funciona. Su ataque Feeler y su hechizo Wracking pueden golpear varias veces y matar de un golpe a un personaje."
+      ],
+      "boss": {
+        "name": "Deep One",
+        "weaknesses": [
+          "Short Swords",
+          "Greatswords",
+          "Spears",
+          "Fire",
+          "Wind"
+        ],
+        "resistances": [
+          "Stun",
+          "Petrify",
+          "Death"
+        ],
+        "attacks": [
+          "Feeler",
+          "Wracking"
+        ]
+      },
+      "loot": [
+        "120,000 Crowns",
+        "Small Horn",
+        "Quality Balm"
+      ],
+      "notes": [
+        "Hiraga III activa la creación de Coppelia. En una generación futura verás la misión Meeting the Automaton al pasar el cursor sobre Somon, pero no podrás reclutarla hasta después de la destrucción de Leon Bridge y de que Hiraga cree su cohete. De todos modos no se desea todavía: es un gran Emperador que se aprovechará en una generación concreta.",
+        "Si hablas con Cat en Canal Fortress sumas una cantidad enorme de puntos de evento."
+      ]
+    },
+    {
+      "id": "the-mighty-martial-artists",
+      "title": "The Mighty Martial Artists",
+      "location": "Nibel · Dragon Lair · Fiends’ Cloister",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Creeper",
+        "Rotting Demon",
+        "Bone Biter",
+        "Werefrog",
+        "Sahra",
+        "Jam",
+        "Living Soul",
+        "Slime",
+        "Devil",
+        "Alligator",
+        "Human Soul",
+        "Rotten Beast"
+      ],
+      "objectives": [
+        "Teletranspórtate a Nibel y habla con todos los NPC con indicador de misión hasta desbloquear Dragon Lair.",
+        "Encuentra a Mr. S #3 en una pequeña parcela de cultivo entre la posada y la tienda (con las piernas pataleando y la cabeza bajo tierra).",
+        "Abre el cofre con 40,000 Crowns.",
+        "Salta sobre los troncos de la colina sobre la taberna y abre el cofre con Spirit Liquor.",
+        "En la tienda de objetos, compra todos los Puissance Liquor y Spirit Liquor.",
+        "Ve a Dragon Lair y encuentra a Mr. S #4 en una silla al suroeste de la plaza central.",
+        "Abre el cofre de la planta superior del lado oeste (Quality Balm).",
+        "Salta sobre los barriles hasta el cofre del lado este (Hemp Cloth).",
+        "Abre el cofre detrás del líder de los Martial Artists (Rubber Soles).",
+        "Habla con el líder Karl y acepta ayudar.",
+        "Teletranspórtate a Fiends’ Cloister y avanza sin preocuparte por el botín.",
+        "Derrota al jefe Gel Matter sin avanzar más en la mazmorra.",
+        "Usa la opción “Return to the Dragon Lair” y dile a Karl que has derrotado al slime.",
+        "Vuelve a Fiends’ Cloister; busca a Mr. S #5 a la izquierda, justo pasado el lugar del jefe Gel Matter.",
+        "Avanza hasta el siguiente jefe de la mazmorra.",
+        "Revisa la zona de agua y abre el cofre con el Ring of Nibel (+2 STA).",
+        "Activa el pedestal de Memory of the Seven Heroes en la esquina sureste.",
+        "Entra en la sala del jefe y observa cómo los Martial Artists derrotan al jefe final.",
+        "Comprueba que la clase Martial Artist se ha desbloqueado como miembro del grupo.",
+        "Usa los Puissance Liquor y Spirit Liquor para recuperar BP mientras provocas técnicas."
+      ],
+      "warnings": [
+        "Gel Matter es débil a Fire, Water, Wind, Light y Shadow, y resiste todos los ataques de arma. Derrotarlo da un Punto de Evento (total 2).",
+        "Completar la misión desbloquea la clase Martial Artist: otro Punto de Evento (total 3).",
+        "Sur de Varennes pasa a ser territorio conquistado: ya tienes 2 territorios.",
+        "No acumules los objetos de BP: úsalos para provocar técnicas más fuertes."
+      ],
+      "boss": {
+        "name": "Gel Matter",
+        "weaknesses": [
+          "Fire",
+          "Water",
+          "Wind",
+          "Light",
+          "Shadow"
+        ],
+        "resistances": [
+          "Todos los ataques de arma"
+        ]
+      },
+      "loot": [
+        "Beastly Claw",
+        "Puissance Liquor",
+        "Divine Liquor",
+        "Small Horn",
+        "Natural Essence",
+        "Hemp Cloth",
+        "90,000 Crowns",
+        "Ring of Nibel"
+      ]
+    },
+    {
+      "id": "incantation-lab-and-smithy",
+      "title": "Incantations Lab & Smithy Built",
+      "location": "Avalon",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a la Incantation Lab desde el mapa mundial y habla con Mr. S #6 detrás del mostrador.",
+        "Habla con el encargado para registrar los hechizos que tus personajes hayan aprendido.",
+        "Recluta a la Freelance Mage M para conseguir un Quarterstaff gratis.",
+        "Provoca Halt! usando ataques normales con el Quarterstaff (puede paralizar a todos los enemigos).",
+        "Si la Court Mage F ha dominado Spell BP Reduction, sustitúyela por una Freelance Mage F y sube Earth combinándolo con Fire.",
+        "Teletranspórtate a la Smithy y habla con el Imperial Blacksmith.",
+        "Forja equipo siempre que tengas dinero y materiales para desbloquear mejor equipo y mejorar la Smithy.",
+        "Recoge Raw Iron Ore para desbloquear a la Imperial Blacksmith como miembro del grupo.",
+        "Teletranspórtate al salón del trono y, cuando puedas permitirte un millón de Coronas, mejora la Incantation Lab para crear hechizos de fusión."
+      ],
+      "warnings": [
+        "No uses nunca la técnica Staff Strike del Quarterstaff: destruye el bastón de forma permanente. Usa ataques normales para provocar Halt!.",
+        "Según tus aptitudes, la Freelance Mage F puede empezar ya con Fireball II aunque nadie lo hubiera provocado antes.",
+        "Aunque no vayas a usar la forja, fabricar equipo desbloquea mejor equipo y mejoras de la Smithy: hazlo periódicamente.",
+        "Mejorar la Incantation Lab permite crear hechizos de fusión al entregar los libros de fusión que encuentres por el mundo."
+      ]
+    },
+    {
+      "id": "securing-the-mine-tefal",
+      "title": "Securing the Mine",
+      "location": "Tefal · Gemstone Mines",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Werewolf",
+        "Dobby",
+        "Frog Prince",
+        "Minotaur",
+        "Lizard",
+        "Jelly",
+        "Flyer",
+        "Evil Snake"
+      ],
+      "objectives": [
+        "En el mapa mundial, pasa el cursor hacia el sur y teletranspórtate a Tefal.",
+        "Encuentra a Mr. S #7 delante de la taberna.",
+        "Habla con la mujer del vestido azul al entrar en el pueblo.",
+        "Habla con el hombre deprimido de la barra de la taberna y pregúntale si es de la zona.",
+        "Habla con la gente delante de las minas y elige la primera opción: “Leave the fiends to me”.",
+        "Entra en Gemstone Mines y abre los cofres que veas.",
+        "Encuentra el pedestal de Memory of the Seven Heroes poco después de entrar.",
+        "Consigue el Book of Water and Wind I (hechizo de fusión Cyclone Squeeze), protegido por un minotauro en una cornisa antes de salir a la siguiente sección.",
+        "Cruza el puente hasta el punto de guardado y abre el cofre con Imperial Salve.",
+        "Derrota al jefe: un grupo de Lizardman y Lizardlady.",
+        "Abre los cristales (hacen de cofres) para conseguir 150,000 Crowns, Beastly Claw y Steel Thread.",
+        "Teletranspórtate a Tefal, habla con el hombre deprimido y elige “From Nazella, tell me how to get there”.",
+        "Entrega la misión: conquistas Ludon (2 territorios) y desbloqueas Ludon Highlands."
+      ],
+      "warnings": [
+        "No salgas de la mina sin el libro de Cyclone Squeeze.",
+        "Dobby puede soltar Elder Bow, una mejora decente para tu Ranger.",
+        "Los jefes son débiles a Stun, Paralysis y Confusion. Abre con un Unity Attack con Rapid Volley del arquero y remátalos.",
+        "Varias personas han sufrido un Time Skip aquí. Si te pasa, sigue la guía con normalidad (sin hacer misiones fuera de orden) e intenta tener un Emperador Martial Artist, siguiendo los consejos de la sección de la Gen III."
+      ],
+      "boss": {
+        "name": "Lizardman y Lizardlady",
+        "weaknesses": [
+          "Stun",
+          "Paralysis",
+          "Confusion"
+        ]
+      },
+      "loot": [
+        "Book of Water and Wind I (Cyclone Squeeze)",
+        "White Gloves",
+        "90,000 Crowns",
+        "70,000 Crowns",
+        "Beastly Claw",
+        "Silver Ore",
+        "Spirit Liquor",
+        "Imperial Salve",
+        "Elder Bow (drop de Dobby)",
+        "150,000 Crowns",
+        "Steel Thread"
+      ]
+    },
+    {
+      "id": "ludon-highlands",
+      "title": "Ludon Highlands",
+      "location": "Ludon Highlands · Lake Aqua · Saigo Village",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Soil",
+        "Signal Tree",
+        "Tzitzimiltl",
+        "Mandrake",
+        "Lizardman",
+        "Lizard",
+        "Valkyrie",
+        "Chimera",
+        "Stormer",
+        "Nasty Petal"
+      ],
+      "objectives": [
+        "Teletranspórtate a Ludon Highlands.",
+        "Tras la escena, sube por el acantilado hacia la derecha y abre el cofre con 130,000 Crowns.",
+        "Salta hasta el cristal: es Pure Iron Ore #1 (necesario para desbloquear la clase Imperial Blacksmith).",
+        "Recorre la zona abriendo cofres (Raw Iron Ore, Spirit Liquor, Magical Claw, Imperial Salve, etc.).",
+        "En la zona del barranco, junto al Lizardman que guarda el Tricorne, abre el cofre del Tricorne.",
+        "Vuelve a la entrada del barranco, ve hacia el este (usa el minimapa) y pelea con un Lizardman; sube por las enredaderas.",
+        "Derrota al lagarto volador, sube por las enredaderas y salta hasta donde está la Valkyrie para conseguir el cofre con Steel Thread.",
+        "Salta hacia el sur y sube la colina hacia el grupo de Valkyries; abre el siguiente cofre en el lado este.",
+        "Encuentra a Mr. S #8 en un acantilado del oeste, justo antes de que el camino se divida en el sur.",
+        "En la bifurcación, ve por el pasaje del oeste para desbloquear Lake Aqua y da media vuelta.",
+        "Sal por el sur hasta llegar a Saigo Village."
+      ],
+      "warnings": [
+        "Evita por ahora la gran quimera flotante. Puedes volver más tarde, guardar la partida, atacarla, morir para conseguir el logro “Lost in Ludon” y recargar.",
+        "La quimera del barranco no protege nada: ignórala o escapa si entras en combate."
+      ],
+      "loot": [
+        "130,000 Crowns",
+        "Raw Iron Ore",
+        "Spirit Liquor",
+        "Book of the Dark and Fire I (Hellfire)",
+        "Magical Claw",
+        "Tricorne",
+        "Imperial Salve",
+        "Steel Thread",
+        "Pure Iron Ore #1"
+      ],
+      "notes": [
+        "Hay que reunir varios Pure Iron Ore para desbloquear la clase Imperial Blacksmith."
+      ]
+    },
+    {
+      "id": "retaking-the-trade-route",
+      "title": "Retaking the Trade Route",
+      "location": "Saigo Village · Eastern Subterranean",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Bee",
+        "Lobstrite",
+        "Piercer",
+        "Venomous Bug",
+        "Jelly",
+        "Mud Mane",
+        "Python"
+      ],
+      "objectives": [
+        "Recoge los cofres y puntos brillantes de Saigo Village.",
+        "Encuentra a Mr. S #9 entre las dos casas centrales.",
+        "Habla con el hombre junto al niño con marcador de misión y luego entra en la casa y habla con el chico.",
+        "Sal y habla con el jefe del pueblo: elige “Lend a hand” para desbloquear Eastern Subterranean.",
+        "Descansa en la posada para recuperar BP y teletranspórtate a la nueva mazmorra.",
+        "Cerca del centro del mapa, en el oeste, abre el cofre con el Book of the Dark and Fire I (Hellfire), bajando una cornisa, trepando por un agujero y venciendo al Gel Matter que lo guarda.",
+        "Encuentra el pedestal de Memory of the Seven Heroes en el noreste (salta a la cima del pilar de roca y luego a la cornisa).",
+        "Guarda la partida en el punto de guardado (Save 12: antes de Dantarg).",
+        "Enfréntate a Dantarg y PIERDE el combate a propósito.",
+        "Habla con el jefe del clan Saigo para entregar la misión (Save 13: después de Dantarg).",
+        "Vuelve a hablar con el jefe y compra el Seabreeze Shell.",
+        "Ignora Toba por ahora y ve a Mu Tundra."
+      ],
+      "warnings": [
+        "Pierde contra Dantarg: si lo derrotas generas 8 Puntos de Evento. Aunque aún seas Gerard y no hayas hecho Time Skip, igualmente debes perder, porque más adelante necesitarás sus Puntos de Evento para forzar un Time Skip.",
+        "Perder contra él no mata a tus personajes, no genera Puntos de Evento y le permite irse a su siguiente ubicación, completando el objetivo de la misión.",
+        "Es bueno para provocar técnicas: puedes recargar varias veces e intentar provocar técnicas medias-altas antes de que te mate con su Headbutt.",
+        "Entregar la misión da 1 Punto de Evento: total 8.",
+        "Compra el Seabreeze Shell: permite hablar con el Narwhal (Lord of the Sea) sin pelear, lo que retrasa el combate con Subier, necesario en esta ruta óptima. Si peleas con el Narwhal, Subier se hará más fuerte y te obligará a pelear, forzando un Time Skip y haciéndote perder misiones.",
+        "Se desbloquean Toba y Mu Tundra."
+      ],
+      "boss": {
+        "name": "Dantarg",
+        "attacks": [
+          "Headbutt"
+        ]
+      },
+      "loot": [
+        "Small Horn",
+        "140,000 Crowns",
+        "Beastly Claw",
+        "Steel Thread",
+        "Book of the Dark and Fire I (Hellfire)",
+        "Magical Claw",
+        "Twisted Horn",
+        "Gargoyle",
+        "Skull Rod",
+        "Silk Cloth",
+        "Hemp Cloth",
+        "Natural Essence",
+        "Spirit Liquor"
+      ],
+      "notes": [
+        "Dantarg, uno de los Siete Héroes, tiene una mecánica especial: si tu grupo lo encuentra y pierde, se mueve a Child and Mu Calf Cave. Tras 6 generaciones de Time Skips, habrá asaltado una mazmorra de Nazelle y reemplazado a su jefe con una forma más fuerte, igual que a sus enemigos.",
+        "Orden de mazmorras a las que va: Eastern Subterrane, Southern Subterrane y Minstrel’s Cave.",
+        "Tras perder contra él la primera vez, quedará en Child and Mu Calf Cave el resto de la generación; al derrotar al resto de jefes de las mazmorras evitas que se haga más fuerte.",
+        "Si lo derrotas en su forma final, suelta el hacha única Destroyer con la técnica Destruction; esta ruta lo evita a cambio de equipo y hechizos de fusión más potentes.",
+        "El Book of the Dark and Fire I (Hellfire) no podrás usarlo hasta desbloquear Shadow Magic, pero conviene cogerlo ahora."
+      ]
+    },
+    {
+      "id": "mus-migration",
+      "title": "The Mu’s Migration",
+      "location": "Mu Tundra · Southern Subterrane",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Winger",
+        "Spike Head",
+        "Lizardlady",
+        "Lizardman",
+        "Skull Demon",
+        "Skeleton",
+        "Pyrorex",
+        "Haunt",
+        "Fury",
+        "Storm Eater",
+        "Hollow"
+      ],
+      "objectives": [
+        "Ve a Mu Tundra y encuentra a Mr. S #10 agarrado a un Mu.",
+        "Abre los cofres con Silver Ore y Silk Cloth.",
+        "Vuelve a la entrada del pueblo y habla con el hombre junto al carro.",
+        "Entra en cualquiera de las cuevas y habla con los NPC marcados.",
+        "Habla con el jefe del clan Saigo y pregúntale por la ubicación del demonio para abrir Southern Subterrane.",
+        "Teletranspórtate a Southern Subterrane y avanza hasta el jefe (solo necesitas derrotar al jefe).",
+        "Al llegar al arco de piedra, ve a la derecha, sube las enredaderas y sigue hasta el cofre con 110,000 Crowns protegido por Lizardmen.",
+        "Baja y continúa; encuentra a Mr. S #11 tumbado en el camino.",
+        "En la siguiente zona, tras subir las enredaderas, ve a la izquierda, salta la barricada y sube las escaleras de piedra.",
+        "Haz plataformas hasta el cofre con 150,000 Crowns.",
+        "Abre el cofre con el Diamond protegido por dos perros esqueleto.",
+        "Llega al punto de guardado, restaura BP y avanza hasta el jefe.",
+        "Derrota al grupo de Hornlizard.",
+        "Vuelve con el jefe de Mu Tundra: se desbloquea Nazelle Strait."
+      ],
+      "warnings": [
+        "Derrotar al jefe da 4 Puntos de Evento: total 12.",
+        "Los Hornlizard son débiles a Spears, Axes, Earth y Wind; abre con un Unity Attack con AoE de arco y remátalos en los siguientes turnos.",
+        "Los enemigos voladores te atacarán durante las secciones de plataformas.",
+        "No entregues todavía la misión Mu’s Migration al jefe Saigo de Mu Habitat: completarla fuerza un Time Skip (se hace al final de la generación)."
+      ],
+      "boss": {
+        "name": "Hornlizard (grupo)",
+        "weaknesses": [
+          "Spears",
+          "Axes",
+          "Earth",
+          "Wind"
+        ]
+      },
+      "loot": [
+        "Beastly Claw",
+        "Splasher (1h sword)",
+        "110,000 Crowns",
+        "150,000 Crowns",
+        "Diamond",
+        "Silver Ore",
+        "Silk Cloth"
+      ]
+    },
+    {
+      "id": "nazelle-strait",
+      "title": "Nazelle Strait + Saigo Clansman Class Unlock",
+      "location": "Nazelle Strait · Mu Habitat",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Storm Eater",
+        "Zeno",
+        "Cultist",
+        "Great Scissor",
+        "Devil",
+        "Blob",
+        "Mobelwagen"
+      ],
+      "objectives": [
+        "Teletranspórtate a Nazelle Strait y encuentra a Mr. S #12 al entrar.",
+        "Desliza por la mazmorra y recoge todo el botín.",
+        "Consigue el Magician’s Cap en el centro-este del mapa, deslizándote junto a los pulpos.",
+        "Cerca de la salida, gira a la derecha y entra en la pequeña cueva para abrir el cofre con el Book of Light and Water I (Diamond Dust).",
+        "En Mu Habitat, no hables con nadie y abre solo el cofre con Silk Cloth.",
+        "Teletranspórtate a la Incantation Lab de Avalon y empieza el desarrollo de Diamond Dust.",
+        "Empieza cualquier desarrollo de la Smithy que aún no hayas hecho.",
+        "Vuelve a Mu Habitat y habla con la mujer con marcador de misión para desbloquear Gelid Ruins.",
+        "NO hables todavía con el jefe (chief)."
+      ],
+      "warnings": [
+        "No entregues todavía la misión Mu’s Migration: completarla fuerza un Time Skip.",
+        "El Magician’s Cap aumenta MAG y es una buena gorra para lanzadores: hay pocas por partida.",
+        "Diamond Dust tiene potencia 15 y golpea a todos los enemigos; en esta fase hace mucho daño."
+      ],
+      "loot": [
+        "Twisted Horn",
+        "Reddish Ore",
+        "Silver",
+        "Magician’s Cap",
+        "Superior Balm",
+        "Book of Light and Water I (Diamond Dust)",
+        "Silk Cloth"
+      ]
+    },
+    {
+      "id": "mystery-of-the-ice-ruins",
+      "title": "Mystery of the Ice Ruins - The Frozen Sea Part 1",
+      "location": "Gelid Ruins",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Fear",
+        "Joker",
+        "Medusa",
+        "Hulion",
+        "Nuckelavee"
+      ],
+      "objectives": [
+        "Teletranspórtate a Gelid Ruins.",
+        "Encuentra a Mr. S #13 poco después de entrar, junto a una pared antes de empezar a deslizarte por el hielo.",
+        "Descongela los tramos de escaleras entrando en las puertas y activando los pedestales de cada sala.",
+        "En el fondo de las ruinas, en la 2ª planta (zona de hielo deslizante), consigue el cofre con la Amethyst Axe, protegido por un Hulion; huye de él para abrir el cofre.",
+        "Rodea hasta el otro lado y, en una sala con una pared rota, abre el cofre con el arco Grim Reaper.",
+        "Activa el pedestal de esa sala para descongelar el siguiente tramo de escaleras.",
+        "Teletranspórtate fuera y vuelve más tarde (no te enfrentes aún al Giant de la cima)."
+      ],
+      "warnings": [
+        "Escapa de la mayoría de combates: los enemigos de aquí son difíciles para esta fase (es una mazmorra de mitad/final de juego).",
+        "Cuidado con las trampas que invocan enemigos al entrar en algunas salas; no son difíciles de evadir.",
+        "Hulion es casi un mid-boss para tu grupo ahora. Si no puedes huir porque te golpea por la espalda, usa ataques de Paralysis.",
+        "Grim Reaper permite provocar Execution Arrows, que puede provocar Doom (KO instantáneo) a todos los enemigos.",
+        "Giant (cima) es vulnerable a Stun, Sleep, Greatswords, Spears, Axes, Martial Arts y Wind. Puede soltar Skysteel Shield (no es bueno) y Trinity Edge Greatsword (bueno para el inicio), con muy baja probabilidad: vuelve tras conseguir el Bejeweled Ring.",
+        "Las escaleras ya descongeladas no se vuelven a congelar al salir de la mazmorra.",
+        "En el lado oeste del mapa puedes saltar de la cornisa para encontrar dos salas con más botín, aunque nada realmente importante."
+      ],
+      "boss": {
+        "name": "Giant (opcional, más adelante)",
+        "weaknesses": [
+          "Stun",
+          "Sleep",
+          "Greatswords",
+          "Spears",
+          "Axes",
+          "Martial Arts",
+          "Wind"
+        ]
+      },
+      "loot": [
+        "Twisted Horn",
+        "Silk Cloth",
+        "Amethyst Axe",
+        "Grim Reaper (bow)",
+        "Skysteel Shield (drop del Giant)",
+        "Trinity Edge Greatsword (drop del Giant)"
+      ],
+      "notes": [
+        "Amethyst Axe: su técnica única Phantom Chivalry crea un clon del personaje con HP y BP propios, y con STR/DEX/MAG/STA fijados en el momento de crearlo. Puedes subir STR y SPD con hechizos y técnicas como Berserk y luego “fijarlos” con Phantom Chivalry. Otros personajes pueden aumentar aún más la STR del clon con Gilden Strength o Blessing del Liberty Staff. El clon solo puede usar la Amethyst Axe y técnicas de hacha, pero en la primera partida será tu arma más fuerte en esta fase."
+      ]
+    },
+    {
+      "id": "mass-region-unlocking",
+      "title": "Mass Region Unlocking + Fusion Spell Book Acquisition",
+      "location": "Toba · Atlanticus · Witch’s Sanctum · Melu Desert · Teretuva · Bihara · Savannah · Steppe · Salamat · Amazon Village · Yuyan · Eirunep · Avalon · Mu Habitat",
+      "phase": "Parte 2: Golden Armor Gerard",
+      "status": "pending",
+      "enemies": [
+        "Dreadknight",
+        "Grasshopers",
+        "Sand Drake",
+        "Mantid",
+        "Frog men",
+        "Ogre"
+      ],
+      "objectives": [
+        "Activa el modo correr para toda esta sección.",
+        "Escapa de todas las batallas que puedas, especialmente si los personajes ya tienen la lista de técnicas llena.",
+        "Teletranspórtate a Toba y encuentra a Mr. S #14 en la barra de la taberna.",
+        "Habla con el hombre del muelle y toma el barco a Atlanticus.",
+        "En Atlanticus, NO hables con nadie con marcador de misión, NO entres en la taberna y NO actives la misión de la Sirena.",
+        "Ve a la casa más al sur y habla con la mujer que solo tiene burbuja de diálogo (sin marcador) para desbloquear Witch’s Sanctum.",
+        "Teletranspórtate a Witch’s Sanctum y avanza recto, ignorando el primer camino de la derecha (cofre con Gaia Essence, con riesgo de Dreadknight).",
+        "Toma el segundo camino hasta la cabaña de la bruja y encuentra a Mr. S #15 dentro.",
+        "Habla con la bruja y compra UNA sola poción: la que recupera LP.",
+        "Comprueba que se ha desbloqueado Melu Desert West.",
+        "Sal de la cabaña y baja hasta el final de la mazmorra; junto a los hombres rana, sigue el rastro de luz hasta el pedestal de Memory of the Seven Heroes.",
+        "Toma el siguiente camino (dos Grasshopers flotantes) y sube por las enredaderas hasta el Book of the Dark and Fire II (Ghost Light).",
+        "Teletranspórtate a Melu Desert West - South Longit Side.",
+        "Consigue el Book of Light and Wind II (Solar Wind) en el norte, primer giro a la izquierda al entrar; escapa del dragón y sabuesos de hueso.",
+        "Ve al sur, pasando la primera salida (Northern Melu Desert), y toma la siguiente salida hacia Teretuva.",
+        "En Teretuva, baja al pueblo, ignora los templos y habla SOLO con Mr. S #16 (en un banco de la plaza, detrás de una mujer con marcador a la que NO debes hablar).",
+        "Sal por la salida norte hacia Melu Desert - North.",
+        "Consigue el Pure Iron Ore #2 en el grupo de cristales al sureste (guardado por un Sand Drake enterrado).",
+        "Salta del acantilado y corre al norte (por la izquierda) hasta la salida norte hacia Bihara, ignorando la salida este y los cofres.",
+        "En Bihara, encuentra a Mr. S #17 en un barril del muelle; NO navegues desde el muelle.",
+        "Sal por el este hacia Savannah.",
+        "Toma el giro brusco a la izquierda hacia Ponente y encuentra a Mr. S #18 a tu izquierda.",
+        "Vuelve a Savannah y ve al sureste hasta Ostro (punto de guardado, giro brusco a la derecha, hasta la salida).",
+        "En la posada de Ostro, encuentra a Mr. S #19 durmiendo en una cama.",
+        "Teletranspórtate a Ponente y sal por el norte hacia la zona norte de Savannah.",
+        "Ve recto, gira a la derecha sobre el puente de troncos y sube la colina al noreste hasta la Steppe.",
+        "Sigue el camino de la derecha hasta el Landship y abre el cofre con el Book of Fire and Earth I (Fire Wall) en la cornisa al este.",
+        "Vuelve a subir por las enredaderas y abre el cofre con Harmonia tras el pilar.",
+        "Baja la cornisa y abre el cofre del ogro de la cueva con 120,000 Crowns.",
+        "Localiza el Nomad Village (cambia de posición; mira los marcadores en el mapa grande).",
+        "Desde allí, corre al oeste de Savannah, toma el camino del oeste bajo el arco de piedra hasta Miles y encuentra a Mr. S #20 junto a la fuente.",
+        "Teletranspórtate a Ostro, sal por el norte, cruza el puente de troncos, ve al sureste hasta el cañón y entra en Salamat.",
+        "Opcional: consigue el Book of Light and Water II (Prism Light) saltando del acantilado oeste hacia la rama del gran árbol (cofre protegido por Mantid).",
+        "Corre al este hasta Mowlie y activa el pedestal de Memory of the Seven Heroes antes de entrar.",
+        "En Mowlie, encuentra a Mr. S #21 en el centro del pueblo; NO hables con el NPC del muelle ni navegues.",
+        "Vuelve a Salamat, corre al oeste y luego al sur; en la bifurcación con dos babosas rojas ve al este.",
+        "Ve por la izquierda, sube por el pequeño agujero, pasa las abejas y entra en la aldea Amazon.",
+        "En la escena, ayuda a la jefa Amazon.",
+        "NO toques las canoas de piedra; no entres en la aldea y cae por el agujero.",
+        "Abajo, encuentra a Mr. S #22 y abre el cofre con 90,000 Crowns.",
+        "Sal por el norte y consigue el Pure Iron Ore #3.",
+        "Salta, vuelve al sureste y en las babosas rojas ve al sur; abre el cofre con 120,000 Crowns y cruza el paso estrecho.",
+        "Ve al suroeste hasta Yuyan y habla SOLO con Mr. S #23 (en un banco bajo un paraguas rojo, junto a la tienda).",
+        "Guarda la partida.",
+        "Teletranspórtate a la aldea Amazon, vuelve a Salamat, pasa por el agujero, ve al sur y salta del acantilado tras las mujeres araña hasta desbloquear Eirunep; no hables con nadie.",
+        "Teletranspórtate a Avalon y entrega los libros de fusión para investigación.",
+        "Teletranspórtate a Mu Habitat y habla con el jefe para completar Mu’s Migration (Saigo Clansman, 3er territorio y Time Skip forzado)."
+      ],
+      "warnings": [
+        "Sigue las instrucciones exactamente: no hables con nadie que no se indique y no hagas lo que se prohíbe.",
+        "No pierdas progreso del árbol de técnicas: no elimines técnicas que no tengan cinta (medalla) de dominio.",
+        "NO compres más pociones a la bruja: solo puede hacer 15 por partida y necesitas una para la Mermaid Potion más adelante.",
+        "NO actives la misión de la Sirena en Atlanticus.",
+        "NO navegues a Douglas desde Miles: activaría prematuramente las misiones de Cumberland.",
+        "NO navegues desde Mowlie ni hables con su NPC del muelle: activaría eventos del volcán de Comroon.",
+        "NO toques las canoas de piedra de la aldea Amazon: activaría las misiones de Tsukijima y Zumio Volcano.",
+        "No puedes reclutar Amazon con un Emperador masculino.",
+        "En el desierto de Melu el HP de tus personajes se reduce a la mitad.",
+        "Mu’s Migration debe terminarse en la misma generación en que se empieza, o fallará.",
+        "Si tuviste un Time Skip temprano en la taberna de Tefal y ya estás en Gen III, salta a la sección de la Gen IV, elige su Emperador según la guía y vuelve aquí para continuar.",
+        "Si tuviste un Time Skip antes de entregar Mu’s Migration y ahora no se produce uno al entregarla, recarga el guardado previo y sube el contador generacional con batallas (revisa cada 20-30 batallas).",
+        "Alternativamente, sigue la secuencia de misiones: probablemente habrá Time Skip durante Sekishusai o Nightmare in Savannah, y otro tras Cumberland, hasta hacer la misión de la Sirena y volver a la ruta. Una o dos generaciones extra no arruinan nada."
+      ],
+      "loot": [
+        "Book of the Dark and Fire II (Ghost Light)",
+        "Book of Light and Wind II (Solar Wind)",
+        "Pure Iron Ore #2",
+        "Pure Iron Ore #3",
+        "Book of Fire and Earth I (Fire Wall)",
+        "Harmonia",
+        "120,000 Crowns",
+        "90,000 Crowns",
+        "Book of Light and Water II (Prism Light) (opcional)"
+      ],
+      "notes": [
+        "Al final deberías tener 3 de los 5 Pure Iron Ore necesarios para desbloquear la clase Imperial Blacksmith.",
+        "Armas conseguidas en la generación: Amethyst Axe y Grim Reaper Bow.",
+        "Hechizos de fusión conseguidos: Fire Wall, Cyclone Squeeze, Diamond Dust y Solar Wind. También tienes los libros de Hellfire y Ghost Light (Shadow), pero aún no puedes aprenderlos.",
+        "Ventajas de Mr. S: Treasure Hunter I (muestra cuántos cofres sin abrir hay en una zona del mapa mundial), Moneybags (+20% Coronas de batalla), Better Part of Valor (reduce a la mitad el coste de BP al escapar) y TP Bonus (probabilidad de duplicar el TP ganado).",
+        "Casi desbloqueada: Treasure Hunter II (muestra la ubicación de cofres sin abrir en el mapa).",
+        "Casi todo el mapa queda desbloqueado y no se ha activado ninguna misión sensible al tiempo que pueda fallar.",
+        "Mu’s Migration debe terminarse en la misma generación; la misión de Cumberland se retrasa a propósito para hacerla en la Gen IV."
+      ]
+    }
+  ]
+}

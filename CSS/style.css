@@ -509,3 +509,82 @@ a:focus-visible,
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---------- Introducción al walkthrough ---------- */
+
+.walkthrough-intro {
+  margin-top: 3.5rem;
+}
+
+.intro-text {
+  max-width: 720px;
+  margin: 0 0 1.5rem;
+  color: var(--comment);
+}
+
+.info-card {
+  margin-bottom: 0.7rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--cyan);
+  border-radius: 7px;
+}
+
+.info-card > summary {
+  padding: 0.85rem 1rem;
+  color: var(--cyan);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  list-style: none;
+}
+
+.info-card > summary::-webkit-details-marker {
+  display: none;
+}
+
+.info-card > summary::marker {
+  content: "";
+}
+
+.info-card > summary::after {
+  content: "⌄";
+  float: right;
+  color: var(--purple);
+  transition: transform 0.15s ease;
+}
+
+.info-card[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.info-card > summary:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: -2px;
+}
+
+.info-card-content {
+  padding: 0 1rem 1rem;
+  color: var(--fg);
+  font-size: 0.88rem;
+}
+
+.info-card-content p {
+  margin: 0 0 0.6rem;
+}
+
+.info-card-content ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.info-card-content li + li {
+  margin-top: 0.35rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .info-card > summary::after {
+    transition: none;
+  }
+}
