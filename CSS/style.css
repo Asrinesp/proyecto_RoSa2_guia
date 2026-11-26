@@ -4,6 +4,8 @@
    ========================================================= */
 
 :root {
+  color-scheme: dark;
+
   --bg: #282a36;
   --bg-dark: #21222c;
   --bg-panel: #343746;
@@ -20,11 +22,14 @@
 
   --sidebar-width: 270px;
   --sidebar-collapsed-width: 76px;
+
   --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 html {
   min-height: 100%;
@@ -42,10 +47,13 @@ body {
   line-height: 1.6;
 }
 
-a { color: var(--cyan); }
+a {
+  color: var(--cyan);
+}
 
 a:focus-visible,
-label:focus-visible {
+.mobile-menu-button:focus-visible,
+.sidebar-toggle:focus-visible {
   outline: 2px solid var(--purple);
   outline-offset: 3px;
 }
@@ -99,13 +107,17 @@ label:focus-visible {
   font-weight: 700;
 }
 
-.brand-copy { min-width: 0; }
+.brand-copy {
+  min-width: 0;
+}
+
 .brand-copy strong {
   display: block;
   font-family: var(--font-mono);
   font-size: 0.82rem;
   line-height: 1.35;
 }
+
 .brand-copy small {
   display: block;
   margin-top: 0.2rem;
@@ -127,10 +139,12 @@ label:focus-visible {
   font-size: 0.78rem;
   user-select: none;
 }
+
 .sidebar-toggle:hover {
   border-color: var(--purple);
   color: var(--fg);
 }
+
 .toggle-icon {
   width: 1.2rem;
   color: var(--purple);
@@ -138,13 +152,16 @@ label:focus-visible {
   font-size: 1.1rem;
 }
 
-.site-nav { margin-top: 1.8rem; }
+.site-nav {
+  margin-top: 1.8rem;
+}
+
 .nav-heading {
   display: block;
   margin: 0 0 0.65rem 0.7rem;
   color: var(--comment);
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   letter-spacing: 0.14em;
 }
 
@@ -170,16 +187,19 @@ label:focus-visible {
   font-size: 0.84rem;
   transition: background-color 0.15s, color 0.15s, border-color 0.15s;
 }
+
 .site-nav a:hover {
   background: var(--bg-panel);
   border-color: var(--line);
   color: var(--pink);
 }
+
 .site-nav a[aria-current="page"] {
   background: rgb(189 147 249 / 10%);
   border-color: rgb(189 147 249 / 35%);
   color: var(--green);
 }
+
 .nav-symbol {
   display: inline-grid;
   flex: 0 0 1.25rem;
@@ -193,16 +213,25 @@ label:focus-visible {
   padding: 1.25rem 0.5rem 0.2rem;
   color: var(--comment);
   font-family: var(--font-mono);
-  font-size: 0.63rem;
+  font-size: 0.72rem;
   letter-spacing: 0.1em;
 }
-.sidebar-footer span { color: var(--green); }
+
+.sidebar-footer span {
+  color: var(--green);
+}
+
+/* Botón fijo para abrir/cerrar el menú en móvil */
+.mobile-menu-button {
+  display: none;
+}
 
 /* Menú contraído en escritorio */
 #menu-toggle:checked ~ .sidebar {
   width: var(--sidebar-collapsed-width);
   padding-inline: 0.85rem;
 }
+
 #menu-toggle:checked ~ .sidebar .brand-copy,
 #menu-toggle:checked ~ .sidebar .toggle-text,
 #menu-toggle:checked ~ .sidebar .nav-heading,
@@ -210,12 +239,17 @@ label:focus-visible {
 #menu-toggle:checked ~ .sidebar .sidebar-footer {
   display: none;
 }
+
 #menu-toggle:checked ~ .sidebar .sidebar-brand,
 #menu-toggle:checked ~ .sidebar .sidebar-toggle,
 #menu-toggle:checked ~ .sidebar .site-nav a {
   justify-content: center;
 }
-#menu-toggle:checked ~ .sidebar .site-nav a { padding-inline: 0.4rem; }
+
+#menu-toggle:checked ~ .sidebar .site-nav a {
+  padding-inline: 0.4rem;
+}
+
 #menu-toggle:checked ~ .sidebar .nav-symbol {
   flex-basis: auto;
   font-size: 1.15rem;
@@ -228,11 +262,14 @@ label:focus-visible {
   padding: 3.2rem clamp(1.5rem, 5vw, 4.5rem) 4rem;
   transition: margin-left 0.22s ease;
 }
+
 #menu-toggle:checked ~ .page-content {
   margin-left: var(--sidebar-collapsed-width);
 }
 
-.menu-backdrop { display: none; }
+.menu-backdrop {
+  display: none;
+}
 
 /* ---------- Cabeceras y contenido común ---------- */
 
@@ -259,7 +296,10 @@ label:focus-visible {
   font-weight: 700;
   line-height: 1.2;
 }
-.site-title span { color: var(--fg); }
+
+.site-title span {
+  color: var(--fg);
+}
 
 .site-subtitle {
   max-width: 680px;
@@ -272,7 +312,11 @@ label:focus-visible {
   width: min(100%, 1050px);
   margin-inline: auto;
 }
-.section-heading { margin-bottom: 1.25rem; }
+
+.section-heading {
+  margin-bottom: 1.25rem;
+}
+
 .section-heading h2 {
   margin: 0;
   color: var(--fg);
@@ -302,15 +346,18 @@ label:focus-visible {
   text-decoration: none;
   transition: background-color 0.15s, border-color 0.15s, transform 0.15s;
 }
+
 .section-link:hover {
   background: var(--bg-panel);
   border-color: var(--accent, var(--purple));
   transform: translateY(-2px);
 }
+
 .section-link:focus-visible {
   outline: 2px solid var(--accent, var(--purple));
   outline-offset: 3px;
 }
+
 .section-name {
   display: block;
   color: var(--accent, var(--purple));
@@ -318,13 +365,15 @@ label:focus-visible {
   font-size: 1.15rem;
   font-weight: 700;
 }
+
 .section-file {
   display: block;
   margin-top: 0.1rem;
   color: var(--comment);
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.8rem;
 }
+
 .section-desc {
   display: block;
   margin-top: 0.6rem;
@@ -336,12 +385,16 @@ label:focus-visible {
   width: min(100%, 1050px);
   margin-inline: auto;
 }
+
 .page-body h2,
 .page-body h3 {
   color: var(--purple);
   font-family: var(--font-mono);
 }
-.page-body a { color: var(--cyan); }
+
+.page-body a {
+  color: var(--cyan);
+}
 
 /* ---------- Adaptación a móviles ---------- */
 
@@ -352,12 +405,12 @@ label:focus-visible {
     box-shadow: 12px 0 35px rgb(0 0 0 / 25%);
   }
 
-  /* En móvil, el menú empieza cerrado y se abre con el botón ☰ */
   #menu-toggle:checked ~ .sidebar {
     width: min(var(--sidebar-width), 86vw);
     padding-inline: 1rem;
     transform: translateX(0);
   }
+
   #menu-toggle:checked ~ .sidebar .brand-copy,
   #menu-toggle:checked ~ .sidebar .toggle-text,
   #menu-toggle:checked ~ .sidebar .nav-heading,
@@ -365,12 +418,17 @@ label:focus-visible {
   #menu-toggle:checked ~ .sidebar .sidebar-footer {
     display: initial;
   }
+
   #menu-toggle:checked ~ .sidebar .sidebar-brand,
   #menu-toggle:checked ~ .sidebar .sidebar-toggle,
   #menu-toggle:checked ~ .sidebar .site-nav a {
     justify-content: flex-start;
   }
-  #menu-toggle:checked ~ .sidebar .site-nav a { padding-inline: 0.75rem; }
+
+  #menu-toggle:checked ~ .sidebar .site-nav a {
+    padding-inline: 0.75rem;
+  }
+
   #menu-toggle:checked ~ .sidebar .nav-symbol {
     flex-basis: 1.25rem;
   }
@@ -381,35 +439,66 @@ label:focus-visible {
     padding: 5.5rem 1.1rem 2.5rem;
   }
 
-  /* Botón flotante para abrir/cerrar el menú */
-  .sidebar-toggle {
-    position: relative;
-  }
-  body::before {
-    content: "☰  MENÚ";
+  /* Botón real para abrir/cerrar el menú */
+  .mobile-menu-button {
     position: fixed;
-    z-index: 15;
+    z-index: 25;
     top: 0.8rem;
     left: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
     padding: 0.55rem 0.85rem;
     border: 1px solid var(--line);
     border-radius: 6px;
     background: var(--bg-dark);
     color: var(--fg);
+    cursor: pointer;
     font-family: var(--font-mono);
     font-size: 0.78rem;
-    pointer-events: none;
+    user-select: none;
   }
+
+  .mobile-menu-button:hover {
+    border-color: var(--purple);
+    color: var(--pink);
+  }
+
+  .mobile-menu-button:focus-visible {
+    outline: 2px solid var(--purple);
+    outline-offset: 3px;
+  }
+
+  /* Indica visualmente que el menú está abierto */
+  #menu-toggle:checked ~ .mobile-menu-button::after {
+    content: " ✕";
+  }
+
   .menu-backdrop {
     position: fixed;
     z-index: 18;
     inset: 0;
     background: rgb(0 0 0 / 55%);
+    cursor: pointer;
   }
-  #menu-toggle:checked ~ .menu-backdrop { display: block; }
-  #menu-toggle:checked ~ .sidebar { z-index: 20; }
-  .sidebar .sidebar-toggle { display: none; }
-  #menu-toggle:checked ~ .sidebar .sidebar-toggle { display: flex; }
+
+  #menu-toggle:checked ~ .menu-backdrop {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ .sidebar {
+    z-index: 20;
+  }
+
+  /* El toggle interno deja de ser necesario en móvil */
+  .sidebar .sidebar-toggle {
+    display: none;
+  }
+
+  #menu-toggle:checked ~ .sidebar .sidebar-toggle {
+    display: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
