@@ -1,0 +1,254 @@
+/* Estilos exclusivos de armas.html. Paleta heredada de Dracula Theme. */
+
+/* Estructura y menú lateral compartidos con la página de inicio */
+.menu-toggle {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar {
+  position: fixed;
+  z-index: 20;
+  inset: 0 auto 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  padding: 1.15rem 0.9rem 1rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: var(--bg-dark);
+  border-right: 1px solid var(--line);
+  transition: width 0.2s ease, transform 0.2s ease;
+}
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 58px;
+  padding: 0.35rem 0.45rem 1rem;
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+.brand-mark {
+  display: grid;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  color: var(--bg-dark);
+  background: var(--purple);
+  border-radius: 8px;
+  font: 700 0.9rem var(--font-mono);
+}
+.brand-copy { display: flex; min-width: 0; flex-direction: column; line-height: 1.35; }
+.brand-copy strong { font: 700 0.82rem var(--font-mono); color: var(--purple); }
+.brand-copy small { margin-top: 0.2rem; color: var(--comment); font-size: 0.72rem; }
+.sidebar-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0.9rem 0 1.1rem;
+  padding: 0.65rem 0.75rem;
+  color: var(--cyan);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  cursor: pointer;
+  font: 0.82rem var(--font-mono);
+  white-space: nowrap;
+}
+.sidebar-toggle:hover { background: var(--line); }
+.toggle-icon { display: inline-grid; width: 22px; flex: 0 0 22px; place-items: center; font-size: 1.1rem; }
+.site-nav { flex: 1; background: transparent; border: 0; }
+.nav-heading {
+  display: block;
+  padding: 0.3rem 0.75rem 0.55rem;
+  color: var(--comment);
+  font: 700 0.68rem var(--font-mono);
+  letter-spacing: 0.12em;
+}
+.site-nav ul {
+  display: grid;
+  gap: 0.25rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: 0.86rem var(--font-mono);
+}
+.site-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-height: 42px;
+  padding: 0.55rem 0.75rem;
+  color: var(--fg);
+  text-decoration: none;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.site-nav a:hover { color: var(--pink); background: rgba(68, 71, 90, 0.45); }
+.site-nav a[aria-current="page"] { color: var(--green); background: rgba(80, 250, 123, 0.08); }
+.nav-symbol { display: inline-grid; width: 22px; flex: 0 0 22px; place-items: center; font-size: 1.12rem; }
+.sidebar-footer {
+  padding: 0.9rem 0.65rem 0.1rem;
+  color: var(--comment);
+  font: 0.63rem var(--font-mono);
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+.sidebar-footer span { color: var(--green); font-size: 0.7rem; }
+.page-content {
+  width: min(1180px, 100% - 3rem);
+  min-height: 100vh;
+  margin-left: 270px;
+  padding: 3rem clamp(1.25rem, 4vw, 3.5rem) 4rem;
+  transition: margin-left 0.2s ease;
+}
+.page-header { max-width: 850px; margin: 0 auto 2rem; }
+.eyebrow {
+  margin: 0 0 0.55rem;
+  color: var(--green);
+  font: 700 0.72rem var(--font-mono);
+  letter-spacing: 0.16em;
+}
+.site-title { color: var(--orange); }
+.site-subtitle { max-width: 720px; margin-bottom: 0; color: var(--comment); }
+
+/* Menú contraído: se mantienen visibles los iconos */
+#menu-toggle:checked ~ .sidebar { width: 76px; padding-inline: 0.65rem; }
+#menu-toggle:checked ~ .sidebar .brand-copy,
+#menu-toggle:checked ~ .sidebar .toggle-text,
+#menu-toggle:checked ~ .sidebar .nav-heading,
+#menu-toggle:checked ~ .sidebar .nav-label,
+#menu-toggle:checked ~ .sidebar .sidebar-footer { display: none; }
+#menu-toggle:checked ~ .sidebar .sidebar-brand { justify-content: center; padding-inline: 0; }
+#menu-toggle:checked ~ .sidebar .sidebar-toggle { justify-content: center; padding-inline: 0.4rem; }
+#menu-toggle:checked ~ .sidebar .site-nav a { justify-content: center; padding-inline: 0.4rem; }
+#menu-toggle:checked ~ .page-content { margin-left: 76px; }
+
+/* Buscador y filtros */
+.weapons-tools, .category-intro, .weapon-list, .data-footnote {
+  width: min(100%, 1050px);
+  margin-inline: auto;
+}
+.weapons-tools {
+  padding: 1rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+.search-label { display: block; margin-bottom: 0.35rem; color: var(--cyan); font: 700 0.78rem var(--font-mono); }
+.weapon-search {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font: 0.95rem var(--font-body);
+}
+.weapon-search::placeholder { color: var(--comment); }
+.weapon-search:focus { outline: 2px solid var(--purple); outline-offset: 2px; }
+.category-tabs { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.9rem; }
+.category-tab {
+  padding: 0.48rem 0.7rem;
+  color: var(--comment);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  cursor: pointer;
+  font: 0.76rem var(--font-mono);
+}
+.category-tab:hover { color: var(--fg); border-color: var(--purple); }
+.category-tab[aria-pressed="true"] { color: var(--bg-dark); background: var(--purple); border-color: var(--purple); }
+.results-line { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 0.8rem; color: var(--comment); font-size: 0.78rem; }
+.text-button { padding: 0.2rem 0; color: var(--pink); background: none; border: 0; cursor: pointer; font: inherit; }
+.category-intro { margin-top: 1.4rem; }
+.category-intro h2 { margin: 0 0 0.35rem; color: var(--cyan); font: 700 1.15rem var(--font-mono); }
+.category-intro p { margin: 0; color: var(--comment); font-size: 0.9rem; }
+
+/* Fichas desplegables */
+.weapon-list { display: grid; gap: 0.65rem; margin-top: 1rem; }
+.weapon-card {
+  overflow: hidden;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+}
+.weapon-card[open] { border-color: #6272a4; }
+.weapon-summary {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 92px 110px 24px;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 62px;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+.weapon-summary::-webkit-details-marker { display: none; }
+.weapon-summary::marker { content: ""; }
+.weapon-name { color: var(--fg); font: 700 0.88rem var(--font-mono); }
+.weapon-attack, .weapon-reforge { color: var(--comment); font: 0.78rem var(--font-mono); text-align: right; }
+.weapon-attack strong, .weapon-reforge strong { display: block; color: var(--green); font-size: 0.95rem; }
+.weapon-reforge strong { color: var(--orange); }
+.weapon-chevron { color: var(--purple); text-align: right; transition: transform 0.15s ease; }
+.weapon-card[open] .weapon-chevron { transform: rotate(180deg); }
+.weapon-detail { padding: 0.15rem 1rem 1rem; border-top: 1px solid var(--line); }
+.detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem 1.2rem; padding-top: 0.9rem; }
+.detail-block { min-width: 0; }
+.detail-block.full { grid-column: 1 / -1; }
+.detail-block h3 { margin: 0 0 0.3rem; color: var(--pink); font: 700 0.72rem var(--font-mono); text-transform: uppercase; letter-spacing: 0.05em; }
+.detail-block p { margin: 0; color: var(--fg); font-size: 0.86rem; white-space: pre-line; }
+.detail-block ul { margin: 0; padding-left: 1.2rem; color: var(--fg); font-size: 0.85rem; }
+.detail-block li + li { margin-top: 0.2rem; }
+.tech-pill {
+  display: inline-block;
+  margin: 0.1rem 0.25rem 0.1rem 0;
+  padding: 0.2rem 0.45rem;
+  color: var(--cyan);
+  background: rgba(139, 233, 253, 0.08);
+  border: 1px solid rgba(139, 233, 253, 0.2);
+  border-radius: 4px;
+  font: 0.75rem var(--font-mono);
+}
+.unique-pill { color: var(--yellow); background: rgba(241, 250, 140, 0.07); border-color: rgba(241, 250, 140, 0.2); }
+.loading-panel, .empty-panel, .error-panel {
+  padding: 1.2rem;
+  color: var(--comment);
+  background: var(--bg-dark);
+  border: 1px dashed var(--line);
+  border-radius: 7px;
+  text-align: center;
+}
+.error-panel { color: var(--red); }
+.data-footnote { margin-top: 1.5rem; color: var(--comment); font-size: 0.75rem; }
+
+@media (max-width: 760px) {
+  .sidebar { width: 270px; transform: translateX(-100%); box-shadow: 12px 0 30px rgba(0,0,0,.25); }
+  #menu-toggle:checked ~ .sidebar { width: 270px; transform: translateX(0); }
+  #menu-toggle:checked ~ .sidebar .brand-copy,
+  #menu-toggle:checked ~ .sidebar .toggle-text,
+  #menu-toggle:checked ~ .sidebar .nav-heading,
+  #menu-toggle:checked ~ .sidebar .nav-label,
+  #menu-toggle:checked ~ .sidebar .sidebar-footer { display: initial; }
+  #menu-toggle:checked ~ .sidebar .sidebar-brand { justify-content: flex-start; }
+  #menu-toggle:checked ~ .sidebar .sidebar-toggle { justify-content: flex-start; padding-inline: 0.75rem; }
+  #menu-toggle:checked ~ .sidebar .site-nav a { justify-content: flex-start; padding-inline: 0.75rem; }
+  .menu-backdrop { display: none; position: fixed; z-index: 15; inset: 0; background: rgba(0,0,0,.55); }
+  #menu-toggle:checked ~ .menu-backdrop { display: block; }
+  .page-content, #menu-toggle:checked ~ .page-content { width: 100%; margin-left: 0; padding: 2rem 1rem 3rem; }
+  .weapon-summary { grid-template-columns: minmax(0, 1fr) 70px 82px 18px; gap: 0.45rem; padding-inline: 0.7rem; }
+  .weapon-name { font-size: 0.78rem; }
+  .weapon-attack, .weapon-reforge { font-size: 0.68rem; }
+  .weapon-attack strong, .weapon-reforge strong { font-size: 0.86rem; }
+  .detail-grid { grid-template-columns: 1fr; }
+  .detail-block.full { grid-column: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sidebar, .page-content, .weapon-chevron { transition: none; }
+}
