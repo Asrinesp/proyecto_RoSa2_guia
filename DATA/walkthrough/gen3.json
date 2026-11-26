@@ -1,0 +1,511 @@
+{
+  "id": "gen3",
+  "title": "Generación III: Martial Artist",
+  "subtitle": "Emperador Martial Artist y desbloqueo de clases",
+  "intro": [
+    "Tras el Time Skip debes elegir tú al nuevo Emperador. Se recomienda un Martial Artist masculino (Fritz): necesitas un Emperador cuerpo a cuerpo para el combate en solitario.",
+    "Esta generación desbloquea las clases Ninja, Levante Guard (East Guard), Hunter y Desert Guard, consigue el Bejeweled Ring y hechizos de fusión como Flash Fire, Restoration, Dark Sphere y Dragon Pulse.",
+    "Evita entrar en batallas innecesarias: hay muchas misiones que completar y demasiadas batallas generacionales provocarán un Time Skip prematuro.",
+    "Los Puntos de Evento de esta generación: Termite Queen (3), Nightmare on the Savannah (1) y The Liberation of Teretuva (4).",
+    "La generación termina con un Time Skip al completar Hunting the Wandering Lake."
+  ],
+  "missions": [
+    {
+      "id": "a-new-era",
+      "title": "A New Era",
+      "location": "Avalon Palace",
+      "status": "pending",
+      "objectives": [
+        "Tras el Time Skip, elige tú mismo al nuevo Emperador (no dejes que el juego elija).",
+        "Elige preferiblemente un Martial Artist (Fritz) como Emperador; puedes recargar antes de hablar con el jefe Saigo, o abdicar a un Martial Artist desde el Trono.",
+        "Ve a la taberna del Palacio para formar un nuevo grupo.",
+        "Reequipa a todos los personajes con equipo y habilidades; usa Guards en lugar de Shields.",
+        "Equipa las habilidades que quieras y configura la Formación.",
+        "Habla con el NPC de la Formación en el Training Hall para desbloquear la formación de tu clase de Emperador.",
+        "Usa ataques normales con el Martial Artist hasta provocar Way of Focus (autocuración).",
+        "Spamea Way of Focus cada ronda que tenga la bombilla para provocar Berserk.",
+        "Habla con el NPC del Training Hall para registrar las técnicas aprendidas.",
+        "Mercenary M (Orion): dale la Amethyst Axe y tu mejor espada de 1 mano.",
+        "Mercenary F (Side): conviértela en la usuaria de arco; sella sus técnicas de Shortsword y enséñale técnicas de arco en el Training Hall.",
+        "Freelance Mage F (Lily): enséñale en la Incantation Lab Fireball II y Fire Wall, y úsalos con frecuencia.",
+        "Freelance Mage M (Algol): sella primero sus hechizos de Earth y enséñale Diamond Dust, Cyclone Squeeze y Solar Wind."
+      ],
+      "warnings": [
+        "Elige un Emperador cuerpo a cuerpo (idealmente Martial Artist): vas a tener un combate en solitario y es mucho más fácil sobrevivir. No elijas un Emperador de arco o magia.",
+        "El Emperador debe ser masculino para poder hacer la parte de Witch’s Sanctum.",
+        "No dejes que el juego elija el equipo o al Emperador: siempre elige cosas poco útiles.",
+        "Cada vez que añadas personajes nuevos al grupo debes reequipar, reasignar habilidades y configurar la Formación.",
+        "Sella los hechizos de escuelas opuestas antes de enseñar los nuevos: si enseñas hechizos opuestos sin sellar, las aptitudes se reinician a cero. Si sellas primero y luego enseñas, no se reinician.",
+        "Las habilidades dominadas tienen una medalla amarilla; las aprendidas en la generación actual no la tienen.",
+        "Las clases comparten formación entre géneros: ambos géneros de una clase usan la misma Formación."
+      ],
+      "party_setup": [
+        "Emperador: Martial Artist (Fritz).",
+        "Mercenary M (Orion): Amethyst Axe y mejor espada de 1 mano.",
+        "Mercenary F (Side): arco y técnica de área.",
+        "Freelance Mage F (Lily): Fireball II y Fire Wall.",
+        "Freelance Mage M (Algol): Diamond Dust, Cyclone Squeeze y Solar Wind."
+      ],
+      "notes": [
+        "Berserk es probablemente la mejor mejora personal del inicio de juego: sube STR, SPD y STA en 15 durante tres turnos. Solo la supera Dragon Pulse cuando tus escuelas de Water y Earth superan lv50; Dragon Pulse puede acumularse y Berserk no.",
+        "El efecto negativo Berserk (más bien Madness) se evita con un objeto que dé inmunidad a Berserk: ya tienes el Somon Ring.",
+        "Solo necesitas equipar Martial Arts como arma para usar la mejora Berserk con otras técnicas de arma.",
+        "Con Diamond Dust y Solar Wind, junto a Rapid Volley / Rain of Arrows, avanzarás muy fácilmente en Normal / Classic.",
+        "Si en segunda partida has desbloqueado equipar habilidades de clase adicionales (tras conquistar 7 territorios, en la Gen V de esta guía), pon Auto-Parry en Orion. Esto es para New Game+ en dificultades altas; en Normal no es crucial.",
+        "Orion es mejor con 1h Sword y Greatsword que con hachas, pero puede provocar Reverse Delta y Axe Bomber, que son muy buenas.",
+        "El Mercenary F debe seguir usando su mejor técnica de arco de área hasta provocar Barrage Shot. Rapid Volley y Rain of Arrows ya deberían estar desbloqueadas; Instant Shot, Beast Slayer y Shadow Shot también son buenas.",
+        "Fusion spells pueden provocar hechizos de ambas escuelas."
+      ]
+    },
+    {
+      "id": "build-the-garden",
+      "title": "Build the Garden",
+      "location": "Avalon · Salón del trono",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate al salón del trono.",
+        "Interactúa con el Trono y construye el Garden por 300,000 Crowns."
+      ],
+      "warnings": [
+        "Construir el Garden es la única forma de conseguir más adelante el hechizo de fusión Light Wall."
+      ]
+    },
+    {
+      "id": "gerards-ability",
+      "title": "Gerard’s Ability",
+      "location": "Avalon · Bedchambers",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a los Bedchambers.",
+        "Pulsa el icono rojo brillante bajo el retrato de Gerard para aprender la habilidad All Attributes +1.",
+        "Equipa la habilidad, preferiblemente en el Emperador."
+      ]
+    },
+    {
+      "id": "sekishusai-the-loyal-retainer",
+      "title": "Sekishusai, the Loyal Retainer",
+      "location": "Yuyan · Liangshan · Castle Chonto",
+      "status": "pending",
+      "enemies": [
+        "Skeleton",
+        "Spike Head",
+        "Shade",
+        "Skull Demon",
+        "Azure Demon",
+        "Elder",
+        "Silver Beat",
+        "Nue",
+        "Battle Ogre",
+        "Crimson Demon"
+      ],
+      "objectives": [
+        "Teletranspórtate a Yuyan y habla con cualquiera con marcador de misión para desbloquear Liangshan.",
+        "Ve al santuario en la zona norte del mapa de Yuyan y ve la escena con la ninja que huye.",
+        "Teletranspórtate a Liangshan y encuentra a Mr. S #24 en una cama de la posada.",
+        "Considera comprar el Meteorite de la tienda y los licores.",
+        "Habla con el hombre junto a la pila de hachas y leña.",
+        "Abre el cofre con 2 Meteorite.",
+        "Habla con las dos personas siguientes marcadas con indicador de misión.",
+        "Recoge el Silver Ore brillante del estanque frente a la mansión y ve la escena de Jubei y Sekishusai.",
+        "Abre el cofre de la sala oeste con Divine Liquor.",
+        "Teletranspórtate a Castle Chonto y recoge los brillos de camino a la entrada, sin entrar aún.",
+        "Encuentra a Mr. S #25 sentado en una roca en un estanque.",
+        "Rodea el castillo y abre el cofre con 240,000 Crowns tras unas cajas.",
+        "Entra al castillo y sube piso a piso recogiendo todo hasta hablar con el Rey Ato en la última planta.",
+        "En 2F consigue la Legendary Plover Greatsword y el Mythical Claw.",
+        "Teletranspórtate de vuelta a Liangshan y habla con Sekishusai en su mansión; elige una de las dos primeras opciones.",
+        "Teletranspórtate a Castle Chonto, ya invadido por monstruos.",
+        "NO salgas del castillo hasta terminar toda la secuencia.",
+        "No entres por la puerta principal: ve al oeste y entra en el sótano.",
+        "Libera a la ninja atrapada en el sótano y derrota a los Battle Ogres que la emboscan: se desbloquea la clase Ninja.",
+        "Explora las plantas de esta sección y recoge los nuevos botines de cada sala.",
+        "En Tertiary Outworks 1F (sótano de Tertiary Outworks 2F) abre el cofre con el Book of the Dark and Wind II (Vortex).",
+        "Al entrar en Secondary Outworks 2F, sube las escaleras hasta Secondary Outworks 3F y activa el pedestal de Memory of the Seven Heroes.",
+        "Vuelve a Secondary Outworks 2F, rodea hasta el fondo y abre el cofre del noreste con Barrier Stone.",
+        "En Secondary Outworks 1F, pasa por el hueco de la sala sureste hasta la puerta marcada con indicador.",
+        "Vuelve a la parte principal de Castle Chonto esquivando enemigos; pégate a las paredes para evitar a los ninjas que aparecen en humo.",
+        "En 3F recoge el brillo tras los divisores (Hemp Cloth, protegido por ninjas) y el brillo de Obsidian en la sala de atrás.",
+        "Sube al punto de guardado y derrota al jefe Great One.",
+        "Recupera BP si hace falta y entra a la sala del trono.",
+        "Derrota a Sekishusai en un duelo contra tu Emperador.",
+        "Al ganar, di “Get out of my sight” para perdonar al rey y desbloquear la clase Levante Guard (East Guard).",
+        "Comprueba que has obtenido la habilidad Retribution."
+      ],
+      "warnings": [
+        "Con esta misión desbloqueas Ninja y Levante Guard (Samurai), consigues el Bejeweled Ring (en Castle Hakuro, más adelante) y el mejor hechizo de área, Flash Fire.",
+        "NO SALGAS DEL CASTILLO CHONTO una vez invadido, o podrías provocar un Time Skip y perder acceso a las clases Ninja y East Guard.",
+        "Evita batallas si puedes: en esta generación hay mucho que hacer y demasiadas batallas generacionales provocarán un Time Skip prematuro. Si entras en una, lucha: escapar también sube la fuerza enemiga y el contador, y al menos ganarás estadísticas y podrás provocar técnicas.",
+        "No puedes entrar por la puerta principal del castillo.",
+        "Hay un brillo en 3F tras unos divisores que no se puede coger todavía.",
+        "Silver Beat puede soltar Power Belts, la mejor armadura del juego para personajes de STR cuerpo a cuerpo; no te obsesiones, se pueden farmear más adelante con mejor tasa.",
+        "Nue puede petrificar con Gaze, que no puedes curar; aun así sirve para provocar técnicas y hechizos.",
+        "Nue usa Hypnotize y Crimson Demon usa Hell Claw: ambos permiten provocar evasiones útiles, pero no vale la pena obsesionarse."
+      ],
+      "boss": {
+        "name": "Great One y Sekishusai",
+        "weaknesses": [
+          "Great One: Greatswords, Shortswords, Axes, Light magic",
+          "Sekishusai: Swords, Shortswords, Axes, Clubs"
+        ],
+        "resistances": [
+          "Great One: sin resistencias a estados",
+          "Sekishusai: Light magic, Paralysis, Confusion, Charm, Madness"
+        ],
+        "attacks": [
+          "Great One: Poison Mist, Kick, Crescent Kick",
+          "Sekishusai: Flowing Slash y otras técnicas de Greatsword de nivel medio"
+        ]
+      },
+      "loot": [
+        "Legendary Plover Greatsword",
+        "Mythical Claw",
+        "240,000 Crowns",
+        "2 Meteorite",
+        "Silver Ore",
+        "Divine Liquor",
+        "Book of the Dark and Wind II (Vortex)",
+        "Barrier Stone",
+        "Hemp Cloth",
+        "Obsidian"
+      ],
+      "notes": [
+        "Great One (ranger ninja blanco) es débil a Greatswords, Shortswords, Axes y Light magic; no tiene resistencias a estados, así que puede ser aturdido. Si no tienes Sunray, usa Solar Wind y Diamond Dust, que son hechizos de fusión de Light.",
+        "Sekishusai se enfrenta en un duelo con tu Emperador. Es débil a espadas, shortswords, hachas y clubs. Resiste magia de Light, Paralysis, Confusion, Charm y Madness. Puede ser cegado y envenenado.",
+        "Cuando lo bajes al 10% de HP, tirará la espada y adoptará una postura de contraataque: usa un ataque que no pueda ser contraatacado, como hechizos o Ki Blast, y el combate termina.",
+        "Si tienes problemas, usa Counter (arte marcial) u otras técnicas de contraataque como Jolt Counter o Windmill para esquivar y contraatacar. No siempre funcionan: hay algo de RNG. Jolt Counter parece tener una probabilidad muy alta de contraatacar; se provoca usando Counter constantemente aunque no tenga bombilla, y el personaje debe recibir un ataque cuerpo a cuerpo que active contraataque.",
+        "Sekishusai puede soltar rara vez la Legendary Plover, pero ya tienes una del castillo.",
+        "Retribution aumenta un 50% la probabilidad de activar técnicas de contraataque. No es especialmente útil en Normal, pero es esencial en dificultad Romancing para un tanque centrado en contraataques."
+      ]
+    },
+    {
+      "id": "the-garden-of-avalon-complete",
+      "title": "The Garden of Avalon Complete",
+      "location": "Avalon",
+      "status": "pending",
+      "objectives": [
+        "Ve a la ruta noroeste de la ciudad (pasada la posada) para visitar el Garden.",
+        "Recoge el Gaia Essence en la base del árbol.",
+        "Visita el Training Hall para registrar tus nuevas habilidades para la próxima generación.",
+        "Visita la Smithy y forja los objetos para los que tengas recetas nuevas.",
+        "Entrega el libro de Flash Fire en la Incantation Lab para investigarlo."
+      ],
+      "warnings": [
+        "El árbol del Garden crece con el número de batallas. Cuando llega al máximo (en primera partida, hacia nivel de fuerza enemiga lv16) podrás abrir el cofre sobre el agua con el libro de Light Wall, un potente hechizo de fusión que reduce el daño del grupo.",
+        "Puedes volver al árbol para conseguir objetos brillantes a medida que crece.",
+        "Registrar las habilidades en el Training Hall evita perderlas si el personaje pierde todo su LP en combate."
+      ]
+    },
+    {
+      "id": "battle-of-castle-hakuro-part-1",
+      "title": "The Battle of Castle Hakuro Part 1",
+      "location": "Liangshi · Castle Hakuro",
+      "status": "pending",
+      "enemies": [
+        "Silver Beat",
+        "Draft Red",
+        "Azure Demon",
+        "Master",
+        "Wyvern",
+        "Despoiler",
+        "Doppelganger",
+        "Stormer",
+        "Crimson Demon",
+        "Hulion"
+      ],
+      "objectives": [
+        "Teletranspórtate a Liangshi y habla con todas las personas con marcador para desbloquear Castle Hakuro.",
+        "Teletranspórtate a Castle Hakuro y recorre todas las salas.",
+        "Recoge TODOS los cofres y brillos.",
+        "En Grand Tower 1F (sala con muchos magos y soldados), sube las escaleras y abre el cofre con el Book of Light and Fire III (Flash Fire), guardado por un Hulion (puedes huir).",
+        "En la Right Tower (este del mapa principal), sube hasta arriba y abre el cofre con Anima Draught.",
+        "En el cofre del lado este de la muralla exterior (Castle Hakuro) hay un Doppelganger con el Bejeweled Ring: consíguelo.",
+        "Equipa el Bejeweled Ring en un lanzador o en el arquero.",
+        "Dentro, abre la puerta custodiada por un Crimson Demon y abre el cofre con 280,000 Crowns.",
+        "Teletranspórtate a la Incantation Lab de Avalon y entrega el libro de Flash Fire."
+      ],
+      "warnings": [
+        "No termines esta mazmorra todavía: los botines dejan de ser accesibles al derrotar al jefe.",
+        "Intenta evitar combates; no hace falta farmear drops aquí, puedes hacerlo después. Puedes alejar enemigos de su sitio e incluso saltar sobre ellos desde las escaleras.",
+        "Es EXTREMADAMENTE importante conseguir el libro de Flash Fire: es uno de los mejores hechizos de área del juego.",
+        "El Hulion puede ser paralizado.",
+        "El Bejeweled Ring aumenta mucho la tasa de drops y es el motivo de hacer esta mazmorra tan pronto. En New Game+, el efecto se acumula: equipa varios anillos en varios personajes para aumentar aún más el drop."
+      ],
+      "loot": [
+        "120,000 Crowns",
+        "Mystical Claw",
+        "Gold Ore",
+        "Meteorite",
+        "Bejeweled Ring",
+        "Mottled Ore",
+        "280,000 Crowns",
+        "Book of Light and Fire III (Flash Fire)",
+        "Anima Draught"
+      ]
+    },
+    {
+      "id": "nightmare-in-the-savannah",
+      "title": "Nightmare in the Savannah + Unlock Hunter Class",
+      "location": "Ostro · Termite Den · Savannah",
+      "status": "pending",
+      "enemies": [
+        "Termite Soldier",
+        "Terminator",
+        "Venomous Bug",
+        "Tarantula",
+        "Earth Faerie",
+        "Hippopotamus",
+        "Ahnworm Grasshopper",
+        "Basilisk",
+        "Monster Shroom"
+      ],
+      "objectives": [
+        "Teletranspórtate a Ostro y recorre el pueblo recogiendo cofres y brillos.",
+        "Entra en la cabaña con indicador de misión para ver la escena del Hunter y pregúntale por su aldea.",
+        "Habla con la gente del pueblo con indicadores de misión.",
+        "Duerme en la posada de Ostro (tiene indicador en la puerta) sin salir del pueblo.",
+        "Cuando los termitas ataquen, elige “Enter the hole and pursue the Termites” (no cierres el túnel).",
+        "En Termite Den, ve al este por el túnel y recoge el Pure Iron Ore #4 al doblar la esquina.",
+        "Ve al sur hasta el pueblo destruido de la Savannah y abre el cofre con Hemp Cloth en una choza.",
+        "Baja la cornisa fuera del pueblo y abre el cofre con el Book of Dark and Earth I (Sand Storm).",
+        "Vuelve al agujero de termitas del pueblo destruido.",
+        "Explora el resto de la mazmorra: cofres con Beetle Robe, 180,000 Crowns y 120,000 Crowns.",
+        "En el norte, tras bajar al nivel inferior, sigue el rastro de luz hasta el pedestal de Memory of the Seven Heroes.",
+        "Abre el cofre con 3 Silver Ore en el sur de esa zona (guardado por Basilisk).",
+        "Corre hacia el norte, recoge Harmonia y luego Magnificent Horn junto al huevo; huye de los termitas que eclosionan.",
+        "Sal por el norte para llegar a Moles’ Den y lucha contra los termitas.",
+        "Encuentra a Mr. S #26 en una de las casas del sur.",
+        "Sigue el indicador al norte para salir de Mole Den y entrar en la siguiente zona.",
+        "Antes del punto de guardado, por el pasaje este, abre el cofre con el Book of the Dark and Water I (Poisonous Blow), guardado por termitas.",
+        "Usa el punto de guardado y de recuperación de BP.",
+        "Derrota al jefe Termite Queen.",
+        "Recorre la aldea de los Moles y habla con el Mole para asegurar que la misión de reclutamiento se active.",
+        "Teletranspórtate a Ostro y habla con el Hunter en su cabaña para desbloquear la clase Hunter.",
+        "Aprende los ataques United Attacks de 3 golpes y comprueba que Savannah es tu 4º territorio.",
+        "Enseña Flash Fire en la Incantation Lab, preferiblemente a la Freelance Mage F.",
+        "Mejora la Smithy a nivel 2 desde el Trono (tendrá indicador de misión) y forja los objetos nuevos."
+      ],
+      "warnings": [
+        "Esta misión es necesaria para activar la cadena The Iris and the Minstrel, que es sensible al tiempo en su primera mitad y debe completarse en las primeras generaciones.",
+        "También desbloquea las clases Hunter y Moles (esta última disponible tras un Time Skip).",
+        "Intenta esquivar enemigos para mantener bajo el contador generacional: aún quedan muchas cosas por hacer en esta generación.",
+        "Derrotar a Termite Queen da 3 Puntos de Evento y completar Nightmare on the Savannah da 1 punto más.",
+        "Aunque sea un evento de “pantalla negra”, no deberías sufrir un Time Skip por falta de puntos y contador bajo."
+      ],
+      "boss": {
+        "name": "Termite Queen",
+        "weaknesses": [
+          "Sword",
+          "Greatsword",
+          "Axe",
+          "Club",
+          "Water",
+          "Earth"
+        ],
+        "resistances": [
+          "Shadow",
+          "Casi todos los estados (puede ser aturdida)"
+        ]
+      },
+      "loot": [
+        "Pure Iron Ore",
+        "Book of Dark and Earth I (Sand Storm)",
+        "Silver Ore",
+        "Meteorite",
+        "Twisted Horn",
+        "180,000 Crowns",
+        "Beetle Robe",
+        "120,000 Crowns",
+        "Harmonia",
+        "Magnificent Horn",
+        "Gold Ore",
+        "Book of the Dark and Water I (Poisonous Blow)",
+        "Hemp Cloth"
+      ],
+      "notes": [
+        "Termite Queen se puede derrotar fácilmente con Unity Attacks (en Classic y Expert cae en unos dos turnos).",
+        "Puedes dejar los brillos de Mole Den para más adelante."
+      ]
+    },
+    {
+      "id": "gelid-ruins-part-ii",
+      "title": "Gelid Ruins Part II - The Frozen Sea",
+      "location": "Gelid Ruins",
+      "status": "pending",
+      "objectives": [
+        "Vuelve a Gelid Ruins.",
+        "Si no lo hiciste antes, abre el cofre de la puerta del lado este del mapa (cae después de ver al Hulion) con 350,000 Crowns.",
+        "En la última planta antes de las escaleras al jefe, abre el cofre oculto tras una estatua de Gargoyle con Divine Liquor; hay un interruptor que invoca Medusas.",
+        "Para sacar las escaleras antes del jefe, baja un piso desde el punto de guardado, rodea, desliza y salta el hueco hasta la puerta del último interruptor.",
+        "Si sigues más allá de esa puerta, hay un Hulion guardando un brillo de Magnificent Horn.",
+        "En el punto de guardado, ve a ambos bordes antes de subir las escaleras finales para recoger Twisted Horn y Diamond.",
+        "Derrota al Giant.",
+        "Recoge los cofres: 250,000 Crowns y el Book of Light and Wind III (Restoration).",
+        "Teletranspórtate a la Incantation Lab de Avalon y empieza a investigar Restoration."
+      ],
+      "warnings": [
+        "Si no te cae Trinity Edge, recarga y reintenta: con el Bejeweled Ring tienes buena probabilidad.",
+        "Con Flash Fire y Cyclone Squeeze debería ser un combate fácil.",
+        "Es probable que a estas alturas tengas poco espacio de técnicas en tu Emperador Martial Artist y en tu arquero: termina la generación para que esas técnicas queden dominadas y disponibles para todos."
+      ],
+      "boss": {
+        "name": "Giant",
+        "weaknesses": [
+          "Greatswords",
+          "Spears",
+          "Axe",
+          "Martial Arts",
+          "Wind"
+        ],
+        "resistances": [
+          "Todos los estados salvo Stun y Poison"
+        ]
+      },
+      "loot": [
+        "Obsidian",
+        "Skysteel Shield",
+        "Trinity Edge (Greatsword única)",
+        "350,000 Crowns",
+        "Divine Liquor",
+        "Magnificent Horn",
+        "Twisted Horn",
+        "Diamond",
+        "250,000 Crowns",
+        "Book of Light and Wind III (Restoration)"
+      ],
+      "notes": [
+        "Obsidian es fácil de conseguir en otros sitios.",
+        "Skysteel Shield es mala y obtenible en otros lugares.",
+        "Trinity Edge es una Greatsword única decente para esta fase del juego."
+      ]
+    },
+    {
+      "id": "the-liberation-of-teretuva",
+      "title": "The Liberation of Teretuva",
+      "location": "Teretuva · Teretuvia Towers",
+      "status": "pending",
+      "enemies": [
+        "Cockatrice",
+        "Maggot Ball",
+        "Black Widow",
+        "Water Faerie",
+        "Sonica",
+        "Hallow",
+        "Flyer",
+        "Haunt",
+        "Sapping Demon",
+        "Roar",
+        "Winger",
+        "Lizardman",
+        "Lizardlady",
+        "Wampus",
+        "Opion",
+        "Monoceros",
+        "Toadmaster",
+        "Lilith"
+      ],
+      "objectives": [
+        "Teletranspórtate a Teretuva y habla con la mujer de la plaza del mercado con marcador de misión.",
+        "Habla con las demás personas con marcador (cualquier opción de diálogo sirve).",
+        "Entra primero en la torre sur (Teretuvia Tower South) y recoge todos los cofres (usa el minimapa).",
+        "Sube por las ruinas para llegar a plataformas con brillos y cofres.",
+        "Consigue el cofre de 2F del lado este con Mottled Ore (salta sobre el pilar derrumbado si hace falta).",
+        "Abre el cofre con un Doppelganger que contiene un Magic Ring.",
+        "Ve a las escaleras desde el noroeste al suroeste del mapa (el icono del cofre las oculta con el mapa alejado).",
+        "Activa el pedestal de Memory of the Seven Heroes en el noreste de esa sala.",
+        "Continúa al punto de guardado y derrota al miniboss: Mantic Goblin y dos Sonica.",
+        "Consigue la Square Key.",
+        "Teletranspórtate a Teretuva y ve a la torre norte (Teretuvia Tower North).",
+        "Encuentra a Mr. S #26 en lo alto de las escaleras de Corridor 1-2F.",
+        "Pasa a 1F y abre el cofre del rincón sureste (Imperial Salve) y los brillos del centro y sur (Steel Thread y Magical Claw).",
+        "Ve a la esquina suroeste (escalera con un Nosferatu) y sube a 2F.",
+        "Antes del punto de guardado, abre el cofre del Doppelganger con 2 Barrier Stone.",
+        "Tras el punto de guardado, derrota al miniboss: Gormenghast y dos Roar.",
+        "Consigue la Triangular Key.",
+        "Teletranspórtate a Teretuva y entra en la torre central/este con las dos llaves.",
+        "En lo alto de la escalera, recoge el brillo de Superior Cloth.",
+        "Pasa a 1F, recoge Magical Claw, Superior Cloth y Twisted Horn, y sube a 2F.",
+        "Desde la entrada, salta los escombros para abrir el cofre del este con 120,000 Crowns.",
+        "Salta sobre el pilar inclinado hasta la plataforma superior para recoger el brillo de Meteorite.",
+        "Recoge el brillo de Mythical Claw al sur de la sala.",
+        "Sal por el norte a Corridor 2-3F y recoge el Mythical Claw; vuelve a 2F y sube la escalera en ruinas del noroeste, cogiendo el Twisted Horn cerca de la cima.",
+        "Dirígete a la sección norte, recoge el Mythical Claw y abre el cofre con 3 Gold Ore.",
+        "Vuelve a la cima de la escalera rota, pasa a Lilith y sube a 4F.",
+        "Ve a la salida noreste hacia F3-4 y baja la escalera: abre el cofre con el Book of the Dark and Wind I (Dark Sphere), guardado por Lilith y dos Toadmaster.",
+        "Vuelve a 4F, recoge el Superior Cloth y ve al sur al punto de guardado y la sala del jefe.",
+        "Elige la primera opción de diálogo y cualquiera en la segunda y tercera para iniciar el combate.",
+        "Derrota al jefe Hippoman y dos Lilith.",
+        "Teletranspórtate a Teretuva y habla con la mujer del marcador en la plaza; completa la misión con las opciones que prefieras."
+      ],
+      "warnings": [
+        "El propósito principal es conseguir Dragon Pulse pronto (no tan importante en primera partida, pero muy deseable en Expert y Romancing). Nota: el libro de Dragon Pulse se consigue en la última misión de esta generación.",
+        "Los indicadores de misión aquí no son útiles porque te dirigen a otra torre: sigue estas instrucciones.",
+        "Los miniboses de las torres son débiles a fuego, agua, viento y luz: quémalos con Unity y hechizos de fusión de área.",
+        "Completar la misión da 4 Puntos de Evento."
+      ],
+      "boss": {
+        "name": "Hippoman y dos Lilith",
+        "weaknesses": []
+      },
+      "loot": [
+        "Obsidian",
+        "Mottled Ore",
+        "Magic Ring",
+        "Magical Claw",
+        "Mythical Claw",
+        "Steel Thread",
+        "Imperial Salve",
+        "Barrier Stone",
+        "Superior Cloth",
+        "Twisted Horn",
+        "120,000 Crowns",
+        "Meteorite",
+        "Gold Ore",
+        "Book of the Dark and Wind I (Dark Sphere)"
+      ],
+      "notes": [
+        "Square Key (torre sur) y Triangular Key (torre norte) abren la torre central.",
+        "La fuente repite “Mr. S #26” en Mole Den y en la torre norte de Teretuva."
+      ]
+    },
+    {
+      "id": "hunting-the-wandering-lake",
+      "title": "Hunting the Wandering Lake",
+      "location": "Melu Desert · Wandering Lake",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Melu Desert - West, North Melu Side, y corre al oeste del mapa hasta llegar a Wandering Lake.",
+        "Si no has desbloqueado esa zona, ve al marcador de misión (probablemente Melu Desert - North Teretuva Side).",
+        "Cuando veas el espejismo del Oasis, corre hacia él; si se mueve a otro mapa, teletranspórtate allí y repite.",
+        "Recoge los cofres y brillos que quieras: el contador generacional ya no importa porque habrá Time Skip al terminar.",
+        "En Wandering Lake, no bebas el agua.",
+        "Recoge el Superior Cloth en el norte antes de cruzar el agua, el Mythical Claw en el agua al sur y otro en la pequeña isla antes de la puerta de las ruinas.",
+        "En el santuario, abre el cofre con el Book of Water and Earth II (Dragon Pulse) sobre la plataforma elevada.",
+        "Pasa por la grieta de la pared opuesta y abre el segundo cofre con la espada corta Star of Ilorina (ataque 36).",
+        "Guarda en el punto de guardado antes de la puerta y ve la escena.",
+        "Elige terminar la lucha, calma al Desert Guard y pregunta a Noel qué estaba haciendo.",
+        "Dile a Noel “it would”.",
+        "Elige “I hereby form the Desert Guard” para anexionar Melu (5º territorio) y desbloquear la clase Desert Guard.",
+        "Confirma que se produce un Time Skip."
+      ],
+      "warnings": [
+        "En el desierto, el HP de tus personajes se reduce un 50%.",
+        "No bebas el agua del lago: quienes la beben se creen inmortales pero mueren si se van.",
+        "La otra opción de diálogo con Noel (no “it would”) provoca un combate que no quieres ahora.",
+        "Con esta ruta formas una tregua con Noel y evitas pelear con él por ahora.",
+        "Si no se produce un Time Skip, sigue la guía y haz la siguiente misión (Avalon Thieves y Canal Fort): ahí sí habrá Time Skip. Luego ve a Gen V, haz Corsair’s Dilemma, vuelve a Gen IV y haz Cumberland (A Problem of Succession) y el resto, saltando The Miner’s Deaths; habrá Time Skip tras la misión de la Sirena. Después haz The Miner’s Deaths en la Gen V en lugar de Corsair’s.",
+        "Si hay Time Skip tras Cumberland (se ha reportado), no hace falta saltar The Miner’s Deaths: haz las misiones en el orden de la guía. Tras el Time Skip de la misión de la Sirena volverás a la ruta."
+      ],
+      "loot": [
+        "Superior Cloth",
+        "Mythical Claw",
+        "Book of Water and Earth II (Dragon Pulse)",
+        "Star of Ilorina (shortsword, ataque 36)"
+      ],
+      "notes": [
+        "El quicksand del desierto puede requerir varios intentos para llegar al marcador.",
+        "Si el indicador te lleva a la parte de Melu Desert - West con dos dragones de hueso y una Esfinge, son ideales para provocar nuevas técnicas e incluso hechizos.",
+        "Esta misión anexiona Melu como 5º territorio y termina con un Time Skip."
+      ]
+    }
+  ]
+}
