@@ -1,0 +1,436 @@
+{
+  "id": "gen5",
+  "title": "Generación V: Emperador “Wild”",
+  "subtitle": "Vagabonds, Corsarios y el volcán Comroon",
+  "intro": [
+    "Necesitas un Emperador de tipo “Wild”: Mercenary, Hunter, Saigo Clansman o Martial Artist (recomendado Saigo Clansman o Hunter).",
+    "Esta generación desbloquea Dancer, Vagabond, Corsair, conquista Victor Canal, North Longit y Comroon, y consigue Light Wall, Arc Thunder y Saint Fire.",
+    "Al conquistar el 7º territorio (Victor Canal) puedes equipar habilidades de clase dominadas en no Emperadores.",
+    "Corsair’s Dilemma da 4 Puntos de Evento y supera el límite de 15 (16 en total), provocando un Time Skip si no se produjo antes; la generación termina con otro Time Skip tras entregar Calming the Volcano."
+  ],
+  "missions": [
+    {
+      "id": "gen5-preparation",
+      "title": "Preparación de la generación",
+      "location": "Avalon · Training Hall",
+      "status": "pending",
+      "objectives": [
+        "Elige un Emperador de tipo “Wild”: Mercenary, Hunter, Saigo Clansman o Martial Artist (recomendado: Saigo Clansman o Hunter).",
+        "Si eliges Saigo Clansman (Arinbjorn), úsalo como tanque en lugar del East Guard.",
+        "Vuelve a formar el mismo grupo que en la generación anterior.",
+        "Reequipa objetos y habilidades.",
+        "Configura la Formación.",
+        "Habla con el NPC de Formaciones en el Training Hall para aprender la nueva Formación de tu clase."
+      ],
+      "warnings": [
+        "Necesitas un Emperador “Wild” para esta fase. Vagabond también es una opción (lo desbloquearás en breve) y podrías abdicar a él después.",
+        "Saigo Clansman y Hunter tienen formaciones que aún no has desbloqueado; probablemente tampoco has dominado la habilidad de Saigo Clansman, un buen tanqueo en Expert / Romancing.",
+        "Saigo Clansman suele poder provocar todas las técnicas de Club, útil si aún no has provocado Nutcracker."
+      ]
+    },
+    {
+      "id": "visit-avalon-gardens",
+      "title": "Visit Avalon Gardens",
+      "location": "Avalon Gardens",
+      "status": "pending",
+      "objectives": [
+        "Recoge el brillo con Barrier Stone en las raíces del árbol.",
+        "Salta por encima de las raíces que invaden el agua y abre el cofre con el Book of Light and Earth II (Light Wall).",
+        "Ve a la Incantation Lab e investiga Light Wall.",
+        "Investiga también Faerie Glow (aunque no es muy útil)."
+      ],
+      "warnings": [
+        "El árbol ha crecido de nuevo."
+      ],
+      "loot": [
+        "Barrier Stone",
+        "Book of Light and Earth II (Light Wall)"
+      ]
+    },
+    {
+      "id": "visit-hirago-in-somon",
+      "title": "Visit Hirago in Somon",
+      "location": "Somon",
+      "status": "pending",
+      "objectives": [
+        "Visita a Hirago: te pedirá probar su máquina voladora; recházalo (se usará más adelante).",
+        "Entra en su casa e interactúa con la marioneta (Coppellia) sobre la mesa para ver la escena."
+      ],
+      "warnings": [
+        "Coppellia todavía no está lista para ser reclutada."
+      ]
+    },
+    {
+      "id": "dancer-of-atlanticus",
+      "title": "The Dancer of Atlanticus",
+      "location": "Atlanticus",
+      "status": "pending",
+      "objectives": [
+        "Ve a Atlanticus y habla con la mujer del puente y con la mujer del porche de una casa.",
+        "Habla con el hombre fuera de la taberna.",
+        "Entra en la taberna para ver una escena y elige cualquier opción de diálogo.",
+        "Elige la opción de mostrarle el mundo: se desbloquea la clase Dancer."
+      ],
+      "warnings": [
+        "Esta misión continúa la misión de la Sirena y desbloquea la clase Dancer."
+      ],
+      "notes": [
+        "Por su DEX y SPD, las Dancer son buenas usuarias de arco, y su habilidad de clase Penny Pincher es vital: mantiene el medidor de Overdrive en el 25% tras usar un Unity. Tenlo en cuenta cuando domines las habilidades de Hunter y Amazon."
+      ]
+    },
+    {
+      "id": "cat-burglar-redux-canal-fortress-2",
+      "title": "Avalon’s Cat Burglar Redux + Liberating the Canal Fortress Part 2",
+      "location": "Avalon Sewers · Canal Fortress",
+      "status": "pending",
+      "enemies": [
+        "Senior Magus",
+        "Watchman",
+        "Adeptus",
+        "Dobby",
+        "Gargoyle"
+      ],
+      "objectives": [
+        "Haz un guardado separado en el salón del trono, por si no se produce el Time Skip.",
+        "Teletranspórtate a Avalon Sewers, date la vuelta, entra en el cuartel del gremio de ladrones y ve la escena; acepta ayudar.",
+        "Derrota de nuevo al jefe Deep One, como con Gerard en la Gen II.",
+        "Alternativa: teletranspórtate a la Incantation Lab, sal, rodea por detrás y usa la puerta como atajo a las alcantarillas hasta el Gel Matter; pásalo, baja la cornisa y sube la escalera hasta el jefe.",
+        "Vuelve al gremio de ladrones (teletranspórtate a las alcantarillas y gírate hacia la puerta).",
+        "Habla con el Vagabond M: se desbloquean las clases Vagabond M y F.",
+        "Teletranspórtate a Canal Fortress y entra en la taberna de la derecha.",
+        "Si hay una Vagabond F en el taburete de la barra, habla con ella y sígrela fuera: abrirá un pasaje secreto en el pozo, reducirá enemigos y abrirá puertas a cofres (como el de la Exorciser Greatsword).",
+        "Si no hay Vagabond F, habla con el hombre al final de la mesa y págale 10,000 Crowns para que te muestre un secreto.",
+        "Sigue al hombre hasta su bote y ve la escena que te lleva a un muelle de Canal Fortress.",
+        "Recorre la mazmorra, abre los cofres y recoge los brillos hasta la sala del jefe.",
+        "En el punto de guardado y BP, abre los cofres de la sala del tesoro para conseguir el accesorio Starstone.",
+        "Derrota a Vicar, Lizard y Pyrorex.",
+        "Tras la escena, comprueba que Victor Canal es tu 7º territorio y que puedes equipar habilidades de clase dominadas en personajes no Emperador."
+      ],
+      "warnings": [
+        "No asaltes la puerta de Canal Fortress: tendrías que luchar contra oleadas de enemigos en el exterior, un combate difícil.",
+        "Según algunos jugadores, si no tienes una Vagabond F en el grupo, la sucesora de Cat, Beaver, aparece en un taburete y abre el pasaje secreto. El autor nunca consiguió que ocurriera, quizá solo funcione en dificultades más fáciles.",
+        "Vicar es débil a Swords, Martial Arts, Earth y Wind; Lizard a Spears, Axes, Earth y Wind; Pyrorex a Swords, Greatswords, Axe y Water. Son jefes fáciles: Unity y ataques de área.",
+        "Una vez completada, la mazmorra deja de ser accesible; en su lugar queda la ubicación Fortress Ruins sin taberna."
+      ],
+      "boss": {
+        "name": "Vicar, Lizard y Pyrorex",
+        "weaknesses": [
+          "Vicar: Swords, Martial Arts, Earth, Wind",
+          "Lizard: Spears, Axes, Earth, Wind",
+          "Pyrorex: Swords, Greatswords, Axe, Water"
+        ]
+      },
+      "loot": [
+        "180,000 Crowns",
+        "Beastly Claw",
+        "Reddish Ore",
+        "Anima Draught",
+        "Magical Claw",
+        "Starstone",
+        "200,000 Crowns",
+        "Diamond",
+        "Exorciser (Greatsword, muy débil)"
+      ],
+      "notes": [
+        "Mantén el contador de batallas bajo en las alcantarillas: puedes correr por todo hasta el jefe.",
+        "Si no se produce Time Skip, usa el guardado separado del salón del trono."
+      ]
+    },
+    {
+      "id": "new-recipes-smithy",
+      "title": "New Recipes at Smithy",
+      "location": "Avalon · Smithy",
+      "status": "pending",
+      "objectives": [
+        "Forja Gauntlets, Steel Greaves y Lamellar Suit en la Smithy.",
+        "Mejora cualquier Power Belt que hayas conseguido con la opción Reforge."
+      ],
+      "warnings": [
+        "Esos objetos pueden ser útiles para tus personajes tanque."
+      ]
+    },
+    {
+      "id": "the-corsairs-dilemma",
+      "title": "The Corsairs’ Dilemma",
+      "location": "Throne · Mobelm · Messina Mines · Cape Chalier · Nuono",
+      "status": "pending",
+      "enemies": [
+        "Lobstrite",
+        "Mud Mane",
+        "Ahnworm",
+        "Centipede",
+        "Ogre",
+        "Sidhe",
+        "Amnesia",
+        "Soil",
+        "Minotaur",
+        "Siren",
+        "Vulture",
+        "Woodnaut",
+        "Nasty Petal",
+        "Spritzer",
+        "Monster Shroom",
+        "Maggot Ball",
+        "Lynx",
+        "Buffalo",
+        "Creeper",
+        "Simurgh"
+      ],
+      "objectives": [
+        "Interactúa con el Trono para activar la misión.",
+        "Ve a Mobelm y encuentra a Mr. S #34 en una valla en el este del pueblo.",
+        "Habla con las personas con indicador de la misión Corsair’s Dilemma, excepto en la taberna (no entres aún).",
+        "Ve al barco del puerto este, cruza las tablas, baja a la cubierta inferior y habla con el capitán sentado en un taburete (sin indicador).",
+        "Elige “I demand to see your leader”.",
+        "Cuando pida limpiar Messina Mines, di “Very well” para desbloquear las minas.",
+        "En Messina Mines, recoge todos los cofres y brillos.",
+        "En Messina Mine B1, sureste, sube por dos escaleras (pasaje con escorpión y ogros) y abre el cofre con el Book of Light and Earth I (Arc Thunder / Arc Lightning).",
+        "En el primer ascensor, ve a la izquierda y baja las cornisas hasta un Messina Ore.",
+        "Recoge todos los brillos de Messina Ore.",
+        "Abre el cofre con 2 Messina Ore (guardado por dos Minotauros) y recoge el brillo de Mottled Ore junto a las cajas.",
+        "En el siguiente ascensor, baja la cornisa a la derecha para un brillo de Beastly Claw y el cofre con 100,000 Crowns.",
+        "Baja al punto de guardado y derrota al jefe Earth Faerie y dos Soil.",
+        "Teletranspórtate a Mobelm sin hablar con el capitán.",
+        "Ve directo a la taberna de Mobelm y habla con la mujer del vestido verde (los corsarios tienen una guarida secreta).",
+        "Sal, rodea hasta las escaleras de piedra y entra en la puerta con indicador.",
+        "Habla con el hombre que guarda la puerta: “Good job, let’s go and grab a drink”.",
+        "Emboscalo y escucha la conversación para descubrir Cape Chalier.",
+        "Teletranspórtate a Cape Chalier.",
+        "Al llegar, baja la cornisa y cruza por las enredaderas; corre a la cueva y abre el cofre tras el champiñón, huye de los árboles y sube por las enredaderas.",
+        "Pasa al escorpión y abre el cofre de la cornisa con Silver.",
+        "Vuelve y recoge el Messina Ore junto al champiñón; sigue hasta el Buffalo y cruza la cornisa (encuentro inevitable con un Vulture).",
+        "Recoge el brillo de Beastly Claw en el acantilado junto a los dos Simurgh.",
+        "Dentro de la cueva, salta a la plataforma del brillo de Steel Thread, vuelve al centro, salta a los ciempiés, sube y cruza al oeste.",
+        "Recoge el brillo de Small Horn guardado por un escorpión.",
+        "Sal por la puerta y abre el cofre guardado por un Simurgh con el Book of Light and Fire I (Saint Fire).",
+        "Vuelve y ve al marcador para pasar por la grieta guardada por dos Spritzer hasta Nuono.",
+        "Tras la escena, habla con Mr. S #35 a tu izquierda.",
+        "Abre el cofre del tejado de la casa con una Viking Axe y entra en la casa con indicador.",
+        "Tras la escena con el Corsair Boatswain, exige que juren lealtad al Imperio.",
+        "Comprueba que conquistas North Longit como 8º territorio y que Corsairs se desbloquea como clase."
+      ],
+      "warnings": [
+        "Esta misión tiene varias formas de completarse y puedes perder contenido: la ruta indicada asegura que no pierdas nada crítico.",
+        "Como Emperador debes ser de clase Mercenary, Saigo Clansman, Hunter o Vagabond para que los Corsarios te sirvan en Cape Chalier. Puedes desbloquear el atajo con cualquier Emperador femenino, pero sin la clase adecuada no conseguirás su lealtad.",
+        "No entres aún en la taberna de Mobelm al empezar.",
+        "NO hables con el capitán del barco después de Messina Mines, aunque la misión te lo indique.",
+        "Saint Fire solo es potente contra no-muertos y demonios (Flash Fire es más versátil).",
+        "Los Soil spamean Entangle para aturdir a tus personajes.",
+        "Corsair’s Dilemma da 4 Puntos de Evento y es un evento de pantalla negra. Con 16 puntos totales superas el límite de 15 y provocas un Time Skip.",
+        "Ruta alternativa que NO debes seguir: ir directamente al capitán del puerto de Mobelm para exigir sumisión provoca una batalla inevitable contra Boatswain Captain y varios Boatswain, y luego un viaje en barco por Waterway Maze hasta Nuono. Allí, si rechazas la rendición del Boatswain, luchas contra el Corsair Captain y varios Corsair; así nunca desbloqueas la clase Corsair.",
+        "Morir a propósito en esas batallas provoca la muerte de tu séquito y del Emperador.",
+        "Esa ruta sólo da entradas de Almanac (Viking Axe y Diamond como drops) y pierdes los libros de fusión, la clase Corsair y su Formación Rapid Stream, además de otras misiones que implican a los Corsarios, como el instrumento del Bardo o el Ghost Ship.",
+        "La ruta de la guía es óptima: no necesitas las entradas del Almanac para nada."
+      ],
+      "boss": {
+        "name": "Earth Faerie y dos Soil",
+        "weaknesses": []
+      },
+      "loot": [
+        "Reddish Ore",
+        "Messina Ore",
+        "Beastly Claw",
+        "Small Horn",
+        "Book of Light and Earth I (Arc Thunder)",
+        "Mottled Ore",
+        "100,000 Crowns",
+        "120,000 Crowns",
+        "Silver",
+        "Quality Balm",
+        "Steel Thread",
+        "Book of Light and Fire I (Saint Fire)",
+        "Viking Axe"
+      ],
+      "notes": [
+        "Los jefes de Messina Mines son enemigos normales: usa hechizos de área y técnicas de arco.",
+        "Mr. S #34 y #35 están en Mobelm y Nuono."
+      ]
+    },
+    {
+      "id": "imperial-university-smithy-upgrades",
+      "title": "Imperial University and Smithy Upgrades",
+      "location": "Avalon",
+      "status": "pending",
+      "objectives": [
+        "Construye la siguiente fase de Imperial University por un millón de Crowns.",
+        "Mejora la Smithy por 400,000 Crowns para conseguir más recetas.",
+        "Entrega los libros de hechizos nuevos para investigar.",
+        "Enseña Light Wall (si ya ha terminado de investigarse) al Mole."
+      ],
+      "warnings": [
+        "La mejora de la Universidad añade un gramófono para escuchar las BGM desbloqueadas y aumenta el número de exámenes (y recompensas).",
+        "Light Wall reduce un 50% el daño a todos tus personajes durante el resto de la ronda. No se puede usar con otros escudos como Fire Wall, pero es más versátil: Fire Wall solo bloquea ataques de agua y fuego."
+      ]
+    },
+    {
+      "id": "abdicate-emperor-to-corsair",
+      "title": "Abdicate Emperor to Corsair",
+      "location": "Avalon · Throne",
+      "status": "pending",
+      "objectives": [
+        "Abdica a un Emperador de clase Corsair.",
+        "Configura la Formación Rapid Stream y úsala a partir de ahora.",
+        "Reequipa a tu grupo."
+      ],
+      "warnings": [
+        "Para Developing the Comroon Strait necesitas un Emperador Corsair.",
+        "La habilidad de clase Overdrive Gauge + es buena para llenar el medidor y usar Unity más a menudo."
+      ]
+    },
+    {
+      "id": "developing-the-comroon-strait",
+      "title": "Developing the Comroon Strait",
+      "location": "Hofah · Comroon Strait · Tsukijima",
+      "status": "pending",
+      "enemies": [
+        "Wyvern",
+        "Manshark",
+        "Triton",
+        "Bane Serpent",
+        "Plesiosaur",
+        "Peg Powler",
+        "Tube Worm"
+      ],
+      "objectives": [
+        "Teletranspórtate a Hofah, corre al muelle y habla con el hombre del indicador de misión.",
+        "Elige la primera opción de diálogo para aceptar la misión.",
+        "Navega el barco hasta el otro lado del mapa (entrar en remolinos provoca combates, sin problema).",
+        "Al terminar la zona, llega a Tsukijima y comprueba que se desbloquea la región de Mt. Comroon.",
+        "Habla con Mr. S #36 junto al barco volcado.",
+        "NO hables con el hombre con indicador de misión."
+      ],
+      "warnings": [
+        "Esta misión solo se puede hacer con un Emperador Corsair.",
+        "Los Triton sueltan Mighty Helm, un casco de final de juego para personajes cuerpo a cuerpo que añade STR; incluso con el Bejeweled Ring puede costar horas de farmeo, así que no lo hagas ahora: déjalo para la fase de Final Emperor."
+      ],
+      "loot": [
+        "Mighty Helm (drop de Triton)"
+      ]
+    },
+    {
+      "id": "iris-and-minstrel-part-1",
+      "title": "The Iris and the Minstrel Part 1",
+      "location": "Amazon Village · Yuyan · Tsukijima · Zemio",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a la aldea Amazon, salta sobre el montón de palos que cubre el agujero y acércate a las canoas de piedra.",
+        "Examina las canoas y haz que tus soldados las lleven a Avalon.",
+        "Teletranspórtate a Yuyan, ve a la taberna e interactúa con el camarero eligiendo la opción de tomar algo.",
+        "Comprueba que Mt. Chikapa queda desbloqueado (no vayas todavía).",
+        "En la taberna, habla con el hombre de kimono gris oscuro y pelo gris.",
+        "Rechaza navegar con él y teletranspórtate a Tsukijima (aparecerás ante la taberna).",
+        "Entra en la taberna y habla con el hombre vestido de azul con indicador: se desbloquea Zemio.",
+        "Teletranspórtate a Zemio, habla con el hombre del muelle y elige traer el bote de piedra.",
+        "Interactúa con el bote y navega a la izquierda hasta los archivos hasta un muelle con interacción.",
+        "Sube las escaleras, entra al edificio y habla con el Salamander con indicador.",
+        "Recoge el instrumento Minstrel’s Guitar detrás de él.",
+        "Cerca de la puerta, habla con el hombre lagarto con burbuja de diálogo junto a Mr. S #37 (menciona tablillas desaparecidas: activa el combate con el Sorcerer en Seer Citadel).",
+        "Sal y navega a la ciudad principal de los Salamanders.",
+        "Al bajar, sube a la estantería del cobertizo de la casa de la derecha, salta a la azotea y abre el cofre con el Water Ring."
+      ],
+      "warnings": [
+        "Esta misión es necesaria para reclutar la clase Iris, pero solo puedes hacer una parte ahora. Empezarla evita que se pierda en los Time Skips cuando erupcione el volcán, algo que ocurre en las primeras generaciones.",
+        "Si no consigues el instrumento de Zemio pronto, puedes arruinar la misión.",
+        "NO vayas aún a Mt. Chikapa.",
+        "El resto de instrumentos se recogerán en la próxima generación."
+      ],
+      "loot": [
+        "Minstrel’s Guitar",
+        "Water Ring"
+      ]
+    },
+    {
+      "id": "calming-the-volcano",
+      "title": "Calming the Volcano",
+      "location": "Tsukijima · Seer’s Citadel",
+      "status": "pending",
+      "objectives": [
+        "Teletranspórtate a Tsukijima y habla con la mujer del gorro con marcador, al sur de la entrada.",
+        "Habla con el hombre del muelle.",
+        "Habla con la mujer fuera de la casa del alcalde y entra para hablar con él.",
+        "Comprueba que se desbloquean Mt. Comroon y Seer’s Citadel.",
+        "Entra en la posada, sube al dormitorio y ve la escena del Diviner que busca el libro maligno (activa Tsukijima’s Grimoire of Eld).",
+        "Teletranspórtate a Seer’s Citadel y activa el pedestal de Memory of the Seven Heroes detrás de la torre.",
+        "Vuelve, guarda y entra a la torre.",
+        "Resuelve el puzle pulsando los botones azules, incluido el de la entrada y el del segundo nivel (salta sobre estanterías al oeste).",
+        "Pasa por la estantería del noreste.",
+        "Recoge el brillo de Meteorite en una mesa, el Magnificent Horn sobre una estantería y el cofre con 160,000 Crowns.",
+        "Entra por la puerta abierta, recoge el Harmonia de la estantería y habla con el Sorcerer de máscara.",
+        "Opcional: amenaza al Sorcerer para combatirlo (puede soltar Cat’s Eye).",
+        "Si no peleas, o tras ganar, elige “Let’s work together” para recibir la Ice Seed.",
+        "Teletranspórtate a Mt. Comroon."
+      ],
+      "warnings": [
+        "Sorcerer resiste Paralysis, Petrify y Death; es débil a Sword, Shortsword, Club y Arrows; usa todo tipo de magia. Lob Omen’s Mad Biter (Madness) es la mejor forma de tratarlo.",
+        "Derrotarlo no lo mata; Cat’s Eye no es un gran accesorio, pero puedes provocar alguna técnica."
+      ],
+      "boss": {
+        "name": "Sorcerer (opcional)",
+        "weaknesses": [
+          "Sword",
+          "Shortsword",
+          "Club",
+          "Arrows"
+        ],
+        "resistances": [
+          "Paralysis",
+          "Petrify",
+          "Death"
+        ]
+      },
+      "loot": [
+        "Meteorite",
+        "Magnificent Horn",
+        "160,000 Crowns",
+        "Harmonia",
+        "Ice Seed",
+        "Cat’s Eye (drop del Sorcerer)"
+      ]
+    },
+    {
+      "id": "mt-comroon-dungeon",
+      "title": "Mt. Comroon",
+      "location": "Mt. Comroon · Tsukijima",
+      "status": "pending",
+      "enemies": [
+        "Fire Faerie",
+        "Flame",
+        "Sundancer",
+        "Maggot Ball",
+        "Marid",
+        "Fury",
+        "Will-o’-the-wisp",
+        "Blazer",
+        "Hellhound"
+      ],
+      "objectives": [
+        "Corre por la mazmorra evitando cofres y combates, salvo que se indique.",
+        "En la primera bifurcación a la derecha, recoge el Pure Iron Ore #5.",
+        "Comprueba que puedes desbloquear la clase Imperial Blacksmith en la Smithy.",
+        "Cerca, encuentra a Mr. S #38.",
+        "En la cima, elige la primera opción (“Let’s wrap this up here and report to Tsukijima’s mayor”) para dejar caer la Ice Seed en la lava.",
+        "Abre el cofre de la cima con el Flame Ring y recoge el brillo cercano de Royal Amber.",
+        "Con la lava endurecida, baja la mazmorra recogiendo el resto de cofres: 120,000 Crowns, Obsidian y Gold Ore.",
+        "Teletranspórtate a Tsukijima y habla con el alcalde para completar la misión.",
+        "Comprueba que Comroon se anexa como 9º territorio y que se produce un Time Skip."
+      ],
+      "warnings": [
+        "Si sales de la mazmorra sin entregar la Ice Seed en la cima, el volcán entrará en erupción y la misión fallará.",
+        "Los enemigos son débiles a Water.",
+        "Evita batallas: lucha contra los enemigos al bajar, cuando la lava esté congelada.",
+        "Si no hay Time Skip, recarga antes de entregar la última misión, lucha más batallas e inténtalo de nuevo; a veces el contador generacional es insuficiente. Puedes farmear Power Belts en la entrada de Castle Hakuro y/o Mighty Helms en Comroon Strait.",
+        "Si no hay Time Skip ni con más de 100 batallas generacionales, sigue la guía: probablemente lo habrá tras la construcción de Leon Bridge o tras el Landship. Derrotar a cualquiera de los 7 Héroes siempre fuerza un Time Skip (al final de cada gen a partir de aquí)."
+      ],
+      "loot": [
+        "Pure Iron Ore #5",
+        "Twisted Horn",
+        "120,000 Crowns",
+        "Mythical Claw",
+        "Flame Ring",
+        "Royal Amber",
+        "Obsidian",
+        "Gold Ore"
+      ]
+    }
+  ]
+}
