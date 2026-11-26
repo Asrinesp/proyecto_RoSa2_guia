@@ -1,0 +1,204 @@
+{
+  "id": "gen1",
+  "title": "Generación I: Leon",
+  "subtitle": "Tutorial y preparación inicial",
+  "intro": [
+    "Durante la generación de Leon, el contador de batallas generacionales no importa: los puntos no se acumulan o se reinician cuando Gerard entra en su fase de Armadura Dorada tras el primer salto temporal.",
+    "Aprovecha los accesorios exclusivos del remake, Shiyuan’s Tactical Primer y Cat’s Amulet, para aumentar TP y Coronas desde el principio.",
+    "Equipa Shiyuan’s Tactical Primer en Leon y Cat’s Amulet en Gerard cuando estén disponibles en los cofres del salón del trono de Avalon.",
+    "En la primera partida no te preocupes por el escalado enemigo: está limitado y puedes aprovecharlo para subir aptitudes y provocar técnicas.",
+    "Explora cada mazmorra por completo: abre todos los cofres y recoge los puntos brillantes. Los materiales serán esenciales para la Herrería y para desbloquear la clase Imperial Blacksmith en la Generación III.",
+    "Goblin Cave es un buen lugar para conseguir Hemp, material que necesitarás en cantidad para mejorar armaduras más adelante.",
+    "Cuando puedas controlar a Gerard, habla con todos los personajes del palacio. La Court Magician F le enseña Fireball; úsalo cada turno.",
+    "Compra objetos de recuperación de BP en cada tienda. Servirán para usar técnicas y hechizos repetidamente, subir aptitudes y provocar nuevas habilidades.",
+    "Intenta llevar Light, Fire, Wind y Water a niveles 10-15 durante esta fase.",
+    "Lleva a un Ranger con arco y prioriza Rapid Volley. Es una excelente técnica de área para limpiar grupos y puede provocar Rain of Arrows y Barrage Shot.",
+    "Usa al Heavy Infantry como tanque en la primera fila con una espada de una mano. No le des una Greatsword: necesita usar una 1h sword para activar Auto-Parry.",
+    "Cuando consigas el Somon Ring, equípalo en el tanque. Se encuentra en una chimenea de la primera habitación de Somon Manor.",
+    "Antes de cada jefe normalmente hay un punto de guardado con recuperación de HP y BP. Úsalo para entrar al combate con el grupo al completo.",
+    "No gastes Anima Draught salvo que sea imprescindible. Son muy escasos y conviene reservarlos para el Emperador Final y, si es posible, para New Game+.",
+    "Los objetos Panacea, Barrier Stone, Imperial Salve y Superior Balm también conviene conservarlos para el postjuego."
+  ],
+  "missions": [
+    {
+      "id": "sealing-away-the-fiends",
+      "title": "Sealing Away the Fiends",
+      "location": "Sealed Cave",
+      "status": "pending",
+      "objectives": [
+        "Sigue los marcadores de misión y reúne a los miembros del grupo.",
+        "Explora la Sealed Cave y recoge los puntos brillantes.",
+        "Abre los cofres con Puissance Liquor y Kris Knife.",
+        "Salta desde el saliente y vuelve a la sala central.",
+        "Derrota al jefe Devil."
+      ],
+      "warnings": [
+        "Devil es débil a Shortswords, Spears, Bows y Martial Arts.",
+        "Tras la escena, la Sealed Cave quedará cerrada y volverás a Avalon Castle."
+      ],
+      "boss": {
+        "name": "Devil",
+        "weaknesses": [
+          "Shortswords",
+          "Spears",
+          "Bows",
+          "Martial Arts"
+        ]
+      },
+      "loot": [
+        "Puissance Liquor",
+        "Kris Knife",
+        "Reddish Ore"
+      ]
+    },
+    {
+      "id": "avalons-triumph",
+      "title": "Avalon’s Triumph",
+      "location": "Avalon",
+      "status": "pending",
+      "objectives": [
+        "Usa a Gerard para hablar con todos los personajes del castillo que tengan marcador de misión.",
+        "Aprende Fireball de la Court Magician F.",
+        "Explora el pueblo y habla con todos los personajes marcados.",
+        "Recoge los cofres y materiales brillantes de Avalon.",
+        "Abre los cofres junto al punto de guardado antes del salón del trono.",
+        "Equipa Shiyuan’s Tactical Primer en Leon y Cat’s Amulet en Gerard.",
+        "Habla con Leon en el salón del trono.",
+        "Ve a la planta 1 de Avalon Castle y recluta al Court Mage M en la biblioteca.",
+        "Configura al Heavy Infantry como tanque con espada de una mano y Auto-Parry.",
+        "Configura a la Ranger F como usuaria de arco y aprende Stunner y Rapid Volley.",
+        "Usa Water con el Court Mage M, Light Ball con Leon y Fireball con Gerard en cada combate."
+      ],
+      "warnings": [
+        "Shiyuan’s Tactical Primer y Cat’s Amulet dan un 10% extra de TP y Coronas, pero solo son útiles durante los dos primeros años imperiales.",
+        "En algunas versiones del juego, estos accesorios pueden estar disponibles únicamente como bonus de reserva.",
+        "Cada personaje puede tener un máximo de 7 técnicas; aprovecha a Leon y Gerard para provocar técnicas básicas antes de que otros personajes necesiten esos huecos.",
+        "Rapid Volley es prioritario para el Ranger: ataca a todos los enemigos y puede provocar Rain of Arrows y Barrage Shot.",
+        "El Heavy Infantry debe llevar una 1h sword para poder activar Auto-Parry."
+      ],
+      "party_setup": [
+        "Heavy Infantry: tanque, primera fila, 1h sword y Auto-Parry.",
+        "Ranger F: usuaria de arco; Corruptor aumenta la probabilidad de estados negativos un 50%.",
+        "Court Mage M: sanador y usuario de Water.",
+        "Leon: usa Light Ball cada turno.",
+        "Gerard: usa Fireball cada turno."
+      ]
+    },
+    {
+      "id": "the-watchman-campaign",
+      "title": "The Watchman Campaign",
+      "location": "Watchman Nest",
+      "status": "pending",
+      "objectives": [
+        "Ve a Watchman Nest y explora la zona por completo.",
+        "Derrota a todos los enemigos y recoge todos los cofres y materiales brillantes.",
+        "Explora los caminos ocultos.",
+        "Junto al punto de guardado, toma el camino de la izquierda.",
+        "Derrota al grupo de hombres conejo y abre el cofre con Stone Cudgel.",
+        "Equipa el Stone Cudgel en el Heavy Infantry para intentar provocar técnicas de Club.",
+        "Derrota al jefe Watchman."
+      ],
+      "warnings": [
+        "Watchman resiste Stun, pero puede recibir otros estados, incluido Doom.",
+        "Watchman es débil a Spears, Clubs, Bows y Fire.",
+        "Puede ser paralizado. Su ataque más destacado es Hypnotize, que puede infligir Sleep.",
+        "Los Beastman pueden soltar Rabbit Ears, un casco útil que otorga inmunidad a Paralysis y Blindness.",
+        "Los enemigos conejo usan técnicas de arco; en dificultades altas, considera equipar Wonder Bangles.",
+        "Leon debe seguir usando Light Ball y Gerard Fireball para acercar sus aptitudes a lv20.",
+        "Estos niveles mejoran el daño, las Imperial Rankings, la posibilidad de aprender hechizos y las aptitudes de futuros reclutas."
+      ],
+      "boss": {
+        "name": "Watchman",
+        "weaknesses": [
+          "Spears",
+          "Clubs",
+          "Bows",
+          "Fire"
+        ],
+        "resistances": [
+          "Stun"
+        ],
+        "attacks": [
+          "Hypnotize",
+          "Twin Arrows"
+        ]
+      },
+      "loot": [
+        "Beastly Claw",
+        "Silver",
+        "80,000 Crowns",
+        "Facemask",
+        "Stone Cudgel"
+      ],
+      "notes": [
+        "Tras derrotar al jefe, vuelve a Avalon. La ciudad habrá sido asediada y Somon quedará disponible."
+      ]
+    },
+    {
+      "id": "assault-on-somon",
+      "title": "Assault on Somon",
+      "location": "Somon",
+      "status": "pending",
+      "objectives": [
+        "Ve a Somon y derrota a los enemigos del pueblo antes de entrar en la mansión.",
+        "Recoge todos los cofres y materiales brillantes.",
+        "Entra en Kzinssie’s Mansion.",
+        "Explora la mansión por completo usando el minimapa.",
+        "Abre los cofres dentro de las chimeneas.",
+        "Consigue el Somon Ring en la chimenea de la primera habitación.",
+        "Equipa el Somon Ring en el tanque.",
+        "Derrota a los Doppelganger y recoge Active Suit, Lob Omen y 200,000 Crowns.",
+        "Consigue el Lion Helm en el cofre del balcón de la segunda planta.",
+        "Encuentra la luz roja brillante en la sala de la biblioteca.",
+        "Tras caer de la segunda planta, abre la puerta de acceso directo hacia la primera habitación.",
+        "Llega al punto de guardado.",
+        "Vuelve a Avalon y regresa a Somon para seguir subiendo aptitudes.",
+        "Alcanza lv10 en las aptitudes de Light y Fire.",
+        "Derrota a Kzinssie."
+      ],
+      "warnings": [
+        "Durante la fase de Leon no se acumula el contador generacional: aprovecha para provocar técnicas y subir aptitudes.",
+        "Necesitarás muchas batallas para acceder más adelante al cofre con el libro de fusión de Light Wall.",
+        "Los Doppelganger son débiles a Greatsword, Axe, Spear y Fire.",
+        "Los Doppelganger pueden usar Mad Biter para infligir Madness y Doom.",
+        "Los Doppelganger tienen una baja probabilidad de soltar Stardust Robe.",
+        "No gastes Anima Draught salvo que sea imprescindible.",
+        "Antes de Kzinssie hay un punto de guardado con recuperación de HP y BP.",
+        "Si Leon o Gerard tienen más de 7 técnicas, el juego puede pedirte sellar algunas. Conserva preferiblemente las de mayor rango."
+      ],
+      "boss": {
+        "name": "Kzinssie",
+        "weaknesses": [
+          "Greatswords",
+          "Shortswords",
+          "Bows",
+          "Fire",
+          "Light"
+        ],
+        "attacks": [
+          "Stun Slash",
+          "Hard Slash",
+          "Ill Storm",
+          "Cyclone"
+        ]
+      },
+      "loot": [
+        "Quality Balm",
+        "Balm",
+        "Somon Ring",
+        "Active Suit",
+        "120,000 Crowns",
+        "Lob Omen",
+        "Small Horn",
+        "200,000 Crowns",
+        "Lion Helm"
+      ],
+      "notes": [
+        "Cuando aparezca el icono de Alerta sobre Kzinssie, prepara la defensa: usará Cyclone contra una fila.",
+        "Cuando Kzinssie cargue su espada, destrúyela antes de que complete el ataque.",
+        "Tras derrotarlo, Gerard se convierte en Emperador y hereda las aptitudes y técnicas de Leon.",
+        "El Training Hall se desbloqueará más adelante y permitirá registrar técnicas dominadas para futuras generaciones."
+      ]
+    }
+  ]
+}

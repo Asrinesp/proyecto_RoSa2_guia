@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#282a36">
+  <meta name="description" content="Walkthrough por generaciones de Romancing SaGa 2: Revenge of the Seven.">
+  <title>Walkthrough — Romancing SaGa 2: Revenge of the Seven</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/walkthrough.css">
+  <script src="JavaScript/walkthrough.js" defer></script>
+  <script src="JavaScript/menu.js" defer></script>
+</head>
+<body>
+  <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-controls="site-nav" aria-label="Mostrar u ocultar el menú">
+
+  <label class="mobile-menu-button" for="menu-toggle" aria-label="Abrir o cerrar el menú">
+    ☰ MENÚ
+  </label>
+
+  <aside class="sidebar" aria-label="Menú principal">
+    <a class="sidebar-brand" href="index.html">
+      <span class="brand-mark">RS2</span>
+      <span class="brand-copy">
+        <strong>Revenge of the Seven</strong>
+        <small>Guía de nuestra partida</small>
+      </span>
+    </a>
+
+    <label class="sidebar-toggle" for="menu-toggle">
+      <span class="toggle-icon" aria-hidden="true">☰</span>
+      <span class="toggle-text">Contraer menú</span>
+    </label>
+
+    <nav class="site-nav" id="site-nav" aria-label="Secciones de la guía">
+      <span class="nav-heading">GUÍA</span>
+      <ul>
+        <li><a href="index.html"><span class="nav-symbol" aria-hidden="true">⌂</span><span class="nav-label">Inicio</span></a></li>
+        <li><a href="walkthrough.html" aria-current="page"><span class="nav-symbol" aria-hidden="true">▸</span><span class="nav-label">Walkthrough</span></a></li>
+        <li><a href="tecnicas.html"><span class="nav-symbol" aria-hidden="true">✦</span><span class="nav-label">Técnicas</span></a></li>
+        <li><a href="hechizos.html"><span class="nav-symbol" aria-hidden="true">☼</span><span class="nav-label">Hechizos</span></a></li>
+        <li><a href="bestiario.html"><span class="nav-symbol" aria-hidden="true">♜</span><span class="nav-label">Bestiario</span></a></li>
+        <li><a href="armas.html"><span class="nav-symbol" aria-hidden="true">⚔</span><span class="nav-label">Armas</span></a></li>
+        <li><a href="armaduras.html"><span class="nav-symbol" aria-hidden="true">⬡</span><span class="nav-label">Armaduras</span></a></li>
+        <li><a href="mapas.html"><span class="nav-symbol" aria-hidden="true">▦</span><span class="nav-label">Mapas</span></a></li>
+        <li><a href="ubicaciones.html"><span class="nav-symbol" aria-hidden="true">⌖</span><span class="nav-label">Ubicaciones</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-footer">DRACULA THEME <span>●</span></div>
+  </aside>
+
+  <label class="menu-backdrop" for="menu-toggle" aria-hidden="true"></label>
+
+  <main class="page-content">
+    <header class="page-header">
+      <p class="eyebrow">GUÍA DE PARTIDA</p>
+      <h1 class="site-title">Walkthrough</h1>
+      <p class="site-subtitle">Sigue la ruta por generaciones, marca las misiones completadas y consulta los avisos importantes antes de avanzar.</p>
+    </header>
+
+    <section class="walkthrough-tools" aria-label="Filtros del walkthrough">
+      <div class="progress-overview">
+        <div class="progress-text">
+          <span id="global-progress-label">Progreso total</span>
+          <strong id="global-progress-value">0%</strong>
+        </div>
+        <div class="progress-bar">
+          <div id="global-progress-fill" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <div class="status-filters" role="group" aria-label="Filtrar misiones por estado">
+        <button class="status-filter" type="button" data-status="all" aria-pressed="true">
+          Todas
+        </button>
+
+        <button class="status-filter" type="button" data-status="pending" aria-pressed="false">
+          Pendientes
+        </button>
+
+        <button class="status-filter" type="button" data-status="in_progress" aria-pressed="false">
+          En curso
+        </button>
+
+        <button class="status-filter" type="button" data-status="completed" aria-pressed="false">
+          Completadas
+        </button>
+      </div>
+    </section>
+
+    <section class="walkthrough-content" id="walkthrough-content" aria-label="Generaciones del walkthrough">
+      <div class="loading-panel">Cargando el walkthrough…</div>
+    </section>
+  </main>
+</body>
+</html>

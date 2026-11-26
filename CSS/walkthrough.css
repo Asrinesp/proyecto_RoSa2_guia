@@ -1,0 +1,589 @@
+/* =========================================================
+   Romancing SaGa 2 — Walkthrough
+   Estilos exclusivos de walkthrough.html
+   Paleta y estructura base heredadas de style.css
+   ========================================================= */
+
+/* ---------- Cabecera ---------- */
+
+.page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.7rem;
+}
+
+.eyebrow {
+  color: var(--green);
+}
+
+.site-title {
+  color: var(--orange);
+}
+
+.site-subtitle {
+  color: var(--comment);
+}
+
+/* ---------- Barra de progreso y filtros ---------- */
+
+.walkthrough-tools,
+.walkthrough-content {
+  width: min(100%, 1050px);
+  margin-inline: auto;
+}
+
+.progress-overview {
+  padding: 1rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.55rem;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+.progress-text strong {
+  color: var(--green);
+  font-size: 0.95rem;
+}
+
+.progress-bar {
+  height: 0.55rem;
+  overflow: hidden;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--purple), var(--green));
+  border-radius: inherit;
+  transition: width 0.25s ease;
+}
+
+.status-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.9rem;
+}
+
+.status-filter {
+  padding: 0.48rem 0.7rem;
+  color: var(--comment);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.status-filter:hover {
+  color: var(--fg);
+  border-color: var(--purple);
+}
+
+.status-filter:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+.status-filter[aria-pressed="true"] {
+  color: var(--bg-dark);
+  background: var(--purple);
+  border-color: var(--purple);
+}
+
+/* ---------- Generaciones ---------- */
+
+.walkthrough-content {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.generation {
+  overflow: hidden;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+
+.generation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 64px;
+  padding: 1rem 1.1rem;
+  cursor: pointer;
+  list-style: none;
+  background: rgb(189 147 249 / 6%);
+  border-bottom: 1px solid var(--line);
+}
+
+.generation-header::-webkit-details-marker {
+  display: none;
+}
+
+.generation-header::marker {
+  content: "";
+}
+
+.generation-header:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: -2px;
+}
+
+.generation-title {
+  color: var(--purple);
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.generation-subtitle {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.generation-progress {
+  flex: 0 0 auto;
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.generation[open] .generation-header {
+  border-bottom-color: var(--line);
+}
+
+.generation-body {
+  padding: 1rem 1.1rem 1.25rem;
+}
+
+.generation-intro {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0 0 1.25rem;
+  padding: 0.9rem 1rem;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px dashed var(--line);
+  border-radius: 7px;
+  font-size: 0.88rem;
+}
+
+.generation-intro p {
+  margin: 0;
+}
+
+/* ---------- Misiones ---------- */
+
+.missions {
+  display: grid;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mission-card {
+  overflow: hidden;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--mission-accent, var(--purple));
+  border-radius: 7px;
+}
+
+.mission-card[data-status="completed"] {
+  border-left-color: var(--green);
+}
+
+.mission-card[data-status="in_progress"] {
+  border-left-color: var(--yellow);
+}
+
+.mission-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.85rem 1rem;
+}
+
+.mission-title {
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.mission-location {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.mission-status {
+  flex: 0 0 auto;
+  padding: 0.25rem 0.5rem;
+  color: var(--bg-dark);
+  background: var(--comment);
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.mission-card[data-status="pending"] .mission-status {
+  background: var(--comment);
+}
+
+.mission-card[data-status="in_progress"] .mission-status {
+  background: var(--yellow);
+}
+
+.mission-card[data-status="completed"] .mission-status {
+  background: var(--green);
+}
+
+.mission-body {
+  padding: 0 1rem 1rem;
+}
+
+/* ---------- Objetivos ---------- */
+
+.mission-objectives {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.objective {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  min-height: 34px;
+  padding: 0.35rem 0.45rem;
+  border-radius: 5px;
+  color: var(--fg);
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+
+.objective:hover {
+  background: rgb(189 147 249 / 7%);
+}
+
+.objective input {
+  flex: 0 0 auto;
+  width: 1.05rem;
+  height: 1.05rem;
+  margin: 0.18rem 0 0;
+  accent-color: var(--green);
+  cursor: pointer;
+}
+
+.objective input:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+}
+
+.objective input:checked + .objective-text {
+  color: var(--comment);
+  text-decoration: line-through;
+}
+
+/* ---------- Avisos y bloques de información ---------- */
+
+.warning-box {
+  margin-top: 0.9rem;
+  padding: 0.8rem 0.9rem;
+  color: var(--fg);
+  background: rgb(255 85 85 / 8%);
+  border: 1px solid rgb(255 85 85 / 30%);
+  border-left: 3px solid var(--red);
+  border-radius: 6px;
+  font-size: 0.84rem;
+}
+
+.warning-box strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--red);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.warning-box p {
+  margin: 0 0 0.35rem;
+}
+
+.warning-box p:last-child {
+  margin-bottom: 0;
+}
+
+.info-block {
+  margin-top: 0.7rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.info-block > summary {
+  padding: 0.65rem 0.85rem;
+  color: var(--cyan);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 700;
+  list-style: none;
+}
+
+.info-block > summary::-webkit-details-marker {
+  display: none;
+}
+
+.info-block > summary::marker {
+  content: "";
+}
+
+.info-block > summary:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: -2px;
+}
+
+.info-block > summary::after {
+  content: "⌄";
+  float: right;
+  color: var(--purple);
+  transition: transform 0.15s ease;
+}
+
+.info-block[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.info-block-content {
+  padding: 0 0.85rem 0.85rem;
+  color: var(--fg);
+  font-size: 0.84rem;
+}
+
+.info-block-content p {
+  margin: 0 0 0.35rem;
+}
+
+.info-block-content p:last-child {
+  margin-bottom: 0;
+}
+
+.info-block-content ul {
+  margin: 0.35rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.info-block-content li + li {
+  margin-top: 0.2rem;
+}
+
+.boss-block > summary {
+  color: var(--red);
+}
+
+.loot-block > summary {
+  color: var(--orange);
+}
+
+.notes-block > summary {
+  color: var(--pink);
+}
+
+/* ---------- Estados vacíos y carga ---------- */
+
+.loading-panel,
+.empty-state {
+  padding: 1.2rem;
+  color: var(--comment);
+  background: var(--bg-dark);
+  border: 1px dashed var(--line);
+  border-radius: 7px;
+  text-align: center;
+}
+
+/* ---------- Adaptación a móviles ---------- */
+
+@media (max-width: 760px) {
+  .page-header {
+    margin-bottom: 1.8rem;
+  }
+
+  .generation-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .generation-progress {
+    align-self: flex-start;
+  }
+
+  .mission-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .mission-status {
+    align-self: flex-start;
+  }
+
+  .objective {
+    align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-fill,
+  .info-block > summary::after,
+  .status-filter {
+    transition: none;
+  }
+}
+
+/* ---------- Controles de generación ---------- */
+
+.generation-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+  margin-bottom: 0.9rem;
+}
+
+.generation-controls.bottom {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.control-button {
+  min-height: 38px;
+  padding: 0.45rem 0.7rem;
+  color: var(--comment);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.control-button:hover {
+  color: var(--fg);
+  border-color: var(--purple);
+}
+
+.control-button:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+.control-button.primary {
+  color: var(--bg-dark);
+  background: var(--purple);
+  border-color: var(--purple);
+}
+
+.control-button.primary:hover {
+  background: var(--pink);
+  border-color: var(--pink);
+}
+
+/* ---------- Misiones plegables ---------- */
+
+.mission-card {
+  overflow: hidden;
+}
+
+.mission-card > summary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 0.85rem 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.mission-card > summary::-webkit-details-marker {
+  display: none;
+}
+
+.mission-card > summary::marker {
+  content: "";
+}
+
+.mission-card > summary:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: -2px;
+}
+
+.mission-card > summary::after {
+  content: "⌄";
+  flex: 0 0 auto;
+  margin-left: auto;
+  color: var(--purple);
+  font-size: 1.2rem;
+  transition: transform 0.15s ease;
+}
+
+.mission-card[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.mission-card[open] {
+  border-color: var(--mission-accent, var(--purple));
+}
+
+.mission-card[data-status="completed"] {
+  border-left-color: var(--green);
+}
+
+.mission-card[data-status="in_progress"] {
+  border-left-color: var(--yellow);
+}
+
+@media (max-width: 760px) {
+  .generation-controls {
+    justify-content: flex-start;
+  }
+
+  .control-button {
+    flex: 1 1 auto;
+  }
+}
