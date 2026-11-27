@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#282a36">
+  <title>Romancing SaGa 2: Revenge of the Seven — Bestiario</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JavaScript/menu.js" defer></script>
+  <script src="JavaScript/bestiario.js" defer></script>
+
+
+  <!-- Estilos propios de la página de bestiario -->
+  <link rel="stylesheet" href="CSS/bestiario.css">
+</head>
+<body>
+  <!-- Control del menú: no necesita JavaScript -->
+  <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-controls="site-nav" aria-label="Mostrar u ocultar el menú">
+
+
+  <!-- Botón fijo para abrir/cerrar el menú en móvil -->
+  <label class="mobile-menu-button" for="menu-toggle" aria-label="Abrir o cerrar el menú">
+    ☰ MENÚ
+  </label>
+
+
+  <aside class="sidebar" aria-label="Menú principal">
+    <a class="sidebar-brand" href="index.html">
+      <span class="brand-mark">RS2</span>
+      <span class="brand-copy">
+        <strong>Revenge of the Seven</strong>
+        <small>Guía de nuestra partida</small>
+      </span>
+    </a>
+
+
+    <label class="sidebar-toggle" for="menu-toggle">
+      <span class="toggle-icon" aria-hidden="true">☰</span>
+      <span class="toggle-text">Contraer menú</span>
+    </label>
+
+
+    <nav class="site-nav" id="site-nav">
+      <span class="nav-heading">GUÍA</span>
+      <ul>
+        <li><a href="index.html"><span class="nav-symbol" aria-hidden="true">⌂</span><span class="nav-label">Inicio</span></a></li>
+        <li><a href="walkthrough.html"><span class="nav-symbol" aria-hidden="true">▸</span><span class="nav-label">Walkthrough</span></a></li>
+        <li><a href="tecnicas.html"><span class="nav-symbol" aria-hidden="true">✦</span><span class="nav-label">Técnicas</span></a></li>
+        <li><a href="hechizos.html"><span class="nav-symbol" aria-hidden="true">☼</span><span class="nav-label">Hechizos</span></a></li>
+        <li><a href="bestiario.html" aria-current="page"><span class="nav-symbol" aria-hidden="true">♜</span><span class="nav-label">Bestiario</span></a></li>
+        <li><a href="armas.html"><span class="nav-symbol" aria-hidden="true">⚔</span><span class="nav-label">Armas</span></a></li>
+        <li><a href="armaduras.html"><span class="nav-symbol" aria-hidden="true">⬡</span><span class="nav-label">Armaduras</span></a></li>
+        <li><a href="mapas.html"><span class="nav-symbol" aria-hidden="true">▦</span><span class="nav-label">Mapas</span></a></li>
+        <li><a href="ubicaciones.html"><span class="nav-symbol" aria-hidden="true">⌖</span><span class="nav-label">Ubicaciones</span></a></li>
+      </ul>
+    </nav>
+
+
+    <div class="sidebar-footer">DRACULA THEME <span>●</span></div>
+  </aside>
+
+
+  <!-- En móvil, pulsar fuera del menú lo cierra -->
+  <label class="menu-backdrop" for="menu-toggle" aria-hidden="true"></label>
+
+
+  <main class="page-content">
+    <header class="page-header">
+      <p class="eyebrow">BESTIARIO</p>
+      <h1 class="site-title">Bestiario de<br><span>Romancing SaGa 2</span></h1>
+      <p class="site-subtitle">Consulta los monstruos registrados y edita sus datos desde el editor.</p>
+    </header>
+
+
+    <section class="page-body bestiario-page" aria-labelledby="bestiario-title">
+      <div class="section-heading">
+        <p class="eyebrow">MONSTRUOS</p>
+        <h2 id="bestiario-title">Bestiario y editor</h2>
+      </div>
+
+
+      <p class="intro-text">
+        Los datos se cargan desde <code>DATA/bestiario.json</code>. La pestaña
+        <strong>Bestiario</strong> muestra los monstruos marcados como registrados;
+        la pestaña <strong>Editor</strong> permite buscar, editar y registrar
+        cualquier monstruo.
+      </p>
+
+
+      <div class="bestiario-pestanas" role="tablist" aria-label="Vistas del bestiario">
+        <button
+          type="button"
+          id="pestana-bestiario"
+          class="bestiario-pestaña"
+          role="tab"
+          aria-selected="true"
+          aria-controls="panel-bestiario"
+        >
+          Bestiario
+        </button>
+
+
+        <button
+          type="button"
+          id="pestana-editor"
+          class="bestiario-pestaña"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-editor"
+          tabindex="-1"
+        >
+          Editor
+        </button>
+      </div>
+
+
+      <!-- Vista de consulta -->
+      <div
+        id="panel-bestiario"
+        class="bestiario-panel"
+        role="tabpanel"
+        aria-labelledby="pestana-bestiario"
+      >
+        <div class="bestiario-controls">
+          <div class="bestiario-controls-row">
+            <input
+              type="search"
+              id="bestiario-busqueda"
+              class="bestiario-busqueda"
+              placeholder="Buscar monstruo por nombre…"
+              autocomplete="off"
+            >
+
+
+            <select id="bestiario-categoria" class="bestiario-categoria">
+              <option value="">Todas las categorías</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div id="bestiario-estado" class="bestiario-estado" role="status" aria-live="polite"></div>
+
+
+        <div id="bestiario-lista" class="bestiario-lista"></div>
+      </div>
+
+
+      <!-- Vista de edición -->
+      <div
+        id="panel-editor"
+        class="bestiario-panel"
+        role="tabpanel"
+        aria-labelledby="pestana-editor"
+        hidden
+      >
+        <div class="bestiario-controls">
+          <div class="bestiario-controls-row">
+            <input
+              type="search"
+              id="editor-busqueda"
+              class="bestiario-busqueda"
+              placeholder="Buscar monstruo para editar…"
+              autocomplete="off"
+            >
+
+
+            <select id="editor-categoria" class="bestiario-categoria">
+              <option value="">Todas las categorías</option>
+            </select>
+          </div>
+
+
+          <div class="bestiario-controls-row bestiario-actions">
+            <button
+              type="button"
+              id="bestiario-exportar"
+              class="bestiario-button bestiario-button-secondary"
+            >
+              Exportar JSON
+            </button>
+
+
+            <label
+              for="bestiario-importar"
+              class="bestiario-button bestiario-button-secondary bestiario-import-label"
+            >
+              Importar JSON
+            </label>
+
+
+            <input
+              type="file"
+              id="bestiario-importar"
+              accept=".json,application/json"
+              class="bestiario-import-input"
+            >
+
+
+            <button
+              type="button"
+              id="bestiario-restablecer"
+              class="bestiario-button bestiario-button-danger"
+            >
+              Restablecer cambios
+            </button>
+            <button
+              type="button"
+              id="bestiario-anadir"
+              class="bestiario-button bestiario-button-secondary"
+            >
+              Añadir monstruo
+            </button>
+          </div>
+        </div>
+
+
+        <div id="editor-estado" class="bestiario-estado" role="status" aria-live="polite"></div>
+
+
+        <div class="editor-disposicion">
+          <div id="editor-lista" class="editor-lista"></div>
+          <div id="editor-ficha" class="editor-ficha"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

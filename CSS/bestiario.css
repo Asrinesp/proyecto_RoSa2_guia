@@ -1,0 +1,750 @@
+/* =========================================================
+   Bestiario — Romancing SaGa 2: Revenge of the Seven
+   Estilos específicos de bestiario.html
+   ========================================================= */
+
+
+.bestiario-page {
+  margin-top: 3.5rem;
+}
+
+
+.bestiario-page .intro-text {
+  max-width: 720px;
+  margin: 0 0 1.5rem;
+  color: var(--comment);
+}
+
+
+.bestiario-page code {
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  color: var(--cyan);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+
+/* ---------- Pestañas ---------- */
+
+
+.bestiario-pestanas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.bestiario-pestaña {
+  min-height: 44px;
+  padding: 0.6rem 1.1rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  color: var(--comment);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+
+.bestiario-pestaña:hover {
+  background: var(--bg-panel);
+  border-color: var(--purple);
+  color: var(--pink);
+}
+
+
+.bestiario-pestaña:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+
+.bestiario-pestaña[aria-selected="true"] {
+  background: rgb(189 147 249 / 10%);
+  border-color: rgb(189 147 249 / 35%);
+  color: var(--green);
+}
+
+
+.bestiario-panel {
+  min-width: 0;
+}
+
+
+/* ---------- Controles ---------- */
+
+
+.bestiario-controls {
+  display: grid;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.bestiario-controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+
+.bestiario-busqueda {
+  flex: 1 1 260px;
+  min-height: 44px;
+  padding: 0.55rem 0.8rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+
+.bestiario-busqueda::placeholder {
+  color: var(--comment);
+}
+
+
+.bestiario-busqueda:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+  border-color: var(--purple);
+}
+
+
+.bestiario-categoria {
+  min-height: 44px;
+  padding: 0.55rem 0.8rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+
+.bestiario-categoria:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+  border-color: var(--purple);
+}
+
+
+.bestiario-actions {
+  margin-top: 0.2rem;
+}
+
+
+.bestiario-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-dark);
+  color: var(--fg);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+
+.bestiario-button:hover {
+  background: var(--bg-panel);
+  border-color: var(--purple);
+  color: var(--pink);
+}
+
+
+.bestiario-button:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+
+.bestiario-button-secondary {
+  border-color: rgb(139 233 253 / 35%);
+  color: var(--cyan);
+}
+
+
+.bestiario-button-secondary:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+
+.bestiario-button-danger {
+  border-color: rgb(255 85 85 / 35%);
+  color: var(--red);
+}
+
+
+.bestiario-button-danger:hover {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+
+.bestiario-import-label {
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.bestiario-import-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+
+.bestiario-import-input:focus-visible + .bestiario-import-label {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+
+/* ---------- Estado ---------- */
+
+
+.bestiario-estado {
+  display: none;
+  margin-bottom: 1.2rem;
+  padding: 0.8rem 1rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--cyan);
+  border-radius: 7px;
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+
+.bestiario-estado.visible {
+  display: block;
+}
+
+
+.bestiario-estado.error {
+  border-left-color: var(--red);
+  color: var(--red);
+}
+
+
+.bestiario-estado.success {
+  border-left-color: var(--green);
+  color: var(--green);
+}
+
+
+/* ---------- Bestiario: tarjetas de consulta ---------- */
+
+
+.bestiario-lista {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+
+.monstruo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem 1.1rem 1.1rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--purple);
+  border-radius: 7px;
+  min-width: 0;
+}
+
+
+.monstruo-card:hover {
+  background: var(--bg-panel);
+}
+
+
+.monstruo-cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.monstruo-nombre {
+  flex: 1 1 180px;
+  min-width: 0;
+  margin: 0;
+  color: var(--purple);
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+
+.monstruo-categoria {
+  flex: 0 0 auto;
+  padding: 0.3rem 0.6rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+
+.monstruo-id {
+  flex: 0 0 auto;
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+}
+
+
+/* ---------- Campos de etiquetas ---------- */
+
+
+.monstruo-campo {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+
+.monstruo-campo-label {
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+}
+
+
+.monstruo-etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+
+.monstruo-etiqueta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.55rem;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  max-width: 100%;
+}
+
+
+.monstruo-etiqueta-vacia {
+  color: var(--comment);
+  font-style: italic;
+}
+
+
+/* ---------- Distribución interna de la tarjeta ---------- */
+
+
+.monstruo-fila-doble {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: start;
+}
+
+
+.monstruo-fila-simple {
+  display: grid;
+  gap: 0.8rem;
+  min-width: 0;
+}
+
+
+.monstruo-habitat {
+  margin: 0;
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+}
+
+
+/* ---------- Editor ---------- */
+
+
+.editor-disposicion {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+
+.editor-lista {
+  display: grid;
+  gap: 0.4rem;
+  max-height: min(70vh, 720px);
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+
+.editor-elemento {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  min-height: 46px;
+  padding: 0.5rem 0.7rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--fg);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-align: left;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+
+.editor-elemento:hover {
+  background: var(--bg-panel);
+  border-color: var(--purple);
+  color: var(--pink);
+}
+
+
+.editor-elemento:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+
+.editor-elemento[aria-current="true"] {
+  background: rgb(189 147 249 / 10%);
+  border-color: rgb(189 147 249 / 35%);
+  color: var(--green);
+}
+
+
+.editor-elemento-nombre {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.editor-elemento-estado {
+  flex: 0 0 auto;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--comment);
+  font-size: 0.64rem;
+}
+
+
+.editor-elemento-estado.registrado {
+  border-color: rgb(80 250 123 / 35%);
+  color: var(--green);
+}
+
+
+.editor-ficha {
+  min-width: 0;
+  padding: 1rem 1.1rem 1.1rem;
+  background: var(--bg-dark);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--purple);
+  border-radius: 7px;
+}
+
+
+.editor-ficha-vacia {
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.84rem;
+}
+
+
+.editor-campo {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+
+.editor-campo-label {
+  color: var(--comment);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+}
+
+
+.editor-campo-anadir {
+  display: flex;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+
+.editor-campo-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0.45rem 0.6rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+}
+
+
+.editor-campo-input::placeholder {
+  color: var(--comment);
+}
+
+
+.editor-campo-input:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+  border-color: var(--purple);
+}
+
+
+.editor-campo-boton {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 38px;
+  min-width: 38px;
+  min-height: 38px;
+  padding: 0;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--green);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+
+.editor-campo-boton:hover {
+  background: var(--bg-dark);
+  border-color: var(--green);
+  color: var(--green);
+}
+
+
+.editor-campo-boton:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+
+.editor-etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+
+.editor-etiqueta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.55rem;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  max-width: 100%;
+}
+
+
+.editor-etiqueta-vacia {
+  color: var(--comment);
+  font-style: italic;
+}
+
+
+.editor-etiqueta-boton {
+  display: inline-grid;
+  place-items: center;
+  width: 1.1rem;
+  height: 1.1rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  color: var(--red);
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+
+.editor-etiqueta-boton:hover {
+  color: var(--pink);
+}
+
+
+.editor-etiqueta-boton:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+}
+
+
+.editor-campo-texto {
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+}
+
+
+.editor-campo-texto::placeholder {
+  color: var(--comment);
+}
+
+
+.editor-campo-texto:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 2px;
+  border-color: var(--purple);
+}
+
+
+.editor-registrado {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.7rem 0.8rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--fg);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  user-select: none;
+}
+
+
+.editor-registrado:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+
+.editor-registrado:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+
+
+.editor-registrado input {
+  accent-color: var(--green);
+}
+
+
+/* ---------- Adaptación a móviles ---------- */
+
+
+@media (max-width: 1100px) {
+  .bestiario-lista {
+    grid-template-columns: 1fr;
+  }
+
+
+  .editor-disposicion {
+    grid-template-columns: 1fr;
+  }
+
+
+  .editor-lista {
+    max-height: 320px;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .bestiario-controls-row {
+    align-items: stretch;
+  }
+
+
+  .bestiario-busqueda,
+  .bestiario-categoria,
+  .bestiario-button {
+    width: 100%;
+  }
+
+
+  .bestiario-import-label {
+    width: 100%;
+  }
+
+
+  .monstruo-cabecera {
+    align-items: stretch;
+  }
+
+
+  .monstruo-nombre,
+  .monstruo-categoria {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+
+  .monstruo-fila-doble {
+    grid-template-columns: 1fr;
+  }
+
+
+  .monstruo-id {
+    text-align: right;
+  }
+}
